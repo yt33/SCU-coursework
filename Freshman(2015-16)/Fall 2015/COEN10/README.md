@@ -55,3 +55,4 @@ lab10:
 		(2) reverse the array
 		(3) convert all lowercase to uppercase
 		(4) record length of word
+
