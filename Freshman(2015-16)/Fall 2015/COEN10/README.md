@@ -1,5 +1,10 @@
 Freshman: fall 2015
+
 COEN 10: Intro to Programming
+
+lab assignments
+
+Overview of computing. Introduction to program design and implementation: problem definition, functional decomposition, and design of algorithm programming in PHP and C: variables, data types, control constructs, arrays, strings, and functions. Program development in the Linux environment: editing, compiling, testing, and debugging.
 
 lab1: 
 - html
