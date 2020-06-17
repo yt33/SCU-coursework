@@ -1,0 +1,26 @@
+example 2
+
+
+/*
+ * output numbers from a text file
+ */
+
+#include <stdio.h>
+
+int
+main ()
+{
+	int	i, x;
+	FILE *fp;
+
+	fp = fopen ("file", "r");
+
+	for (i = 0; i < 10; i++)
+	{
+		fscanf (fp, "%d", &x);
+		printf ("%d\n", x + 100);
+	}
+
+	fclose (fp);
+
+}
