@@ -24,25 +24,25 @@ lab5:
   - oldest to newest order (tail is the newest)
 
 lab6:
-- resutarnt waiting list (cont.) with File I/O
+- restaurant waiting list (cont.) with File I/O
   - read from and save to file
 
 lab7:
-- resutarnt waiting list (cont.)
+- restaurant waiting list (cont.)
   - 4 ranges of group sizes
   - array of linked lists
   - switch to select the list
   
 lab8:
-- resutarnt waiting list (cont.)
+- restaurant waiting list (cont.)
 
 lab9:
-- resutarnt waiting list (cont.)
+- restaurant waiting list (cont.)
   - add auto-saving thread: save every 5s
   - add a lock onto the shared file
 
 lab10:
-- resutarnt waiting list (cont.)
+- restaurant waiting list (cont.)
   - split code into separate files
   - use Makefile
   - decrypt and encrypt text file
