@@ -1,4 +1,4 @@
-Sophomore: Winter 2016
+Sophomore: Winter 2017
 
 ELEN 50: Electric Circuits I
 
