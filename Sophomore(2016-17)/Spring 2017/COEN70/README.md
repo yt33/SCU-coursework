@@ -6,7 +6,7 @@ lab assignments:
 
 lab1: Getting familiar with C++
 
-Project1: 
+Project1: \n
 (1) "statistician" class: After a sequence has been given to a statistician, obtain information about the sequence
 (2) "RandGen" class: Design and implement a class that can generate a sequence of pseudorandom integers, which is a sequence that appears random in many ways. The approach uses the linear congruence method
 
