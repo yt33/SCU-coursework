@@ -1,4 +1,4 @@
-Sophomore: Spring 2016
+Sophomore: Spring 2017
 
 COEN 21: Introduction to Logic Design
 
