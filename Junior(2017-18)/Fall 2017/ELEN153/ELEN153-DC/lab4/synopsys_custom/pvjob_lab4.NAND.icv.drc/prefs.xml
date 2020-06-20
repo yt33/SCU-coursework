@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler build#  ,on -->
+<file-format version="1.0" name="synopsysPrefs">
+        <preferences>
+                <pref value="lab4/NAND/layout" name="xtDRCLayLCV"/>
+                <pref value="IC Validator" name="xtDRCTool"/>
+        </preferences>
+</file-format>

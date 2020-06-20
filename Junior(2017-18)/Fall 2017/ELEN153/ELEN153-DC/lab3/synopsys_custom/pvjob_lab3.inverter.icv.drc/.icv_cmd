@@ -1,0 +1,4 @@
+openaccess layout lab3 inverter icv /DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.drc/rules.drc.9m_saed90_icv.drc.rs /DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.drc/inverter.drc.custom_compiler.rc /DCNFS/users/student/yli1/ELEN153/lab3/lib.defs /DCNFS/applications/synopsys/2017/app/SAED/SAED_PDK90nm/techfiles/saed_pdk90_layer.map -vue -rc -oa_view -oa_lib_defs -oa_layer_map -oa_dm5 -i -f -c 
+schematic=UNSPECIFIED
+ICV_HOME_DIR=/opt/synopsys-2017/app/icvalidator/M-2017.06-1
+ICV_INCLUDES=UNSET

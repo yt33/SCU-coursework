@@ -1,0 +1,17 @@
+ICV_HOME_DIR      = /opt/synopsys-2017/app/icvalidator/M-2017.06-1
+ICV_COORDS_BIT    = 32
+WORKING_DIR       = .
+INLIB             = C2mos
+INLIB_PATH        = 
+OUTLIB            = run_details/C2MOS-register
+OUTLIB_PATH       = .
+BLOCK             = C2MOS-register
+PYDB_PATH         = run_details/pydb
+RUN_DETAILS_DIR   = run_details
+NDB_PATH          = run_details/.ndb
+REPORT_LAYOUT_ERRORS     =  HIERARCHICAL
+FORMAT            = OPENACCESS
+EVACCESS_PATH     = run_details/pydb
+SCHEMATIC_FORMAT  = ICV
+GROUP_PATH        = run_details/group
+RUNSET_FILE_NAME  = rules.drc.9m_saed90_icv.drc.rs

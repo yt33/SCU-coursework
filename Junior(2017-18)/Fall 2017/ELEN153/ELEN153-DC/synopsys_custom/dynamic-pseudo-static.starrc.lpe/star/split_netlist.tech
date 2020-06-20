@@ -1,0 +1,10 @@
+-message_suppression_limit  100
+-inter_pic_level_connections
+-num_splits 250000
+-just_split
+-xout2spf
+-output_form 8
+-i xout
+-index_file idx
+-net_command_file select_nets
+-xout_offset_file xout_offset

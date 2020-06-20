@@ -1,0 +1,76 @@
+Taskno 1
+Jobname pre_translate
+Options 
+Message Pre Translate
+Dir .
+CpuPref 1
+Dependencies 
+Level 1
+Endtask
+
+Taskno 2
+Jobname pre_xtractor
+Options 
+Message Pre Xtractor
+Dir .
+CpuPref 1
+Dependencies 1 
+Level 2
+Endtask
+
+Taskno 3
+Jobname xtractor
+Options 
+Message xtractor
+Dir .
+Dependencies 2 
+Level 3
+Endtask
+
+Taskno 4
+Jobname process_xtract_charmode
+Options 
+Message xTract Characterization
+Dir .
+Dependencies 3 
+Level 4
+Endtask
+
+Taskno 5
+Jobname split_netlister
+Options 
+Message split_netlister
+Dir .
+CpuPref 1
+Dependencies 4 
+Level 5
+Endtask
+
+Taskno 6
+Jobname report_violations
+Options 
+Message Report Violations
+Dir .
+Dependencies 5 
+Level 6
+Endtask
+
+Taskno 7
+Jobname netlister
+Options 
+Message netlister
+Dir .
+Dependencies 5 
+Level 6
+Endtask
+
+Taskno 8
+Jobname post_xtractor
+Options 
+Message Post Xtractor
+Dir .
+CpuPref 1
+Dependencies 7 
+Level 7
+Endtask
+

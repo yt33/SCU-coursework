@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed Oct 25 15:46:08 2017-->
+<file-format version="1.0" name="netlisting-timestamps">
+<module contextID="switched: lab4 NAND schematic vl: auCdl schematic symbol sl: auCdl" isSubcircuit="1" viewStopList="auCdl" timestamp="3071" viewSearchList="auCdl schematic symbol">
+<parameterizedConnections>
+<connectDefs timestamp="0"/>
+<oaAssignments timestamp="0"/>
+<dbAssignValue timestamp="0"/>
+<dbAssignAssignment timestamp="0"/>
+</parameterizedConnections>
+<parameters timestamp="4"/>
+<lib_parameters timestamp="1"/>
+<LineageParams/>
+<ParentParams/>
+<Terms timestamp="639"/>
+<PortOrder>ABCOUT</PortOrder>
+</module>
+</file-format>

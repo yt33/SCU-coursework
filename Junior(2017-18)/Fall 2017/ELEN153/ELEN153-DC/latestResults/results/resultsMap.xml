@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed Nov 29 17:40:31 2017-->
+<file-format version="1.0" name="saResultsMap">
+ <object version="1" type="saResultsMap" name="saResultsMap">
+  <attribute type="giString" value="" name="cornerParamNames"/>
+  <attribute type="giString" value="." name="masterResultsDir"/>
+  <attribute type="giString" value="resultsMap.xml" name="name"/>
+  <collection name="resultsInfo">
+   <object version="1" type="saResultsInfo" name="resultsInfo">
+    <attribute type="giString" value="../pw=0.599950u/netlist" name="netlistDir"/>
+    <collection name="params">
+     <object version="1" type="saPair" name="params">
+      <attribute type="giString" value="pw" name="name"/>
+      <attribute type="giString" value="0.599950u" name="value"/>
+     </object>
+    </collection>
+    <attribute type="giString" value="../pw=0.599950u/results" name="resultsDir"/>
+   </object>
+   <object version="1" type="saResultsInfo" name="resultsInfo">
+    <attribute type="giString" value="../pw=0.599954u/netlist" name="netlistDir"/>
+    <collection name="params">
+     <object version="1" type="saPair" name="params">
+      <attribute type="giString" value="pw" name="name"/>
+      <attribute type="giString" value="0.599954u" name="value"/>
+     </object>
+    </collection>
+    <attribute type="giString" value="../pw=0.599954u/results" name="resultsDir"/>
+   </object>
+   <object version="1" type="saResultsInfo" name="resultsInfo">
+    <attribute type="giString" value="../pw=0.599959u/netlist" name="netlistDir"/>
+    <collection name="params">
+     <object version="1" type="saPair" name="params">
+      <attribute type="giString" value="pw" name="name"/>
+      <attribute type="giString" value="0.599959u" name="value"/>
+     </object>
+    </collection>
+    <attribute type="giString" value="../pw=0.599959u/results" name="resultsDir"/>
+   </object>
+   <object version="1" type="saResultsInfo" name="resultsInfo">
+    <attribute type="giString" value="../pw=0.599963u/netlist" name="netlistDir"/>
+    <collection name="params">
+     <object version="1" type="saPair" name="params">
+      <attribute type="giString" value="pw" name="name"/>
+      <attribute type="giString" value="0.599963u" name="value"/>
+     </object>
+    </collection>
+    <attribute type="giString" value="../pw=0.599963u/results" name="resultsDir"/>
+   </object>
+   <object version="1" type="saResultsInfo" name="resultsInfo">
+    <attribute type="giString" value="../pw=0.599968u/netlist" name="netlistDir"/>
+    <collection name="params">
+     <object version="1" type="saPair" name="params">
+      <attribute type="giString" value="pw" name="name"/>
+      <attribute type="giString" value="0.599968u" name="value"/>
+     </object>
+    </collection>
+    <attribute type="giString" value="../pw=0.599968u/results" name="resultsDir"/>
+   </object>
+   <object version="1" type="saResultsInfo" name="resultsInfo">
+    <attribute type="giString" value="../pw=0.599972u/netlist" name="netlistDir"/>
+    <collection name="params">
+     <object version="1" type="saPair" name="params">
+      <attribute type="giString" value="pw" name="name"/>
+      <attribute type="giString" value="0.599972u" name="value"/>
+     </object>
+    </collection>
+    <attribute type="giString" value="../pw=0.599972u/results" name="resultsDir"/>
+   </object>
+   <object version="1" type="saResultsInfo" name="resultsInfo">
+    <attribute type="giString" value="../pw=0.599977u/netlist" name="netlistDir"/>
+    <collection name="params">
+     <object version="1" type="saPair" name="params">
+      <attribute type="giString" value="pw" name="name"/>
+      <attribute type="giString" value="0.599977u" name="value"/>
+     </object>
+    </collection>
+    <attribute type="giString" value="../pw=0.599977u/results" name="resultsDir"/>
+   </object>
+   <object version="1" type="saResultsInfo" name="resultsInfo">
+    <attribute type="giString" value="../pw=0.599981u/netlist" name="netlistDir"/>
+    <collection name="params">
+     <object version="1" type="saPair" name="params">
+      <attribute type="giString" value="pw" name="name"/>
+      <attribute type="giString" value="0.599981u" name="value"/>
+     </object>
+    </collection>
+    <attribute type="giString" value="../pw=0.599981u/results" name="resultsDir"/>
+   </object>
+   <object version="1" type="saResultsInfo" name="resultsInfo">
+    <attribute type="giString" value="../pw=0.599986u/netlist" name="netlistDir"/>
+    <collection name="params">
+     <object version="1" type="saPair" name="params">
+      <attribute type="giString" value="pw" name="name"/>
+      <attribute type="giString" value="0.599986u" name="value"/>
+     </object>
+    </collection>
+    <attribute type="giString" value="../pw=0.599986u/results" name="resultsDir"/>
+   </object>
+   <object version="1" type="saResultsInfo" name="resultsInfo">
+    <attribute type="giString" value="../pw=0.599990u/netlist" name="netlistDir"/>
+    <collection name="params">
+     <object version="1" type="saPair" name="params">
+      <attribute type="giString" value="pw" name="name"/>
+      <attribute type="giString" value="0.599990u" name="value"/>
+     </object>
+    </collection>
+    <attribute type="giString" value="../pw=0.599990u/results" name="resultsDir"/>
+   </object>
+  </collection>
+  <attribute type="giString" value="." name="resultsMapDir"/>
+  <attribute type="giString" value="HSPICE" name="simulator"/>
+  <attribute type="giString" value="Wed Nov 29 17:40:31 2017" name="timeStamp"/>
+ </object>
+</file-format>

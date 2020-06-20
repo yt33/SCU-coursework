@@ -1,0 +1,26 @@
+* XREF SPICE	Wed Nov 29 17:54:04 2017	dynamic-pseudo-static
+* icv_netlist Version RHEL64 M-2017.06-1.3706802 2017/06/19
+
+* Top of hierarchy  cell=dynamic-pseudo-static
+.subckt dynamic-pseudo-static CLKb D CLK Qm gnd! vdd! Qs
+M_XI13/MM0 Qs net32 gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI12/MM0 net33 net32 gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI11/MM0 net32 net33 gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI10/MM0 Qm net39 gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI8/MM0 net21 net39 gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI9/MM0 net39 Qm gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI1/MM3 XI1/net13 net21 gnd! gnd! n12  l=1e-07 w=1.6e-06 nf=1
+M_XI1/MM2 net33 CLK XI1/net13 gnd! n12  l=1e-07 w=1.6e-06 nf=1
+M_XI0/MM3 XI0/net13 D gnd! gnd! n12  l=1e-07 w=1.6e-06 nf=1
+M_XI0/MM2 Qm CLKb XI0/net13 gnd! n12  l=1e-07 w=1.6e-06 nf=1
+M_XI13/MM1 Qs net32 vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI12/MM1 net33 net32 vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI11/MM1 net32 net33 vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI10/MM1 Qm net39 vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI8/MM1 net21 net39 vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI9/MM1 net39 Qm vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI1/MM0 XI1/net5 net21 vdd! vdd! p12  l=1e-07 w=4.8e-06 nf=1
+M_XI1/MM1 net33 CLKb XI1/net5 vdd! p12  l=1e-07 w=4.8e-06 nf=1
+M_XI0/MM0 XI0/net5 D vdd! vdd! p12  l=1e-07 w=4.8e-06 nf=1
+M_XI0/MM1 Qm CLK XI0/net5 vdd! p12  l=1e-07 w=4.8e-06 nf=1
+.ends dynamic-pseudo-static

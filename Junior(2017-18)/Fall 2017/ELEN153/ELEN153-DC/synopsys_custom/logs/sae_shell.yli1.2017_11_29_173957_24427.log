@@ -1,0 +1,52 @@
+[17:39:59.22] /m Information: License 'SAE' checked out. (LICENSE-003)
+[17:40:01.46] /o sae_shell Version Custom Compiler M-2017.03-SP1-1
+              /c Build  (OPT) compiled on Thu Jun 29 08:54:37 2017 for RHEL64 6.6
+              /c Execution time: Wed Nov 29 17:39:57 2017
+              /c Host: linux60825
+              /c 
+              /c Copyright © 2004-2017 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[17:40:01.68] /o 	############################################
+[17:40:01.68] /o 	        Synopsys Generic 90nm iPDK          
+[17:40:01.68] /o 	--------------------------------------------
+[17:40:01.68] /o 	Release Date .............. : 11-May-2016    
+[17:40:01.68] /o 	============================================
+[17:40:01.68] /o 	        Recommended Tool Versions           
+[17:40:01.68] /o 	--------------------------------------------
+[17:40:01.68] /o 	Custom Designer ........... : J-2014.12-2    
+[17:40:01.68] /o 	IC Validator .............. : K-2015.12   
+[17:40:01.68] /o 	StarRC..................... : K-2015.12  
+[17:40:01.68] /o 	--------------------------------------------
+[17:40:01.68] /o 	############################################
+[17:40:01.68] /o 
+[17:40:01.72] /o SAED PDK 90: Loaded callbacks
+[17:40:01.73] /o SAED PDK 90: Loaded display resources
+[17:40:01.74] /i ::sa::_backgroundSaeShell::signalProcessReady 1512005997
+[17:40:01.74] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 4
+[17:40:36.91] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/C2mos/testbench/config/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession29 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/C2mos/testbench/config/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/C2mos/testbench/config/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/C2mos/testbench/config/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[17:40:37.33] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[17:40:37.37] /m Information: create a new lpp(M1/subnode) with layer number 11 and purpose number 221 in tech lib SAED_PDK_90. (TECH-020)
+[17:40:37.37] /m Information: create a new lpp(M2/subnode) with layer number 13 and purpose number 221 in tech lib SAED_PDK_90. (TECH-020)
+[17:40:37.57] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.6 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession29 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/C2mos/testbench/config/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/C2mos/testbench/config/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/C2mos/testbench/config/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[17:40:37.57] /o false
+[17:45:38.77] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:45:38.82] /i ::sa::_backgroundSaeShell::parentRunning
+[17:45:38.82] /o 1512006338
+[17:45:42.47] /m Information: Stopped sharing "Custom WaveView ADV" license. (WAVEFORM-111)
+[17:50:39.79] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:50:39.80] /i ::sa::_backgroundSaeShell::parentRunning
+[17:50:39.80] /o 1512006639
+[17:55:40.81] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:55:40.86] /i ::sa::_backgroundSaeShell::parentRunning
+[17:55:40.86] /o 1512006940
+[18:00:41.83] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:00:41.85] /i ::sa::_backgroundSaeShell::parentRunning
+[18:00:41.86] /o 1512007241
+[18:05:42.85] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:05:42.86] /i ::sa::_backgroundSaeShell::parentRunning
+[18:05:42.86] /o 1512007542
+[18:10:43.87] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[18:10:43.96] /i ::sa::_backgroundSaeShell::parentRunning
+[18:10:43.96] /o 1512007843

@@ -1,0 +1,4 @@
+.option opfile=1 split_dp=1
+.option probe=1
+.probe tran v(*) level=1
+.probe tran v(vin) v(vout)

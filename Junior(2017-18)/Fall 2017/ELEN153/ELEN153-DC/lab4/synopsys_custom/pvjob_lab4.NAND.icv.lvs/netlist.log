@@ -1,0 +1,5 @@
+[15:46:08.29] /m Information: "Starting netlisting for design "lab4/NAND/schematic"..."
+               (NETLISTING-010)
+[15:46:08.30] /o No Design Integrity rule violations found in "lab4/NAND/schematic"
+[15:46:08.38] /m Information: "Netlisting design "lab4/NAND/schematic" finished successfully."
+               (NETLISTING-012)

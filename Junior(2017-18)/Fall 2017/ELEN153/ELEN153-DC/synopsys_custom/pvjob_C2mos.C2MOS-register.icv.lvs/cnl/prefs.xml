@@ -1,0 +1,15 @@
+<preferences>
+<preference value="&lt;>" name="nlCDLBusStyle"/>
+<preference value="true" name="nlCDLCompatiblePortOrder"/>
+<preference value="false" name="nlCDLGenerateEmptySubckts"/>
+<preference value="" name="nlCDLGlobalNets"/>
+<preference value="false" name="nlCDLIncludeCDLFile"/>
+<preference value="false" name="nlCDLIncludeCDLNetlistFile"/>
+<preference value="" name="nlCDLIncludeFiles"/>
+<preference value="true" name="nlCDLIsCaseSensitive"/>
+<preference value="always" name="nlCDLPrependFirstChar"/>
+<preference value="meter" name="nlCDLScale"/>
+<preference value="true" name="nlCDLShortLVSIgnoreDevices"/>
+<preference value="true" name="nlCDLUseSingleQuote"/>
+<preference value="true" name="nlCdlPrintLDD"/>
+</preferences>

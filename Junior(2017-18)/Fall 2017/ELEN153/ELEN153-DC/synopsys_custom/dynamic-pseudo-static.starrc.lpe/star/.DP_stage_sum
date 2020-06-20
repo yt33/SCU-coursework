@@ -1,0 +1,23 @@
+----------------------------------------------------------------------------------------------
+CPU#   | STAGE SUMMARY                                      | END TIME        | HOST NAME
+----------------------------------------------------------------------------------------------
+CPU_01 |*Setup        Elp=00:00:02 Cpu=00:00:00 Mem=438.2  | Nov 29 16:08:30 | linux60825
+CPU_01 |*Layers        Elp=00:00:00 Cpu=00:00:00 Mem=438.3  | Nov 29 16:08:30 | linux60825
+CPU_01 |*Models        Elp=00:00:00 Cpu=00:00:00 Mem=438.3  | Nov 29 16:08:30 | linux60825
+CPU_01 |*HN            Elp=00:00:00 Cpu=00:00:00 Mem=438.3  | Nov 29 16:08:31 | linux60825
+CPU_01 |*XrefHN        Elp=00:00:00 Cpu=00:00:00 Mem=204.3  | Nov 29 16:08:31 | linux60825
+CPU_01 |*Cells         Elp=00:00:00 Cpu=00:00:00 Mem=438.3  | Nov 29 16:08:31 | linux60825
+CPU_01 |*Translate     Elp=00:00:01 Cpu=00:00:00 Mem=201.1  | Nov 29 16:08:32 | linux60825
+CPU_01 |*NetlistSetup  Elp=00:00:00 Cpu=00:00:00 Mem=200.9  | Nov 29 16:08:32 | linux60825
+CPU_01 |*xTract        Elp=00:00:00 Cpu=00:00:00 Mem=260.3  | Nov 29 16:08:32 | linux60825
+CPU_01 |*xTractPP      Elp=00:00:00 Cpu=00:00:00 Mem=145.3  | Nov 29 16:08:33 | linux60825
+CPU_01 |*ReportViolations Elp=00:00:00 Cpu=00:00:00 Mem=200.9  | Nov 29 16:08:33 | linux60825
+CPU_01 |*Netlist       Elp=00:00:02 Cpu=00:00:00 Mem=412.0  | Nov 29 16:08:35 | linux60825
+----------------------------------------------------------------------------------------------
+Start Time: Wed Nov 29 16:08:30 2017
+End Time: Wed Nov 29 16:08:35 2017
+Total Wall Time: 00:00:05
+Time on PreXtraction:  00:00:02
+Time on Xtraction:     00:00:00
+Time on PostXtraction: 00:00:03
+----------------------------------------------------------------------------------------------

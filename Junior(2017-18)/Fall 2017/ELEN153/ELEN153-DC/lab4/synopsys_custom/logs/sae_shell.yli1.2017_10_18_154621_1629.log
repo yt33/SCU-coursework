@@ -1,0 +1,71 @@
+[15:46:22.91] /m Information: License 'SAE' checked out. (LICENSE-003)
+[15:46:25.27] /o sae_shell Version Custom Compiler M-2017.03-SP1-1
+              /c Build  (OPT) compiled on Thu Jun 29 08:54:37 2017 for RHEL64 6.6
+              /c Execution time: Wed Oct 18 15:46:21 2017
+              /c Host: linux60820
+              /c 
+              /c Copyright © 2004-2017 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[15:46:25.37] /o 	############################################
+[15:46:25.37] /o 	        Synopsys Generic 90nm iPDK          
+[15:46:25.37] /o 	--------------------------------------------
+[15:46:25.37] /o 	Release Date .............. : 11-May-2016    
+[15:46:25.37] /o 	============================================
+[15:46:25.37] /o 	        Recommended Tool Versions           
+[15:46:25.37] /o 	--------------------------------------------
+[15:46:25.37] /o 	Custom Designer ........... : J-2014.12-2    
+[15:46:25.37] /o 	IC Validator .............. : K-2015.12   
+[15:46:25.37] /o 	StarRC..................... : K-2015.12  
+[15:46:25.37] /o 	--------------------------------------------
+[15:46:25.37] /o 	############################################
+[15:46:25.37] /o 
+[15:46:25.38] /o SAED PDK 90: Loaded callbacks
+[15:46:25.39] /o SAED PDK 90: Loaded display resources
+[15:46:25.40] /i ::sa::_backgroundSaeShell::signalProcessReady 1508366781
+[15:46:25.40] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 4
+[15:47:04.81] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession8 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:47:05.14] /m Information: Expression 'i(/I0/A)' did not evaluate: No results found.
+[15:47:05.14] /m Information: Expression 'i(/I0/B)' did not evaluate: No results found.
+[15:47:05.14] /m Information: Expression 'i(/I0/C)' did not evaluate: No results found.
+[15:47:05.14] /m Information: Expression 'v(/OUT)' did not evaluate: No results found.
+[15:47:05.18] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession8 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:47:05.18] /o false
+[15:47:35.04] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession8 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:47:35.42] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[15:47:35.50] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.4 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession8 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:47:35.50] /o false
+[15:49:26.73] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession8 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:49:27.06] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession8 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:49:27.06] /o false
+[15:51:12.59] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession8 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:51:12.99] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession8 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:51:12.99] /o false
+[15:52:10.87] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession8 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:52:11.22] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession8 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:52:11.22] /o false
+[15:52:25.30] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession8 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:52:25.64] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession8 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:52:25.64] /o false
+[15:52:43.77] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession8 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:52:44.10] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession8 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:52:44.10] /o false
+[15:54:21.35] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession8 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:54:21.65] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.2 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession8 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:54:21.65] /o false
+[15:56:18.26] /i ::wf::viewerExited
+[15:56:26.83] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession8 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:56:27.15] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession8 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:56:27.15] /o false
+[16:01:28.43] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[16:01:28.44] /i ::sa::_backgroundSaeShell::parentRunning
+[16:01:28.44] /o 1508367688
+[16:01:32.12] /m Information: Stopped sharing "Custom WaveView ADV" license. (WAVEFORM-111)
+[16:06:29.45] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[16:06:29.54] /i ::sa::_backgroundSaeShell::parentRunning
+[16:06:29.54] /o 1508367989
+[16:07:04.66] /i ::sa::_backgroundSaeShell::exit
+[16:07:04.66] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting
+[16:07:04.96] /m Information: License 'Schematic' checked in. (LICENSE-004)
+[16:07:04.97] /m Information: License 'SAE' checked in. (LICENSE-004)

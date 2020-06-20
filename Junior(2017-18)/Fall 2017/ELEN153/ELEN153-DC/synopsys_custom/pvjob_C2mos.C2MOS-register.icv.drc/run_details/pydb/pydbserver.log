@@ -1,0 +1,35 @@
+
+                                  PYDB_Server 
+
+           Version M-2017.06-1 for linux64 - Jun 19, 2017 cl#3706802
+
+                    Copyright (c) 2007 - 2017 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+variable width coordinate support enabled.
+Removing old database /DCNFS/users/student/yli1/ELEN153/synopsys_custom/pvjob_C2mos.C2MOS-register.icv.drc/run_details/pydb/PYDB_C2MOS_register
+Listening for connections on port 7470
+PYDB_Server Started on host linux60817, Tue 11/28/2017 21:19:06
+Client linux60817(26724):7 connected (1 total client)
+Verified current licenses.
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.10.0
+Client linux60817(26771):13 connected (2 total clients)
+Client linux60817(26767):14 connected (3 total clients)
+Client linux60817(26771):13 disconnected (2 clients remain)
+Client linux60817(26771):13 connected (3 total clients)
+Client linux60817(26771):13 disconnected (2 clients remain)
+Client linux60817(26771):13 connected (3 total clients)
+Client linux60817(26771):13 disconnected (2 clients remain)
+Client linux60817(26767):14 disconnected (1 client remains)
+Generating /DCNFS/users/student/yli1/ELEN153/synopsys_custom/pvjob_C2mos.C2MOS-register.icv.drc/C2MOS-register.LAYOUT_ERRORS
+  Generation Time=0:00:00  User=0.01 Sys=0.00 Mem=0.507
+Shutdown requested by client linux60817(26724):7
+0 clients remain connected
+Overall server Time=0:00:05  User=0.03 Sys=0.04 Mem=0.507 SQLite=6.523 Unpooled=0.047

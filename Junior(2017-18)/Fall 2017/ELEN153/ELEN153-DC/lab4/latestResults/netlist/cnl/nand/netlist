@@ -1,0 +1,16 @@
+********************************************************************************
+* Library          : lab4
+* Cell             : NAND
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt nand a b c out
+m2 net32 c gnd! gnd! n12 w=1.2u l=0.1u nf=1 m=1
+m1 net6 b net32 gnd! n12 w=1.2u l=0.1u nf=1 m=1
+m0 out a net6 gnd! n12 w=1.2u l=0.1u nf=1 m=1
+m5 out a vdd! vdd! p12 w=1.2u l=0.1u nf=1 m=1
+m4 out c vdd! vdd! p12 w=1.2u l=0.1u nf=1 m=1
+m3 out b vdd! vdd! p12 w=1.2u l=0.1u nf=1 m=1
+.ends nand
+

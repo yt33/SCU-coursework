@@ -1,0 +1,12 @@
+********************************************************************************
+* Library          : lab4
+* Cell             : testbench_NAND
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi11 a a c out nand
+c4 out gnd! c=2p
+v16 c gnd! dc=1.2
+v14 a gnd! dc=1.2
+v5 vdd! gnd! dc=1.2

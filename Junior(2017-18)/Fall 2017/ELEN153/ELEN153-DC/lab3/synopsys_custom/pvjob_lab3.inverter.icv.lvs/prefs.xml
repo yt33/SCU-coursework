@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler build#  ,on -->
+<file-format version="1.0" name="synopsysPrefs">
+        <preferences>
+                <pref value="true" name="xtLVSCalibreUseSVRFTranscript"/>
+                <pref value="inverter" name="xtLVSLayCell"/>
+                <pref value="/DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.lvs/inverter.net" name="xtLVSLayInputNetlist"/>
+                <pref value="lab3/inverter/layout" name="xtLVSLayLCV"/>
+                <pref value="/DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.lvs/inverter.custom_compiler.gds" name="xtLVSLayStreamFile"/>
+                <pref value="inverter" name="xtLVSSchCell"/>
+                <pref value="/DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.lvs/inverter.custom_compiler.sp" name="xtLVSSchInputNetlist"/>
+                <pref value="CDL" name="xtLVSSchInputNetlistFormat"/>
+                <pref value="lab3/inverter/schematic" name="xtLVSSchLCV"/>
+                <pref value="/DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.lvs/inverter.custom_compiler.sp" name="xtLVSSchOutputNetlist"/>
+                <pref value="IC Validator" name="xtLVSTool"/>
+        </preferences>
+</file-format>

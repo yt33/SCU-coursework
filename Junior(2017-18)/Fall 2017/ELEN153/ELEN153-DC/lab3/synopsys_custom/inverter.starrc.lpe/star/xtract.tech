@@ -1,0 +1,71 @@
+-abutment_merge_mode 3
+-group_grd_layers_in_cleaner 2
+-clean_xin_mode 1
+-layer_based_nxtgrd_read
+-noncritical_min_area 0.25
+-noncritical_min_length 0.25
+-new_res_rc
+-new_res_environment 2
+-new_res_optimization 1
+-new_ip_handling
+-process_point_based_ip
+-new_cap_environment 10
+-new_cap_environment_nondominant 1
+-new_cap_model 1
+-fill_walks 50000
+-new_etch_behavior
+-enhanced_3d_overlap 1
+-new_cap_extract_noncritical
+-high_capacitance_precision_mode
+-thickness_var_threshold 0.0
+-thickness_var_threshold_discard 0.0
+-new_cap_plane_limit -1.0
+-new_cap_simple_via_pad_model 0
+-disable_second_neighbor_pruning
+-envcbycell_second_neighbor_prune_nocap 0
+-new_cap_fill_extract_iterations 0
+-use_partition_based_density
+-stage_id 1
+-o xout
+-is_xtor_level
+-clean_via
+-handle_45_polygons
+-nonmanhattan_ratio 1
+-enhanced_via_model_for_via_coverage
+-clean_xin
+-fs_assisted
+-filter
+-fsd 25
+-message_suppression_limit  100
+-i xin
+-tcad_file /DCNFS/applications/synopsys/2017/app/SAED/SAED_PDK90nm/starrcxt/saed90nm.nxtgrd
+-layer_info layer_info
+-extract_via_caps 
+-nvc
+-icn 
+-density_based_thickness
+-xm 400
+-extraction RC
+-keep_via_nodes 0
+-max_tdecm_level  0
+-suppress_file xtract.sup
+-extra_geometry_info node
+-trench_contact_virtual_via_segmentation_ratio 2.0
+-max_virtual_via_segmentation_number 1000000
+-net_segment_cut_length 20
+-stop_extraction_on_numerous_shorts 
+-inter_pic_level_connections
+-fine_dbu
+-calc_text_count
+-envcbycell 0
+-net_command_file select_nets
+-small_net_delay_threshold 0.25
+-lateral_cap_scaling_mode 2
+-netlist_tail_comment 1
+-em_extraction
+-dont_merge_via_nodes
+-apply_min_cg_threshold
+-enhanced_via_extraction
+-smart_opens
+-smart_opens_node_limit 2147483647
+-smart_opens_rcg_limit 1000

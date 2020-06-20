@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Tue Nov 28 19:00:51 2017
+-->
+<synopsysFile version="1.1" name="synopsysRecentFiles">
+        <recentFiles>
+                <file cell="inverter" mode="write" view="symbol" file="schematicSymbol" application="seSymbol" library="lab2"/>
+                <file cell="inverter" mode="write" view="schematic" file="schematic" application="seSchematic" library="lab2"/>
+                <file cell="testbench_inverter" mode="write" view="schematic" file="schematic" application="seSchematic" library="lab2"/>
+                <file cell="CMOS" mode="write" view="schematic" file="schematic" application="seSchematic" library="lab2"/>
+        </recentFiles>
+</synopsysFile>

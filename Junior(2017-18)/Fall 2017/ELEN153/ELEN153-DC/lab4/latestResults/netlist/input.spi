@@ -1,0 +1,63 @@
+*  Generated for: HSPICE
+*  Design library name: lab4
+*  Design cell name: testbench_NAND
+*  Design view name: schematic
+.option search='/opt/synopsys-2017/app/SAED/SAED_PDK90nm/hspice'
+
+
+.option PARHIER = LOCAL
+.option PORT_VOLTAGE_SCALE_TO_2X = 1
+
+.option ARTIST=2 PSF=2
+.temp 25
+.lib 'SAED90nm.lib' TT_12
+*Custom Compiler Version M-2017.03-SP1-1
+*Wed Oct 18 17:05:21 2017
+
+.GLOBAL gnd! vdd!
+********************************************************************************
+* Library          : lab4
+* Cell             : NAND
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt nand a b c out
+m2 net32 c gnd! gnd! n12 w=1.2u l=0.1u nf=1 m=1
+m1 net6 b net32 gnd! n12 w=1.2u l=0.1u nf=1 m=1
+m0 out a net6 gnd! n12 w=1.2u l=0.1u nf=1 m=1
+m5 out a vdd! vdd! p12 w=1.2u l=0.1u nf=1 m=1
+m4 out c vdd! vdd! p12 w=1.2u l=0.1u nf=1 m=1
+m3 out b vdd! vdd! p12 w=1.2u l=0.1u nf=1 m=1
+.ends nand
+
+********************************************************************************
+* Library          : lab4
+* Cell             : testbench_NAND
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi11 a a c out nand
+c4 out gnd! c=2p
+v16 c gnd! dc=1.2
+v14 a gnd! dc=1.2
+v5 vdd! gnd! dc=1.2
+
+
+
+
+
+
+
+
+.dc v14 0 1.2 0.01
+.option opfile=1 split_dp=1
+.option probe=1
+.probe dc v(*) level=1
+.probe dc v(out)
+
+
+
+
+.end

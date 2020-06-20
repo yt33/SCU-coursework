@@ -1,0 +1,96 @@
+ICV_VUE Info : + INFO: Filter has been loaded successfully.
+        '/opt/synopsys-2017/app/icvalidator/M-2017.06-1/lib-u/LINUX.64/VUE/Layout/libhiCDesignerLE.so'
+ICV_VUE Info : + INFO: Filter version checking passed. (is: v2, expected: v2)
+DEBUG: ConnectToServer: linux60814.dc.engr.scu.edu 35528
+DEBUG: connect back to cdesigner: 'linux60814.dc.engr.scu.edu:35528'
+
+< LAYOUT: start_vue >
+V SET_COLOR white       white
+V SET_COLOR red         red
+V SET_COLOR darkRed     maroon
+V SET_COLOR green       lime
+V SET_COLOR darkGreen   forest
+V SET_COLOR blue        blue
+V SET_COLOR darkBlue    navy
+V SET_COLOR cyan        cyan
+V SET_COLOR darkCyan    cadetBlue
+V SET_COLOR magenta     magenta
+V SET_COLOR darkMagenta purple
+V SET_COLOR yellow      yellow
+V SET_FILL  blank       blank
+V SET_FILL  solid       solid
+V SET_FILL  backSlash   backSlash
+V SET_FILL  slash       slash
+V SET_FILL  dot         dots
+V SET_FILL  diagCross   X
+V SET_FILL  brick       brick
+V SET_FILL  horizontal  hLine
+V SET_FILL  vertical    vLine
+L CDESIGNER::StartFilter LAY
+L set topLayLCV  ""
+L set curLayLCV  ""
+
+< LAYOUT: start_filter >
+L CDESIGNER::SendCommand setWorkingDir "[pwd]"
+ICV_VUE Info : + INFO: Filter has been loaded successfully.
+        '/opt/synopsys-2017/app/icvalidator/M-2017.06-1/lib-u/LINUX.64/VUE/Schematic/libhiCDesignerSE.so'
+ICV_VUE Info : + INFO: Filter version checking passed. (is: v2, expected: v2)
+  + INFO: Tcl-DP service had been loaded.
+DEBUG: ConnectToServer: linux60814.dc.engr.scu.edu 35528
+DEBUG: return previous client linux60814.dc.engr.scu.edu:35528
+
+< SCHEMATIC: start_vue >
+V SET_COLOR white       white
+V SET_COLOR red         red
+V SET_COLOR darkRed     maroon
+V SET_COLOR green       lime
+V SET_COLOR darkGreen   forest
+V SET_COLOR blue        blue
+V SET_COLOR darkBlue    navy
+V SET_COLOR cyan        cyan
+V SET_COLOR darkCyan    cadetBlue
+V SET_COLOR magenta     magenta
+V SET_COLOR darkMagenta purple
+V SET_COLOR yellow      yellow
+V SET_FILL  blank       blank
+V SET_FILL  solid       solid
+V SET_FILL  backSlash   backSlash
+V SET_FILL  slash       slash
+V SET_FILL  dot         dots
+V SET_FILL  diagCross   X
+V SET_FILL  brick       brick
+V SET_FILL  horizontal  hLine
+V SET_FILL  vertical    vLine
+S CDESIGNER::StartFilter SCH
+S set curModule ""
+
+< SCHEMATIC: start_filter >
+S CDESIGNER::SendCommand setWorkingDir "[pwd]"
+
+< LAYOUT: load_hercules >
+L set topLayLCV "lab3/inverter/layout"
+L set curLayLCV "$topLayLCV"
+L CDESIGNER::SendCommand setWorkingDir "/DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.lvs"
+
+< SCHEMATIC: load_hercules >
+S set curModule "inverter"
+L CDESIGNER::SendCommand setTopLayLCV "$topLayLCV"
+S CDESIGNER::SendCommand setWorkingDir "/DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.lvs"
+L CDESIGNER::SendCommand openLCV "$curLayLCV"
+S CDESIGNER::SendCommand openModule "$curModule"
+DEBUG: PushBackXprobeMessage{vueSetDbu 0.001
+}
+DEBUG: PushBackXprobeMessage{vueSetDbu 0.00625
+}
+
+< LAYOUT: remove_hilites >
+L CDESIGNER::SendCommand clearAllHighlights $curLayLCV
+
+< SCHEMATIC: remove_hilites >
+S CDESIGNER::SendCommand clearAllProbes "$curModule"
+
+< LAYOUT: remove_hilites >
+L CDESIGNER::SendCommand clearAllHighlights $curLayLCV
+
+< SCHEMATIC: remove_hilites >
+S CDESIGNER::SendCommand clearAllProbes "$curModule"

@@ -1,0 +1,45 @@
++------------------------------------------------------------------------+
+|                    ICV_Compare LVS Comparison Report                   |
++------------------------------------------------------------------------+
+
+ICV_Compare (R) Hierarchical Layout Vs. Schematic
+	RHEL64 M-2017.06-1.3706802 2017/06/19
+Copyright (C) Synopsys, Inc. All rights reserved.
+
+
+--------------------------------------------------------------------------
+LVS error file     = dynamic-pseudo-static.LVS_ERRORS
+Layout error file  = dynamic-pseudo-static.LAYOUT_ERRORS
+Schematic netlist  = dynamic-pseudo-static.sch_out
+Layout netlist     = /DCNFS/users/student/yli1/ELEN153/synopsys_custom/pvjob_C2mos.dynamic-pseudo-static.icv.lvs/dynamic-pseudo-static.net
+Runset file        = /DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs
+Working directory  = /DCNFS/users/student/yli1/ELEN153/synopsys_custom/pvjob_C2mos.dynamic-pseudo-static.icv.lvs
+Compare directory  = run_details/compare
+Compare start time = 2017-11-29 17:54:03
+
+
+
+--------------------------------------------------------------------------
+Final comparison result:PASS
+
+			#####   ##   ##### #####
+			#   #  #  #  #     #    
+			##### ###### ##### #####
+			#     #    #     #     #
+			#     #    # ##### #####
+
+
+TOP equivalence point:
+		[dynamic-pseudo-static, dynamic-pseudo-static]
+
+Comparison summary
+
+    1 successful equivalencies
+    0 failed equivalencies
+
+Schematic and layout agree at all user-intended equivalent points involved
+in compare.
+
+
+
+End of LVS comparison report

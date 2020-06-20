@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed Oct 18 17:05:23 2017-->
+<file-format version="1.0" name="cacheCategory">
+ <attribute type="giString" value="dc variables" name="resultTypes"/>
+</file-format>

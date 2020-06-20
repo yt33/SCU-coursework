@@ -1,0 +1,3 @@
+::sa::_backgroundSaeShell::signalProcessReady 1507764260
+::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab3/inverter_tb/schematic/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab3/inverter_tb/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab3/inverter_tb/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab3/inverter_tb/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+::sa::_backgroundSaeShell::exit

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Wed Oct 11 17:01:21 2017
+-->
+<synopsysFile version="1.0" name="synopsysFavoriteDevices">
+        <favoriteDevices viewType="maskLayout"/>
+        <favoriteDevices viewType="schematic">
+                <cellView cell="inverter" view="symbol" library="lab3">
+                        <alias name="inverter"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView cell="vdc" view="symbol" library="analogLib">
+                        <alias name="vdc"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView cell="vsin" view="symbol" library="analogLib">
+                        <alias name="vsin"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView cell="vdd" view="symbol" library="analogLib">
+                        <alias name="vdd"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView cell="gnd" view="symbol" library="analogLib">
+                        <alias name="gnd"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+        </favoriteDevices>
+</synopsysFile>

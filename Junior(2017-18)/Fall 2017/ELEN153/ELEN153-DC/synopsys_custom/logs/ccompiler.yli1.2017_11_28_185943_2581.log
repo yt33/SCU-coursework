@@ -1,0 +1,105 @@
+[18:59:45.15] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version M-2017.03-SP1-1 for linux64 - Jun 29, 2017 
+              /c 
+              /c                     Copyright (c) 2004 - 2017 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 3718339 compiled on Thu Jun 29 08:54:37 2017 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2017/app/customcompiler/M-2017.03-SP1-1/linux64/platform/bin/custom_compiler
+              /c Execution time: Tue Nov 28 18:59:43 2017
+              /c Host: linux60817
+              /c Working directory: /DCNFS/users/student/yli1/ELEN153
+              /c 
+[18:59:48.28] /r giShowFrameTabs true
+[18:59:48.29] /r giWindowId 1
+[18:59:48.29] /r giWindowGeometry 1040x800
+[18:59:49.37] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[18:59:49.37] /# 
+[18:59:49.37] /i dm::openLibraryManager
+[18:59:49.37] /r giWindowId 2
+[18:59:49.38] /r giWindowGeometry 660x600+50+75
+[18:59:49.42] /o oa:0x248de3b0
+[18:59:50.55] /i gi::setCurrentIndex {libs} -index {lab3} -in [gi::getWindows 2]
+[18:59:50.56] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 2]
+[18:59:50.56] /i gi::setItemSelection {libs} -index {lab3} -in [gi::getWindows 2]
+[18:59:53.24] /i gi::setCurrentIndex {cells} -index {lab3} -in [gi::getWindows 2]
+[18:59:53.25] /i gi::setItemSelection {cells} -index {lab3} -in [gi::getWindows 2]
+[18:59:54.03] /i gi::setCurrentIndex {cells} -index {latestResults} -in [gi::getWindows 2]
+[18:59:54.03] /i gi::setItemSelection {cells} -index {latestResults} -in [gi::getWindows 2]
+[18:59:54.50] /i gi::setCurrentIndex {cells} -index {screenshot} -in [gi::getWindows 2]
+[18:59:54.50] /i gi::setItemSelection {cells} -index {screenshot} -in [gi::getWindows 2]
+[18:59:55.04] /i gi::setCurrentIndex {libs} -index {lab2} -in [gi::getWindows 2]
+[18:59:55.05] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 2]
+[18:59:55.07] /i gi::setItemSelection {cells} -index {screenshot} -in [gi::getWindows 2]
+[18:59:55.08] /i gi::setItemSelection {libs} -index {lab2} -in [gi::getWindows 2]
+[18:59:55.87] /i gi::setCurrentIndex {cells} -index {latestResults} -in [gi::getWindows 2]
+[18:59:55.88] /i gi::setItemSelection {cells} -index {latestResults} -in [gi::getWindows 2]
+[18:59:56.43] /i gi::setCurrentIndex {cells} -index {lab2} -in [gi::getWindows 2]
+[18:59:56.43] /i gi::setItemSelection {cells} -index {lab2} -in [gi::getWindows 2]
+[18:59:56.91] /i gi::setCurrentIndex {cells} -index {latestResults} -in [gi::getWindows 2]
+[18:59:56.92] /i gi::setItemSelection {cells} -index {latestResults} -in [gi::getWindows 2]
+[18:59:57.34] /i gi::setCurrentIndex {cells} -index {screenshot} -in [gi::getWindows 2]
+[18:59:57.34] /i gi::setItemSelection {cells} -index {screenshot} -in [gi::getWindows 2]
+[18:59:58.30] /i gi::setCurrentIndex {cells} -index {latestResults} -in [gi::getWindows 2]
+[18:59:58.30] /i gi::setItemSelection {cells} -index {latestResults} -in [gi::getWindows 2]
+[18:59:58.72] /i gi::setCurrentIndex {cells} -index {lab2} -in [gi::getWindows 2]
+[18:59:58.73] /i gi::setItemSelection {cells} -index {lab2} -in [gi::getWindows 2]
+[19:00:00.48] /i gi::setActiveWindow 1
+[19:00:00.48] /i gi::setActiveWindow 1 -raise true
+[19:00:01.94] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[19:00:01.94] /# 
+[19:00:01.95] /i dm::openLibraryManager
+[19:00:01.95] /r giWindowId 3
+[19:00:01.95] /r giWindowGeometry 1040x800+439+199
+[19:00:01.99] /o oa:0x249b8050
+[19:00:03.08] /i gi::setActiveWindow 2
+[19:00:03.08] /i gi::setActiveWindow 2 -raise true
+[19:00:04.06] /i gi::executeAction giCloseWindow -in [gi::getWindows 2]
+[19:00:04.07] /i gi::setActiveWindow 3
+[19:00:04.07] /i gi::setActiveWindow 3 -raise true
+[19:00:04.83] /i gi::createWindow -windowType [gi::getWindowTypes giHomePage]
+[19:00:04.83] /r giWindowId 4
+[19:00:04.84] /r giWindowGeometry 1040x800
+[19:00:08.22] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/recentDesigns/dmNewCellView} -in [gi::getWindows 4]
+[19:00:08.22] /# 
+[19:00:08.23] /i dm::showNewCellView
+[19:00:08.25] /o oa:0x2489ca40
+[19:00:08.27] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView}]
+[19:00:08.55] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView}] -value 588x309+666+445
+[19:00:10.00] /i gi::setCurrentIndex {libs} -index {lab2} -in [gi::getDialogs {dmNewCellView}]
+[19:00:10.01] /i gi::setItemSelection {libs} -index {lab2} -in [gi::getDialogs {dmNewCellView}]
+[19:00:11.03] /i gi::setCurrentIndex {cells} -index {lab2} -in [gi::getDialogs {dmNewCellView}]
+[19:00:11.04] /i gi::setItemSelection {cells} -index {lab2} -in [gi::getDialogs {dmNewCellView}]
+[19:00:12.82] /i gi::pressButton {cancel} -in [gi::getDialogs {dmNewCellView}]
+[19:00:13.93] /i gi::setActiveWindow 3
+[19:00:13.93] /i gi::setActiveWindow 3 -raise true
+[19:00:37.87] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+0+201
+[19:00:38.30] /i gi::setCurrentIndex {libs} -index {lab2} -in [gi::getWindows 3]
+[19:00:38.30] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 3]
+[19:00:38.31] /i gi::setItemSelection {libs} -index {lab2} -in [gi::getWindows 3]
+[19:00:40.12] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+-1+392
+[19:00:44.99] /i gi::setCurrentIndex {cells} -index {lab2} -in [gi::getWindows 3]
+[19:00:45.00] /i gi::setItemSelection {cells} -index {lab2} -in [gi::getWindows 3]
+[19:00:45.37] /i gi::setCurrentIndex {cells} -index {latestResults} -in [gi::getWindows 3]
+[19:00:45.38] /i gi::setItemSelection {cells} -index {latestResults} -in [gi::getWindows 3]
+[19:00:45.79] /i gi::setCurrentIndex {cells} -index {synopsys_custom} -in [gi::getWindows 3]
+[19:00:45.81] /i gi::setItemSelection {cells} -index {synopsys_custom} -in [gi::getWindows 3]
+[19:00:46.75] /r giDialog gi::setActiveDialog [gi::getDialogs {giCloseFrame}]
+[19:00:47.05] /r giDialog db::setAttr geometry -of [gi::getDialogs {giCloseFrame}] -value 297x113+371+628
+[19:00:47.95] /r giDialog gi::pressButton {giCloseTabsButton} -in [gi::getDialogs {giCloseFrame}]
+[19:00:47.98] /i exit
+[19:00:48.01] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[19:00:48.31] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 420x183+750+508
+[19:00:48.98] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[19:00:48.99] /i gi::setActiveWindow 4
+[19:00:48.99] /i gi::setActiveWindow 4 -raise true
+[19:00:49.00] /i gi::setActiveWindow 1
+[19:00:49.00] /i gi::setActiveWindow 1 -raise true
+[19:00:49.21] /o Shutdown time: Tue Nov 28 19:00:49 2017
+[19:00:49.21] /o Elapsed session real time: 1.06 minutes
+[19:00:49.21] /o Session terminated. Log is at /DCNFS/users/student/yli1/ELEN153/synopsys_custom/logs/ccompiler.yli1.2017_11_28_185943_2581.log

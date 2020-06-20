@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      yli1
+HostName                       linux60825.dc.engr.scu.edu
+ProcessIdentifier              26387
+ProcessCreationTime_UTC        1511994062
+ProcessCreationTime_Readable   Wed 29 Nov 2017 02:21:02 PM PST PST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /DCNFS/users/student/yli1/ELEN153/C2mos/dynamic#2dpseudo#2dstatic/layout#2econfig/config.xml.cdslck
+TimeEditLocked                 Wed 29 Nov 2017 05:52:50 PM PST PST

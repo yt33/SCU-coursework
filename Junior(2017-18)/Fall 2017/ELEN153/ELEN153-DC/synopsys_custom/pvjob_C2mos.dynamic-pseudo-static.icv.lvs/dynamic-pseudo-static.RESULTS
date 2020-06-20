@@ -1,0 +1,133 @@
+                         LVS Compare Results: PASS
+
+                          ####   ###    ####   ####
+                         #   #  #   #  #      #
+                         ####   #####  #####  #####
+                         #      #   #      #      #
+                         #      #   #  ####   #### 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+                   DRC and Extraction Results: NOT CLEAN
+
+         #   #   ###   #####      ####  #      #####   ###   #   #
+         ##  #  #   #    #       #      #      #      #   #  ##  #
+         # # #  #   #    #       #      #      ####   #####  # # #
+         #  ##  #   #    #       #      #      #      #   #  #  ##
+         #   #   ###     #        ####  #####  #####  #   #  #   #
+
+===========================================================================
+
+
+---------------------------------------------------------------------------
+ICV Execution
+---------------------------------------------------------------------------
+
+
+                                 IC Validator 
+
+           Version M-2017.06-1 for linux64 - Jun 19, 2017 cl#3706802
+
+                    Copyright (c) 1996 - 2017 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Called as: icv -f openaccess -i C2mos -c dynamic-pseudo-static -oa_view layout -oa_lib_defs /DCNFS/users/student/yli1/ELEN153/lib.defs -oa_layer_map /DCNFS/applications/synopsys/2017/app/SAED/SAED_PDK90nm/techfiles/saed_pdk90_layer.map -rc /DCNFS/users/student/yli1/ELEN153/synopsys_custom/pvjob_C2mos.dynamic-pseudo-static.icv.lvs/dynamic-pseudo-static.lvs.custom_compiler.rc -s /DCNFS/users/student/yli1/ELEN153/synopsys_custom/pvjob_C2mos.dynamic-pseudo-static.icv.lvs/dynamic-pseudo-static.custom_compiler.sp -sf SPICE -stc dynamic-pseudo-static -sf SPICE -quiet=0 -vue /DCNFS/users/student/yli1/ELEN153/synopsys_custom/pvjob_C2mos.dynamic-pseudo-static.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+User name:        yli1
+Layout format:    OPENACCESS
+Input file name:  C2mos
+Top cell name:    dynamic-pseudo-static
+Time started:     2017/11/29 05:53:52PM
+Time ended:       2017/11/29 05:54:06PM
+
+
+---------------------------------------------------------------------------
+Results Summary
+---------------------------------------------------------------------------
+
+Compare Error Summary
+Refer to dynamic-pseudo-static.LVS_ERRORS.
+
+LVS Compare Result: PASS
+TOP equivalence point:
+		[dynamic-pseudo-static, dynamic-pseudo-static]
+
+    1 successful equivalencies
+    0 failed equivalencies
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+LVS Device Extraction Error Summary
+
+7 total rules were run.
+0 rules NOT EXECUTED.
+1 rules have violations.
+There are 3 total violations.
+Refer to dynamic-pseudo-static.LAYOUT_ERRORS
+
+
+---------------------------------------------------------------------------
+Assign Layer Statistics
+---------------------------------------------------------------------------
+
+Utilized Assign Layers = 54
+ Empty Utilized Assign Layers = 44
+ Non-Empty Utilized Assign Layers = 10
+Pruned Assign Layers = 39
+
+
+---------------------------------------------------------------------------
+Run Configuration
+---------------------------------------------------------------------------
+
+run_options()
+ verbose_results_file = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+hierarchy_options()
+ delete = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+error_options()
+ error_limit_per_check = 100
+ match_errors = { }
+ match_errors_processing_mode = CELL_LEVEL
+ match_errors_tolerance = 0.0000
+ violation_options = { }
+ report_empty_violations = false
+ clean_classifications = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Distributed Processing
+ Distributed Cores = 2
+ Turbo = Off
+
+ linux60825 (2/8)
+   Model: Intel(R) Xeon(R) CPU E5-1620 v4 @ 3.50GHz
+   CPU:   8 cpu 2299 MHz
+   Cores: 4 HT
+   RAM:   32 Gb
+   Swap:  2 Gb
+
+
+---------------------------------------------------------------------------
+Performance Statistics
+---------------------------------------------------------------------------
+
+IC Validator Run Time = 0:00:14
+Peak Single Command Memory = 35.740
+Peak Disk Usage = 0.605
+
+Distributed Host Memory Usage
+ linux60825 (2/8)  ....  Average=4.18 Mb, Peak=47 Mb / 32 Gb
+
+Overall Distributed Utilization: not available
+IC Validator is done.

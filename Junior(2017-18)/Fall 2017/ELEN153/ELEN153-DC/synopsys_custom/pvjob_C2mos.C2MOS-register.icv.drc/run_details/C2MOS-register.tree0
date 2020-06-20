@@ -1,0 +1,257 @@
+*** C2MOS-register		Tue Nov 28 21:19:07 2017
+
+PRE_TREE
+
+
+
+		DESIGN STATISTICS DEFINITIONS
+		______ __________ ______________.
+
+Hierarchical levels       The number of levels in the design.
+Unique Cells              The number of unique cells in the design.
+Hierarchical placements   The total number of placements (srefs and arefs)
+			  at each level in the design.
+Total Design placements   The total number of placements (srefs and arefs)
+			  in the design.
+Exploded references       The total number of exploded references in the
+			   design.
+Exploded placements       The total number of exploded placements in the
+			   design.
+Total Data count          The total number of all polygons, paths, 
+			  edges, and rectangles in the design.
+Sref Placements           The total number of cell references in the design.
+Arefs                     The total number of array references in the design.
+Aref Placements           The total number of references in each array
+			  reference in the design.
+Data                      The number of data primitives in each cell
+			  of the design.
+Text                      The number of text primitives in each cell of the design.
+
+
+*********************************************************************************
+
+
+		DESIGN STATISTICS FOR "C2MOS-register".
+		______ __________ ___ ___________.
+
+	Hierarchical levels	=         2
+	Unique cells		=         5
+	Hierarchical placements	=        10
+	Total design placements	=        10
+	Exploded references	=         0
+	Exploded placements	=         0
+	Total data count	=        96
+	SREF placements		=        10
+	AREFS			=         0
+	AREF placements		=         0
+	DATA 			=        62
+	TEXT			=         0
+
+
+*********************************************************************************
+
+
+		CELL PROFILE STATISTICS DEFINITIONS
+		_______________________________________.
+
+Total Data      Count of all sref's, aref's, rectangles, paths, edges, and polygons in the cell.
+Prims           Count of all rectangles, paths, edges, and polygons in the cell.
+Refs            Count of all sref's and aref's in the cell.
+Text            Count of all text elements in the cell.
+Flat Plcs       The flat placement count for the cell.
+Explode Type    Cell explode type.
+
+
+*********************************************************************************
+
+
+			CELL PROFILE DATA
+			____ _______ ____.
+
+
+
+		CELLS ORDERED FROM LOWEST TO HIGHEST DATA COUNT
+
+     Cell Name       Total Data   Prims   Refs Text    Flat Plcs    Explode Type
+-------------------  ----------  ------  ----- ------ -----------   ------------
+ SAED_PDK_90.POLYCON.layout       3       3       0       0       3    USED
+ SAED_PDK_90.DIFFCON.layout.1       3       3       0       0       2    USED
+ SAED_PDK_90.DIFFCON.layout.0       7       7       0       0       2    USED
+ SAED_PDK_90.DIFFCON.layout      18      18       0       0       2    USED
+ C2MOS-register           40      31       9       0       1    USED
+
+
+		CELLS ORDERED FROM LOWEST TO HIGHEST FLAT PLACEMENT COUNT
+
+     Cell Name       Flat Plcs   Prims   Refs Text    Total Data    Explode Type
+-------------------  ----------  ------  ----- ------ -----------   ------------
+ C2MOS-register            1      31       9       0      40    USED
+ SAED_PDK_90.DIFFCON.layout.1       2       3       0       0       3    USED
+ SAED_PDK_90.DIFFCON.layout.0       2       7       0       0       7    USED
+ SAED_PDK_90.DIFFCON.layout       2      18       0       0      18    USED
+ SAED_PDK_90.POLYCON.layout       3       3       0       0       3    USED
+
+
+*********************************************************************************
+
+		HIERARCHICAL TREE FOR BLOCK "C2MOS-register".
+
+TOTAL: Number of placements
+SREF : Number of SREF placements
+AREF : Number of AREF placements
+1Q   : Number of placements at   0 degrees
+2Q   : Number of placements at  90 degrees
+3Q   : Number of placements at 180 degrees
+4Q   : Number of placements at 270 degrees
+1R   : Number of reflected placements at   0 degrees
+2R   : Number of reflected placements at  90 degrees
+3R   : Number of reflected placements at 180 degrees
+4R   : Number of reflected placements at 270 degrees
+
+							       TOTAL    SREF    AREF   1Q   2Q   3Q   4Q   1R   2R   3R   4R
+C2MOS-register				      Level=0  Count=      1       1       0    0    0    0    0    0    0    0    0
+ SAED_PDK_90.DIFFCON.layout		      Level=1  Count=      2       2       0    2    0    0    0    0    0    0    0
+ SAED_PDK_90.DIFFCON.layout.0		      Level=1  Count=      2       2       0    2    0    0    0    0    0    0    0
+ SAED_PDK_90.DIFFCON.layout.1		      Level=1  Count=      2       2       0    2    0    0    0    0    0    0    0
+ SAED_PDK_90.POLYCON.layout		      Level=1  Count=      3       3       0    3    0    0    0    0    0    0    0
+
+
+*********************************************************************************
+
+
+		CELL STATISTICS
+
+
+CELL = C2MOS-register
+	Cell Status		= USED
+	OPENACCESS Library	= C2mos
+	OPENACCESS Cell Name	= C2MOS-register
+	OPENACCESS View Name	= layout
+	OPENACCESS Cell Type	= Normal Cell
+	OPENACCESS Cell Extents (LL,UR)	= (-2.050, -5.560) (0.680, 4.310)
+	Cell Area		= 26.95
+	Hierarchical Placements	=        1
+	Flat Placements		=        1
+	SREFS			=        9	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=       31
+	TEXT			=        0
+	Via			=        0
+	Upright/Side		=      1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Dtype Layer Name      Purpose Name    Data/Text  Layer Extents (LL,UR)              Lyr Area
+ ---------------  -------  --------------- --------------- --------   ---------------------------------  --------
+ NWELLi            1:0    NWELL           drawing             1/0    (-2.05, -2.19) (0.68, 3.37)     15.18
+ DIFFi             3:0    DIFF            drawing             4/0    (-1.67, -4.37) (0.30, 2.98)      9.13
+ PIMPi             4:0    PIMP            drawing             3/0    (-1.81, -4.51) (0.44, 3.12)     11.43
+ NIMPi             5:0    NIMP            drawing             3/0    (-1.81, -4.51) (0.44, 3.12)      4.55
+ POi              10:0    PO              drawing             3/0    (-0.80, -4.90) (0.00, 3.54)      1.61
+ M1i              11:0    M1              drawing            11/0    (-2.05, -5.56) (0.68, 4.31)      1.53
+ M1PIN            31:0    M1PIN           drawing             6/0    (-2.02, -5.54) (0.66, 4.29)      0.11
+
+CELL = SAED_PDK_90.DIFFCON.layout
+	Cell Status		= USED
+	OPENACCESS Library	= SAED_PDK_90
+	OPENACCESS Cell Name	= DIFFCON
+	OPENACCESS View Name	= layout
+	OPENACCESS Cell Type	= Standard Via
+	OPENACCESS Cell Extents (LL,UR)	= (-0.115, -2.055) (0.115, 2.055)
+	Cell Area		= 0.95
+	Hierarchical Placements	=        2
+	Flat Placements		=        2
+	SREFS			=        0	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=       18
+	TEXT			=        0
+	Via			=        1
+	Upright/Side		=      1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Dtype Layer Name      Purpose Name    Data/Text  Layer Extents (LL,UR)              Lyr Area
+ ---------------  -------  --------------- --------------- --------   ---------------------------------  --------
+ DIFFi             3:0    DIFF            drawing             1/0    (-0.12, -2.06) (0.12, 2.06)      0.95
+ M1i              11:0    M1              drawing             1/0    (-0.12, -2.06) (0.12, 2.06)      0.95
+ COi              26:0    CO              drawing            16/0    (-0.07, -2.02) (0.07, 2.02)      0.27
+
+CELL = SAED_PDK_90.DIFFCON.layout.0
+	Cell Status		= USED
+	OPENACCESS Library	= SAED_PDK_90
+	OPENACCESS Cell Name	= DIFFCON
+	OPENACCESS View Name	= layout
+	OPENACCESS Cell Type	= Standard Via
+	OPENACCESS Cell Extents (LL,UR)	= (-0.115, -0.625) (0.115, 0.625)
+	Cell Area		= 0.29
+	Hierarchical Placements	=        2
+	Flat Placements		=        2
+	SREFS			=        0	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=        7
+	TEXT			=        0
+	Via			=        1
+	Upright/Side		=      1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Dtype Layer Name      Purpose Name    Data/Text  Layer Extents (LL,UR)              Lyr Area
+ ---------------  -------  --------------- --------------- --------   ---------------------------------  --------
+ DIFFi             3:0    DIFF            drawing             1/0    (-0.12, -0.62) (0.12, 0.62)      0.29
+ M1i              11:0    M1              drawing             1/0    (-0.12, -0.62) (0.12, 0.62)      0.29
+ COi              26:0    CO              drawing             5/0    (-0.07, -0.58) (0.07, 0.58)      0.08
+
+CELL = SAED_PDK_90.DIFFCON.layout.1
+	Cell Status		= USED
+	OPENACCESS Library	= SAED_PDK_90
+	OPENACCESS Cell Name	= DIFFCON
+	OPENACCESS View Name	= layout
+	OPENACCESS Cell Type	= Standard Via
+	OPENACCESS Cell Extents (LL,UR)	= (-0.115, -0.105) (0.115, 0.105)
+	Cell Area		= 0.05
+	Hierarchical Placements	=        2
+	Flat Placements		=        2
+	SREFS			=        0	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=        3
+	TEXT			=        0
+	Via			=        1
+	Upright/Side		=      1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Dtype Layer Name      Purpose Name    Data/Text  Layer Extents (LL,UR)              Lyr Area
+ ---------------  -------  --------------- --------------- --------   ---------------------------------  --------
+ DIFFi             3:0    DIFF            drawing             1/0    (-0.12, -0.10) (0.12, 0.10)      0.05
+ M1i              11:0    M1              drawing             1/0    (-0.12, -0.10) (0.12, 0.10)      0.05
+ COi              26:0    CO              drawing             1/0    (-0.07, -0.07) (0.07, 0.07)      0.02
+
+CELL = SAED_PDK_90.POLYCON.layout
+	Cell Status		= USED
+	OPENACCESS Library	= SAED_PDK_90
+	OPENACCESS Cell Name	= POLYCON
+	OPENACCESS View Name	= layout
+	OPENACCESS Cell Type	= Standard Via
+	OPENACCESS Cell Extents (LL,UR)	= (-0.115, -0.105) (0.115, 0.105)
+	Cell Area		= 0.05
+	Hierarchical Placements	=        3
+	Flat Placements		=        3
+	SREFS			=        0	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=        3
+	TEXT			=        0
+	Via			=        1
+	Upright/Side		=      1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Dtype Layer Name      Purpose Name    Data/Text  Layer Extents (LL,UR)              Lyr Area
+ ---------------  -------  --------------- --------------- --------   ---------------------------------  --------
+ POi              10:0    PO              drawing             1/0    (-0.12, -0.10) (0.12, 0.10)      0.05
+ M1i              11:0    M1              drawing             1/0    (-0.12, -0.10) (0.12, 0.10)      0.05
+ COi              26:0    CO              drawing             1/0    (-0.07, -0.07) (0.07, 0.07)      0.02

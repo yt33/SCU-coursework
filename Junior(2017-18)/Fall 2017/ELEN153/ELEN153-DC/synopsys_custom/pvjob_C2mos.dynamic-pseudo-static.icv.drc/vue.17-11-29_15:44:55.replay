@@ -1,0 +1,13 @@
+# Wed Nov 29 15:44:55 2017
+
+# icv_vue: RHEL64 M-2017.06-1.3706802 2017/06/19
+
+# Hostname     : linux60825
+# Platform type: LINUX.64
+
+# Called as: 
+# icv_vue -lay CDesignerLE -load /DCNFS/users/student/yli1/ELEN153/synopsys_custom/pvjob_C2mos.dynamic-pseudo-static.icv.drc/dynamic-pseudo-static.vue -cmdPrint 
+
+vue_loadFile {HiLoadPage} {/DCNFS/users/student/yli1/ELEN153/synopsys_custom/pvjob_C2mos.dynamic-pseudo-static.icv.drc/dynamic-pseudo-static.vue}
+vue_select {mainTab} {DRC Errors}
+vue_close {HiMain}

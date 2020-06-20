@@ -1,0 +1,32 @@
+[16:16:37.27] /m Information: License 'SAE' checked out. (LICENSE-003)
+[16:16:39.40] /o sae_shell Version Custom Compiler M-2017.03-SP1-1
+              /c Build  (OPT) compiled on Thu Jun 29 08:54:37 2017 for RHEL64 6.6
+              /c Execution time: Wed Nov 29 16:16:35 2017
+              /c Host: linux60825
+              /c 
+              /c Copyright © 2004-2017 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[16:16:39.48] /o 	############################################
+[16:16:39.48] /o 	        Synopsys Generic 90nm iPDK          
+[16:16:39.48] /o 	--------------------------------------------
+[16:16:39.48] /o 	Release Date .............. : 11-May-2016    
+[16:16:39.48] /o 	============================================
+[16:16:39.48] /o 	        Recommended Tool Versions           
+[16:16:39.48] /o 	--------------------------------------------
+[16:16:39.48] /o 	Custom Designer ........... : J-2014.12-2    
+[16:16:39.48] /o 	IC Validator .............. : K-2015.12   
+[16:16:39.48] /o 	StarRC..................... : K-2015.12  
+[16:16:39.48] /o 	--------------------------------------------
+[16:16:39.48] /o 	############################################
+[16:16:39.48] /o 
+[16:16:39.49] /o SAED PDK 90: Loaded callbacks
+[16:16:39.49] /o SAED PDK 90: Loaded display resources
+[16:16:39.50] /i ::sa::_backgroundSaeShell::signalProcessReady 1512000993
+[16:16:39.50] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 6
+[16:17:27.05] /i ::sa::_backgroundSaeShell::exit
+[16:17:27.05] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting
+[16:17:27.37] /m Information: License 'Advanced' checked in. (LICENSE-004)
+[16:17:27.37] /m Information: License 'Basic' checked in. (LICENSE-004)
+[16:17:27.38] /m Information: License 'SAE' checked in. (LICENSE-004)

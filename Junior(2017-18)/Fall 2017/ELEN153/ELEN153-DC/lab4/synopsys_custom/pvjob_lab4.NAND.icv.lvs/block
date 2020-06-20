@@ -1,0 +1,12 @@
+* XREF SPICE	Wed Oct 25 15:46:18 2017	NAND
+* icv_netlist Version RHEL64 M-2017.06-1.3706802 2017/06/19
+
+* Top of hierarchy  cell=NAND
+.subckt NAND C B A OUT vdd! gnd!
+M_MM0 OUT A net6 gnd! n12  l=1e-07 w=1.2e-06 nf=1
+M_MM1 net6 B net32 gnd! n12  l=1e-07 w=1.2e-06 nf=1
+M_MM2 net32 C gnd! gnd! n12  l=1e-07 w=1.2e-06 nf=1
+M_MM5 OUT A vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_MM3 OUT B vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_MM4 OUT C vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+.ends NAND

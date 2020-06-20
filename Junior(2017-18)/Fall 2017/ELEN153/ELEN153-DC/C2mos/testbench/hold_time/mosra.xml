@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon Nov 13 12:08:39 2017-->
+<file-format version="1.0" name="stateCategory">
+ <object version="1" type="saObject" name="mosra">
+  <attribute type="giString" value="*" name="agingInst"/>
+  <attribute type="giString" value="Both" name="agingPhysics"/>
+  <attribute type="giString" value="" name="degTotalTime"/>
+  <attribute type="giString" value="Year(s)" name="degradationAgeUnit"/>
+  <attribute type="giString" value="1" name="degradationAgeValues"/>
+  <attribute type="giString" value="" name="degradationSrcFile"/>
+  <attribute type="giString" value="Normal" name="mode"/>
+  <attribute type="giString" value="" name="otherArgs"/>
+  <attribute type="giString" value="" name="relDec"/>
+  <attribute type="giString" value="" name="relLin"/>
+  <attribute type="giString" value="" name="relStart"/>
+  <attribute type="giString" value="Year(s)" name="relStartUnit"/>
+  <attribute type="giString" value="" name="relStep"/>
+  <attribute type="giString" value="Year(s)" name="relStepUnit"/>
+  <attribute type="giString" value="mosra_stressed" name="saveAsHistoryName"/>
+  <attribute type="giString" value="mosra_degraded" name="saveDegAsHistoryName"/>
+  <attribute type="giString" value="Fixed Step Size" name="steppingMode"/>
+  <attribute type="giString" value="mosra_stressed" name="stressHistoryName"/>
+  <attribute type="giString" value="Results History" name="stressSource"/>
+  <attribute type="giString" value="" name="trEnd"/>
+  <attribute type="giString" value="" name="trPeriod"/>
+  <attribute type="giString" value="" name="trStart"/>
+  <attribute type="giString" value="" name="trWidth"/>
+ </object>
+</file-format>

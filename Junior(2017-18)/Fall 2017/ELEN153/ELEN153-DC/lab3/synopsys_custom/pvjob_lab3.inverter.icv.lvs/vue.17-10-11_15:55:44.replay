@@ -1,0 +1,57 @@
+# Wed Oct 11 15:55:44 2017
+
+# icv_vue: RHEL64 M-2017.06-1.3706802 2017/06/19
+
+# Hostname     : linux60814
+# Platform type: LINUX.64
+
+# Called as: 
+# icv_vue -lay CDesignerLE -sch CDesignerSE -load /DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.lvs/inverter.vue -cmdPrint 
+
+vue_loadFile {HiLoadPage} {/DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.lvs/inverter.vue}
+vue_select {mainTab} {LVS Errors}
+vue_doubleClick {lvsEquivListView} {0} 0
+vue_expand {lvsEquivListView} 0 {0}
+vue_select {lvsEquivListView} {1}
+vue_select {lvsEquivListView} {0}
+vue_doubleClick {lvsEquivListView} {0} 0
+vue_expand {lvsEquivListView} 1 {0}
+vue_select {lvsEquivListView} {0:0}
+vue_doubleClick {lvsEquivListView} {0:0} 0
+vue_expand {lvsEquivListView} 1 {0:0}
+vue_select {mainTab} {Run Summary}
+vue_select {mainTab} {LVS Errors}
+vue_expand {lvsEquivListView} 1 {0:0:0}
+vue_expand {lvsEquivListView} 1 {0:0:0:0}
+vue_select {lvsEquivListView} {0:0:0:0:0}
+vue_doubleClick {lvsEquivListView} {0:0:0:0:0} 0
+vue_select {lvsEquivListView} {0:0:0:0:1}
+vue_doubleClick {lvsEquivListView} {0:0:0:0:1} 0
+vue_select {lvsEquivListView} {0:0:0:1}
+vue_doubleClick {lvsEquivListView} {0:0:0:1} 0
+vue_select {lvsEquivListView} {0:0:0:0:1}
+vue_select {lvsEquivListView} {0:0:0:1}
+vue_select {lvsEquivListView} {0:0:0:0:0}
+vue_expand {lvsEquivListView} 1 {0:0:1}
+vue_select {lvsEquivListView} {0:0:1:0}
+vue_doubleClick {lvsEquivListView} {0:0:1:0} 0
+vue_select {lvsEquivListView} {0:0:1:1}
+vue_doubleClick {lvsEquivListView} {0:0:1:1} 0
+vue_click {lvsSummaryWindow} {xref://lnuio//gnd!}
+vue_click {lvsSummaryWindow} {xref://lnuio//Vin}
+vue_click {lvsSummaryWindow} {xref://lnuio//Vout}
+vue_click {lvsSummaryWindow} {xref://lnuio//vdd!}
+vue_click {lvsSummaryWindow} {xref://lnuio//gnd!}
+vue_select {lvsEquivListView} {0:0:1:0}
+vue_select {lvsEquivListView} {0:0:0}
+vue_doubleClick {lvsEquivListView} {0:0:0} 0
+vue_expand {lvsEquivListView} 0 {0:0:0}
+vue_expand {lvsEquivListView} 0 {0:0:1}
+vue_expand {lvsEquivListView} 1 {0:0:0}
+vue_expand {lvsEquivListView} 1 {0:0:1}
+vue_select {lvsEquivListView} {0:0:1:0}
+vue_doubleClick {lvsEquivListView} {0:0:1:0} 0
+vue_select {lvsEquivListView} {0:0:1:1}
+vue_doubleClick {lvsEquivListView} {0:0:1:1} 0
+vue_select {lvsEquivListView} {0:0:1:0}
+vue_close {HiMain}

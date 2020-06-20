@@ -1,0 +1,164 @@
+                 Environment
+*********************************************************************************
+Library: lab3
+Constraint Group: foundry
+Cell: inverter
+View: layout
+*********************************************************************************
+
+                 Statistics
+*********************************************************************************
+Non-convertible Constraints    : 42  
+Non-converted Constraints      : 52   (54.74%)
+Converted Constraints          : 43   (45.26%)
+Total                          : 95   (100%)
+*********************************************************************************
+
+                 List of Non-convertible Constraints
+*********************************************************************************
+[   1]defWidth	CO 	0.13
+[   2]defWidth	DIFF 	0.12
+[   3]defWidth	DIFF_25 	0.66
+[   4]defWidth	DM1EXCL 	0.45
+[   5]defWidth	DM2EXCL 	0.45
+[   6]defWidth	DM3EXCL 	0.45
+[   7]defWidth	DM4EXCL 	0.45
+[   8]defWidth	DM5EXCL 	0.45
+[   9]defWidth	DM6EXCL 	0.45
+[  10]defWidth	DM7EXCL 	0.45
+[  11]defWidth	DM8EXCL 	0.45
+[  12]defWidth	DM9EXCL 	0.45
+[  13]defWidth	DNW 	3.5
+[  14]defWidth	HVTIMP 	0.24
+[  15]defWidth	IP 	0.1
+[  16]defWidth	LOGO 	0.45
+[  17]defWidth	LVTIMP 	0.24
+[  18]defWidth	M1 	0.14
+[  19]defWidth	M2 	0.16
+[  20]defWidth	M3 	0.16
+[  21]defWidth	M4 	0.16
+[  22]defWidth	M5 	0.16
+[  23]defWidth	M6 	0.16
+[  24]defWidth	M7 	0.16
+[  25]defWidth	M8 	0.16
+[  26]defWidth	M9 	0.45
+[  27]defWidth	NIMP 	0.24
+[  28]defWidth	NWELL 	0.65
+[  29]defWidth	PAD 	55
+[  30]defWidth	PIMP 	0.24
+[  31]defWidth	PO 	0.1
+[  32]defWidth	SBLK 	0.44
+[  33]defWidth	VIA1 	0.14
+[  34]defWidth	VIA2 	0.14
+[  35]defWidth	VIA3 	0.14
+[  36]defWidth	VIA4 	0.14
+[  37]defWidth	VIA5 	0.14
+[  38]defWidth	VIA6 	0.14
+[  39]defWidth	VIA7 	0.14
+[  40]defWidth	VIA8 	0.36
+[  41]defWidth	PrBoundary 	0.45
+[  42]validRoutingLayers	( CO DIFF DIFF_25 DIFF_33 M1 M2 M3 M4 M5 M6 M7 M8 M9 PO VIA1 VIA2 VIA3 VIA4 VIA5 VIA6 VIA7 VIA8 )
+*********************************************************************************
+
+                 List of Non-converted Constraints
+*********************************************************************************
+[   1]minEnclosure	PO DIFF 	0.18
+[   2]minEnclosure	PWELL DIFF 	0.24
+[   3]minEnclosure	NWELL DIFF 	0.24
+[   4]minEnclosure	M1 VIA1 	0.005
+[   5]minEnclosure	M2 VIA1 	0.005
+[   6]minEnclosure	M2 VIA2 	0.005
+[   7]minEnclosure	M3 VIA2 	0.005
+[   8]minEnclosure	M3 VIA3 	0.005
+[   9]minEnclosure	M4 VIA3 	0.005
+[  10]minEnclosure	M4 VIA4 	0.005
+[  11]minEnclosure	M5 VIA4 	0.005
+[  12]minEnclosure	M5 VIA5 	0.005
+[  13]minEnclosure	M6 VIA5 	0.005
+[  14]minEnclosure	M6 VIA6 	0.005
+[  15]minEnclosure	M7 VIA6 	0.005
+[  16]minEnclosure	M7 VIA7 	0.005
+[  17]minEnclosure	M8 VIA7 	0.005
+[  18]minEnclosure	NWELL DNW 	0.5
+[  19]minEnclosure	M8 VIA8 	0.005
+[  20]minEnclosure	M9 VIA8 	0.005
+[  21]minEnclosure	PIMP DIFF 	0.14
+[  22]minEnclosure	NIMP DIFF 	0.14
+[  23]minEnclosure	DIFF_25 DIFF 	0.3
+[  24]minEnclosure	HVTIMP DIFF 	0.14
+[  25]minEnclosure	LVTIMP DIFF 	0.14
+[  26]minEnclosure	SBLK DIFF 	0.24
+[  27]minEnclosure	PO DIFF 	0.18
+[  28]minEnclosure	SBLK PO 	0.24
+[  29]minEnclosure	PIMP PO 	0.2
+[  30]minEnclosure	NIMP PO 	0.2
+[  31]minEnclosure	DIFF CO 	0.04
+[  32]minEnclosure	PO CO 	0.04
+[  33]minEnclosure	M1 CO 	0.005
+[  34]endOfLineEnclosure	M1 VIA1 	0.05
+[  35]endOfLineEnclosure	M2 VIA1 	0.05
+[  36]endOfLineEnclosure	M2 VIA2 	0.05
+[  37]endOfLineEnclosure	M3 VIA2 	0.05
+[  38]endOfLineEnclosure	M3 VIA3 	0.05
+[  39]endOfLineEnclosure	M4 VIA3 	0.05
+[  40]endOfLineEnclosure	M4 VIA4 	0.05
+[  41]endOfLineEnclosure	M5 VIA4 	0.05
+[  42]endOfLineEnclosure	M5 VIA5 	0.05
+[  43]endOfLineEnclosure	M6 VIA5 	0.05
+[  44]endOfLineEnclosure	M6 VIA6 	0.05
+[  45]endOfLineEnclosure	M7 VIA6 	0.05
+[  46]endOfLineEnclosure	M7 VIA7 	0.05
+[  47]endOfLineEnclosure	M8 VIA7 	0.05
+[  48]endOfLineEnclosure	M8 VIA8 	0.05
+[  49]endOfLineEnclosure	M9 VIA8 	0.05
+[  50]endOfLineEnclosure	DIFF CO 	0.05
+[  51]endOfLineEnclosure	PO CO 	0.05
+[  52]endOfLineEnclosure	M1 CO 	0.05
+*********************************************************************************
+
+                 List of Converted Constraints
+*********************************************************************************
+[   1]minWidth	NWELL 	0.65
+[   2]minSpacing	NWELL 	0.65
+[   3]minWidth	DIFF 	0.12
+[   4]minSpacing	DIFF 	0.14
+[   5]minArea	DIFF 	0.08
+[   6]minWidth	PO 	0.1
+[   7]minSpacing	PO 	0.18
+[   8]minWidth	PIMP 	0.24
+[   9]minSpacing	PIMP 	0.24
+[  10]minWidth	NIMP 	0.24
+[  11]minSpacing	NIMP 	0.24
+[  12]minWidth	CO 	0.13
+[  13]minSpacing	CO 	0.13
+[  14]minWidth	M1 	0.14
+[  15]minSpacing	M1 	0.14
+[  16]minArea	M1 	0.07
+[  17]minWidth	VIA1 	0.14
+[  18]minSpacing	VIA1 	0.16
+[  19]minWidth	M2 	0.16
+[  20]minSpacing	M2 	0.16
+[  21]minArea	M2 	0.07
+[  22]minWidth	VIA2 	0.14
+[  23]minSpacing	VIA2 	0.16
+[  24]minWidth	M3 	0.24
+[  25]minSpacing	M3 	0.16
+[  26]minArea	M3 	0.07
+[  27]minWidth	VIA3 	0.24
+[  28]minSpacing	VIA3 	0.16
+[  29]minWidth	M4 	0.16
+[  30]minSpacing	M4 	0.16
+[  31]minArea	M4 	0.07
+[  32]minClearance	NWELL DIFF 	0.62
+[  33]minClearance	PIMP DIFF 	0.14
+[  34]minClearance	NIMP DIFF 	0.14
+[  35]minClearance	CO PO 	0.12
+[  36]minClearance	CO DIFF 	0.12
+[  37]minClearance	DIFF PO 	0.05
+[  38]minClearance	RMARK CO 	0.24
+[  39]minClearance	NIMP PIMP 	0.24
+[  40]minClearance	NWELL DNW 	3.5
+[  41]minClearance	SBLK DIFF 	0.24
+[  42]minClearance	SBLK PO 	0.24
+[  43]minClearance	SBLK CO 	0.24
+*********************************************************************************

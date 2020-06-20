@@ -1,0 +1,301 @@
+Purging compare directory ... OK
+
+
+                                  ICV_Compare 
+
+           Version M-2017.06-1 for linux64 - Jun 19, 2017 cl#3706802
+
+                    Copyright (c) 1996 - 2017 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+LVS compare start time    : 2017-10-25 15:46:17
++------------------------------------------------------------------------+
+|                            Environment Status                          |
++------------------------------------------------------------------------+
+
+Hostname            = linux60806
+Platform type       = LINUX.64
+Runset file         = /DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs
+Working directory   = /DCNFS/users/student/yli1/ELEN153/lab4/synopsys_custom/pvjob_lab4.NAND.icv.lvs
+Top cell            = NAND
+Layout netlist      = /DCNFS/users/student/yli1/ELEN153/lab4/synopsys_custom/pvjob_lab4.NAND.icv.lvs/NAND.net
+Schematic netlist   = /DCNFS/users/student/yli1/ELEN153/lab4/synopsys_custom/pvjob_lab4.NAND.icv.lvs/NAND.sch_out
+User functions file = /opt/synopsys-2017/app/SAED/SAED_PDK90nm/icv/lvs/include/functions.rs
+Compare directory   = run_details/compare
+Equivalence file (-e) = <none>
+
++------------------------------------------------------------------------+
+|                             Setting Overview                           |
+|                 * = different from IC Validator default                |
++------------------------------------------------------------------------+
+
+    == Global Settings ==                     
+*   schematic global_nets                     = {VDD VDD12 VDD22 VSS VSS12 VDD22}
+    power nets                                
+*       schematic                             = {VDD VDD12 VDD22}
+*       layout                                = {VDD VDD12 VDD22}
+    ground nets                               
+*       schematic                             = {VSS VSS12 VDD22}
+*       layout                                = {VSS VSS12 VDD22}
+    join nets                                 
+        schematic                             = {}
+        layout                                = {}
+                                              
+    == Merge & Filter ==                      
+*   filter                                    = 29 device_names
+*   merge_parallel                            = 10 device_names
+        exclude_functions                     = 0 device_name
+*       property_functions                    = 10 device_names
+*   merge_series                              = 6 device_names
+        exclude_functions                     = 0 device_name
+        property_functions                    = 0 device_name
+        multiple_paths                        = 0 device_name
+        merge_connected_gates                 = 0 device_name
+    short_equivalent_nodes                    = 0 device_name
+        series_parallel_stack                 = 0 device_name
+    recognize_gate                            = 0 device_name
+        exclude_tolerances                    = 0 device_name
+                                              
+    == Property ==                            
+*   check_property                            = 31 device_names
+        check_function                        = 0 device_name
+    check_property_for_failed_equiv           = false
+*   multiply_width                            = false
+    recalculate_property                      = 0 device_name
+                                              
+    == Hierarchy ==                           
+*   memory_array_compare                      = false
+    push_down_devices                         = false
+*   push_down_pins                            = false
+    remove_dangling_net                       = LAYOUT_UNTEXTED
+                                              
+    == Netlist Definition ==                  
+    delete cells                              
+        schematic                             = {}
+        layout                                = {}
+    pin configuration                         
+*       swappable_pins                        = 29 device_names
+        ignore pins                           = 0 device_name
+    top_cell_ports_static                     = NAME_MATCHED
+    define_empty_cell_as_device               = NONE
+                                              
+    == Report ==                              
+    print_messages                            
+        equated_nets_list                     = true
+        equivalent_cell_list                  = true
+        invalid_user_equivs                   = true
+        matched_devices_unmatched_nets        = true
+        merged_nets_referenced                = true
+        netlist_stats                         = true
+        nets_promoted_to_pwr_gnd              = true
+        non_equivalent_cell_list              = true
+        port_xref_table                       = true
+        post_compare_stats                    = true
+        referenced_merged_devices             = true
+        swapped_pin_analysis                  = true
+        symmetrical_nodes_found               = true
+        uncompared_cell_list                  = true
+        all_merged_device_list                = false
+        instance_xref_table                   = false
+        filtered_device_list                  = false
+        series_device_list                    = false
+        net_xref_table                        = false
+        parallel_device_list                  = false
+        pre_merge_stats                       = false
+        black_box_signoff                     = true
+    print_devices_per_net_max                 = 10
+    error_limit_per_check                     = 1000
+*   write_equiv_netlists                      = ALL
+    print_detail                              
+        property                              = COORDINATES_AND_DEVICE_TYPES
+        xref_pin                              = NONE
+        device_pin                            = ALL
+    black_box_file                            = NONE
+    ignore_equiv_file                         = NONE
+                                              
+    == Equiv Control ==                       
+    generate_user_equivs                      = NONE
+    generate_system_equivs                    = true
+    spice_flow                                = false
+    user_unit_meter                           = false
+    ignore_equivs_with_devices_leveled_out    = false
+    equivs management                         
+*       action_on_error                       = EXPLODE
+        no_explode_condition                  = NONE
+        resolve_duplicate_equivs              = false
+        explode_imbalanced_equivs             = true
+    matching                                  
+        detect_permutable_ports               = false
+*       match_by_net_name                     = true
+        texted_zero_connection_ports          = IGNORE
+        black_box_static_ports                = NONE
+    match_condition                           
+        black_box_duplicates_equiv            = WARNING
+        property_mismatch                     = ERROR
+        missing_required_property             = ERROR
+        illegal_multiplier                    = ERROR
+*       equate_by_net_name_fails              = ERROR
+*       equate_nets_fails                     = ERROR
+        filtered_schematic_devices            = WARNING
+*       generate_global_nets                  = ERROR
+        matches_must_be_assumed               = WARNING
+*       merging_without_pwr_gnd               = ERROR
+        missing_black_box_cell                = WARNING
+        missing_black_box_port                = WARNING
+        missing_pin_connection                = WARNING
+        new_cell_created                      = WARNING
+        no_global_nets_found                  = WARNING
+        undefined_property_for_merged_device  = WARNING
+*       zero_value_property                   = ERROR
+        empty_cell_not_defined_as_device      = NONE
+*       layout_ports_without_name             = ERROR
+*       top_layout_ports_without_name         = ERROR
+*       nets_matched_with_different_name      = ERROR
+*       ports_matched_with_different_name     = ERROR
+        properties_contradict_connections     = NONE
+*       port_net_match_non_port_net           = ERROR
+*       top_schematic_port_net_match_non_port_net= WARNING
+*       top_layout_port_net_match_non_port_net= WARNING
+*       top_ports_matched_with_different_name = ERROR
+        top_schematic_ports_matched_with_different_or_missing_name= NONE
+        one_connection_non_port_net           = NONE
+*       zero_connection_net                   = ERROR
+    report_black_box_errors                   
+        extra_layout_ports                    = ERROR
+        untexted_layout_ports                 = NONE
+        extra_schematic_ports                 = ERROR
+                                              
+    == Case Sensitivity ==                    
+    netlist case sensitivity                  
+        schematic uppercase                   = false
+        layout uppercase                      = false
+    LVS case_sensitive                        = {PROPERTY NET_PORT DEVICE_NAME}
++------------------------------------------------------------------------+
+|                           Preprocessing Stage                          |
++------------------------------------------------------------------------+
+
+
+Reading schematic netlist ... 
+Reading schematic netlist Time=0:00:00  User=0.00 Sys=0.00 Mem=11.515
+
+Reading layout netlist ... 
+Reading layout netlist Time=0:00:00  User=0.00 Sys=0.00 Mem=17.874
+
+Reading Level File ...
+
+
+Processing schematic netlist ... 
+    Propagating schematic globals ... 
+    Propagating schematic globals Time=0:00:00  User=0.00 Sys=0.00 Mem=17.921
+Processing schematic Time=0:00:00  User=0.00 Sys=0.00 Mem=17.921
+
+
+Processing layout netlist ... 
+Processing layout Time=0:00:00  User=0.00 Sys=0.00 Mem=17.921
+
+
+Prefiltering devices ... 
+Prefiltering devices Time=0:00:00  User=0.00 Sys=0.00 Mem=17.952
+
+Removing dangling nets ... 
+Pushing down nets Time=0:00:00  User=0.00 Sys=0.00 Mem=17.983
+
+Creating tree files ... 
+    Schematic netlist top cell: NAND        Unique cell count: 1
+    Layout netlist top cell: NAND        Unique cell count: 1
+Creating tree files Time=0:00:00  User=0.00 Sys=0.00 Mem=17.967
+
+Determining system equivalence points ... 
+    The final equivalence point file: run_details/equiv.run.
+
+Determining system equivalence points Time=0:00:00  User=0.00 Sys=0.00 Mem=17.999
+
+Removed schematic cells: 
+    [none].
+
+Removed layout cells: 
+    [none].
+
+Checking equivalence points Time=0:00:00  User=0.00 Sys=0.00 Mem=17.952
+
+Preprocessing stage finished successfully.
+Preprocessing stage Time=0:00:01  User=0.05 Sys=0.02 Mem=19.256
+
++------------------------------------------------------------------------+
+|                             Comparing Stage                            |
++------------------------------------------------------------------------+
+
++------------------------------------------------------------+
+|                           Level 0                          |
++------------------------------------------------------------+
+
+
+TOP Equivalence point: [NAND, NAND] Level = 0
+
+    Flattening netlists ... 
+        schematic total device and net count: 6 8 
+
+        layout total device and net count: 6 8 
+
+    Flattening Time=0:00:00  User=0.00 Sys=0.00 Mem=21.599
+
+    Merging and filtering devices ... 
+    Merging and filtering Time=0:00:00  User=0.00 Sys=0.00 Mem=21.506
+
+    Comparing circuit logic ... 
+        Matching unique nets/devices ... 
+        Matching 100% elements Time=0:00:00  User=0.00 Sys=0.00 Mem=21.475
+
+        Resolving symmetrical elements Time=0:00:00  User=0.00 Sys=0.00 Mem=21.475
+
+    Comparing device properties ... 
+    Comparing properties Time=0:00:00  User=0.00 Sys=0.00 Mem=21.490
+
+    Writing equiv netlists ...
+    Writing Time=0:00:00  User=0.00 Sys=0.00 Mem=23.514
+
+    Writing cross-reference database ... 
+    Writing Time=0:00:00  User=0.00 Sys=0.00 Mem=23.514
+
+Result: PASS [NAND, NAND]
+    Summary file: run_details/compare/NAND/sum.NAND.NAND
+
+Elapsed Time=0:00:00  User=0.01 Sys=0.00 Mem=23.514
+
++------------------------------------------------------------+
+|                                                            |
+|Level 0:                                                    |
+|                                                            |
+|    Passed equivalence point(s):                            |
+|        NAND == NAND                                        |
+|                                                            |
+|    Level 0 Time=0:00:00  User=0.01 Sys=0.00 Mem=23.514     |
+|                                                            |
++------------------------------------------------------------+
+
+Clean-up all unresolved suspended equivalence points.
+Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=17.999
++------------------------------------------------------------------------+
+|                           ICV_Compare Summary                          |
++------------------------------------------------------------------------+
+
+    Categorized by pass or fail: 
+
+        1 passed equivalence point(s): 
+            NAND == NAND  (level 0)
+
+
+0 blackbox cells checked:
+    0 passed
+    0 failed
+
+1 equivalence points checked:
+    1 passed
+    0 failed
+Final Comparison Result:PASS
+
+LVS compare end time      : 2017-10-25 15:46:18
+Total runtime for LVS compare Time=0:00:01  User=0.07 Sys=0.06 Mem=23.514

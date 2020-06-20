@@ -1,0 +1,179 @@
+Parsing option_file: netlist.tech (EX-304)
+Running Amd_64b    
+$LD_LIBRARY_PATH=/opt/synopsys-2017/app/starrc/M-2017.06/linux64_starrc/lib:/opt/synopsys-2017/app/starrc/M-2017.06/linux64_starrc/lib/std_oa/linux64/lib/opt:/opt/synopsys-2017/app/starrc/M-2017.06/lib:/opt/synopsys-2017/app/starrc/M-2017.06/lib/std_oa/M-2017.06/lib/opt:/opt/synopsys-2017/app/starrc/M-2017.06/linux64_starrc/lib:/opt/synopsys-2017/app/starrc/M-2017.06/linux64_starrc/lib/std_oa/linux64/lib/opt:/DCNFS/applications/synopsys/2017/app/starrc/M-2017.06/linux64_starrc/lib:/DCNFS/applications/synopsys/2017/app/starrc/M-2017.06/linux64_starrc/lib/oa_qscm_2017.03_prod/amd64/lib/opt
+/DCNFS/applications/synopsys/2017/app/starrc/M-2017.06/linux64_starrc/lib/oa_qscm_2017.03_prod/linux64/lib/opt
+/DCNFS/applications/synopsys/2017/app/starrc/M-2017.06/linux64_starrc/lib/oa_qscm_2017.03_prod/suse64/lib/opt:/usr/lib:.:.
+$TCL_LIBRARY=/opt/synopsys-2017/app/starrc/M-2017.06/etc/auxx/tcllib/lib/tcl8.6
+loading /opt/synopsys-2017/app/starrc/M-2017.06/linux64_starrc/lib/liboaStar-O.so
+WARNING: INTERNAL Warning: via top_height (0) < bottom_height (4.072) on db layer (top_via) (EX-204)
+Could not open file parallel_devices
+Could not open file parallel_devices
+OA lib version: 22.50.029
+OaOpenLibDefListObserver::onPostOpenLibs:
+Got Lib Def: Logical Library Name = snpsDefTechLib
+Got Lib Def: Logical Library Name = basic
+Got Lib Def: Logical Library Name = analogLib
+Got Lib Def: Logical Library Name = verilogaLib
+Got Lib Def: Logical Library Name = sheets
+Got Lib Def: Logical Library Name = sample
+Got Lib Def: Logical Library Name = parasitics
+Got Lib Def: Logical Library Name = SAED_PDK_90
+Got Lib Def: Logical Library Name = reference
+Got Lib Def: Logical Library Name = lab3
+lib dmSystemName: oaDMFileSys
+lib path: /DCNFS/users/student/yli1/ELEN153/lab3/lab3
+Unable to set references on tech because conflicts would result.
+unitStr: micron xoutDbu: 10 xinDbu: 10 hnDbu: 1 techDbu: 1000 makersize: 100
+done init design ... init mappers
+OaParasiticViewWriter initMappers
+WARNING: Detected multiple definitions for model 'n12' in the device mapping file. The latest
+         definition overrides all previous definitions. (EX-1980)
+WARNING: Detected multiple definitions for model 'n12_hvt' in the device mapping file. The latest
+         definition overrides all previous definitions. (EX-1980)
+WARNING: Detected multiple definitions for model 'n12_lvt' in the device mapping file. The latest
+         definition overrides all previous definitions. (EX-1980)
+WARNING: Detected multiple definitions for model 'p12' in the device mapping file. The latest
+         definition overrides all previous definitions. (EX-1980)
+WARNING: Detected multiple definitions for model 'p12_hvt' in the device mapping file. The latest
+         definition overrides all previous definitions. (EX-1980)
+WARNING: Detected multiple definitions for model 'p12_lvt' in the device mapping file. The latest
+         definition overrides all previous definitions. (EX-1980)
+WARNING: 'In layer mapping file line 1 'layer 'psub' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 1 'layer 'pwell' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 1 'layer 'pwell' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 2 'layer 'nwell' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 3 'layer 'pwell' undefined in technology library. (EX-1993)
+WARNING: INTERNAL Warning: unknown layer has been referenced: pdiffdio (EX-202)
+WARNING: INTERNAL Warning: unknown layer has been referenced: ndiffdio (EX-202)
+WARNING: 'In layer mapping file line 6 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 6 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 7 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 7 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 8 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 8 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 9 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 9 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 10 'layer 'pact' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 10 'layer 'pact' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 11 'layer 'nact' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 11 'layer 'nact' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 12 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 12 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 13 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 13 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 19 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 19 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 20 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 20 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 21 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 21 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 22 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 22 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 23 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 23 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 23 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 24 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 24 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 25 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 25 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 26 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 26 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 28 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 28 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 28 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 29 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 29 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 30 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 30 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 31 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 31 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 32 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 32 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 33 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 33 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 34 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 34 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 35 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 35 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 36 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 36 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 37 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 37 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 38 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 38 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 39 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 39 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 40 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 40 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 41 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 41 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 42 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 42 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 43 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 43 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 44 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 44 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 45 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 45 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 70 'layer 'v3' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 70 'layer 'v3' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 70 'layer 'v3' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 79 'layer 'cont' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 79 'layer 'cont' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 80 'layer 'cont' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 80 'layer 'cont' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 81 'layer 'cont' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 81 'layer 'cont' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 82 'layer 'cont' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 82 'layer 'cont' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 83 'layer 'cont' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 83 'layer 'cont' undefined in technology library. (EX-1993)
+Writing tech command to OA view...
+Done writing tech command.
+done init writers.
+Parasitic device model pres[starrc] is not defined, the default model pres will be used.
+Parasitic device model pcap[starrc] is not defined, the default model pcap will be used.
+done init formats.
+done init instance section.
+MultipleDeclareCircuitOutput filter is added
+done init circuit output.
+Completed   1%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.582
+Completed   3%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.582
+Completed   5%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.582
+Completed   7%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.582
+Completed   9%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.582
+Completed  11%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.582
+Completed  20%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.582
+Completed  30%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.582
+Completed  39%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.582
+Completed  49%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.582
+Completed  58%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.582
+Completed  67%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.582
+Completed  77%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.582
+Completed  86%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.582
+WARNING: Physical shape and presistor of design layer 'copoly' ('67') is not available in parasitic
+         view as there is no corresponding LPP in OA_LAYER_MAPPING_FILE. (EX-2000)
+WARNING: Physical shape and presistor of design layer 'codiff' ('66') is not available in parasitic
+         view as there is no corresponding LPP in OA_LAYER_MAPPING_FILE. (EX-2000)
+WARNING: Physical shape and presistor of design layer 'nwell_cont' ('65') is not available in
+         parasitic view as there is no corresponding LPP in OA_LAYER_MAPPING_FILE. (EX-2000)
+Completed  96%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.645
+WARNING: Physical shape and presistor of design layer 'pwell_cont' ('64') is not available in
+         parasitic view as there is no corresponding LPP in OA_LAYER_MAPPING_FILE. (EX-2000)
+Completed 100%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.645
+Xout2CircuitOutput::endBucket. Mem= 410.645
+Memory usage at the start of instance section: 410.645
+InstanceSection Time=00:00:00
+Memory usage at the end of instance section: 410.645
+Process ports from input netlist
+Write TotalNetCap value to each net group.
+OaParasiticViewWriter destructor
+Merging xin and writting to OA...
+Dumping merged xin to OA
+Done merging xin
+  
+Netlist       Elp=00:00:01 Cpu=00:00:00 Usr=0.3    Sys=0.1    Mem=410.6 
+xTractor      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=410.6 
+  
+Done          Elp=00:00:01 Cpu=00:00:00 Usr=0.3    Sys=0.1    Mem=410.6 
+

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Wed Oct 11 17:01:21 2017
+-->
+<synopsysFile version="1.1" name="synopsysRecentFiles">
+        <recentFiles>
+                <file cell="inverter_tb" mode="write" view="schematic" file="schematic" application="seSchematic" library="lab3"/>
+                <file cell="inverter_tb" mode="write" view="config" file="config.xml" application="deConfiguredDesign" library="lab3"/>
+                <file cell="inverter" mode="write" view="starrc" file="maskLayout" application="leLayout" library="lab3"/>
+                <file cell="inverter" mode="read" view="layout" file="maskLayout" application="leLayout" library="lab3"/>
+                <file cell="inverter" mode="write" view="symbol" file="schematicSymbol" application="seSymbol" library="lab3"/>
+        </recentFiles>
+</synopsysFile>

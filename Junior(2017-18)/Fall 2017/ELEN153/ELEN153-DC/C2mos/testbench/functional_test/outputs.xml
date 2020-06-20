@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon Nov 13 12:08:07 2017-->
+<file-format version="1.0" name="stateCategory">
+ <object version="1" type="saOutputs" name="outputs">
+  <collection name="customPlotModes">
+   <object type="wfCustomPlotMode" name="customPlotModes">
+    <attribute type="giString" value="### Custom WaveView session file (version M-2017.03-SP1 build May 20, ) ###&#xa;### saved at 13:09:24 on Fri Nov  3 2017 ###&#xa;wdf 0 &quot;resultsMap.xml&quot; load=used &quot;title=tran:tran&quot; &quot;atype=tran:tran&quot; &#xa;scalar list&#xa;waveview_begin 1  stack  offset=0 name_b=81 mntr_b=81 name_width=66 &quot;name=tran&quot; showtitle=true &quot;wvtitle=tran&quot; &#xa;  panel_begin linear pidx=0 spath=name+file xlabel=&quot;time(sec)&quot; ylabel=&quot;V&quot; &#xa;    line src=wdf lidx=0 fidx=0 &quot;delim=.^&quot; sigtype=1 &quot;name=clk&quot; attr=0:0:1:0 autoset=true alias=&quot;/CLK&quot; disp=show saeoutput=1 swphead=true swpline=true &#xa;  panel_end&#xa;  panel_begin linear pidx=1 spath=name+file xlabel=&quot;time(sec)&quot; ylabel=&quot;V&quot; &#xa;    line src=wdf lidx=0 fidx=0 &quot;delim=.^&quot; sigtype=1 &quot;name=d&quot; attr=5:5:1:0 autoset=true alias=&quot;/D&quot; disp=show saeoutput=1 swphead=true swpline=true &#xa;  panel_end&#xa;  panel_begin linear pidx=2 spath=name+file xlabel=&quot;time(sec)&quot; ylabel=&quot;V&quot; &#xa;    line src=wdf lidx=0 fidx=0 &quot;delim=.^&quot; sigtype=1 &quot;name=q&quot; attr=2:1:1:0 autoset=true alias=&quot;/Q&quot; disp=show saeoutput=1 swphead=true swpline=true &#xa;  panel_end&#xa;waveview_end&#xa;browserClosed&#xa;" name="config"/>
+    <attribute type="giString" value="custom1" name="name"/>
+   </object>
+  </collection>
+  <attribute type="giBoolean" value="1" name="importMeasures"/>
+  <attribute type="giString" value="default" name="outputSet"/>
+  <collection name="outputSets">
+   <object version="1" type="saOutputSet" name="outputSets">
+    <attribute type="giString" value="default" name="name"/>
+    <collection name="outputs"/>
+   </object>
+  </collection>
+  <attribute type="giString" value="custom1" name="plotMode"/>
+ </object>
+</file-format>

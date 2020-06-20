@@ -1,0 +1,31 @@
+
+                                  StarRC (TM)
+
+                 Version M-2017.06 for linux64 - May 23, 2017 
+
+                    Copyright (c) 1999 - 2017 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+ExecName: /opt/synopsys-2017/app/starrc/M-2017.06/linux64_starrc/bin/StarXtract
+Version: M-2017.06
+Built on: May 23 2017 19:32:33
+Start Time: Wed Nov 29 16:08:31 2017
+
+Host ............ linux60825
+
+
+SKIP_CELLS:
+< No skip_cells! >
+  
+ReadHNdb      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=200.9 
+NetSelect     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=200.9 
+CellSelect    Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=200.9 
+PlaceTerm     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=201.1 
+PlaceText     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=201.1 
+Db2Xin        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=201.1 
+Translate     Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=201.1 
+  
+Done          Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=201.1 

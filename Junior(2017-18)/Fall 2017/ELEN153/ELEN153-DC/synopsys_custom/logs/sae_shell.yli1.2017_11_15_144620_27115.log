@@ -1,0 +1,37 @@
+[14:46:21.70] /m Information: License 'SAE' checked out. (LICENSE-003)
+[14:46:23.79] /o sae_shell Version Custom Compiler M-2017.03-SP1-1
+              /c Build  (OPT) compiled on Thu Jun 29 08:54:37 2017 for RHEL64 6.6
+              /c Execution time: Wed Nov 15 14:46:20 2017
+              /c Host: linux60818
+              /c 
+              /c Copyright © 2004-2017 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[14:46:23.92] /o 	############################################
+[14:46:23.92] /o 	        Synopsys Generic 90nm iPDK          
+[14:46:23.92] /o 	--------------------------------------------
+[14:46:23.92] /o 	Release Date .............. : 11-May-2016    
+[14:46:23.92] /o 	============================================
+[14:46:23.92] /o 	        Recommended Tool Versions           
+[14:46:23.92] /o 	--------------------------------------------
+[14:46:23.92] /o 	Custom Designer ........... : J-2014.12-2    
+[14:46:23.92] /o 	IC Validator .............. : K-2015.12   
+[14:46:23.92] /o 	StarRC..................... : K-2015.12  
+[14:46:23.92] /o 	--------------------------------------------
+[14:46:23.92] /o 	############################################
+[14:46:23.92] /o 
+[14:46:23.94] /o SAED PDK 90: Loaded callbacks
+[14:46:23.95] /o SAED PDK 90: Loaded display resources
+[14:46:23.96] /i ::sa::_backgroundSaeShell::signalProcessReady 1510785979
+[14:46:23.96] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 4
+[14:51:24.97] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[14:51:25.07] /i ::sa::_backgroundSaeShell::parentRunning
+[14:51:25.07] /o 1510786285
+[14:56:25.99] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[14:56:26.07] /i ::sa::_backgroundSaeShell::parentRunning
+[14:56:26.07] /o 1510786586
+[14:59:00.96] /i ::sa::_backgroundSaeShell::exit
+[14:59:00.96] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting
+[14:59:01.24] /m Information: License 'Schematic' checked in. (LICENSE-004)
+[14:59:01.24] /m Information: License 'SAE' checked in. (LICENSE-004)

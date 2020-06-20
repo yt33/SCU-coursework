@@ -1,0 +1,41 @@
+[16:44:55.21] /m Information: License 'SAE' checked out. (LICENSE-003)
+[16:44:57.19] /o sae_shell Version Custom Compiler M-2017.03-SP1-1
+              /c Build  (OPT) compiled on Thu Jun 29 08:54:37 2017 for RHEL64 6.6
+              /c Execution time: Wed Nov 29 16:44:53 2017
+              /c Host: linux60825
+              /c 
+              /c Copyright © 2004-2017 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[16:44:57.26] /o 	############################################
+[16:44:57.26] /o 	        Synopsys Generic 90nm iPDK          
+[16:44:57.26] /o 	--------------------------------------------
+[16:44:57.26] /o 	Release Date .............. : 11-May-2016    
+[16:44:57.26] /o 	============================================
+[16:44:57.26] /o 	        Recommended Tool Versions           
+[16:44:57.26] /o 	--------------------------------------------
+[16:44:57.26] /o 	Custom Designer ........... : J-2014.12-2    
+[16:44:57.26] /o 	IC Validator .............. : K-2015.12   
+[16:44:57.26] /o 	StarRC..................... : K-2015.12  
+[16:44:57.26] /o 	--------------------------------------------
+[16:44:57.26] /o 	############################################
+[16:44:57.26] /o 
+[16:44:57.28] /o SAED PDK 90: Loaded callbacks
+[16:44:57.28] /o SAED PDK 90: Loaded display resources
+[16:44:57.29] /i ::sa::_backgroundSaeShell::signalProcessReady 1512002693
+[16:44:57.29] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 4
+[16:45:19.48] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession16 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[16:45:20.00] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[16:45:20.11] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.6 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession16 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[16:45:20.11] /o false
+[16:47:48.54] /i ::wf::viewerExited
+[16:47:52.32] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession16 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[16:47:52.84] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.5 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession16 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[16:47:52.84] /o false
+[16:51:09.92] /i ::wf::viewerExited
+[16:52:01.47] /i ::sa::_backgroundSaeShell::exit
+[16:52:01.47] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting
+[16:52:01.90] /m Information: License 'Advanced' checked in. (LICENSE-004)
+[16:52:01.90] /m Information: License 'Basic' checked in. (LICENSE-004)
+[16:52:01.90] /m Information: License 'SAE' checked in. (LICENSE-004)

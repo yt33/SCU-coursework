@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Tue Nov 28 21:27:51 2017
+-->
+<synopsysFile version="1.0" name="synopsysFavoriteDevices">
+        <favoriteDevices viewType="maskLayout">
+                <cellView cell="inverter" view="layout" library="C2mos">
+                        <alias name="inverter"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView cell="C2MOS-register" view="layout" library="C2mos">
+                        <alias name="C2MOS-register"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+        </favoriteDevices>
+        <favoriteDevices viewType="schematic">
+                <cellView cell="inverter" view="symbol" library="C2mos">
+                        <alias name="inverter"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+        </favoriteDevices>
+</synopsysFile>

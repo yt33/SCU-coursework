@@ -1,0 +1,299 @@
+
+                                  StarRC (TM)
+
+                 Version M-2017.06 for linux64 - May 23, 2017 
+
+                    Copyright (c) 1999 - 2017 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+ExecName: /opt/synopsys-2017/app/starrc/M-2017.06/linux64_starrc/bin/StarXtract
+Version: M-2017.06
+Built on: May 23 2017 19:32:33
+Start Time: Wed Oct 11 16:19:30 2017
+
+Host ............ linux60814
+
+xTractorName: /opt/synopsys-2017/app/starrc/M-2017.06/linux64_starrc/bin/xTractor
+Version: M-2017.06
+Built on: May 23 2017 19:32:23
+WARNING: Command -clean is obsoleted for GATE level extraction and turned on by default. (SX-3582)
+
+Block ........... inverter
+Star Directory .. /DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/inverter.starrc.lpe/star
+Milkyway DB .....
+ /DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.lvs/XTROUT
+ Ref Libs Report is skipped.
+  Setup         Elp=00:00:01 Cpu=00:00:00 Usr=0.6    Sys=0.0    Mem=438.2 
+Done
+
+Map Layers:  Wed Oct 11 16:19:31 2017
+WARNING: The precedence is not set for ignored cap layer: nwnr (SX-1794)
+WARNING: The precedence is not set for ignored cap layer: pwell (SX-1794)
+WARNING: The precedence is not set for layers mapped to substrate in the mapping file when
+         TRANSLATE_RETAIN_BULK_LAYERS:YES or CONLY is specified in your command file. Accuracy can
+         be affected. Check the order of substrate layer and set precedence for them in your
+ mapping
+         file whenever the TRANSLATE_RETAIN_BULK_LAYERS:YES or CONLY command is used. (SX-1790)
+WARNING: Connectivity of VIA layer "top_via" is incorrectly assigned. Check Technology (e.g. LEF)
+ or
+         Mapping file. (SX-3657)
+  Warnings: 4    Errors: 0    (See file summary/layers.sum)
+  Layers        Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=438.3 
+Done
+
+Create Models:  Wed Oct 11 16:19:31 2017
+  Warnings: 0    Errors: 0
+  Models        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=438.3 
+Done
+
+Build HN:  Wed Oct 11 16:19:31 2017
+  Warnings: 0    Errors: 0
+  HN            Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.1    Mem=438.3 
+Done
+
+Build XrefHN:  Wed Oct 11 16:19:32 2017
+  Warnings: 0    Errors: 0
+  XrefHN        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=204.3 
+Done
+
+Process Cells:  Wed Oct 11 16:19:32 2017
+  Warnings: 0    Errors: 0
+  Cells         Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=438.3 
+Done
+
+Translate DB:  Wed Oct 11 16:19:32 2017
+  Warnings: 0    Errors: 0
+  Translate     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=201.1 
+Done
+
+Netlist Setup:  Wed Oct 11 16:19:32 2017
+  Warnings: 0    Errors: 0
+  NetlistSetup  Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=200.9 
+Done
+
+xTract DB:  Wed Oct 11 16:19:32 2017
+WARNING: INTERNAL Warning: via top_height (0) < bottom_height (4.072) on db layer (top_via)
+ (EX-204)
+Completed  20%  Time=00:00:00  RemainingTime=00:00:00  Mem=260.359
+Completed  60%  Time=00:00:00  RemainingTime=00:00:00  Mem=260.359
+Completed 100%  Time=00:00:00  RemainingTime=00:00:00  Mem=260.359
+Extracted 165 capacitors, 122 resistors, 106 nodes
+Reduced to 53 nodes,  (50%)
+Reduced to 53 resistors,  (56.5574%)
+Reduced to 114 capacitors: 92 Cc and 22 Cg (30.9091%)
+  Warnings: 1    Errors: 0    (See file summary/xtract.sum)
+  xTract        Elp=00:00:01 Cpu=00:00:00 Usr=0.2    Sys=0.0    Mem=260.4 
+Done
+
+xTract Post Process DB:  Wed Oct 11 16:19:33 2017
+WARNING: INTERNAL Warning: via top_height (0) < bottom_height (4.072) on db layer (top_via)
+ (EX-204)
+Completed  20%  Time=00:00:00  RemainingTime=00:00:00  Mem=145.293
+Completed  40%  Time=00:00:00  RemainingTime=00:00:00  Mem=145.293
+Completed  60%  Time=00:00:00  RemainingTime=00:00:00  Mem=145.293
+Completed  80%  Time=00:00:00  RemainingTime=00:00:00  Mem=145.293
+Completed 100%  Time=00:00:00  RemainingTime=00:00:00  Mem=145.293
+  Warnings: 1    Errors: 0    (See file summary/split_netlist.sum)
+  xTractPP      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=145.3 
+Done
+
+Report Violations:  Wed Oct 11 16:19:33 2017
+  Warnings: 0    Errors: 0
+  ReportViolations Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=200.9 
+Done
+
+Netlist DB:  Wed Oct 11 16:19:33 2017
+WARNING: INTERNAL Warning: via top_height (0) < bottom_height (4.072) on db layer (top_via)
+ (EX-204)
+WARNING: Detected multiple definitions for model 'n12' in the device mapping file. The latest
+         definition overrides all previous definitions. (EX-1980)
+WARNING: Detected multiple definitions for model 'n12_hvt' in the device mapping file. The latest
+         definition overrides all previous definitions. (EX-1980)
+WARNING: Detected multiple definitions for model 'n12_lvt' in the device mapping file. The latest
+         definition overrides all previous definitions. (EX-1980)
+WARNING: Detected multiple definitions for model 'p12' in the device mapping file. The latest
+         definition overrides all previous definitions. (EX-1980)
+WARNING: Detected multiple definitions for model 'p12_hvt' in the device mapping file. The latest
+         definition overrides all previous definitions. (EX-1980)
+WARNING: Detected multiple definitions for model 'p12_lvt' in the device mapping file. The latest
+         definition overrides all previous definitions. (EX-1980)
+WARNING: 'In layer mapping file line 1 'layer 'psub' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 1 'layer 'pwell' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 1 'layer 'pwell' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 2 'layer 'nwell' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 3 'layer 'pwell' undefined in technology library. (EX-1993)
+WARNING: INTERNAL Warning: unknown layer has been referenced: pdiffdio (EX-202)
+WARNING: INTERNAL Warning: unknown layer has been referenced: ndiffdio (EX-202)
+WARNING: 'In layer mapping file line 6 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 6 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 7 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 7 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 8 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 8 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 9 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 9 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 10 'layer 'pact' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 10 'layer 'pact' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 11 'layer 'nact' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 11 'layer 'nact' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 12 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 12 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 13 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 13 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 19 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 19 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 20 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 20 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 21 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 21 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 22 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 22 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 23 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 23 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 23 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 24 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 24 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 25 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 25 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 26 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 26 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 28 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 28 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 28 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 29 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 29 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 30 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 30 'layer 'diff' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 31 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 31 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 32 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 32 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 33 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 33 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 34 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 34 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 35 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 35 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 36 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 36 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 37 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 37 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 38 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 38 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 39 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 39 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 40 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 40 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 41 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 41 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 42 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 42 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 43 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 43 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 44 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 44 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 45 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 45 'layer 'poly' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 70 'layer 'v3' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 70 'layer 'v3' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 70 'layer 'v3' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 79 'layer 'cont' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 79 'layer 'cont' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 80 'layer 'cont' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 80 'layer 'cont' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 81 'layer 'cont' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 81 'layer 'cont' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 82 'layer 'cont' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 82 'layer 'cont' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 83 'layer 'cont' undefined in technology library. (EX-1993)
+WARNING: 'In layer mapping file line 83 'layer 'cont' undefined in technology library. (EX-1993)
+Completed   1%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.582
+Completed   3%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.582
+Completed   5%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.582
+Completed   7%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.582
+Completed   9%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.582
+Completed  11%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.582
+Completed  20%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.582
+Completed  30%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.582
+Completed  39%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.582
+Completed  49%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.582
+Completed  58%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.582
+Completed  67%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.582
+Completed  77%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.582
+Completed  86%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.582
+WARNING: Physical shape and presistor of design layer 'copoly' ('67') is not available in parasitic
+         view as there is no corresponding LPP in OA_LAYER_MAPPING_FILE. (EX-2000)
+WARNING: Physical shape and presistor of design layer 'codiff' ('66') is not available in parasitic
+         view as there is no corresponding LPP in OA_LAYER_MAPPING_FILE. (EX-2000)
+WARNING: Physical shape and presistor of design layer 'nwell_cont' ('65') is not available in
+         parasitic view as there is no corresponding LPP in OA_LAYER_MAPPING_FILE. (EX-2000)
+Completed  96%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.645
+WARNING: Physical shape and presistor of design layer 'pwell_cont' ('64') is not available in
+         parasitic view as there is no corresponding LPP in OA_LAYER_MAPPING_FILE. (EX-2000)
+Completed 100%  Time=00:00:00  RemainingTime=00:00:00  Mem=410.645
+  Warnings: 101    Errors: 0    (See file summary/netlist.sum)
+  Netlist       Elp=00:00:01 Cpu=00:00:00 Usr=0.3    Sys=0.1    Mem=410.6 
+Done
+  
+Setup            Elp=00:00:01 Cpu=00:00:00 Usr=0.6    Sys=0.0    Mem=438.2 
+Layers           Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=438.3 
+Models           Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=438.3 
+HN               Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.1    Mem=438.3 
+XrefHN           Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=204.3 
+Cells            Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=438.3 
+Translate        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=201.1 
+NetlistSetup     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=200.9 
+xTract           Elp=00:00:01 Cpu=00:00:00 Usr=0.2    Sys=0.0    Mem=260.4 
+xTractPP         Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=145.3 
+ReportViolations Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=200.9 
+Netlist          Elp=00:00:01 Cpu=00:00:00 Usr=0.3    Sys=0.1    Mem=410.6 
+  
+Done          Elp=00:00:03 Cpu=00:00:01 Usr=1.4    Sys=0.2    Mem=438.3 
+
+End Time: Wed Oct 11 16:19:34 2017
+
+
+
+RUN-TIME SUMMARY:
+----------------------------------------------------------------------------------------------
+CPU#   | STAGE SUMMARY                                            |END TIME        |HOST NAME
+----------------------------------------------------------------------------------------------
+CPU_01 |*Setup               Elp=00:00:01 Cpu=00:00:00 Mem=438.2  |Oct 11 16:19:31 |linux60814
+CPU_01 |*Layers              Elp=00:00:00 Cpu=00:00:00 Mem=438.3  |Oct 11 16:19:31 |linux60814
+CPU_01 |*Models              Elp=00:00:00 Cpu=00:00:00 Mem=438.3  |Oct 11 16:19:31 |linux60814
+CPU_01 |*HN                  Elp=00:00:00 Cpu=00:00:00 Mem=438.3  |Oct 11 16:19:32 |linux60814
+CPU_01 |*XrefHN              Elp=00:00:00 Cpu=00:00:00 Mem=204.3  |Oct 11 16:19:32 |linux60814
+CPU_01 |*Cells               Elp=00:00:00 Cpu=00:00:00 Mem=438.3  |Oct 11 16:19:32 |linux60814
+CPU_01 |*Translate           Elp=00:00:00 Cpu=00:00:00 Mem=201.1  |Oct 11 16:19:32 |linux60814
+CPU_01 |*xTract              Elp=00:00:00 Cpu=00:00:00 Mem=200.9  |Oct 11 16:19:32 |linux60814
+CPU_01 |*xTract              Elp=00:00:01 Cpu=00:00:00 Mem=260.4  |Oct 11 16:19:33 |linux60814
+CPU_01 |*xTractPP            Elp=00:00:00 Cpu=00:00:00 Mem=145.3  |Oct 11 16:19:33 |linux60814
+CPU_01 |*ReportViolations    Elp=00:00:00 Cpu=00:00:00 Mem=200.9  |Oct 11 16:19:33 |linux60814
+CPU_01 |*Netlist             Elp=00:00:01 Cpu=00:00:00 Mem=410.6  |Oct 11 16:19:34 |linux60814
+----------------------------------------------------------------------------------------------
+Start Time: Wed Oct 11 16:19:31 2017
+End Time: Wed Oct 11 16:19:34 2017
+----------------------------------------------------------------------------------------------
+Overall:         Elp=00:00:03  Cpu=00:00:01
+PreXtraction:    Elp=00:00:01  Cpu=00:00:00
+Xtraction:       Elp=00:00:01  Cpu=00:00:00
+PostXtraction:   Elp=00:00:01  Cpu=00:00:00
+----------------------------------------------------------------------------------------------
+
+
+
+Message Summary:
+----------------------------------------------------------------------------------------------
+EX-1980 (x   6)|Warning      |DETECTED MULTIPLE DEFINITIONS FOR MODEL '()' IN THE DEVICE MAPPING FILE. THE LATEST DEFINITION OVERRIDES ALL PREVIOUS DEFINITIONS.
+EX-1993 (x  88)|Warning      |'()'LAYER '()' UNDEFINED IN TECHNOLOGY LIBRARY.
+EX-2000 (x   4)|Warning      |PHYSICAL SHAPE AND PRESISTOR OF DESIGN LAYER '()' ('()') IS NOT AVAILABLE IN PARASITIC VIEW AS THERE IS NO CORRESPONDING LPP IN OA_LAYER_MAPPING_FILE.
+EX-202  (x   2)|Warning      |INTERNAL WARNING: UNKNOWN LAYER HAS BEEN REFERENCED: ()
+EX-204  (x   3)|Warning      |INTERNAL WARNING: VIA TOP_HEIGHT (()) < BOTTOM_HEIGHT (()) ON DB LAYER (())
+SX-1790 (x   1)|Warning      |THE PRECEDENCE IS NOT SET FOR LAYERS MAPPED TO SUBSTRATE IN THE MAPPING FILE WHEN TRANSLATE_RETAIN_BULK_LAYERS:YES OR CONLY IS SPECIFIED IN YOUR COMMAND FILE. ACCURACY CAN BE AFFECTED. CHECK THE ORDER OF SUBSTRATE LAYER AND SET PRECEDENCE FOR THEM IN YOUR MAPPING FILE WHENEVER THE TRANSLATE_RETAIN_BULK_LAYERS:YES OR CONLY COMMAND IS USED.
+SX-1794 (x   2)|Warning      |THE PRECEDENCE IS NOT SET FOR IGNORED CAP LAYER: ()
+SX-3582 (x   1)|Warning      |COMMAND -CLEAN IS OBSOLETED FOR GATE LEVEL EXTRACTION AND TURNED ON BY DEFAULT.
+SX-3657 (x   1)|Warning      |CONNECTIVITY OF VIA LAYER "()" IS INCORRECTLY ASSIGNED. CHECK TECHNOLOGY (E.G. LEF) OR MAPPING FILE.
+

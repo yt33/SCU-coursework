@@ -1,0 +1,44 @@
+<module name="vsl: lab2 testbench_inverter schematic vl: hspice hspiceD schematic spice veriloga">
+<scope name="Instance">
+<forward>
+<mapping src="Vin" dst="vin"/>
+<mapping src="Vdd" dst="vdd"/>
+<mapping src="I7" dst="xi7"/>
+</forward>
+<reverse>
+<mapping src="vin" dst="Vin"/>
+<mapping src="vdd" dst="Vdd"/>
+<mapping src="xi7" dst="I7"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward>
+<mapping src="Vout" dst="vout"/>
+<mapping src="Vin" dst="vin"/>
+</forward>
+<reverse>
+<mapping src="vout" dst="Vout"/>
+<mapping src="vin" dst="Vin"/>
+</reverse>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst=""/>
+<mapping src="&lt;termOrder>" dst=""/>
+</forward>
+<reverse>
+<mapping src="" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="inverter">
+<instance name="I7"/>
+</instance_header>
+<instance_header master="vdc">
+<instance name="Vdd"/>
+</instance_header>
+<instance_header master="vsin">
+<instance name="Vin"/>
+</instance_header>
+</master_instances>
+</module>

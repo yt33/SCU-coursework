@@ -1,0 +1,10 @@
+Using: /opt/synopsys-2017/app/hspice/M-2017.03-SP1-1/hspice/linux64/hspice  -i '/DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/netlist/input.spi' -o hspice
+
+****************HSPICE Analysis Details**************************************
+Analysis: DC
+
+100.00% Elapsed Sweep: 121 Estimated Time Left: 0:00:00        
+*****************************************************************************
+Job Done!
+
+>info:         ***** hspice job concluded

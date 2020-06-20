@@ -1,0 +1,36 @@
+[15:53:22.12] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version M-2017.03-SP1-1 for linux64 - Jun 29, 2017 
+              /c 
+              /c                     Copyright (c) 2004 - 2017 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 3718339 compiled on Thu Jun 29 08:54:37 2017 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2017/app/customcompiler/M-2017.03-SP1-1/linux64/platform/bin/custom_compiler
+              /c Execution time: Tue Nov 28 15:53:20 2017
+              /c Host: linux60821
+              /c Working directory: /DCNFS/users/student/yli1/ELEN153/C2mos
+              /c 
+[15:53:24.87] /w Warning: The file 'lib.defs' does not exist in search path (DATA_MANAGEMENT-013)
+[15:53:24.89] /r giShowFrameTabs true
+[15:53:24.89] /r giWindowId 1
+[15:53:24.89] /r giWindowGeometry 1040x800
+[15:53:41.19] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[15:53:41.19] /# 
+[15:53:41.19] /i dm::openLibraryManager
+[15:53:41.19] /r giWindowId 2
+[15:53:41.19] /r giWindowGeometry 660x600+50+75
+[15:53:41.22] /o oa:0x244314a0
+[15:53:45.08] /i exit
+[15:53:45.10] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[15:53:45.40] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 420x183+750+508
+[15:53:46.30] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[15:53:46.32] /i gi::setActiveWindow 1
+[15:53:46.32] /i gi::setActiveWindow 1 -raise true
+[15:53:46.50] /o Shutdown time: Tue Nov 28 15:53:46 2017
+[15:53:46.50] /o Elapsed session real time: 0.41 minutes
+[15:53:46.50] /o Session terminated. Log is at /DCNFS/users/student/yli1/ELEN153/C2mos/synopsys_custom/logs/ccompiler.yli1.2017_11_28_155320_4947.log

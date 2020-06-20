@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed Nov 29 17:40:33 2017-->
+<file-format version="1.0" name="saResults">
+ <object version="1" type="saResults" name="saResults">
+  <attribute type="giString" value="resultsMap.xml" name="name"/>
+  <attribute type="giString" value="../netlist" name="netlistDir"/>
+  <collection name="resultFiles">
+   <object version="1" type="saResultFile" name="resultFiles">
+    <attribute type="giString" value="tran" name="analysisName"/>
+    <attribute type="giString" value="hspice.tr0" name="filename"/>
+    <attribute type="giString" value="psf" name="format"/>
+    <attribute type="giString" value="tran" name="resultType"/>
+   </object>
+   <object version="1" type="saResultFile" name="resultFiles">
+    <attribute type="giString" value="" name="analysisName"/>
+    <attribute type="giString" value="designVariables.wdf" name="filename"/>
+    <attribute type="giString" value="wdf" name="format"/>
+    <attribute type="giString" value="variables" name="resultType"/>
+   </object>
+  </collection>
+  <attribute type="giString" value="." name="resultsDir"/>
+  <attribute type="giString" value="Wed Nov 29 17:40:33 2017" name="runTime"/>
+  <attribute type="giString" value="HSPICE" name="simulator"/>
+  <attribute type="giString" value="" name="version"/>
+ </object>
+</file-format>

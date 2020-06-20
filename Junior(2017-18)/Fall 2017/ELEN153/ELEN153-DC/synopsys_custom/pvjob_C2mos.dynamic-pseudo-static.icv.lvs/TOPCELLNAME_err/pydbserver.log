@@ -1,0 +1,64 @@
+
+                                  PYDB_Server 
+
+           Version M-2017.06-1 for linux64 - Jun 19, 2017 cl#3706802
+
+                    Copyright (c) 2007 - 2017 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+variable width coordinate support enabled.
+Removing old database /DCNFS/users/student/yli1/ELEN153/synopsys_custom/pvjob_C2mos.dynamic-pseudo-static.icv.lvs/TOPCELLNAME_err/PYDB_dynamic_pseudo_static
+Listening for connections on port 8645
+PYDB_Server Started on host linux60825, Wed 11/29/2017 17:53:56
+Client linux60825(27019):5 connected (1 total client)
+Verified current licenses.
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.10.0
+Client linux60825(27061):12 connected (2 total clients)
+Client linux60825(27059):13 connected (3 total clients)
+Client linux60825(27061):12 disconnected (2 clients remain)
+Client linux60825(27061):12 connected (3 total clients)
+Begin error insertion: /DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:738:text_net:text_open_merge
+Error insertion complete: /DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:738:text_net:text_open_merge
+  Error Insertion Time=0:00:00  User=0.01 Sys=0.00 Mem=0.523 SQLite=6.540 Unpooled=0.054
+Client linux60825(27061):12 disconnected (2 clients remain)
+Client linux60825(27059):13 disconnected (1 client remains)
+ Total error insertion Time=0:00:04  User=0.01 Sys=0.00 Mem=0.562 SQLite=6.540 Unpooled=0.054
+  Total Commands: 1
+  Total Errors: 3
+  Avg Time/Cmd: Wall=0 User=0.01 Sys=0.00 Mem=0.523 MySQL Mem=0.054
+Generating /DCNFS/users/student/yli1/ELEN153/synopsys_custom/pvjob_C2mos.dynamic-pseudo-static.icv.lvs/dynamic-pseudo-static.LAYOUT_ERRORS
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.866
+Shutdown requested by client linux60825(27019):5
+0 clients remain connected
+Client linux60825(27019):5 disconnected (0 clients remain)
+Overall server Time=0:00:10  User=0.03 Sys=0.04 Mem=0.866 SQLite=6.540 Unpooled=0.063
+
+                                  PYDB_Server 
+
+           Version M-2017.06-1 for linux64 - Jun 19, 2017 cl#3706802
+
+                    Copyright (c) 2007 - 2017 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+variable width coordinate support enabled.
+Listening for connections on port 8570
+PYDB_Server Started on host linux60825, Wed 11/29/2017 17:54:08
+Client linux60825(27145):6 connected (1 total client)
+Verified current licenses.
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.10.0
+Client linux60825(27145):6 disconnected (0 clients remain)
+Overall server Time=0:20:14  User=0.01 Sys=0.01 Mem=0.390 SQLite=6.472 Unpooled=0.044

@@ -1,0 +1,101 @@
+conducting_layers
+
+psub SUBSTRATE 
+nwnr SUBSTRATE 
+pwell SUBSTRATE 
+pdiffdio DIFF rpsq=0 
+ndiffdio DIFF rpsq=0 
+nsd DIFF rpsq=0 
+psd DIFF rpsq=0 
+ptap DIFF rpsq=0 
+ntap DIFF rpsq=0 
+psdr DIFF rpsq=0 
+nsdr DIFF rpsq=0 
+nsdv DIFF rpsq=0 
+psdv DIFF rpsq=0 
+indterm M5 rpsq=0 
+term1 M2 rpsq=0 
+term2 M3 rpsq=0 
+term3 M4 rpsq=0 
+term4 M5 rpsq=0 
+BJT_BASE_PNP DIFF rpsq=0 
+BJT_COLL_PNP DIFF rpsq=0 
+BJT_EMIT_PNP DIFF rpsq=0 
+BJT_COLL_NPN DIFF rpsq=0 
+BJT_EMIT_NPN DIFF rpsq=0 
+BJT_BASE_NPN DIFF rpsq=0 
+ngatepl POLY rpsq=0 
+pgatepl POLY rpsq=0 
+subtie_scon  SUBSTRATE 
+subtie SUBSTRATE 
+pdores DIFF rpsq=0 
+ndores  DIFF rpsq=0 
+ngate_12 POLY rpsq=0 
+pgate_12 POLY rpsq=0 
+ngate_25 POLY rpsq=0 
+pgate_25 POLY rpsq=0 
+ngate_33 POLY rpsq=0 
+pgate_33 POLY rpsq=0 
+ngate_12_lvt POLY rpsq=0 
+pgate_12_lvt POLY rpsq=0 
+ngate_12_hvt POLY rpsq=0 
+pgate_12_hvt POLY rpsq=0 
+ponr POLY rpsq=0 
+ppores POLY rpsq=0 
+npores POLY rpsq=0 
+ppores_sblk POLY rpsq=0 
+npores_sblk POLY rpsq=0 
+m1 M1 
+m1res M1 rpsq=0 
+M2 M2 
+m2res M2 rpsq=0 
+M3 M3 
+m3res M3 rpsq=0 
+M4 M4 
+m4res M4 rpsq=0 
+M5 M5 
+m5res M5 rpsq=0 
+M6 M6 
+m6res M6 rpsq=0 
+M7 M7 
+m7res M7 rpsq=0 
+M8 M8 
+m8res M8 rpsq=0 
+M9 M9 
+m9res M9 rpsq=0 
+top_metex M4 
+sec_top_met M4 
+
+via_layers
+
+pwell_cont SUBCONT 
+nwell_cont SUBCONT 
+codiff DIFFCONT 
+copoly POLYCONT 
+top_via VIA4 
+via1 VIA1 
+via2 VIA2 
+via3 VIA3 
+via4 VIA4 
+via5 VIA5 
+via6 VIA6 
+via7 VIA7 
+via8 VIA8 
+BJT_BASE_cont_NPN DIFFCONT 
+BJT_BASE_cont_PNP DIFFCONT 
+BJT_COLL_cont_PNP DIFFCONT 
+BJT_EMIT_cont_PNP DIFFCONT 
+BJT_COLL_cont_NPN DIFFCONT 
+
+marker_layers
+
+m1pin_marker 
+m2pin_marker 
+m3pin_marker 
+m4pin_marker 
+m5pin_marker 
+m6pin_marker 
+m7pin_marker 
+m8pin_marker 
+m9pin_marker 
+

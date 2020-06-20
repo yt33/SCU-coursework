@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed Nov 29 17:36:10 2017-->
+<file-format version="1.0" name="netlisting-timestamps">
+<module configTimeStamp="3668123146" contextID="switched: C2mos testbench schematic vl: schematic hspice sl: config:C2mos testbench config" isSubcircuit="0" viewStopList="" timestamp="6001" viewSearchList="schematic hspice">
+<parameterizedConnections>
+<connectDefs timestamp="0"/>
+<oaAssignments timestamp="0"/>
+<dbAssignValue timestamp="0"/>
+<dbAssignAssignment timestamp="0"/>
+</parameterizedConnections>
+<parameters/>
+<lib_parameters timestamp="1"/>
+<LineageParams/>
+<ParentParams/>
+<Terms timestamp="0"/>
+<PortOrder></PortOrder>
+</module>
+</file-format>

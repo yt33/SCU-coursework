@@ -1,0 +1,246 @@
+[16:56:24.78] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version M-2017.03-SP1-1 for linux64 - Jun 29, 2017 
+              /c 
+              /c                     Copyright (c) 2004 - 2017 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 3718339 compiled on Thu Jun 29 08:54:37 2017 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2017/app/customcompiler/M-2017.03-SP1-1/linux64/platform/bin/custom_compiler
+              /c Execution time: Tue Oct 24 16:56:22 2017
+              /c Host: linux60813
+              /c Working directory: /DCNFS/users/student/yli1/lab4
+              /c 
+[16:56:28.27] /r giShowFrameTabs true
+[16:56:28.27] /r giWindowId 1
+[16:56:28.27] /r giWindowGeometry 1040x800
+[16:56:41.64] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[16:56:41.65] /# 
+[16:56:41.65] /i dm::openLibraryManager
+[16:56:41.65] /r giWindowId 2
+[16:56:41.65] /r giWindowGeometry 660x600+50+75
+[16:56:41.70] /o oa:0x22e19e20
+[16:56:42.99] /i gi::setCurrentIndex {libs} -index {lab4} -in [gi::getWindows 2]
+[16:56:43.00] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 2]
+[16:56:43.00] /i gi::setItemSelection {libs} -index {lab4} -in [gi::getWindows 2]
+[16:56:44.27] /i gi::setCurrentIndex {cells} -index {NAND} -in [gi::getWindows 2]
+[16:56:44.28] /i gi::setItemSelection {cells} -index {NAND} -in [gi::getWindows 2]
+[16:56:45.15] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[16:56:45.16] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[16:56:45.30] /i gi::executeAction dmOpen -in [gi::getWindows 2]
+[16:56:45.36] /o 	############################################
+[16:56:45.36] /o 	        Synopsys Generic 90nm iPDK          
+[16:56:45.36] /o 	--------------------------------------------
+[16:56:45.36] /o 	Release Date .............. : 11-May-2016    
+[16:56:45.36] /o 	============================================
+[16:56:45.36] /o 	        Recommended Tool Versions           
+[16:56:45.36] /o 	--------------------------------------------
+[16:56:45.36] /o 	Custom Designer ........... : J-2014.12-2    
+[16:56:45.36] /o 	IC Validator .............. : K-2015.12   
+[16:56:45.36] /o 	StarRC..................... : K-2015.12  
+[16:56:45.36] /o 	--------------------------------------------
+[16:56:45.36] /o 	############################################
+[16:56:45.36] /o 
+[16:56:45.38] /o SAED PDK 90: Loaded callbacks
+[16:56:45.39] /o SAED PDK 90: Loaded display resources
+[16:56:45.40] /m Information: License 'Schematic' checked out. (LICENSE-003)
+[16:56:45.50] /r giWindowId 3
+[16:56:45.50] /r giWindowGeometry 1632x1035
+[16:56:45.67] /o "lab4/NAND/schematic" design does not need checking
+[16:56:47.77] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[16:56:48.07] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value 290x878
+[16:56:48.07] /i db::setAttr dockSize -of [gi::getAssistants giConsole -from [gi::getWindows 3]] -value 1873x98
+[16:56:48.07] /i db::setAttr geometry -of [gi::getFrames 1] -value 1910x1117+5+53
+[16:56:49.41] /i gi::executeAction deCanvasDragSelect -in [gi::getWindows 3]
+[16:56:49.41] /r deCanvasDragStart 1.66875 4.86875
+[16:56:49.60] /# gi::executeAction deCanvasDragEnd -in [gi::getWindows 3]
+[16:56:49.60] /i gi::executeAction deCanvasDragEnd -in [gi::getWindows 3]
+[16:56:49.60] /r deCanvasDragEnd 4.19375 2.4625
+[16:56:50.19] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[16:56:50.19] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[16:56:50.19] /i he::deselectAll -context [db::getAttr hierarchy -of [db::getNext [de::getContexts -window 3]]]
+[16:56:51.64] /# gi::executeAction dePan -in [gi::getWindows 3]
+[16:56:51.64] /i ide::pan 3
+[16:56:52.25] /# gi::executeAction deStartDrag -in [gi::getWindows 3]
+[16:56:52.25] /i de::startDrag {6.9875 3.01875} -context [db::getNext [de::getContexts -window 3]]
+[16:56:53.49] /# gi::executeAction deEndDrag -in [gi::getWindows 3]
+[16:56:53.49] /i de::endDrag {6.975 3.00625} -context [db::getNext [de::getContexts -window 3]]
+[16:56:53.49] /r dePanToPoint {2.71875 3.25625}
+[16:56:54.03] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 3]
+[16:56:54.03] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {7.01875 3.025}
+[16:56:54.03] /o {0.75 0.85} {8.9875 5.43125}
+[16:56:55.01] /# gi::executeAction deStartDrag -in [gi::getWindows 3]
+[16:56:55.01] /i de::startDrag {5.625 2.575} -context [db::getNext [de::getContexts -window 3]]
+[16:56:55.51] /# gi::executeAction deEndDrag -in [gi::getWindows 3]
+[16:56:55.51] /i de::endDrag {5.63125 2.575} -context [db::getNext [de::getContexts -window 3]]
+[16:56:55.51] /r dePanToPoint {4.625 2.96875}
+[16:56:58.16] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 3]
+[16:56:58.16] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {5.3125 1.80625}
+[16:56:58.16] /o {2.90625 1.24375} {7.025 3.53125}
+[16:56:58.63] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 3]
+[16:56:58.63] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {5.3125 1.80625}
+[16:56:58.63] /o {0.50625 0.675} {8.74375 5.2625}
+[16:56:58.77] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 3]
+[16:56:58.77] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {5.3125 1.80625}
+[16:56:58.77] /o {-4.30625 -0.45625} {12.16875 8.71875}
+[16:56:59.68] /# gi::executeAction deStartDrag -in [gi::getWindows 3]
+[16:56:59.68] /i de::startDrag {5.30625 1.8} -context [db::getNext [de::getContexts -window 3]]
+[16:57:00.65] /# gi::executeAction deEndDrag -in [gi::getWindows 3]
+[16:57:00.65] /i de::endDrag {5.29375 1.8} -context [db::getNext [de::getContexts -window 3]]
+[16:57:00.65] /r dePanToPoint {4.08125 3.15}
+[16:57:01.21] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 3]
+[16:57:01.21] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {5.63125 1.5375}
+[16:57:01.21] /o {0.7375 0.05} {8.975 4.6375}
+[16:57:05.29] /# gi::executeAction deStartDrag -in [gi::getWindows 3]
+[16:57:05.29] /i de::startDrag {5.1 3.98125} -context [db::getNext [de::getContexts -window 3]]
+[16:57:05.50] /# gi::executeAction deEndDrag -in [gi::getWindows 3]
+[16:57:05.50] /i de::endDrag {5.10625 3.98125} -context [db::getNext [de::getContexts -window 3]]
+[16:57:05.50] /r dePanToPoint {4.525 2.74375}
+[16:57:05.67] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[16:57:05.67] /i de::addPoint {5.10625 3.98125} -context [db::getNext [de::getContexts -window 3]]
+[16:57:06.04] /# gi::executeAction deCompleteShape -in [gi::getWindows 3]
+[16:57:06.04] /i de::completeShape -context [db::getNext [de::getContexts -window 3]]
+[16:57:06.59] /# gi::executeAction deStartDrag -in [gi::getWindows 3]
+[16:57:06.59] /i de::startDrag {5.5625 4.3625} -context [db::getNext [de::getContexts -window 3]]
+[16:57:08.55] /# gi::executeAction deEndDrag -in [gi::getWindows 3]
+[16:57:08.55] /i de::endDrag {5.5625 4.375} -context [db::getNext [de::getContexts -window 3]]
+[16:57:08.55] /r dePanToPoint {4.23125 3.15}
+[16:57:09.05] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 3]
+[16:57:09.05] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {5.58125 4.3}
+[16:57:09.05] /o {2.84375 2.58125} {6.9625 4.86875}
+[16:57:09.93] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 3]
+[16:57:09.93] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {5.58125 4.3}
+[16:57:09.93] /o {0.1125 0.85625} {8.35 5.44375}
+[16:57:10.94] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 3]
+[16:57:10.94] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {4.9375 4.35625}
+[16:57:10.94] /o {-4.71875 -2.64375} {11.75625 6.53125}
+[16:57:16.49] /# gi::executeAction deZoomIn -in [gi::getWindows 3]
+[16:57:16.49] /i de::zoom -window 3 -factor 2.0
+[16:57:16.49] /o {-0.6 -0.35} {7.6375 4.2375}
+[16:57:18.40] /# gi::executeAction deAddPoint -in [gi::getWindows 3]
+[16:57:18.40] /i de::addPoint {0.60625 1.69375} -context [db::getNext [de::getContexts -window 3]]
+[16:57:19.56] /# gi::executeAction deAbortCommand -in [gi::getWindows 3]
+[16:57:19.56] /i de::abortCommand -context [db::getNext [de::getContexts -window 3]]
+[16:57:19.72] /i gi::executeAction deCanvasDragCancel -in [gi::getWindows 3]
+[16:57:19.85] /i gi::executeAction deCanvasDragCancel -in [gi::getWindows 3]
+[16:57:20.21] /i gi::executeAction deCanvasDragSelect -in [gi::getWindows 3]
+[16:57:20.21] /r deCanvasDragStart -1.2 1.7
+[16:57:20.61] /# gi::executeAction deCanvasDragEnd -in [gi::getWindows 3]
+[16:57:20.61] /i gi::executeAction deCanvasDragEnd -in [gi::getWindows 3]
+[16:57:20.61] /r deCanvasDragEnd -2.31875 0.88125
+[16:57:21.73] /# gi::executeAction dePan -in [gi::getWindows 3]
+[16:57:21.73] /i ide::pan 3
+[16:57:22.15] /# gi::executeAction deStartDrag -in [gi::getWindows 3]
+[16:57:22.15] /i de::startDrag {0.25625 2.38125} -context [db::getNext [de::getContexts -window 3]]
+[16:57:26.74] /# gi::executeAction deEndDrag -in [gi::getWindows 3]
+[16:57:26.74] /i de::endDrag {0.25625 2.38125} -context [db::getNext [de::getContexts -window 3]]
+[16:57:26.74] /r dePanToPoint {3.825 2.725}
+[16:57:47.25] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 3]
+[16:57:47.25] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {1.8125 4.025}
+[16:57:47.25] /o {0.75625 2.23125} {4.875 4.525}
+[16:57:47.70] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 3]
+[16:57:47.70] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {1.8125 4.025}
+[16:57:47.70] /o {-0.29375 0.4375} {7.94375 5.01875}
+[16:57:47.76] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 3]
+[16:57:47.76] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {1.8125 4.025}
+[16:57:47.76] /o {-2.4 -3.15625} {14.075 6.01875}
+[16:57:48.68] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 3]
+[16:57:48.68] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {1.80625 4.01875}
+[16:57:48.68] /o {-0.3 0.43125} {7.9375 5.01875}
+[16:57:51.04] /# gi::executeAction deZoomOut -in [gi::getWindows 3]
+[16:57:51.04] /i de::zoom -window 3 -factor 0.5
+[16:57:51.04] /o {-4.41875 -1.8625} {12.05625 7.3125}
+[16:58:04.82] /i gi::setActiveWindow 2
+[16:58:04.83] /i gi::setActiveWindow 2 -raise true
+[16:58:06.45] /i gi::setCurrentIndex {views} -index {symbol} -in [gi::getWindows 2]
+[16:58:06.46] /i gi::setItemSelection {views} -index {symbol} -in [gi::getWindows 2]
+[16:58:06.58] /i gi::executeAction dmOpen -in [gi::getWindows 2]
+[16:58:06.64] /r giWindowId 4
+[16:58:06.65] /r giWindowGeometry 1632x1035
+[16:58:21.44] /i gi::setActiveWindow 2
+[16:58:21.44] /i gi::setActiveWindow 2 -raise true
+[16:58:22.38] /i gi::setCurrentIndex {cells} -index {testbench_NAND} -in [gi::getWindows 2]
+[16:58:22.39] /i gi::setItemSelection {cells} -index {testbench_NAND} -in [gi::getWindows 2]
+[16:58:23.38] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[16:58:23.38] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[16:58:23.52] /i gi::executeAction dmOpen -in [gi::getWindows 2]
+[16:58:23.59] /r giWindowId 5
+[16:58:23.60] /r giWindowGeometry 1632x1035
+[16:58:23.77] /o "lab4/testbench_NAND/schematic" design does not need checking
+[16:58:30.06] /i gi::setActiveWindow 2
+[16:58:30.06] /i gi::setActiveWindow 2 -raise true
+[16:58:31.82] /i gi::setCurrentIndex {cells} -index {NAND} -in [gi::getWindows 2]
+[16:58:31.84] /i gi::setItemSelection {cells} -index {NAND} -in [gi::getWindows 2]
+[16:58:32.68] /i gi::setCurrentIndex {cellCategories} -index {All} -in [gi::getWindows 2]
+[16:58:33.11] /i gi::setItemSelection {cellCategories} -index {} -in [gi::getWindows 2]
+[16:58:33.53] /i gi::setCurrentIndex {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[16:58:33.53] /i gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[16:58:34.57] /i gi::setCurrentIndex {cellCategories} -index {All} -in [gi::getWindows 2]
+[16:58:34.57] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 2]
+[16:58:34.98] /i gi::setCurrentIndex {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[16:58:34.98] /i gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[16:58:35.63] /i gi::setCurrentIndex {cells} -index {testbench_NAND} -in [gi::getWindows 2]
+[16:58:35.64] /i gi::setItemSelection {cells} -index {testbench_NAND} -in [gi::getWindows 2]
+[16:58:37.10] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[16:58:37.11] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[16:58:37.23] /i gi::executeAction dmOpen -in [gi::getWindows 2]
+[16:58:37.24] /r giWindowId 6
+[16:58:37.26] /r giWindowGeometry 1632x1035
+[16:58:37.44] /o "lab4/testbench_NAND/schematic" design does not need checking
+[16:58:42.04] /i gi::setActiveWindow 5
+[16:58:42.04] /i gi::setActiveWindow 5 -raise true
+[16:58:43.12] /i gi::setActiveWindow 4
+[16:58:43.12] /i gi::setActiveWindow 4 -raise true
+[16:58:43.54] /i gi::setActiveWindow 3
+[16:58:43.54] /i gi::setActiveWindow 3 -raise true
+[16:58:44.56] /i gi::setActiveWindow 4
+[16:58:44.56] /i gi::setActiveWindow 4 -raise true
+[16:58:45.01] /i gi::setActiveWindow 5
+[16:58:45.01] /i gi::setActiveWindow 5 -raise true
+[16:58:47.72] /i gi::setActiveWindow 6
+[16:58:47.72] /i gi::setActiveWindow 6 -raise true
+[16:58:48.29] /i gi::setActiveWindow 2
+[16:58:48.29] /i gi::setActiveWindow 2 -raise true
+[16:58:49.13] /i gi::setActiveWindow 6
+[16:58:49.13] /i gi::setActiveWindow 6 -raise true
+[16:58:50.20] /i gi::setActiveWindow 2
+[16:58:50.20] /i gi::setActiveWindow 2 -raise true
+[16:58:53.53] /i gi::setActiveWindow 3
+[16:58:53.54] /i gi::setActiveWindow 3 -raise true
+[16:58:56.08] /i gi::setActiveWindow 4
+[16:58:56.09] /i gi::setActiveWindow 4 -raise true
+[16:58:57.03] /i gi::setActiveWindow 5
+[16:58:57.03] /i gi::setActiveWindow 5 -raise true
+[17:00:25.72] /i gi::setActiveWindow 6
+[17:00:25.72] /i gi::setActiveWindow 6 -raise true
+[17:00:26.33] /i gi::setActiveWindow 2
+[17:00:26.34] /i gi::setActiveWindow 2 -raise true
+[17:02:42.15] /i gi::setActiveWindow 3
+[17:02:42.15] /i gi::setActiveWindow 3 -raise true
+[17:02:42.82] /i gi::setActiveWindow 4
+[17:02:42.82] /i gi::setActiveWindow 4 -raise true
+[17:02:43.82] /i gi::setActiveWindow 5
+[17:02:43.82] /i gi::setActiveWindow 5 -raise true
+[17:02:49.34] /r giDialog gi::setActiveDialog [gi::getDialogs {giCloseFrame}]
+[17:02:49.64] /r giDialog db::setAttr geometry -of [gi::getDialogs {giCloseFrame}] -value 297x113+812+386
+[17:02:50.70] /r giDialog gi::pressButton {giCloseTabsButton} -in [gi::getDialogs {giCloseFrame}]
+[17:02:50.73] /i exit
+[17:02:50.78] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[17:02:51.08] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 420x183+750+508
+[17:02:52.34] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[17:02:52.56] /m Information: The context with top design lab4/NAND/schematic (schematic) was closed because all the designs in its hierarchy were unexpectedly purged. (DESIGN-113)
+[17:02:52.61] /m Information: The context with top design lab4/NAND/symbol (schematicSymbol) was closed because all the designs in its hierarchy were unexpectedly purged. (DESIGN-113)
+[17:02:52.62] /m Information: The context with top design lab4/testbench_NAND/schematic (schematic) was closed because all the designs in its hierarchy were unexpectedly purged. (DESIGN-113)
+[17:02:52.70] /m Information: The context with top design lab4/testbench_NAND/schematic (schematic) was closed because all the designs in its hierarchy were unexpectedly purged. (DESIGN-113)
+[17:02:52.71] /i gi::setActiveWindow 2
+[17:02:52.71] /i gi::setActiveWindow 2 -raise true
+[17:02:52.79] /i gi::setActiveWindow 1
+[17:02:52.79] /i gi::setActiveWindow 1 -raise true
+[17:02:52.84] /e Error: Message with ID "could not open : No such file or directory" does not exist! (MESSENGER-001)
+[17:02:53.02] /o Shutdown time: Tue Oct 24 17:02:53 2017
+[17:02:53.02] /o Elapsed session real time: 6.46 minutes
+[17:02:53.02] /o Session terminated. Log is at /DCNFS/users/student/yli1/lab4/synopsys_custom/logs/ccompiler.yli1.2017_10_24_165622_14437.log

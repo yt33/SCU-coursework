@@ -1,0 +1,44 @@
+<module name="vsl: lab3 inverter_tb schematic vl: hspice hspiceD schematic spice veriloga">
+<scope name="Instance">
+<forward>
+<mapping src="I0" dst="xi0"/>
+<mapping src="V2" dst="v2"/>
+<mapping src="V1" dst="v1"/>
+</forward>
+<reverse>
+<mapping src="v2" dst="V2"/>
+<mapping src="v1" dst="V1"/>
+<mapping src="xi0" dst="I0"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward>
+<mapping src="Vin" dst="vin"/>
+<mapping src="Vout" dst="vout"/>
+</forward>
+<reverse>
+<mapping src="vout" dst="Vout"/>
+<mapping src="vin" dst="Vin"/>
+</reverse>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;termOrder>" dst=""/>
+<mapping src="&lt;unmappedTermOrder>" dst=""/>
+</forward>
+<reverse>
+<mapping src="" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="inverter">
+<instance name="I0"/>
+</instance_header>
+<instance_header master="vdc">
+<instance name="V1"/>
+</instance_header>
+<instance_header master="vsin">
+<instance name="V2"/>
+</instance_header>
+</master_instances>
+</module>

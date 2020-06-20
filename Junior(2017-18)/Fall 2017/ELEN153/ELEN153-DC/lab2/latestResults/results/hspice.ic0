@@ -1,0 +1,16 @@
+* "simulator" "HSPICE" 
+* "version" "M-2017.03-SP1-1 linux64"
+* "format" "HSP"
+* "rundate" "15:49:47 10/04/2017 "
+* "netlist" "/DCNFS/users/student/yli1/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/netlist/input.spi "
+* "runtitle" "* generated for: hspice"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ vdd! =   1.2000        
++ vin = 600.0000m       
++ vout = 908.8263m       
+***   END: Saved Operating Point ***                     

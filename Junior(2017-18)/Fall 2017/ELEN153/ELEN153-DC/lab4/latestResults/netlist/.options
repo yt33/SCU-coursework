@@ -1,0 +1,2 @@
+.option PARHIER = LOCAL
+.option PORT_VOLTAGE_SCALE_TO_2X = 1

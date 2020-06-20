@@ -1,0 +1,13 @@
+Parsing option_file: split_netlist.tech (EX-304)
+Running Amd_64b    
+WARNING: INTERNAL Warning: via top_height (0) < bottom_height (4.072) on db layer (top_via) (EX-204)
+Completed  20%  Time=00:00:00  RemainingTime=00:00:00  Mem=145.293
+Completed  40%  Time=00:00:00  RemainingTime=00:00:00  Mem=145.293
+Completed  60%  Time=00:00:00  RemainingTime=00:00:00  Mem=145.293
+Completed  80%  Time=00:00:00  RemainingTime=00:00:00  Mem=145.293
+Completed 100%  Time=00:00:00  RemainingTime=00:00:00  Mem=145.293
+0  
+xTractor      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=145.3 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=145.3 
+

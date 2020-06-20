@@ -1,0 +1,6 @@
+[17:05:21.60] /m Information: "Starting incremental netlisting for design
+               "lab4/testbench_NAND/schematic"..." (NETLISTING-010)
+[17:05:21.65] /o No Design Integrity rule violations found in "lab4/testbench_NAND/schematic"
+[17:05:21.74] /m Information: "lab4 testbench_NAND schematic" renetlisted. (NETLISTING-056)
+[17:05:21.78] /m Information: "Netlisting design "lab4/testbench_NAND/schematic" finished
+               successfully." (NETLISTING-012)

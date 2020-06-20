@@ -1,0 +1,13 @@
+Parsing option_file: xtract.tech (EX-304)
+Initializing extraction ... (EX-724)
+WARNING: INTERNAL Warning: via top_height (0) < bottom_height (4.072) on db layer (top_via) (EX-204)
+Reading binary grd file
+/DCNFS/applications/synopsys/2017/app/SAED/SAED_PDK90nm/starrcxt/saed90nm.nxtgrd ... (EX-135)
+Extracted 3448 capacitors, 1860 resistors, 1351 nodes
+Reduced to 632 nodes,  (53.2198%)
+Reduced to 723 resistors,  (61.129%)
+Reduced to 2354 capacitors: 2064 Cc and 290 Cg (31.7285%)
+  
+xTractor      Elp=00:00:00 Cpu=00:00:00 Usr=0.3    Sys=0.0    Mem=260.3 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.3    Sys=0.0    Mem=260.3 

@@ -1,0 +1,10 @@
+-oa2dspf
+-oa_lib_name lab3
+-oa_cell_name inverter
+-oa_view_name starrc
+-o ../starrc.dspf
+-oa_output_file ../starrc.oa.out
+-netlist_header_file netlist.hdr
+-oa_lib_def /DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/inverter.starrc.lpe/lib.defs
+-layer_info layer_info
+-ground_node_name 0

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler build#  ,on -->
+<file-format version="1.0" name="synopsysPrefs">
+        <preferences>
+                <pref value="Symbol Editor" name="dbGenerateCellViewEditor"/>
+                <pref value="design" name="deConfigEditor"/>
+                <pref value="auto" name="deDescendMode"/>
+                <pref value="SAED_PDK_90" name="dmNewLibTechLib"/>
+                <pref value="lib" name="dmNewLibTechType"/>
+                <pref value="true" name="giPromptCloseMultipleTabs"/>
+                <pref value="" name="leAbstractGenOptionSetDefault"/>
+                <pref value="true" name="leCheckViasDialogMode"/>
+                <pref value="true" name="leDDCanvasDXDY"/>
+                <pref value="true" name="leDrawInstPins"/>
+                <pref value="true" name="leMeasurement"/>
+                <pref value="true" name="seCreateInstDialogMode"/>
+                <pref value="true" name="seCreateLabelDialogMode"/>
+                <pref value="true" name="seCreateNoteDialogMode"/>
+                <pref value="true" name="seImportSymbolDialogMode"/>
+                <pref value="IC Validator" name="xtDRCTool"/>
+                <pref value="IC Validator" name="xtLPELVSTool"/>
+                <pref value="IC Validator" name="xtLVSTool"/>
+                <pref value="background_netlisting sae_shell_netlist" name="xtNetlistingPrefixes"/>
+                <pref value="SAED 90nm" name="xtPDKProcess"/>
+                <pref value="1P9M" name="xtPDKVariant"/>
+                <pref value="2" name="xtSAEShellJobLimit"/>
+                <pref value="sae_shell_results_viewer" name="xtSAEShellPrefixes"/>
+                <pref value="HSIM HSPICE Nanosim Spectre VHDL Verilog XA FineSimPro FineSimProSpectre FineSimProVCS HSIMHSPICE XAEldo XAHSPICE XASpectre XAVCSHSPICE" name="xtSimulationPrefixes"/>
+        </preferences>
+</file-format>

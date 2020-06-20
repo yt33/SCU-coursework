@@ -1,0 +1,57 @@
+Parsing option_file: xtract.tech (EX-304)
+Running Amd_64b    
+Initializing extraction ... (EX-724)
+WARNING: INTERNAL Warning: via top_height (0) < bottom_height (4.072) on db layer (top_via) (EX-204)
+Reading binary grd file
+/DCNFS/applications/synopsys/2017/app/SAED/SAED_PDK90nm/starrcxt/saed90nm.nxtgrd ... (EX-135)
+Xin import time is 0.00 seconds.
+----- R mode: reuse cap  environments -----
+----- Importing design ----- 
+Ary stats nx=15 ny=8 dx=15831 dy=16944 nentry=2066  max/cell=57 av/cell=17.2167
+ Stats DB 0 954 0 0 0 0 0 80 0
+Import design time is 0.00 seconds.
+----- Initializing models ----- 
+Initialize models time is 0.00 seconds.
+----- Extracting 20 nets ----- 
+Completed   5%  Time=00:00:00  RemainingTime=00:00:00  Mem=260.355
+Completed  10%  Time=00:00:00  RemainingTime=00:00:00  Mem=260.355
+Completed  15%  Time=00:00:00  RemainingTime=00:00:00  Mem=260.355
+Completed  20%  Time=00:00:00  RemainingTime=00:00:00  Mem=260.355
+Completed  25%  Time=00:00:00  RemainingTime=00:00:00  Mem=260.355
+Completed  30%  Time=00:00:00  RemainingTime=00:00:00  Mem=260.355
+Completed  35%  Time=00:00:00  RemainingTime=00:00:00  Mem=260.355
+Completed  45%  Time=00:00:00  RemainingTime=00:00:00  Mem=260.355
+Completed  50%  Time=00:00:00  RemainingTime=00:00:00  Mem=260.355
+Completed  55%  Time=00:00:00  RemainingTime=00:00:00  Mem=260.355
+Completed  60%  Time=00:00:00  RemainingTime=00:00:00  Mem=260.355
+Completed  65%  Time=00:00:00  RemainingTime=00:00:00  Mem=260.355
+Completed  70%  Time=00:00:00  RemainingTime=00:00:00  Mem=260.355
+Completed  75%  Time=00:00:00  RemainingTime=00:00:00  Mem=260.355
+Completed  80%  Time=00:00:00  RemainingTime=00:00:00  Mem=260.355
+Completed  85%  Time=00:00:00  RemainingTime=00:00:00  Mem=260.355
+Completed  90%  Time=00:00:00  RemainingTime=00:00:00  Mem=260.355
+Completed  95%  Time=00:00:00  RemainingTime=00:00:00  Mem=260.355
+Completed 100%  Time=00:00:00  RemainingTime=00:00:00  Mem=260.355
+Net extraction time is 0.04 seconds.
+ CapExtractionCounters CapEnvD=3252 CapEnvND=511 NumCap=42461
+Extraction time is 0.04 seconds.
+----- Reducing 20 nets ----- 
+----- Floating fill reduction ----- 
+Floating fill reduction time is 0.00 seconds.Mem=260.355
+Reduction time is 0.00 seconds.
+Total capacitance environments constructed = 5436
+Unique capacitance environments constructed = 4235 (77.9065%)
+Total resistance environments constructed = 0
+Unique resistance environments constructed = 0
+Final circuit write time is 0.01 seconds.
+Extracted 3448 capacitors, 1860 resistors, 1351 nodes
+Reduced to 632 nodes,  (53.2198%)
+Reduced to 723 resistors,  (61.129%)
+Reduced to 2354 capacitors: 2064 Cc and 290 Cg (31.7285%)
+INTERNAL Warning: There are still 2 branches in memory
+Partition 0 total time is 0.07 seconds.
+  
+xTractor      Elp=00:00:00 Cpu=00:00:00 Usr=0.3    Sys=0.0    Mem=260.3 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.3    Sys=0.0    Mem=260.3 
+

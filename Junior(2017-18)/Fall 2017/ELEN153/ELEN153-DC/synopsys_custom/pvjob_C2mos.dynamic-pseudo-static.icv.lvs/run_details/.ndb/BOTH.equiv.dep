@@ -1,0 +1,3 @@
+n12::n12 { }
+dynamic-pseudo-static::dynamic-pseudo-static { n12::n12 p12::p12 }
+p12::p12 { }

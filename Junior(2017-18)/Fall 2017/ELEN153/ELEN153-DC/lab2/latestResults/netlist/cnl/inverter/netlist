@@ -1,0 +1,12 @@
+********************************************************************************
+* Library          : lab2
+* Cell             : inverter
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt inverter vin vout
+m0 vout vin vdd! vdd! p12 w=1.2u l=0.1u nf=1.0 m=1
+m1 vout vin gnd! gnd! n12 w=0.4u l=0.1u nf=1.0 m=1
+.ends inverter
+

@@ -1,0 +1,64 @@
+<module name="vsl: lab4 NAND schematic vl: hspice hspiceD schematic spice veriloga">
+<scope name="Instance">
+<forward>
+<mapping src="M2" dst="m2"/>
+<mapping src="M5" dst="m5"/>
+<mapping src="M0" dst="m0"/>
+<mapping src="M4" dst="m4"/>
+<mapping src="M1" dst="m1"/>
+<mapping src="M3" dst="m3"/>
+</forward>
+<reverse>
+<mapping src="m2" dst="M2"/>
+<mapping src="m0" dst="M0"/>
+<mapping src="m1" dst="M1"/>
+<mapping src="m5" dst="M5"/>
+<mapping src="m4" dst="M4"/>
+<mapping src="m3" dst="M3"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward>
+<mapping src="A" dst="a"/>
+<mapping src="B" dst="b"/>
+<mapping src="C" dst="c"/>
+<mapping src="OUT" dst="out"/>
+</forward>
+<reverse>
+<mapping src="a" dst="A"/>
+<mapping src="b" dst="B"/>
+<mapping src="c" dst="C"/>
+<mapping src="out" dst="OUT"/>
+</reverse>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="A" dst="a"/>
+<mapping src="B" dst="b"/>
+<mapping src="C" dst="c"/>
+<mapping src="&lt;termOrder>" dst="a b c out"/>
+<mapping src="&lt;unmappedTermOrder>" dst="A B C OUT"/>
+<mapping src="OUT" dst="out"/>
+</forward>
+<reverse>
+<mapping src="b" dst="B"/>
+<mapping src="a" dst="A"/>
+<mapping src="c" dst="C"/>
+<mapping src="a b c out" dst="&lt;termOrder>"/>
+<mapping src="out" dst="OUT"/>
+<mapping src="A B C OUT" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="nmos4t">
+<instance name="M0"/>
+<instance name="M1"/>
+<instance name="M2"/>
+</instance_header>
+<instance_header master="pmos4t">
+<instance name="M3"/>
+<instance name="M4"/>
+<instance name="M5"/>
+</instance_header>
+</master_instances>
+</module>

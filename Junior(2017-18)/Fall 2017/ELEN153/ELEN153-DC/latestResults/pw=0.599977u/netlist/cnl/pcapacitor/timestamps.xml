@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed Nov 29 17:36:08 2017-->
+<file-format version="1.0" name="netlisting-timestamps">
+<module configTimeStamp="3668123146" contextID="switched: analogLib pcapacitor hspice vl: schematic hspice sl: config:C2mos testbench config" isSubcircuit="1" viewStopList="" timestamp="29" viewSearchList="schematic hspice">
+<parameterizedConnections>
+<connectDefs timestamp="0"/>
+<oaAssignments timestamp="0"/>
+<dbAssignValue timestamp="0"/>
+<dbAssignAssignment timestamp="0"/>
+</parameterizedConnections>
+<parameters timestamp="1"/>
+<lib_parameters/>
+<LineageParams/>
+<ParentParams/>
+<Terms timestamp="11"/>
+<PortOrder>PLUSMINUS</PortOrder>
+</module>
+</file-format>

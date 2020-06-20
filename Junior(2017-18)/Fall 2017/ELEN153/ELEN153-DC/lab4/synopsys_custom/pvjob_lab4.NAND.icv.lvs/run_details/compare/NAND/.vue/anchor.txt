@@ -1,0 +1,9 @@
+Compare Options
+Schematic
+Layout
+Post Merge
+Port Xref
+Device Settings
+
+BGN_SUMMARY_TAB
+Post Compare

@@ -1,0 +1,21 @@
+<module name="switched: analogLib pcapacitor hspice">
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;termOrder>" dst="plus_1 (FUNCTION\ minus(root(&quot;PLUS&quot;)))"/>
+<mapping src="&lt;unmappedTermOrder>" dst="PLUS MINUS"/>
+<mapping src="MINUS" dst="(FUNCTION\ minus(root(&quot;PLUS&quot;)))"/>
+<mapping src="PLUS" dst="plus_1"/>
+</forward>
+<reverse>
+<mapping src="(FUNCTION\ minus(root(&quot;PLUS&quot;)))" dst="MINUS"/>
+<mapping src="" dst="PLUS"/>
+<mapping src="PLUS MINUS" dst="&lt;unmappedTermOrder>"/>
+<mapping src="plus_1 (FUNCTION\ minus(root(&quot;PLUS&quot;)))" dst="&lt;termOrder>"/>
+<mapping src="plus minus" dst="&lt;termOrder>"/>
+<mapping src="plus_1" dst="PLUS"/>
+<mapping src="minus" dst="MINUS"/>
+<mapping src="plus" dst="PLUS"/>
+</reverse>
+</scope>
+<master_instances/>
+</module>

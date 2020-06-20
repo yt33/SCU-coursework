@@ -1,0 +1,57 @@
+<module name="switched: C2mos testbench schematic vl: schematic hspice sl:">
+<scope name="Instance">
+<forward>
+<mapping src="I30" dst="xi30"/>
+<mapping src="I29" dst="xi29"/>
+<mapping src="CLK" dst="vclk"/>
+<mapping src="Vdd" dst="vdd"/>
+<mapping src="D" dst="vd"/>
+<mapping src="CLKb" dst="vclkb"/>
+</forward>
+<reverse>
+<mapping src="xi29" dst="I29"/>
+<mapping src="vdd" dst="Vdd"/>
+<mapping src="xi30" dst="I30"/>
+<mapping src="vclkb" dst="CLKb"/>
+<mapping src="vclk" dst="CLK"/>
+<mapping src="vd" dst="D"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward>
+<mapping src="Q" dst="q"/>
+<mapping src="CLK" dst="clk"/>
+<mapping src="CLKb" dst="clkb"/>
+<mapping src="D" dst="d"/>
+</forward>
+<reverse>
+<mapping src="clk" dst="CLK"/>
+<mapping src="q" dst="Q"/>
+<mapping src="clkb" dst="CLKb"/>
+<mapping src="d" dst="D"/>
+</reverse>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst=""/>
+<mapping src="&lt;termOrder>" dst=""/>
+</forward>
+<reverse>
+<mapping src="" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="dynamic-pseudo-static">
+<instance name="I29"/>
+<instance name="I30"/>
+</instance_header>
+<instance_header master="vdc">
+<instance name="Vdd"/>
+</instance_header>
+<instance_header master="vpulse">
+<instance name="CLK"/>
+<instance name="CLKb"/>
+<instance name="D"/>
+</instance_header>
+</master_instances>
+</module>

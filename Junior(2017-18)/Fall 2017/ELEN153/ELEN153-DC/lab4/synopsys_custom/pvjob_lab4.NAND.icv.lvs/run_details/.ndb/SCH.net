@@ -1,0 +1,26 @@
+{netlist NAND.sch_out
+{version 2 1 0}
+{net_global VSS VDD12 VSS12 vdd! gnd! VDD22 VDD }
+{cell NAND
+{port A B C OUT}
+{inst MM2=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=1.2}
+{pin net32=DRN C=GATE gnd!=SRC gnd!=BULK}}
+{inst MM1=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=1.2}
+{pin net6=DRN B=GATE net32=SRC gnd!=BULK}}
+{inst MM0=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=1.2}
+{pin OUT=DRN A=GATE net6=SRC gnd!=BULK}}
+{inst MM5=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=1.2}
+{pin OUT=DRN A=GATE vdd!=SRC vdd!=BULK}}
+{inst MM4=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=1.2}
+{pin OUT=DRN C=GATE vdd!=SRC vdd!=BULK}}
+{inst MM3=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=1.2}
+{pin OUT=DRN B=GATE vdd!=SRC vdd!=BULK}}
+}
+
+}

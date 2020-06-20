@@ -1,0 +1,14 @@
+{netlist inverter.sch_out
+{version 2 1 0}
+{net_global VSS VDD12 VSS12 vdd! gnd! VDD22 VDD }
+{cell inverter
+{port Vin Vout}
+{inst MM0=n12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=0.4}
+{pin Vout=DRN Vin=GATE gnd!=SRC gnd!=BULK}}
+{inst MM1=p12 {TYPE MOS} 
+{prop NF=1 L=0.1 W=1.2}
+{pin Vout=DRN Vin=GATE vdd!=SRC vdd!=BULK}}
+}
+
+}

@@ -1,0 +1,19 @@
+{NETLIST NAND
+{VERSION 2 0 0}
+
+{CELL NAND
+    {PORT OUT A gnd! vdd! B C }
+    {INST MM2=n12 {TYPE MOS} {PROP n="n12" Length=0.1 Width=1.2 }
+	{PIN net32=DRN C=GATE gnd!=SRC gnd!=BULK }}
+    {INST MM0=n12 {TYPE MOS} {PROP n="n12" Length=0.1 Width=1.2 }
+	{PIN OUT=DRN A=GATE net6=SRC gnd!=BULK }}
+    {INST MM1=n12 {TYPE MOS} {PROP n="n12" Length=0.1 Width=1.2 }
+	{PIN net6=DRN B=GATE net32=SRC gnd!=BULK }}
+    {INST MM3=p12 {TYPE MOS} {PROP n="p12" Length=0.1 Width=1.2 }
+	{PIN OUT=DRN B=GATE vdd!=SRC vdd!=BULK }}
+    {INST MM5=p12 {TYPE MOS} {PROP n="p12" Length=0.1 Width=1.2 }
+	{PIN OUT=DRN A=GATE vdd!=SRC vdd!=BULK }}
+    {INST MM4=p12 {TYPE MOS} {PROP n="p12" Length=0.1 Width=1.2 }
+	{PIN OUT=DRN C=GATE vdd!=SRC vdd!=BULK }}
+}
+}

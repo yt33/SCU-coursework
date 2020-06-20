@@ -1,0 +1,91 @@
+[15:10:05.67] /m Information: License 'SAE' checked out. (LICENSE-003)
+[15:10:07.77] /o sae_shell Version Custom Compiler M-2017.03-SP1-1
+              /c Build  (OPT) compiled on Thu Jun 29 08:54:37 2017 for RHEL64 6.6
+              /c Execution time: Wed Sep 27 15:10:04 2017
+              /c Host: linux60805
+              /c 
+              /c Copyright © 2004-2017 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[15:10:07.84] /o 	############################################
+[15:10:07.84] /o 	        Synopsys Generic 90nm iPDK          
+[15:10:07.84] /o 	--------------------------------------------
+[15:10:07.84] /o 	Release Date .............. : 11-May-2016    
+[15:10:07.84] /o 	============================================
+[15:10:07.84] /o 	        Recommended Tool Versions           
+[15:10:07.84] /o 	--------------------------------------------
+[15:10:07.84] /o 	Custom Designer ........... : J-2014.12-2    
+[15:10:07.84] /o 	IC Validator .............. : K-2015.12   
+[15:10:07.84] /o 	StarRC..................... : K-2015.12  
+[15:10:07.84] /o 	--------------------------------------------
+[15:10:07.84] /o 	############################################
+[15:10:07.84] /o 
+[15:10:07.85] /o SAED PDK 90: Loaded callbacks
+[15:10:07.86] /o SAED PDK 90: Loaded display resources
+[15:10:07.86] /i ::sa::_backgroundSaeShell::signalProcessReady 1506550203
+[15:10:07.86] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 4
+[15:15:08.88] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:15:08.88] /i ::sa::_backgroundSaeShell::parentRunning
+[15:15:08.88] /o 1506550508
+[15:17:59.56] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:17:59.85] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.2 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:17:59.85] /o false
+[15:19:20.45] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:19:20.81] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:19:20.81] /o false
+[15:21:11.01] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:21:11.36] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[15:21:11.40] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:21:11.40] /o false
+[15:26:12.92] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:26:13.02] /i ::sa::_backgroundSaeShell::parentRunning
+[15:26:13.02] /o 1506551173
+[15:26:16.38] /m Information: Stopped sharing "Custom WaveView ADV" license. (WAVEFORM-111)
+[15:29:33.69] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:29:33.92] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[15:29:33.96] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.2 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:29:33.96] /o false
+[15:31:46.01] /i ::wf::viewerExited
+[15:34:34.96] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:34:34.98] /i ::sa::_backgroundSaeShell::parentRunning
+[15:34:34.98] /o 1506551674
+[15:34:38.93] /m Information: Stopped sharing "Custom WaveView ADV" license. (WAVEFORM-111)
+[15:39:35.98] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:39:35.98] /i ::sa::_backgroundSaeShell::parentRunning
+[15:39:35.98] /o 1506551975
+[15:41:00.56] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:41:00.83] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[15:41:00.89] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:41:00.89] /o false
+[15:41:05.77] /i ::wf::viewerExited
+[15:44:18.21] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[15:44:18.63] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.4 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[15:44:18.63] /o false
+[15:44:23.53] /i ::wf::viewerExited
+[15:49:20.01] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:49:20.05] /i ::sa::_backgroundSaeShell::parentRunning
+[15:49:20.05] /o 1506552560
+[15:49:23.57] /m Information: Stopped sharing "Custom WaveView ADV" license. (WAVEFORM-111)
+[15:50:09.87] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[15:50:21.41] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[15:50:26.83] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 16.9 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[15:50:26.83] /o false
+[15:50:31.10] /i ::wf::viewerExited
+[15:51:45.33] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[15:51:46.00] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.6 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[15:51:46.00] /o false
+[15:51:50.54] /i ::wf::viewerExited
+[15:53:08.72] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:53:09.07] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:53:09.07] /o false
+[15:53:32.14] /i ::wf::viewerExited
+[15:54:29.64] /i ::wf::viewerExited
+[15:57:18.02] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[15:57:18.43] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.4 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession1 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/lab1/Voltage_Divider/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[15:57:18.43] /o false
+[15:59:29.34] /i ::wf::viewerExited
+[15:59:36.62] /i ::sa::_backgroundSaeShell::exit
+[15:59:36.62] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting
+[15:59:36.96] /m Information: License 'Schematic' checked in. (LICENSE-004)
+[15:59:36.96] /m Information: License 'SAE' checked in. (LICENSE-004)

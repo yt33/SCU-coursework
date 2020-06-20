@@ -1,0 +1,10 @@
+#! /bin/sh
+total=0
+pathsize=`du -s --block-size=1 /DCNFS/users/student/yli1/ELEN153/synopsys_custom/pvjob_C2mos.C2MOS-register.icv.lvs/run_details | awk '{print $1}'`
+total=$(($total+$pathsize))
+pathsize=`du -s --block-size=1 /DCNFS/users/student/yli1/ELEN153/synopsys_custom/pvjob_C2mos.C2MOS-register.icv.lvs/./TOPCELLNAME_err | awk '{print $1}'`
+total=$(($total+$pathsize))
+pathsize=`du -s --block-size=1 /DCNFS/users/student/yli1/ELEN153/synopsys_custom/pvjob_C2mos.C2MOS-register.icv.lvs/C2MOS-register.LAYOUT_ERRORS | awk '{print $1}'`
+total=$(($total+$pathsize))
+echo $total > /DCNFS/users/student/yli1/ELEN153/synopsys_custom/pvjob_C2mos.C2MOS-register.icv.lvs/run_details/duse_master.tmp && \
+mv /DCNFS/users/student/yli1/ELEN153/synopsys_custom/pvjob_C2mos.C2MOS-register.icv.lvs/run_details/duse_master.tmp /DCNFS/users/student/yli1/ELEN153/synopsys_custom/pvjob_C2mos.C2MOS-register.icv.lvs/run_details/duse_master

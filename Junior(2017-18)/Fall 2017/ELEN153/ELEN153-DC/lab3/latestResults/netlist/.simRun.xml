@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed Oct 11 16:40:15 2017-->
+<file-format version="1.0" name="simRunData">
+ <object version="1" type="saSimRun" name="simRunData">
+  <attribute type="giString" value="HSPICE_4" name="simJobName"/>
+  <attribute type="giString" value="FINISHED" name="status"/>
+  <attribute type="giStringList" value="./netlist 1507765213 ./input.spi 1507765213 " name="timestamps"/>
+ </object>
+</file-format>

@@ -1,0 +1,20 @@
+/* ICV_Nettran: RHEL64 M-2017.06-1.3706802 2017/06/19 */
+/* Created:  10/11/2017  16:15   */
+
+                                  ICV_Nettran 
+
+           Version M-2017.06-1 for linux64 - Jun 19, 2017 cl#3706802
+
+                    Copyright (c) 1996 - 2017 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Options: -sp /DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.lvs/inverter.custom_compiler.sp -dupCell USE_MULTIPLE -globalNets VDD VDD12 VDD22 -mprop -cell inverter -quiet -logFile run_details/icv_nettran.log -globalNets VDD VDD12 VDD22 VSS VSS12 VDD22 -wireLog run_details/nettran_wire.log -outName /.netlist_database_sch -outType ndb -ndb-noOrgname -ndb-micron -sp-ndbConnect 
+
+Reading "/DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.lvs/inverter.custom_compiler.sp" netlist ...
+Loading cell "inverter" ...
+Processing Hierarchy ...
+Writing NDB netlist ...
+Translation completed.

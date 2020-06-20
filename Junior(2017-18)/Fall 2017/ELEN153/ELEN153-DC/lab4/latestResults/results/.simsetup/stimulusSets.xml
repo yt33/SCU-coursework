@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed Oct 18 17:05:22 2017-->
+<file-format version="1.0" name="stateCategory">
+ <object version="1" type="saStimulusSets" name="stimulusSets">
+  <attribute type="giString" value="default" name="activeSet"/>
+  <attribute type="giStringList" value="" name="allSets"/>
+  <attribute type="giBoolean" value="1" name="enabled"/>
+  <attribute type="giInt" value="0" name="lastModificationTime"/>
+ </object>
+</file-format>

@@ -1,0 +1,64 @@
+[16:56:13.77] /m Information: License 'SAE' checked out. (LICENSE-003)
+[16:56:15.97] /o sae_shell Version Custom Compiler M-2017.03-SP1-1
+              /c Build  (OPT) compiled on Thu Jun 29 08:54:37 2017 for RHEL64 6.6
+              /c Execution time: Wed Nov 15 16:56:12 2017
+              /c Host: linux60818
+              /c 
+              /c Copyright © 2004-2017 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[16:56:16.07] /o 	############################################
+[16:56:16.07] /o 	        Synopsys Generic 90nm iPDK          
+[16:56:16.07] /o 	--------------------------------------------
+[16:56:16.07] /o 	Release Date .............. : 11-May-2016    
+[16:56:16.07] /o 	============================================
+[16:56:16.07] /o 	        Recommended Tool Versions           
+[16:56:16.07] /o 	--------------------------------------------
+[16:56:16.07] /o 	Custom Designer ........... : J-2014.12-2    
+[16:56:16.07] /o 	IC Validator .............. : K-2015.12   
+[16:56:16.07] /o 	StarRC..................... : K-2015.12  
+[16:56:16.07] /o 	--------------------------------------------
+[16:56:16.07] /o 	############################################
+[16:56:16.07] /o 
+[16:56:16.09] /o SAED PDK 90: Loaded callbacks
+[16:56:16.09] /o SAED PDK 90: Loaded display resources
+[16:56:16.11] /i ::sa::_backgroundSaeShell::signalProcessReady 1510793771
+[16:56:16.11] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 5
+[16:56:43.87] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession20 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[16:56:44.44] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[16:56:44.58] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.7 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession20 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[16:56:44.58] /o false
+[17:01:45.14] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:01:45.21] /i ::sa::_backgroundSaeShell::parentRunning
+[17:01:45.21] /o 1510794105
+[17:01:49.48] /m Information: Stopped sharing "Custom WaveView ADV" license. (WAVEFORM-111)
+[17:02:56.14] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession20 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[17:02:56.52] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[17:02:56.64] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.4 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession20 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[17:02:56.64] /o false
+[17:03:38.05] /i ::wf::viewerExited
+[17:05:24.80] /i ::wf::viewerExited
+[17:05:38.48] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession20 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[17:05:39.04] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.5 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession20 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/C2mos/testbench/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[17:05:39.04] /o false
+[17:10:40.18] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:10:40.26] /i ::sa::_backgroundSaeShell::parentRunning
+[17:10:40.26] /o 1510794640
+[17:10:43.93] /m Information: Stopped sharing "Custom WaveView ADV" license. (WAVEFORM-111)
+[17:15:41.20] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:15:41.26] /i ::sa::_backgroundSaeShell::parentRunning
+[17:15:41.26] /o 1510794941
+[17:20:42.22] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:20:42.26] /i ::sa::_backgroundSaeShell::parentRunning
+[17:20:42.26] /o 1510795242
+[17:25:43.24] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:25:43.26] /i ::sa::_backgroundSaeShell::parentRunning
+[17:25:43.26] /o 1510795543
+[17:30:44.26] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:30:44.26] /i ::sa::_backgroundSaeShell::parentRunning
+[17:30:44.26] /o 1510795844
+[17:31:59.12] /i ::sa::_backgroundSaeShell::exit
+[17:31:59.12] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting
+[17:31:59.49] /m Information: License 'Schematic' checked in. (LICENSE-004)
+[17:31:59.49] /m Information: License 'SAE' checked in. (LICENSE-004)

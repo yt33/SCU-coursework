@@ -1,0 +1,45 @@
+<module name="vsl: lab4 NAND schematic vl: auCdl schematic symbol">
+<scope name="Instance">
+<forward>
+<mapping src="M3" dst="MM3"/>
+<mapping src="M0" dst="MM0"/>
+<mapping src="M4" dst="MM4"/>
+<mapping src="M1" dst="MM1"/>
+<mapping src="M5" dst="MM5"/>
+<mapping src="M2" dst="MM2"/>
+</forward>
+<reverse>
+<mapping src="MM3" dst="M3"/>
+<mapping src="MM4" dst="M4"/>
+<mapping src="MM0" dst="M0"/>
+<mapping src="MM1" dst="M1"/>
+<mapping src="MM5" dst="M5"/>
+<mapping src="MM2" dst="M2"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="A B C OUT"/>
+<mapping src="&lt;termOrder>" dst="A B C OUT"/>
+</forward>
+<reverse>
+<mapping src="A B C OUT" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="nmos4t">
+<instance name="M0"/>
+<instance name="M1"/>
+<instance name="M2"/>
+</instance_header>
+<instance_header master="pmos4t">
+<instance name="M3"/>
+<instance name="M4"/>
+<instance name="M5"/>
+</instance_header>
+</master_instances>
+</module>

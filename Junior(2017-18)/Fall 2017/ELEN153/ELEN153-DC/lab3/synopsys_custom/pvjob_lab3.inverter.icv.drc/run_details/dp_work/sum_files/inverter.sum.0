@@ -1,0 +1,934 @@
+Wed Oct 11 15:52:29 2017
+
+                                  ICV_Engine 
+
+           Version M-2017.06-1 for linux64 - Jun 19, 2017 cl#3706802
+
+                    Copyright (c) 1996 - 2017 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 2 shared thread(s)
+
+Runset file ......................  /DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.drc/rules.drc.9m_saed90_icv.drc.rs
+Current Directory ................  /DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.drc
+Hostname .........................  linux60814
+Platform type ....................  LINUX.64
+OPENACCESS lib.defs file .........  /DCNFS/users/student/yli1/ELEN153/lab3/lib.defs
+OPENACCESS input library name ....  lab3
+OPENACCESS block name ............  inverter
+OPENACCESS view name .............  layout
+Run details ......................  /DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.drc/run_details
+Group file directory .............  /DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.drc/run_details/group
+Check reference structures .......  yes
+
+error_options() at /DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.drc/rules.drc.9m_saed90_icv.drc.rs:44
+error_options(error_limit_per_check = 10000000)
+
+layout_grid_options() at /DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.drc/rules.drc.9m_saed90_icv.drc.rs:48
+layout_grid_options(resolution = 0.005, check_45 = { PATH, POLYGON })
+
+run_options()[Generated Command]
+run_options()
+
+library()[Generated Command]
+library(library_name = ".empty.gds", format = GDSII, cell = "BLOCK")
+
+resolution_options()[Generated Command]
+resolution_options()
+
+incremental_options()[Generated Command]
+incremental_options()
+
+layout_drawn_options()[Generated Command]
+layout_drawn_options()
+
+layout_integrity_options()[Generated Command]
+layout_integrity_options()
+
+hierarchy_options()[Generated Command]
+hierarchy_options()
+
+prototype_options()[Generated Command]
+prototype_options()
+
+hierarchy_auto_options()[Generated Command]
+hierarchy_auto_options()
+
+text_options()[Generated Command]
+text_options()
+
+   Prescan Library Time=0:00:00  User=0.00 Sys=0.01 Mem=14.818
+
+Initialized OpenAccess libraries successfully
+   Scan Hierarchy Time=0:00:00  User=0.23 Sys=0.02 Mem=14.818
+
+[liboa] WARNING: Ignoring data on layer/purpose pairs not present in the
+layer mapping file "/DCNFS/applications/synopsys/2017/app/SAED/SAED_PDK90nm/techfiles/saed_pdk90_layer.map":
+  (Layer number 237, drawing)
+   Read Library Time=0:00:00  User=0.02 Sys=0.01 Mem=24.879
+
+     Find Top Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=24.098
+
+    Create Hierarchy Tree Phase: 0 Time=0:00:00  User=0.00 Sys=0.00 Mem=25.098
+
+Prototype Placement Pass 1
+Preprocessing group files...
+Preprocess Step 1 : Exploding
+Find duplicate placements in cells
+    Create Hierarchy Tree Phase: 1 Time=0:00:00  User=0.00 Sys=0.01 Mem=22.691
+
+     Determine Region Time=0:00:00  User=0.00 Sys=0.00 Mem=20.582
+
+     Create Layer Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=20.473
+
+0 Total errors found.
+    Create Hierarchy Tree Phase: 2 Time=0:00:00  User=0.01 Sys=0.00 Mem=22.426
+
+   Create Hierarchy Tree Time=0:00:00  User=0.01 Sys=0.01 Mem=25.098
+
+      Pairing Iteration 1 Time=0:00:00  User=0.00 Sys=0.00 Mem=21.551
+
+     Pairing Time=0:00:00  User=0.00 Sys=0.00 Mem=21.551
+
+    Combined VCELL Time=0:00:00  User=0.00 Sys=0.00 Mem=21.551
+
+Preprocess Step 11 : Post-VCell Explodes
+    Post VCell Time=0:00:00  User=0.00 Sys=0.00 Mem=18.473
+
+write_inst_name_data(): verbose_is_necessary
+     Write Instance Name Time=0:00:00  User=0.00 Sys=0.00 Mem=18.411
+
+    Create Layer Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=18.426
+
+    
+Hierarchy Cleanup Time=0:00:00  User=0.00 Sys=0.01 Mem=20.348
+
+   Optimize Hierarchy Tree Time=0:00:00  User=0.00 Sys=0.02 Mem=21.551
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=17.302
+
+Hierarchy Cleanup
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=17.333
+
+Wed Oct 11 15:52:31 2017
+
+                                  ICV_Engine 
+
+           Version M-2017.06-1 for linux64 - Jun 19, 2017 cl#3706802
+
+                    Copyright (c) 1996 - 2017 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+
+Running Multi-Threaded code with 2 shared thread(s)
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=12.881
+
+Initialized OpenAccess libraries successfully
+assign() at rules.drc.9m_saed90_icv.drc.rs:59:Layer creation
+DIFFi = assign({ { 3 } })
+  Function: assign
+  Inputs: DIFFi.polygonlayer.0002
+  Outputs: DIFFi.polygonlayer.0003
+0 grid violations found.
+0 non-45 violations found.
+0 non-90 violations found.
+4 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=17.317
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.01 Sys=0.00 Mem=12.943
+
+not() at rules.drc.9m_saed90_icv.drc.rs:330:command replaced with an internal copy command.
+not(not(diff, odwr), imp)
+  Function: not
+  Inputs: DIFFi.polygonlayer.0003
+  Outputs: temp.polygonlayer.0001
+4 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=12.943
+
+Reading error hierarchy _hrchy2_part0hrchy.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=13.943
+
+assign() at rules.drc.9m_saed90_icv.drc.rs:66:Layer creation
+POi = assign({ { 10 } })
+  Function: assign
+  Inputs: POi.polygonlayer.0002
+  Outputs: POi.polygonlayer.0003
+0 grid violations found.
+0 non-45 violations found.
+0 non-90 violations found.
+1 unique polygon written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=17.489
+
+assign() at rules.drc.9m_saed90_icv.drc.rs:67:Layer creation
+M1i = assign({ { 11 } })
+  Function: assign
+  Inputs: M1i.polygonlayer.0002
+  Outputs: M1i.polygonlayer.0003
+0 grid violations found.
+0 non-45 violations found.
+0 non-90 violations found.
+4 unique polygons written.
+0 Total errors found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=18.629
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0034" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0033" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0032" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0031" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0030" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "ptapco.associated.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "ptapco.associated.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0029" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0028" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0027" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0026" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0025" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0024" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0023" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "gt_coi_act.associated.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "gt_coi_act.associated.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0022" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0021" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0020" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0019" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0018" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0017" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0016" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0015" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "fpoly_s_1.associated.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0014" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0013" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0012" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0011" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0010" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0009" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0008" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=16.083
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0007" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=17.083
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0006" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=17.083
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0005" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=17.083
+
+Reading error hierarchy error._hier.0001 ...
+   Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=15.943
+
+not() at rules.drc.9m_saed90_icv.drc.rs:330
+not(not(diff, odwr), imp)
+  Comment: "R.DIFF.R.1 DIFF must be fully covered by NIMP/PIMP"
+  Function: not
+  Inputs: temp.polygonlayer.0001, temp.associated.0005, imp.polygonlayer.0001, temp.associated.0006
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=23.957
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=25.128
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=25.128
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=18.068
+
+[Generated Command]
+No output written.
+Layer "sd_tap.associated.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=17.068
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0003" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=17.068
+
+[Generated Command]
+No output written.
+Layer "ptap.associated.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=17.068
+
+[Generated Command]
+No output written.
+Layer "sd_tap.associated.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=17.068
+
+[Generated Command]
+No output written.
+Layer "gate.associated.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=17.068
+
+[Generated Command]
+No output written.
+Layer "gate.associated.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=17.068
+
+[Generated Command]
+No output written.
+Layer "temp.associated.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=17.068
+
+[Generated Command]
+No output written.
+Layer "nact.associated.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=17.068
+
+[Generated Command]
+No output written.
+Layer "pact.associated.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=17.068
+
+[Generated Command]
+No output written.
+Layer "ntap.associated.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=17.068
+
+[Generated Command]
+No output written.
+Layer "nact.associated.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=17.068
+
+[Generated Command]
+No output written.
+Layer "pwell.associated.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=17.068
+
+[Generated Command]
+No output written.
+Layer "pwell.associated.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=17.068
+
+[Generated Command]
+No output written.
+Layer "bulk.associated.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=17.068
+
+size() at rules.drc.9m_saed90_icv.drc.rs:209
+bulk = size(chip, 1)
+  Function: size
+  Inputs: chip.polygonlayer.0001, bulk.associated.0001
+  Outputs: bulk.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=20.035
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=21.237
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.237
+
+not() at rules.drc.9m_saed90_icv.drc.rs:211
+pwell = not(bulk, nwell)
+  Function: not
+  Inputs: bulk.polygonlayer.0001, pwell.associated.0001, NWELLi.polygonlayer.0003, pwell.associated.0002
+  Outputs: pwell.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=24.487
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=25.658
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=25.658
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:970
+enclose(co, m1, distance < 0.005, extension = NONE, intersecting = { TOUCH })
+  Comment: "CO.E.6: Minimum enclosure of any contact bby M1 0.005um"
+  Function: enclose
+  Inputs: M1i.polygonlayer.0003, COi.polygonlayer.0003, temp.associated.0001, cood.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=23.923
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=25.001
+0 enclose violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=25.001
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=18.083
+
+not() at rules.drc.9m_saed90_icv.drc.rs:965
+not(co, m1)
+  Comment: "CO.E.6: CONT is not enclosed by M1"
+  Function: not
+  Inputs: COi.polygonlayer.0003, cood.associated.0001, M1i.polygonlayer.0003, temp.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=25.251
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=26.344
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=26.344
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=18.068
+
+size() at rules.drc.9m_saed90_icv.drc.rs:679
+m1wide = size(m1wide, 2.5)
+  Function: size
+  Inputs: M1i.polygonlayer.0003, temp.associated.0001
+  Outputs: m1wide.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=19.972
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=21.144
+No output written.
+Layer "" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=21.144
+
+external2() at rules.drc.9m_saed90_icv.drc.rs:683
+external2(m1, m1wide, distance < 1.5, extension = RADIAL, look_thru = COINCIDENT, intersecting = TOUCH)
+  Comment: "R.M1.S.2: Minimum spacing when either metal line is wider than 5um = 1.5u"
+  Function: external2
+  Inputs: M1i.polygonlayer.0003, temp.associated.0001, m1wide.polygonlayer.0001, temp.associated.0024
+Input layer "m1wide.polygonlayer.0001" is empty.
+0 spacing violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=17.099
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=18.099
+
+area() at rules.drc.9m_saed90_icv.drc.rs:675
+area(m1, value < 0.07)
+  Comment: "R.M1.A.1  M1 minimum area = 0.07um^2"
+  Function: area
+  Inputs: M1i.polygonlayer.0003, temp.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=20.019
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=21.144
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=21.144
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=19.099
+
+internal1() at rules.drc.9m_saed90_icv.drc.rs:666
+internal1(m1, distance < 0.14, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.M1.W.1: Minimum width=0.14um"
+  Function: internal1
+  Inputs: M1i.polygonlayer.0003, temp.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=21.222
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=22.409
+0 width violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.409
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=19.099
+
+[Generated Command]
+No output written.
+Layer "ndiff.associated.0002" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=18.099
+
+external1() at rules.drc.9m_saed90_icv.drc.rs:438
+external1(nimp, distance < 0.24, extension = RADIAL, relational = POINT_TOUCH, look_thru = ALL)
+  Comment: "R.NIMP.S.1 Minimum space is 0.24"
+  Function: external1
+  Inputs: NIMPi.polygonlayer.0003, ndiff.associated.0002
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=21.284
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=22.518
+0 spacing violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.518
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=19.099
+
+internal1() at rules.drc.9m_saed90_icv.drc.rs:423
+internal1(nimp, distance < 0.24, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.NIMP.W.1 Minimum width is 0.24"
+  Function: internal1
+  Inputs: NIMPi.polygonlayer.0003, ndiff.associated.0002
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=21.222
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=22.409
+0 width violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.409
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=19.099
+
+internal1() at rules.drc.9m_saed90_icv.drc.rs:613
+internal1(po, distance < 0.1, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.PO.W.1: Minimum width=0.1um"
+  Function: internal1
+  Inputs: POi.polygonlayer.0003, fpoly.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=21.222
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=22.409
+0 width violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.409
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=19.099
+
+and() at rules.drc.9m_saed90_icv.drc.rs:245
+copo = and(co, po)
+  Function: and
+  Inputs: COi.polygonlayer.0003, cood.associated.0001, POi.polygonlayer.0003, fpoly.associated.0001
+  Outputs: copo.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=23.721
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=24.986
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=24.986
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:919
+enclose(copo, po, distance < 0.04, extension = RADIAL, intersecting = TOUCH, relational = { POINT_TOUCH, INSIDE, OUTSIDE }, relational_type = POLYGON)
+  Comment: "R.CO.E.1: Poly Contact is not enclosed by Poly, min. enclosure is 0.04um"
+  Function: enclose
+  Inputs: POi.polygonlayer.0003, copo.polygonlayer.0001
+0 enclose violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=22.206
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=19.099
+
+[Generated Command]
+No output written.
+Layer "pdiff.associated.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=18.099
+
+and() at rules.drc.9m_saed90_icv.drc.rs:405
+and(pimp, nimp)
+  Comment: "R.PIMP.S.2 Overlap of NIMP and PIMP is not allowed"
+  Function: and
+  Inputs: PIMPi.polygonlayer.0003, pdiff.associated.0001, NIMPi.polygonlayer.0003, ndiff.associated.0002
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=23.736
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=24.908
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=24.908
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=19.099
+
+internal1() at rules.drc.9m_saed90_icv.drc.rs:385
+internal1(pimp, distance < 0.24, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.PIMP.W.1 Minimum width is 0.24"
+  Function: internal1
+  Inputs: PIMPi.polygonlayer.0003, pdiff.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=21.222
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=22.409
+0 width violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.409
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=19.099
+
+internal2() at rules.drc.9m_saed90_icv.drc.rs:448
+internal2(nimp, diff, distance < 0.14, extension = RADIAL)
+  Comment: "R.NIMP.O.1 Minimum active overlap is 0.14"
+  Function: internal2
+  Inputs: NIMPi.polygonlayer.0003, DIFFi.polygonlayer.0003, ndiff.associated.0002, ndiff.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=25.189
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=26.438
+0 inside_edge violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=26.438
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=19.083
+
+internal2() at rules.drc.9m_saed90_icv.drc.rs:415
+internal2(pimp, diff, distance < 0.14, extension = RADIAL)
+  Comment: "R.PIMP.O.1 Minimum active overlap is 0.14"
+  Function: internal2
+  Inputs: PIMPi.polygonlayer.0003, DIFFi.polygonlayer.0003, pdiff.associated.0001, ndiff.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=25.173
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=26.532
+0 inside_edge violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=26.532
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=19.083
+
+internal1() at rules.drc.9m_saed90_icv.drc.rs:336
+internal1(diff, distance < 0.12, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.DIFF.W.1 Minimum width is 0.12"
+  Function: internal1
+  Inputs: DIFFi.polygonlayer.0003, ndiff.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=21.206
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=22.393
+0 width violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.393
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=19.099
+
+not() at rules.drc.9m_saed90_icv.drc.rs:233
+fpoly = not(po, diff)
+  Function: not
+  Inputs: POi.polygonlayer.0003, fpoly.associated.0001, DIFFi.polygonlayer.0003, ndiff.associated.0001
+  Outputs: fpoly.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=26.532
+    Large Cell Time=0:00:00  User=0.01 Sys=0.00 Mem=27.687
+3 unique polygons written.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=27.687
+
+external1() at rules.drc.9m_saed90_icv.drc.rs:627
+fpoly_s_1 = external1(fpoly, distance < 0.18, extension = RADIAL, relational = POINT_TOUCH)
+  Function: external1
+  Inputs: fpoly.polygonlayer.0001, fpoly_s_1.associated.0001
+  Outputs: fpoly_s_1.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=21.253
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=22.502
+0 spacing violations found.
+Layer "fpoly_s_1.polygonlayer.0001" is empty.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.502
+
+and() at rules.drc.9m_saed90_icv.drc.rs:222
+ndiff = and(nimp, diff)
+  Function: and
+  Inputs: NIMPi.polygonlayer.0003, ndiff.associated.0002, DIFFi.polygonlayer.0003, ndiff.associated.0001
+  Outputs: ndiff.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=23.721
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=24.986
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=24.986
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:428
+enclose(ndiff, nimp, distance < 0.14, extension = RADIAL, relational = INSIDE, intersecting = TOUCH)
+  Comment: "R.NIMP.E.1 Enclosure of P+Active is 0.14"
+  Function: enclose
+  Inputs: NIMPi.polygonlayer.0003, ndiff.polygonlayer.0001, ndiff.associated.0002, ntap.associated.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=25.189
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=26.454
+0 enclose violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=26.454
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=19.099
+
+and() at rules.drc.9m_saed90_icv.drc.rs:225
+nact = and(ndiff, pwell)
+  Function: and
+  Inputs: ndiff.polygonlayer.0001, nact.associated.0002, pwell.polygonlayer.0001, nact.associated.0001
+  Outputs: nact.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=23.721
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=24.986
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=24.986
+
+external2() at rules.drc.9m_saed90_icv.drc.rs:410
+external2(pimp, nact, distance < 0.14, extension = RADIAL, relational = OVERLAP, look_thru = COINCIDENT)
+  Comment: "R.PIMP.S.3 Minimum spacing to N+Active in P_Well is 0.14"
+  Function: external2
+  Inputs: PIMPi.polygonlayer.0003, temp.associated.0013, nact.polygonlayer.0001, temp.associated.0014
+    Setup Time=0:00:00  User=0.00 Sys=0.01 Mem=25.189
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=26.516
+0 spacing violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=26.516
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=19.099
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:357
+enclose(nact, pwell, distance < 0.24, extension = RADIAL, relational = INSIDE, intersecting = TOUCH)
+  Comment: "R.DIFF.E.1 Source/Drain N+active to Pwell edge ( min enclosure by well ) is 0.24"
+  Function: enclose
+  Inputs: pwell.polygonlayer.0001, nact.polygonlayer.0001, temp.associated.0008, temp.associated.0007
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=25.189
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=26.454
+0 enclose violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=26.454
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=19.099
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:395
+enclose(ptap, pimp, distance < 0.04, extension = RADIAL, relational = INSIDE, intersecting = TOUCH)
+  Comment: "R.PIMP.E.2 Enclosure of PTAP 0.04"
+  Function: enclose
+  Inputs: PIMPi.polygonlayer.0003, ptap.polygonlayer.0001, temp.associated.0012, temp.associated.0011
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=25.189
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=26.454
+0 enclose violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=26.454
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=19.099
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:367
+enclose(ptap, pwell, distance < 0.2, extension = RADIAL, relational = INSIDE, intersecting = TOUCH)
+  Comment: "R.DIFF.E.2 PTAP minimum enclosure by PWELL 0.2"
+  Function: enclose
+  Inputs: pwell.polygonlayer.0001, ptap.polygonlayer.0001, temp.associated.0010, temp.associated.0009
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=25.189
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=26.454
+0 enclose violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=26.454
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=19.099
+
+and() at rules.drc.9m_saed90_icv.drc.rs:949:Duplicate command replaced with an internal copy command.
+ntapco = ptap and co
+  Function: and
+  Inputs: ptapco.polygonlayer.0001
+  Outputs: ntapco.polygonlayer.0001
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=18.099
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:959
+enclose(ntapco, nimp, distance < 0.06, extension = RADIAL, intersecting = { TOUCH }, relational = { POINT_TOUCH })
+  Comment: "R.CO.E.5: Minimum butted diffusion NIPM enclosure of S/D contact 0.06um"
+  Function: enclose
+  Inputs: NIMPi.polygonlayer.0003, ntapco.polygonlayer.0001, temp.associated.0033, temp.associated.0032
+    Setup Time=0:00:00  User=0.01 Sys=0.00 Mem=25.189
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=26.454
+0 enclose violations found.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=26.454
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=19.099
+
+and() at rules.drc.9m_saed90_icv.drc.rs:226
+pact = and(pdiff, nwell)
+  Function: and
+  Inputs: pdiff.polygonlayer.0001, pact.associated.0001, NWELLi.polygonlayer.0003, dnwnwell.associated.0001
+  Outputs: pact.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=23.721
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=24.986
+1 unique polygon written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=24.986
+
+external2() at rules.drc.9m_saed90_icv.drc.rs:443
+external2(nimp, pact, distance < 0.14, extension = RADIAL, relational = OVERLAP, look_thru = COINCIDENT)
+  Comment: "R.NIMP.S.3 Minimum spacing to N+Active in P_Well is 0.14"
+  Function: external2
+  Inputs: NIMPi.polygonlayer.0003, ndiff.associated.0002, pact.polygonlayer.0001, temp.associated.0002
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=25.189
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=26.516
+0 spacing violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=26.516
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=19.099
+
+or() at rules.drc.9m_saed90_icv.drc.rs:227
+act = or(pact, nact)
+  Function: or
+  Inputs: pact.polygonlayer.0001, nact.polygonlayer.0001
+  Outputs: act.polygonlayer.0001
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.01 Mem=21.941
+
+and() at rules.drc.9m_saed90_icv.drc.rs:235
+gate = and(po, act)
+  Function: and
+  Inputs: POi.polygonlayer.0003, gate.associated.0001, act.polygonlayer.0001, gate.associated.0002
+  Outputs: gate.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=23.721
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=24.986
+2 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=24.986
+
+external2() at rules.drc.9m_saed90_icv.drc.rs:908
+external2(cood, gate, distance < 0.12, extension = RADIAL, look_thru = COINCIDENT, relational = OVERLAP, intersecting = TOUCH)
+  Comment: "R.CO.S.2: (Contact inside DIFF) Min. space to gate=0.12um"
+  Function: external2
+  Inputs: cood.polygonlayer.0001, temp.associated.0025, gate.polygonlayer.0001, temp.associated.0026
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=25.189
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=26.516
+0 spacing violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=26.516
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=19.099
+
+not_coincident_edge() at rules.drc.9m_saed90_icv.drc.rs:654
+gt_coi_act = not_coincident_edge(gate, act)
+  Function: not_coincident_edge
+  Inputs: gate.polygonlayer.0001, gt_coi_act.associated.0001, act.polygonlayer.0001, gt_coi_act.associated.0002
+  Outputs: gt_coi_act.edgelayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=24.783
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=26.048
+2 unique edge sets written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=26.048
+
+adjacent_edge() at rules.drc.9m_saed90_icv.drc.rs:659
+adjacent_edge(gt_coi_act, length > 0.0, angle1 = 45.0)
+  Comment: "R.G.1 45 and 90 degree gate benting is not allowed"
+  Function: adjacent_edge
+  Inputs: gt_coi_act.edgelayer.0001, temp.associated.0023
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=21.081
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=22.222
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.222
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=19.099
+
+adjacent_edge() at rules.drc.9m_saed90_icv.drc.rs:658
+adjacent_edge(gt_coi_act, length > 0.0, angle1 = 90.0)
+  Comment: "R.G.1 45 and 90 degree gate benting is not allowed"
+  Function: adjacent_edge
+  Inputs: gt_coi_act.edgelayer.0001, temp.associated.0023
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=21.081
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=22.222
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.222
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=19.099
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:646
+enclose(gate, po, distance < 0.18, extension = RADIAL)
+  Comment: "R.PO.EX.1: Minimum gate extension of active (endcap)  0.18um"
+  Function: enclose
+  Inputs: POi.polygonlayer.0003, gate.polygonlayer.0001, temp.associated.0020, temp.associated.0019
+    Setup Time=0:00:00  User=0.01 Sys=0.00 Mem=25.189
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=26.454
+0 enclose violations found.
+   Check Time=0:00:00  User=0.01 Sys=0.00 Mem=26.454
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=19.099
+
+external1() at rules.drc.9m_saed90_icv.drc.rs:636
+external1(gate, distance < 0.2, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.PO.S.2: PO minimum spacing over active 0.2um"
+  Function: external1
+  Inputs: gate.polygonlayer.0001, temp.associated.0016
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=21.284
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=22.518
+0 spacing violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=22.518
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=19.099
+
+not() at rules.drc.9m_saed90_icv.drc.rs:631
+not(fpoly_s_1, gate)
+  Comment: "R.PO.S.1: PO minimum spacing over field 0.18um"
+  Function: not
+  Inputs: fpoly_s_1.polygonlayer.0001, temp.associated.0015, gate.polygonlayer.0001, sd_tap.associated.0001
+Input layer "fpoly_s_1.polygonlayer.0001" is empty.
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=18.099
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=19.099
+
+not() at rules.drc.9m_saed90_icv.drc.rs:248
+sd_tap = not(diff, gate)
+  Function: not
+  Inputs: DIFFi.polygonlayer.0003, sd_tap.associated.0002, gate.polygonlayer.0001, sd_tap.associated.0001
+  Outputs: sd_tap.polygonlayer.0001
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=26.532
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=27.828
+6 unique polygons written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=27.828
+
+external2() at rules.drc.9m_saed90_icv.drc.rs:641
+external2(fpoly, sd_tap, distance < 0.05, extension = RADIAL, look_thru = COINCIDENT)
+  Comment: "R.PO.S.3: Minimum field poly to DIFF spacing=0.05um"
+  Function: external2
+  Inputs: fpoly.polygonlayer.0001, temp.associated.0017, sd_tap.polygonlayer.0001, temp.associated.0018
+    Setup Time=0:00:00  User=0.00 Sys=0.00 Mem=25.189
+    Large Cell Time=0:00:00  User=0.00 Sys=0.00 Mem=26.516
+0 spacing violations found.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=26.516
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=19.099
+
+   Tagging Time=0:00:00  User=0.00 Sys=0.00 Mem=19.099
+
+Reading error hierarchy error._hier.0001 ...
+ Elapsed Time=0:00:00  User=0.00 Sys=0.00 Mem=18.083
+
+  File Cleanup Time=0:00:00  User=0.00 Sys=0.00 Mem=19.083
+

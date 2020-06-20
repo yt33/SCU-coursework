@@ -1,0 +1,64 @@
+
+                                  PYDB_Server 
+
+           Version M-2017.06-1 for linux64 - Jun 19, 2017 cl#3706802
+
+                    Copyright (c) 2007 - 2017 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+variable width coordinate support enabled.
+Removing old database /DCNFS/users/student/yli1/ELEN153/synopsys_custom/pvjob_C2mos.C2MOS-register.icv.lvs/TOPCELLNAME_err/PYDB_C2MOS_register
+Listening for connections on port 7890
+PYDB_Server Started on host linux60817, Tue 11/28/2017 21:19:24
+Client linux60817(26862):7 connected (1 total client)
+Verified current licenses.
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.10.0
+Client linux60817(26907):13 connected (2 total clients)
+Client linux60817(26906):14 connected (3 total clients)
+Client linux60817(26907):13 disconnected (2 clients remain)
+Client linux60817(26907):13 connected (3 total clients)
+Begin error insertion: /DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:738:text_net:text_open_merge
+Error insertion complete: /DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs:738:text_net:text_open_merge
+  Error Insertion Time=0:00:00  User=0.00 Sys=0.01 Mem=0.523 SQLite=6.540 Unpooled=0.054
+Client linux60817(26907):13 disconnected (2 clients remain)
+Client linux60817(26906):14 disconnected (1 client remains)
+ Total error insertion Time=0:00:04  User=0.00 Sys=0.01 Mem=0.562 SQLite=6.540 Unpooled=0.054
+  Total Commands: 1
+  Total Errors: 3
+  Avg Time/Cmd: Wall=0 User=0.00 Sys=0.01 Mem=0.523 MySQL Mem=0.054
+Generating /DCNFS/users/student/yli1/ELEN153/synopsys_custom/pvjob_C2mos.C2MOS-register.icv.lvs/C2MOS-register.LAYOUT_ERRORS
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.866
+Shutdown requested by client linux60817(26862):7
+0 clients remain connected
+Overall server Time=0:00:10  User=0.04 Sys=0.04 Mem=0.866 SQLite=6.540 Unpooled=0.062
+
+                                  PYDB_Server 
+
+           Version M-2017.06-1 for linux64 - Jun 19, 2017 cl#3706802
+
+                    Copyright (c) 2007 - 2017 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+variable width coordinate support enabled.
+Listening for connections on port 8630
+PYDB_Server Started on host linux60817, Tue 11/28/2017 21:19:38
+Client linux60817(26993):6 connected (1 total client)
+Verified current licenses.
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.10.0
+Shutdown requested by client linux60817(26993):6
+0 clients remain connected
+Overall server Time=0:05:59  User=0.01 Sys=0.01 Mem=0.390 SQLite=6.472 Unpooled=0.044

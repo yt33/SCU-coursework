@@ -1,0 +1,31 @@
+arrayName {default_HSPICE}
+arraySize {-1}
+cmdLine { /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/netlist/runSimulation  > /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results/run.log 2>&1}
+creationTime {1508371522}
+data {resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results masterResultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results session saeSession32 testbench default}
+dataReadyProc {}
+deferred {0}
+exitProc {sa::simulationDone}
+exitStatus {0}
+exitTime {1508371523}
+files {/DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results/hspice.lis /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results/hspice.valog /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results/run.log /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results/hspice.st0}
+gridOptions {}
+group {oa:0x234c8ec0}
+host {localhost}
+isLocallyQueued {0}
+isQueued {0}
+isTerminating {0}
+jobClass {oa:0x234c8ec0}
+jobType {batch}
+name {HSPICE_37}
+procId {16559}
+queueEngine {}
+queueIdentifier {}
+readOnlyFiles {}
+ready {0}
+readyProc {}
+remoteSubmit {0}
+runDesc {HSPICE simulation:  /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/netlist/runSimulation  > /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results/run.log 2>&1}
+startTime {1508371522}
+status {FINISHED}
+submitHost {}

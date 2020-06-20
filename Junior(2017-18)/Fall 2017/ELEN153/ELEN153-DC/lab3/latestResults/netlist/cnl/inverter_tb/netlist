@@ -1,0 +1,10 @@
+********************************************************************************
+* Library          : lab3
+* Cell             : inverter_tb
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi0 vin vout inverter
+v1 vdd! gnd! dc=1.2
+v2 vin gnd! dc=0 sin ( 0.6 0.6 2meg 0 0 0 )

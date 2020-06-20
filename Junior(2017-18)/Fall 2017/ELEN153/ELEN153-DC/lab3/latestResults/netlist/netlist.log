@@ -1,0 +1,5 @@
+[16:40:13.10] /m Information: "Starting incremental netlisting for design
+               "lab3/inverter_tb/schematic"..." (NETLISTING-010)
+[16:40:13.15] /o No Design Integrity rule violations found in "lab3/inverter_tb/schematic"
+[16:40:13.33] /m Information: "Netlisting design "lab3/inverter_tb/schematic" finished
+               successfully." (NETLISTING-012)

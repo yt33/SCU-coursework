@@ -1,0 +1,31 @@
+
+                                  ICV_Master 
+
+           Version M-2017.06-1 for linux64 - Jun 19, 2017 cl#3706802
+
+                    Copyright (c) 1996 - 2017 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Called as: icv -f openaccess -i lab3 -c inverter -oa_view layout -oa_lib_defs /DCNFS/users/student/yli1/ELEN153/lab3/lib.defs -oa_layer_map /DCNFS/applications/synopsys/2017/app/SAED/SAED_PDK90nm/techfiles/saed_pdk90_layer.map -rc /DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.lvs/inverter.lvs.custom_compiler.rc -s /DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.lvs/inverter.custom_compiler.sp -sf SPICE -stc inverter -sf SPICE -quiet=0 -vue /DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+User name:        yli1
+Layout format:    OPENACCESS
+Input file name:  lab3
+Top cell name:    inverter
+Time started:     2017/10/11 04:15:44PM
+
+--------------------------------------------------------------------------------
+                             Rules to be Executed                               
+--------------------------------------------------------------------------------
+
+@ "Interact of HVTIMP and DIFF_25 is not allowed"
+@ "Interact of HVTIMP and DIFF_33 is not allowed"
+@ "Interact of HVTIMP and LVTIMP is not allowed"
+@ "Interact of LVTIMP and DIFF_25 is not allowed"
+@ "Interact of LVTIMP and DIFF_33 is not allowed"
+@ "Violation"

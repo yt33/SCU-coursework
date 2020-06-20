@@ -1,0 +1,133 @@
+                         LVS Compare Results: PASS
+
+                          ####   ###    ####   ####
+                         #   #  #   #  #      #
+                         ####   #####  #####  #####
+                         #      #   #      #      #
+                         #      #   #  ####   #### 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+                   DRC and Extraction Results: NOT CLEAN
+
+         #   #   ###   #####      ####  #      #####   ###   #   #
+         ##  #  #   #    #       #      #      #      #   #  ##  #
+         # # #  #   #    #       #      #      ####   #####  # # #
+         #  ##  #   #    #       #      #      #      #   #  #  ##
+         #   #   ###     #        ####  #####  #####  #   #  #   #
+
+===========================================================================
+
+
+---------------------------------------------------------------------------
+ICV Execution
+---------------------------------------------------------------------------
+
+
+                                 IC Validator 
+
+           Version M-2017.06-1 for linux64 - Jun 19, 2017 cl#3706802
+
+                    Copyright (c) 1996 - 2017 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Called as: icv -f openaccess -i C2mos -c C2MOS-register -oa_view layout -oa_lib_defs /DCNFS/users/student/yli1/ELEN153/lib.defs -oa_layer_map /DCNFS/applications/synopsys/2017/app/SAED/SAED_PDK90nm/techfiles/saed_pdk90_layer.map -rc /DCNFS/users/student/yli1/ELEN153/synopsys_custom/pvjob_C2mos.C2MOS-register.icv.lvs/C2MOS-register.lvs.custom_compiler.rc -s /DCNFS/users/student/yli1/ELEN153/synopsys_custom/pvjob_C2mos.C2MOS-register.icv.lvs/C2MOS-register.custom_compiler.sp -sf SPICE -stc C2MOS-register -sf SPICE -quiet=0 -vue /DCNFS/users/student/yli1/ELEN153/synopsys_custom/pvjob_C2mos.C2MOS-register.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+User name:        yli1
+Layout format:    OPENACCESS
+Input file name:  C2mos
+Top cell name:    C2MOS-register
+Time started:     2017/11/28 09:19:21PM
+Time ended:       2017/11/28 09:19:34PM
+
+
+---------------------------------------------------------------------------
+Results Summary
+---------------------------------------------------------------------------
+
+Compare Error Summary
+Refer to C2MOS-register.LVS_ERRORS.
+
+LVS Compare Result: PASS
+TOP equivalence point:
+		[C2MOS-register, C2MOS-register]
+
+    1 successful equivalencies
+    0 failed equivalencies
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+LVS Device Extraction Error Summary
+
+7 total rules were run.
+0 rules NOT EXECUTED.
+1 rules have violations.
+There are 3 total violations.
+Refer to C2MOS-register.LAYOUT_ERRORS
+
+
+---------------------------------------------------------------------------
+Assign Layer Statistics
+---------------------------------------------------------------------------
+
+Utilized Assign Layers = 54
+ Empty Utilized Assign Layers = 46
+ Non-Empty Utilized Assign Layers = 8
+Pruned Assign Layers = 39
+
+
+---------------------------------------------------------------------------
+Run Configuration
+---------------------------------------------------------------------------
+
+run_options()
+ verbose_results_file = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+hierarchy_options()
+ delete = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+error_options()
+ error_limit_per_check = 100
+ match_errors = { }
+ match_errors_processing_mode = CELL_LEVEL
+ match_errors_tolerance = 0.0000
+ violation_options = { }
+ report_empty_violations = false
+ clean_classifications = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Distributed Processing
+ Distributed Cores = 2
+ Turbo = Off
+
+ linux60817 (2/8)
+   Model: Intel(R) Xeon(R) CPU E5-1620 v4 @ 3.50GHz
+   CPU:   8 cpu 1418 MHz
+   Cores: 4 HT
+   RAM:   32 Gb
+   Swap:  2 Gb
+
+
+---------------------------------------------------------------------------
+Performance Statistics
+---------------------------------------------------------------------------
+
+IC Validator Run Time = 0:00:13
+Peak Single Command Memory = 35.366
+Peak Disk Usage = 0.594
+
+Distributed Host Memory Usage
+ linux60817 (2/8)  ....  Average=4.13 Mb, Peak=64 Mb / 32 Gb
+
+Overall Distributed Utilization: not available
+IC Validator is done.

@@ -1,0 +1,12 @@
+-fs_adjust xt_charmode_caps
+-xout2spf
+-i xout
+-o xout_adjusted
+-num_parts 0
+-hn_file xref.hn
+-net_info_file netlist.netinfo
+-ground_tiny_fs_coupling
+-retain_non_fs_net_total_cap
+-xref_form 1
+-inter_pic_level_connections
+-new_ip_handling

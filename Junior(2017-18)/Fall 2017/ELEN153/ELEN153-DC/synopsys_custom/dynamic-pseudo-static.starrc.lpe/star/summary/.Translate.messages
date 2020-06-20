@@ -1,0 +1,18 @@
+create_xin_writer; sort_xin_in_memory YES cut_trap YES text_counter NO
+original # tiles 0 < 225
+
+SKIP_CELLS:
+< No skip_cells! >
+  
+ReadHNdb      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=200.9 
+NetSelect     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=200.9 
+CellSelect    Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=200.9 
+PlaceTerm     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=201.1 
+PlaceText     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=201.1 
+Db2Xin        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=201.1 
+Translate     Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=201.1 
+  
+Done          Elp=00:00:01 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=201.1 
+
+End Time: Wed Nov 29 16:08:32 2017
+

@@ -1,0 +1,107 @@
+
+
+                                 IC Validator 
+
+           Version M-2017.06-1 for linux64 - Jun 19, 2017 cl#3706802
+
+                    Copyright (c) 1996 - 2017 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Called as: icv -f openaccess -i lab4 -c NAND -oa_view layout -oa_lib_defs /DCNFS/users/student/yli1/ELEN153/lab4/lib.defs -oa_layer_map /DCNFS/applications/synopsys/2017/app/SAED/SAED_PDK90nm/techfiles/saed_pdk90_layer.map -rc /DCNFS/users/student/yli1/ELEN153/lab4/synopsys_custom/pvjob_lab4.NAND.icv.drc/NAND.drc.custom_compiler.rc -oa_dm5 -vue /DCNFS/users/student/yli1/ELEN153/lab4/synopsys_custom/pvjob_lab4.NAND.icv.drc/rules.drc.9m_saed90_icv.drc.rs
+
+
+
+
+
+
+
+Parsing runset "/DCNFS/users/student/yli1/ELEN153/lab4/synopsys_custom/pvjob_lab4.NAND.icv.drc/rules.drc.9m_saed90_icv.drc.rs"
+
+Loaded runset from cache: /home/yli1/.icvrscache/2c76c9e7184fe01acf2b5154dd97739d-linux60814-1796.rscache
+Cached Runset Compile Time=0:00:03 User=2.69 Sys=0.05 Mem=266.938
+
+
+
+                                  ICV_Master 
+
+           Version M-2017.06-1 for linux64 - Jun 19, 2017 cl#3706802
+
+                    Copyright (c) 1996 - 2017 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+Called as: icv -f openaccess -i lab4 -c NAND -oa_view layout -oa_lib_defs /DCNFS/users/student/yli1/ELEN153/lab4/lib.defs -oa_layer_map /DCNFS/applications/synopsys/2017/app/SAED/SAED_PDK90nm/techfiles/saed_pdk90_layer.map -rc /DCNFS/users/student/yli1/ELEN153/lab4/synopsys_custom/pvjob_lab4.NAND.icv.drc/NAND.drc.custom_compiler.rc -oa_dm5 -vue /DCNFS/users/student/yli1/ELEN153/lab4/synopsys_custom/pvjob_lab4.NAND.icv.drc/rules.drc.9m_saed90_icv.drc.rs
+ 
+
+Using user-specified ICV_INCLUDES setting as:
+Not set
+
+Virtual Machine Init Time=0:00:00 User=0.01 Sys=0.00 Mem=266.938
+
+
+Checked out necessary DP licenses.
+Selecting "linux60806" as Primary host
+
+System Startup Time=0:00:00 User=0.00 Sys=0.02 Mem=266.938
+
+
+Command execution begins.  Details recorded in the summary and log files:
+    /DCNFS/users/student/yli1/ELEN153/lab4/synopsys_custom/pvjob_lab4.NAND.icv.drc/run_details/NAND.sum
+    /DCNFS/users/student/yli1/ELEN153/lab4/synopsys_custom/pvjob_lab4.NAND.icv.drc/run_details/rules.drc.9m_saed90_icv.drc.dp.log
+
+Running ...
+vmstat: /DCNFS/applications/synopsys/2017/app/customcompiler/M-2017.03-SP1-1/linux64/PyCellStudio/plat_linux_gcc52_64/3rd/lib/libelf.so.1: version `ELFUTILS_1.7' not found (required by /lib64/libdw.so.1)
+vmstat: /DCNFS/applications/synopsys/2017/app/customcompiler/M-2017.03-SP1-1/linux64/PyCellStudio/plat_linux_gcc52_64/3rd/lib/libelf.so.1: version `ELFUTILS_1.7' not found (required by /lib64/libdw.so.1)
+uptime: /DCNFS/applications/synopsys/2017/app/customcompiler/M-2017.03-SP1-1/linux64/PyCellStudio/plat_linux_gcc52_64/3rd/lib/libelf.so.1: version `ELFUTILS_1.7' not found (required by /lib64/libdw.so.1)
+uptime: /DCNFS/applications/synopsys/2017/app/customcompiler/M-2017.03-SP1-1/linux64/PyCellStudio/plat_linux_gcc52_64/3rd/lib/libelf.so.1: version `ELFUTILS_1.7' not found (required by /lib64/libdw.so.1)
+  ICV_Engine run is   1% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is   2% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is   3% complete.    Elapsed Time=0:00:02
+  ICV_Engine run is   4% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is   5% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  10% complete.    Elapsed Time=0:00:03
+  ICV_Engine run is  15% complete.    Elapsed Time=0:00:04
+  ICV_Engine run is  20% complete.    Elapsed Time=0:00:04
+  ICV_Engine run is  25% complete.    Elapsed Time=0:00:04
+  ICV_Engine run is  30% complete.    Elapsed Time=0:00:04
+  ICV_Engine run is  35% complete.    Elapsed Time=0:00:04
+  ICV_Engine run is  40% complete.    Elapsed Time=0:00:04
+  ICV_Engine run is  45% complete.    Elapsed Time=0:00:04
+  ICV_Engine run is  50% complete.    Elapsed Time=0:00:04
+  ICV_Engine run is  55% complete.    Elapsed Time=0:00:04
+  ICV_Engine run is  60% complete.    Elapsed Time=0:00:04
+  ICV_Engine run is  65% complete.    Elapsed Time=0:00:04
+  ICV_Engine run is  70% complete.    Elapsed Time=0:00:04
+  ICV_Engine run is  75% complete.    Elapsed Time=0:00:04
+  ICV_Engine run is  80% complete.    Elapsed Time=0:00:04
+  ICV_Engine run is  85% complete.    Elapsed Time=0:00:04
+  ICV_Engine run is  90% complete.    Elapsed Time=0:00:04
+  ICV_Engine run is  95% complete.    Elapsed Time=0:00:04
+  ICV_Engine run is 100% complete.    Elapsed Time=0:00:06
+
+Completing error storage...
+  Overall error storage time: None
+
+Generating NAND.LAYOUT_ERRORS...
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.507
+
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=2.819
+
+-------------
+
+IC Validator Run: Time=0:00:10
+
+IC Validator Machine Memory Report
+linux60806   : Average = 8.11(Mb), Peak = 50(Mb)
+
+Overall Disk Usage Disk=0.020
+Overall engine Time=0:00:10 Highest command Mem=28.916 
+
+Overall Master Mem=444.277
+IC Validator is done.

@@ -1,0 +1,246 @@
+*** C2MOS-register		Tue Nov 28 21:19:07 2017
+
+After Natural Hierarchy Cut
+
+
+
+		DESIGN STATISTICS DEFINITIONS
+		______ __________ ______________.
+
+Hierarchical levels       The number of levels in the design.
+Unique Cells              The number of unique cells in the design.
+Hierarchical placements   The total number of placements (srefs and arefs)
+			  at each level in the design.
+Total Design placements   The total number of placements (srefs and arefs)
+			  in the design.
+Exploded references       The total number of exploded references in the
+			   design.
+Exploded placements       The total number of exploded placements in the
+			   design.
+Total Data count          The total number of all polygons, paths, 
+			  edges, and rectangles in the design.
+Sref Placements           The total number of cell references in the design.
+Arefs                     The total number of array references in the design.
+Aref Placements           The total number of references in each array
+			  reference in the design.
+Data                      The number of data primitives in each cell
+			  of the design.
+Text                      The number of text primitives in each cell of the design.
+
+
+*********************************************************************************
+
+
+		DESIGN STATISTICS FOR "C2MOS-register".
+		______ __________ ___ ___________.
+
+	Hierarchical levels	=         1
+	Unique cells		=         1
+	Hierarchical placements	=         1
+	Total design placements	=         1
+	Exploded references	=         4
+	Exploded placements	=         9
+	Total data count	=        96
+	SREF placements		=         1
+	AREFS			=         0
+	AREF placements		=         0
+	DATA 			=        96
+	TEXT			=         0
+
+
+*********************************************************************************
+
+
+		CELL PROFILE STATISTICS DEFINITIONS
+		_______________________________________.
+
+Total Data      Count of all sref's, aref's, rectangles, paths, edges, and polygons in the cell.
+Prims           Count of all rectangles, paths, edges, and polygons in the cell.
+Refs            Count of all sref's and aref's in the cell.
+Text            Count of all text elements in the cell.
+Flat Plcs       The flat placement count for the cell.
+Explode Type    Cell explode type.
+
+
+*********************************************************************************
+
+
+			CELL PROFILE DATA
+			____ _______ ____.
+
+
+
+		CELLS ORDERED FROM LOWEST TO HIGHEST DATA COUNT
+
+     Cell Name       Total Data   Prims   Refs Text    Flat Plcs    Explode Type
+-------------------  ----------  ------  ----- ------ -----------   ------------
+ C2MOS-register           96      96       0       0       1    USED
+
+
+		CELLS ORDERED FROM LOWEST TO HIGHEST FLAT PLACEMENT COUNT
+
+     Cell Name       Flat Plcs   Prims   Refs Text    Total Data    Explode Type
+-------------------  ----------  ------  ----- ------ -----------   ------------
+ C2MOS-register            1      96       0       0      96    USED
+
+
+*********************************************************************************
+
+		HIERARCHICAL TREE FOR BLOCK "C2MOS-register".
+
+TOTAL: Number of placements
+SREF : Number of SREF placements
+AREF : Number of AREF placements
+1Q   : Number of placements at   0 degrees
+2Q   : Number of placements at  90 degrees
+3Q   : Number of placements at 180 degrees
+4Q   : Number of placements at 270 degrees
+1R   : Number of reflected placements at   0 degrees
+2R   : Number of reflected placements at  90 degrees
+3R   : Number of reflected placements at 180 degrees
+4R   : Number of reflected placements at 270 degrees
+
+							       TOTAL    SREF    AREF   1Q   2Q   3Q   4Q   1R   2R   3R   4R
+C2MOS-register				      Level=0  Count=      1       1       0    0    0    0    0    0    0    0    0
+
+
+*********************************************************************************
+
+
+		CELL STATISTICS
+
+
+CELL = C2MOS-register
+	Cell Status		= USED
+	OPENACCESS Library	= C2mos
+	OPENACCESS Cell Name	= C2MOS-register
+	OPENACCESS View Name	= layout
+	OPENACCESS Cell Type	= Normal Cell
+	OPENACCESS Cell Extents (LL,UR)	= (-2.050, -5.560) (0.680, 4.310)
+	Cell Area		= 26.95
+	Hierarchical Placements	=        1
+	Flat Placements		=        1
+	SREFS			=        0	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        4
+	Exploded placements	=        9
+	DATA			=       96
+	TEXT			=        0
+	Via			=        0
+	Upright/Side		=      1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      10      0       
+   PIMPi      3       0       
+   NIMPi      3       0       
+   POi        6       0       
+   M1i        20      0       
+   COi        47      0       
+   M1PIN      6       0       
+
+CELL = SAED_PDK_90.DIFFCON.layout
+	Cell Status		= AUTO_EXPLODED (VIA CELL)
+	OPENACCESS Library	= SAED_PDK_90
+	OPENACCESS Cell Name	= DIFFCON
+	OPENACCESS View Name	= layout
+	OPENACCESS Cell Type	= Standard Via
+	OPENACCESS Cell Extents (LL,UR)	= (-0.115, -2.055) (0.115, 2.055)
+	Cell Area		= 0.95
+	Hierarchical Placements	=        0
+	Flat Placements		=        0
+	SREFS			=        0	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=       18
+	TEXT			=        0
+	Via			=        1
+	Upright/Side		=      1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   DIFFi      1       0       
+   M1i        1       0       
+   COi        16      0       
+
+CELL = SAED_PDK_90.DIFFCON.layout.0
+	Cell Status		= AUTO_EXPLODED (VIA CELL)
+	OPENACCESS Library	= SAED_PDK_90
+	OPENACCESS Cell Name	= DIFFCON
+	OPENACCESS View Name	= layout
+	OPENACCESS Cell Type	= Standard Via
+	OPENACCESS Cell Extents (LL,UR)	= (-0.115, -0.625) (0.115, 0.625)
+	Cell Area		= 0.29
+	Hierarchical Placements	=        0
+	Flat Placements		=        0
+	SREFS			=        0	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=        7
+	TEXT			=        0
+	Via			=        1
+	Upright/Side		=      0/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   DIFFi      1       0       
+   M1i        1       0       
+   COi        5       0       
+
+CELL = SAED_PDK_90.DIFFCON.layout.1
+	Cell Status		= AUTO_EXPLODED (DATA_CELL_LIMIT CELL)
+	OPENACCESS Library	= SAED_PDK_90
+	OPENACCESS Cell Name	= DIFFCON
+	OPENACCESS View Name	= layout
+	OPENACCESS Cell Type	= Standard Via
+	OPENACCESS Cell Extents (LL,UR)	= (-0.115, -0.105) (0.115, 0.105)
+	Cell Area		= 0.05
+	Hierarchical Placements	=        0
+	Flat Placements		=        0
+	SREFS			=        0	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=        3
+	TEXT			=        0
+	Via			=        1
+	Upright/Side		=      0/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   DIFFi      1       0       
+   M1i        1       0       
+   COi        1       0       
+
+CELL = SAED_PDK_90.POLYCON.layout
+	Cell Status		= AUTO_EXPLODED (DATA_CELL_LIMIT CELL)
+	OPENACCESS Library	= SAED_PDK_90
+	OPENACCESS Cell Name	= POLYCON
+	OPENACCESS View Name	= layout
+	OPENACCESS Cell Type	= Standard Via
+	OPENACCESS Cell Extents (LL,UR)	= (-0.115, -0.105) (0.115, 0.105)
+	Cell Area		= 0.05
+	Hierarchical Placements	=        0
+	Flat Placements		=        0
+	SREFS			=        0	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=        3
+	TEXT			=        0
+	Via			=        1
+	Upright/Side		=      0/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   POi        1       0       
+   M1i        1       0       
+   COi        1       0       

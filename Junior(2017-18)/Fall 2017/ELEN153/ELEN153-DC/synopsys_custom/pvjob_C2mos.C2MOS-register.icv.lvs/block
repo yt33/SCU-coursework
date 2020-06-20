@@ -1,0 +1,10 @@
+* XREF SPICE	Tue Nov 28 21:19:34 2017	C2MOS-register
+* icv_netlist Version RHEL64 M-2017.06-1.3706802 2017/06/19
+
+* Top of hierarchy  cell=C2MOS-register
+.subckt C2MOS-register D CLKb CLK gnd! vdd! Q
+M_MM2 Q CLKb net13 gnd! n12  l=1e-07 w=1.6e-06 nf=1
+M_MM3 net13 D gnd! gnd! n12  l=1e-07 w=1.6e-06 nf=1
+M_MM1 Q CLK net5 vdd! p12  l=1e-07 w=4.8e-06 nf=1
+M_MM0 net5 D vdd! vdd! p12  l=1e-07 w=4.8e-06 nf=1
+.ends C2MOS-register

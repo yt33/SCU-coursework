@@ -1,0 +1,51 @@
+<module name="vsl: C2mos dynamic-pseudo-static schematic vl: auCdl schematic symbol">
+<scope name="Instance">
+<forward>
+<mapping src="I12" dst="XI12"/>
+<mapping src="I9" dst="XI9"/>
+<mapping src="I8" dst="XI8"/>
+<mapping src="I13" dst="XI13"/>
+<mapping src="I0" dst="XI0"/>
+<mapping src="I10" dst="XI10"/>
+<mapping src="I1" dst="XI1"/>
+<mapping src="I11" dst="XI11"/>
+</forward>
+<reverse>
+<mapping src="XI10" dst="I10"/>
+<mapping src="XI13" dst="I13"/>
+<mapping src="XI12" dst="I12"/>
+<mapping src="XI9" dst="I9"/>
+<mapping src="XI11" dst="I11"/>
+<mapping src="XI1" dst="I1"/>
+<mapping src="XI0" dst="I0"/>
+<mapping src="XI8" dst="I8"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="CLK CLKb D Qs"/>
+<mapping src="&lt;termOrder>" dst="CLK CLKb D Qs"/>
+</forward>
+<reverse>
+<mapping src="CLK CLKb D Qs" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="C2MOS-register">
+<instance name="I0"/>
+<instance name="I1"/>
+</instance_header>
+<instance_header master="inverter">
+<instance name="I10"/>
+<instance name="I11"/>
+<instance name="I12"/>
+<instance name="I13"/>
+<instance name="I8"/>
+<instance name="I9"/>
+</instance_header>
+</master_instances>
+</module>

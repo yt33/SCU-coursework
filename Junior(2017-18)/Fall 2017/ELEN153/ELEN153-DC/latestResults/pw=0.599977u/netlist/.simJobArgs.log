@@ -1,0 +1,8 @@
+HSPICE
+batch
+ /DCNFS/users/student/yli1/simulation/C2mos/testbench/config/HSPICE/parametric/pw=0.599977u/netlist/runSimulation  > /DCNFS/users/student/yli1/simulation/C2mos/testbench/config/HSPICE/parametric/pw=0.599977u/results/run.log 2>&1
+HSPICE simulation:  /DCNFS/users/student/yli1/simulation/C2mos/testbench/config/HSPICE/parametric/pw=0.599977u/netlist/runSimulation  > /DCNFS/users/student/yli1/simulation/C2mos/testbench/config/HSPICE/parametric/pw=0.599977u/results/run.log 2>&1
+resultsDir /DCNFS/users/student/yli1/simulation/C2mos/testbench/config/HSPICE/parametric/pw=0.599977u/results masterResultsDir /DCNFS/users/student/yli1/simulation/C2mos/testbench/config/HSPICE/parametric/results session saeSession29 testbench default logInfo {{point: pw=0.599977u}}
+/DCNFS/users/student/yli1/simulation/C2mos/testbench/config/HSPICE/parametric/pw=0.599977u/results/hspice.lis /DCNFS/users/student/yli1/simulation/C2mos/testbench/config/HSPICE/parametric/pw=0.599977u/results/hspice.valog /DCNFS/users/student/yli1/simulation/C2mos/testbench/config/HSPICE/parametric/pw=0.599977u/results/run.log /DCNFS/users/student/yli1/simulation/C2mos/testbench/config/HSPICE/parametric/pw=0.599977u/results/hspice.st0
+sa::simulationDone
+/DCNFS/users/student/yli1/simulation/C2mos/testbench/config/HSPICE/parametric/pw=0.599977u/netlist

@@ -1,0 +1,19 @@
+********************************************************************************
+* Library          : C2mos
+* Cell             : dynamic-pseudo-static
+* View             : schematic
+* View Search List : auCdl schematic symbol
+* View Stop List   : auCdl
+********************************************************************************
+.subckt dynamic-pseudo-static CLK CLKb D Qs
+*.PININFO CLK:I CLKb:I D:I Qs:O
+XI1 CLKb CLK net21 net33 C2MOS-register
+XI0 CLK CLKb D Qm C2MOS-register
+XI11 net33 net32 inverter
+XI8 net39 net21 inverter
+XI12 net32 net33 inverter
+XI13 net32 Qs inverter
+XI10 net39 Qm inverter
+XI9 Qm net39 inverter
+.ends dynamic-pseudo-static
+

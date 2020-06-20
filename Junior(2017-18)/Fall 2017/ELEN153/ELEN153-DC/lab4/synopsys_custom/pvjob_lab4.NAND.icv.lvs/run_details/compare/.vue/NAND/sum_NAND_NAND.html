@@ -1,0 +1,851 @@
+<html><body>
+COMPARE (R) Hierarchical Layout Vs. Schematic<br>Version <b>RHEL64 M-2017.06-1.3706802 2017/06/19</b><br>Copyright (C) Synopsys, Inc. All rights reserved.<br><br>
+<p><table border=0 cellpadding=0 cellspacing=0 bgcolor=white valign=top width=100%>
+<tr align=center>
+<td align=center colspan=3 bgcolor=navy><font color=white><b><a name="Compare Options">Compare option<br>* = Different from IC Validator default setting<br>@ = Different from setting in runset</a></b></font></td>
+<tr align=center>
+<td bgcolor=lightgrey align=center><b></b></td>
+<td bgcolor=lightgrey align=center><b>== Global Settings ==</b></td>
+<td bgcolor=lightgrey align=left><b></b></td>
+<tr align=left>
+<td bgcolor=white align=right>*</td>
+<td><font color="black"><b>schematic global_nets</b></font></td>
+<td><font color="black">{VDD VDD22 gnd! vdd! VSS12 VDD12 VSS}</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>power nets</b></font></td>
+<td><font color="black"></font></td>
+<tr align=left>
+<td bgcolor=white align=right>*</td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;schematic</font></td>
+<td><font color="black">{VDD VDD22 VDD12}</font></td>
+<tr align=left>
+<td bgcolor=white align=right>*</td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;layout</font></td>
+<td><font color="black">{VDD VDD22 VDD12}</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>ground nets</b></font></td>
+<td><font color="black"></font></td>
+<tr align=left>
+<td bgcolor=white align=right>*</td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;schematic</font></td>
+<td><font color="black">{VDD22 VSS12 VSS}</font></td>
+<tr align=left>
+<td bgcolor=white align=right>*</td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;layout</font></td>
+<td><font color="black">{VDD22 VSS12 VSS}</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>join nets</b></font></td>
+<td><font color="black"></font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;schematic</font></td>
+<td><font color="black">{}</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;layout</font></td>
+<td><font color="black">{}</font></td>
+<tr align=center>
+<td bgcolor=lightgrey align=center><b></b></td>
+<td bgcolor=lightgrey align=center><b>== Merge & Filter ==</b></td>
+<td bgcolor=lightgrey align=left><b></b></td>
+<tr align=left>
+<td bgcolor=white align=right>@</td>
+<td><font color="black"><b>filter</b></font></td>
+<td><font color="black">2 device_names</font></td>
+<tr align=left>
+<td bgcolor=white align=right>@</td>
+<td><font color="black"><b>merge_parallel</b></font></td>
+<td><font color="black">2 device_names</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;exclude_functions</font></td>
+<td><font color="black">0 device_name</font></td>
+<tr align=left>
+<td bgcolor=white align=right>@</td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;property_functions</font></td>
+<td><font color="black">2 device_names</font></td>
+<tr align=left>
+<td bgcolor=white align=right>@</td>
+<td><font color="black"><b>merge_series</b></font></td>
+<td><font color="black">0 device_name</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;exclude_functions</font></td>
+<td><font color="black">0 device_name</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;property_functions</font></td>
+<td><font color="black">0 device_name</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;multiple_paths</font></td>
+<td><font color="black">0 device_name</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;merge_connected_gates</font></td>
+<td><font color="black">0 device_name</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>short_equivalent_nodes</b></font></td>
+<td><font color="black">0 device_name</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;series_parallel_stack</font></td>
+<td><font color="black">0 device_name</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>recognize_gate</b></font></td>
+<td><font color="black">0 device_name</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;exclude_tolerances</font></td>
+<td><font color="black">0 device_name</font></td>
+<tr align=center>
+<td bgcolor=lightgrey align=center><b></b></td>
+<td bgcolor=lightgrey align=center><b>== Property ==</b></td>
+<td bgcolor=lightgrey align=left><b></b></td>
+<tr align=left>
+<td bgcolor=white align=right>@</td>
+<td><font color="black"><b>check_property</b></font></td>
+<td><font color="black">2 device_names</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;check_function</font></td>
+<td><font color="black">0 device_name</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>check_property_for_failed_equiv</b></font></td>
+<td><font color="black">false</font></td>
+<tr align=left>
+<td bgcolor=white align=right>*</td>
+<td><font color="black"><b>multiply_width</b></font></td>
+<td><font color="black">false</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>recalculate_property</b></font></td>
+<td><font color="black">0 device_name</font></td>
+<tr align=center>
+<td bgcolor=lightgrey align=center><b></b></td>
+<td bgcolor=lightgrey align=center><b>== Hierarchy ==</b></td>
+<td bgcolor=lightgrey align=left><b></b></td>
+<tr align=left>
+<td bgcolor=white align=right>*</td>
+<td><font color="black"><b>memory_array_compare</b></font></td>
+<td><font color="black">false</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>push_down_devices</b></font></td>
+<td><font color="black">false</font></td>
+<tr align=left>
+<td bgcolor=white align=right>*</td>
+<td><font color="black"><b>push_down_pins</b></font></td>
+<td><font color="black">false</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>remove_dangling_net</b></font></td>
+<td><font color="black">LAYOUT_UNTEXTED</font></td>
+<tr align=center>
+<td bgcolor=lightgrey align=center><b></b></td>
+<td bgcolor=lightgrey align=center><b>== Netlist Definition ==</b></td>
+<td bgcolor=lightgrey align=left><b></b></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>delete cells</b></font></td>
+<td><font color="black"></font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;schematic</font></td>
+<td><font color="black">{}</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;layout</font></td>
+<td><font color="black">{}</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>pin configuration</b></font></td>
+<td><font color="black"></font></td>
+<tr align=left>
+<td bgcolor=white align=right>*</td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;swappable_pins</font></td>
+<td><font color="black">29 device_names</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;ignore pins</font></td>
+<td><font color="black">0 device_name</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>top_cell_ports_static</b></font></td>
+<td><font color="black">NAME_MATCHED</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>define_empty_cell_as_device</b></font></td>
+<td><font color="black">NONE</font></td>
+<tr align=center>
+<td bgcolor=lightgrey align=center><b></b></td>
+<td bgcolor=lightgrey align=center><b>== Report ==</b></td>
+<td bgcolor=lightgrey align=left><b></b></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>print_messages</b></font></td>
+<td><font color="black"></font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;equated_nets_list</font></td>
+<td><font color="black">true</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;equivalent_cell_list</font></td>
+<td><font color="black">true</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;invalid_user_equivs</font></td>
+<td><font color="black">true</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;matched_devices_unmatched_nets</font></td>
+<td><font color="black">true</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;merged_nets_referenced</font></td>
+<td><font color="black">true</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;netlist_stats</font></td>
+<td><font color="black">true</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;nets_promoted_to_pwr_gnd</font></td>
+<td><font color="black">true</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;non_equivalent_cell_list</font></td>
+<td><font color="black">true</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;port_xref_table</font></td>
+<td><font color="black">true</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;post_compare_stats</font></td>
+<td><font color="black">true</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;referenced_merged_devices</font></td>
+<td><font color="black">true</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;swapped_pin_analysis</font></td>
+<td><font color="black">true</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;symmetrical_nodes_found</font></td>
+<td><font color="black">true</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;uncompared_cell_list</font></td>
+<td><font color="black">true</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;all_merged_device_list</font></td>
+<td><font color="black">false</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;instance_xref_table</font></td>
+<td><font color="black">false</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;filtered_device_list</font></td>
+<td><font color="black">false</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;series_device_list</font></td>
+<td><font color="black">false</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;net_xref_table</font></td>
+<td><font color="black">false</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;parallel_device_list</font></td>
+<td><font color="black">false</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;pre_merge_stats</font></td>
+<td><font color="black">false</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;black_box_signoff</font></td>
+<td><font color="black">true</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>print_devices_per_net_max</b></font></td>
+<td><font color="black">10</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>error_limit_per_check</b></font></td>
+<td><font color="black">1000</font></td>
+<tr align=left>
+<td bgcolor=white align=right>*</td>
+<td><font color="black"><b>write_equiv_netlists</b></font></td>
+<td><font color="black">ALL</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>print_detail</b></font></td>
+<td><font color="black"></font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;property</font></td>
+<td><font color="black">COORDINATES_AND_DEVICE_TYPES</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;xref_pin</font></td>
+<td><font color="black">NONE</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;device_pin</font></td>
+<td><font color="black">ALL</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>black_box_file</b></font></td>
+<td><font color="black">NONE</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>ignore_equiv_file</b></font></td>
+<td><font color="black">NONE</font></td>
+<tr align=center>
+<td bgcolor=lightgrey align=center><b></b></td>
+<td bgcolor=lightgrey align=center><b>== Equiv Control ==</b></td>
+<td bgcolor=lightgrey align=left><b></b></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>generate_user_equivs</b></font></td>
+<td><font color="black">NONE</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>generate_system_equivs</b></font></td>
+<td><font color="black">true</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>spice_flow</b></font></td>
+<td><font color="black">false</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>user_unit_meter</b></font></td>
+<td><font color="black">false</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>ignore_equivs_with_devices_leveled_out</b></font></td>
+<td><font color="black">false</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>equivs management</b></font></td>
+<td><font color="black"></font></td>
+<tr align=left>
+<td bgcolor=white align=right>*</td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;action_on_error</font></td>
+<td><font color="black">EXPLODE</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;no_explode_condition</font></td>
+<td><font color="black">NONE</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;resolve_duplicate_equivs</font></td>
+<td><font color="black">false</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;explode_imbalanced_equivs</font></td>
+<td><font color="black">true</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>matching</b></font></td>
+<td><font color="black"></font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;detect_permutable_ports</font></td>
+<td><font color="black">false</font></td>
+<tr align=left>
+<td bgcolor=white align=right>*</td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;match_by_net_name</font></td>
+<td><font color="black">true</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;texted_zero_connection_ports</font></td>
+<td><font color="black">IGNORE</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;black_box_static_ports</font></td>
+<td><font color="black">NONE</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>match_condition</b></font></td>
+<td><font color="black"></font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;black_box_duplicates_equiv</font></td>
+<td><font color="black">WARNING</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;property_mismatch</font></td>
+<td><font color="black">ERROR</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;missing_required_property</font></td>
+<td><font color="black">ERROR</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;illegal_multiplier</font></td>
+<td><font color="black">ERROR</font></td>
+<tr align=left>
+<td bgcolor=white align=right>*</td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;equate_by_net_name_fails</font></td>
+<td><font color="black">ERROR</font></td>
+<tr align=left>
+<td bgcolor=white align=right>*</td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;equate_nets_fails</font></td>
+<td><font color="black">ERROR</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;filtered_schematic_devices</font></td>
+<td><font color="black">WARNING</font></td>
+<tr align=left>
+<td bgcolor=white align=right>*</td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;generate_global_nets</font></td>
+<td><font color="black">ERROR</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;matches_must_be_assumed</font></td>
+<td><font color="black">WARNING</font></td>
+<tr align=left>
+<td bgcolor=white align=right>*</td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;merging_without_pwr_gnd</font></td>
+<td><font color="black">ERROR</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;missing_black_box_cell</font></td>
+<td><font color="black">WARNING</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;missing_black_box_port</font></td>
+<td><font color="black">WARNING</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;missing_pin_connection</font></td>
+<td><font color="black">WARNING</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;new_cell_created</font></td>
+<td><font color="black">WARNING</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;no_global_nets_found</font></td>
+<td><font color="black">WARNING</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;undefined_property_for_merged_device</font></td>
+<td><font color="black">WARNING</font></td>
+<tr align=left>
+<td bgcolor=white align=right>*</td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;zero_value_property</font></td>
+<td><font color="black">ERROR</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;empty_cell_not_defined_as_device</font></td>
+<td><font color="black">NONE</font></td>
+<tr align=left>
+<td bgcolor=white align=right>*</td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;layout_ports_without_name</font></td>
+<td><font color="black">ERROR</font></td>
+<tr align=left>
+<td bgcolor=white align=right>*</td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;top_layout_ports_without_name</font></td>
+<td><font color="black">ERROR</font></td>
+<tr align=left>
+<td bgcolor=white align=right>*</td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;nets_matched_with_different_name</font></td>
+<td><font color="black">ERROR</font></td>
+<tr align=left>
+<td bgcolor=white align=right>*</td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;ports_matched_with_different_name</font></td>
+<td><font color="black">ERROR</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;properties_contradict_connections</font></td>
+<td><font color="black">NONE</font></td>
+<tr align=left>
+<td bgcolor=white align=right>*</td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;port_net_match_non_port_net</font></td>
+<td><font color="black">ERROR</font></td>
+<tr align=left>
+<td bgcolor=white align=right>*</td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;top_schematic_port_net_match_non_port_net</font></td>
+<td><font color="black">WARNING</font></td>
+<tr align=left>
+<td bgcolor=white align=right>*</td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;top_layout_port_net_match_non_port_net</font></td>
+<td><font color="black">WARNING</font></td>
+<tr align=left>
+<td bgcolor=white align=right>*</td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;top_ports_matched_with_different_name</font></td>
+<td><font color="black">ERROR</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;top_schematic_ports_matched_with_different_or_missing_name</font></td>
+<td><font color="black">NONE</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;one_connection_non_port_net</font></td>
+<td><font color="black">NONE</font></td>
+<tr align=left>
+<td bgcolor=white align=right>*</td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;zero_connection_net</font></td>
+<td><font color="black">ERROR</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>report_black_box_errors</b></font></td>
+<td><font color="black"></font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;extra_layout_ports</font></td>
+<td><font color="black">ERROR</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;untexted_layout_ports</font></td>
+<td><font color="black">NONE</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;extra_schematic_ports</font></td>
+<td><font color="black">ERROR</font></td>
+<tr align=center>
+<td bgcolor=lightgrey align=center><b></b></td>
+<td bgcolor=lightgrey align=center><b>== Case Sensitivity ==</b></td>
+<td bgcolor=lightgrey align=left><b></b></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>netlist case sensitivity</b></font></td>
+<td><font color="black"></font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;schematic uppercase</font></td>
+<td><font color="black">false</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black">&nbsp;&nbsp;&nbsp;&nbsp;layout uppercase</font></td>
+<td><font color="black">false</font></td>
+<tr align=left>
+<td bgcolor=white align=right></td>
+<td><font color="black"><b>LVS case_sensitive</b></font></td>
+<td><font color="black">{PROPERTY NET_PORT DEVICE_NAME}</font></td>
+</table>
+</p>
+<br>
+<p><table border=1 cellpadding=0 cellspacing=0 bgcolor=white valign=top width=100%>
+<tr align=center>
+<td align=center colspan=8 bgcolor=navy><font color=white><a name="Schematic"><b>Schematic Netlist Statistics</b></a></font></td>
+<tr align=center>
+<td bgcolor=lightgrey align=center><b>Initial</b></td>
+<td bgcolor=lightgrey align=center><b>PushDown</b></td>
+<td bgcolor=lightgrey align=center><b>Filter</b></td>
+<td bgcolor=lightgrey align=center><b>Parallel</b></td>
+<td bgcolor=lightgrey align=center><b>Path/Ser</b></td>
+<td bgcolor=lightgrey align=center><b>RecogGate</b></td>
+<td bgcolor=lightgrey align=center><b>Final</b></td>
+<td bgcolor=lightgrey align=center><b>Device</b></td>
+<tr>
+<td bgcolor=white align=center>3</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>3</td>
+<td bgcolor=white align=center><em><b>NMOS[n12]</b></em></td>
+<tr>
+<td bgcolor=white align=center>3</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>3</td>
+<td bgcolor=white align=center><em><b>PMOS[p12]</b></em></td>
+<tr>
+<td bgcolor=lightgrey align=center>6</td>
+<td bgcolor=lightgrey align=center>0</td>
+<td bgcolor=lightgrey align=center>0</td>
+<td bgcolor=lightgrey align=center>0</td>
+<td bgcolor=lightgrey align=center>0</td>
+<td bgcolor=lightgrey align=center>0</td>
+<td bgcolor=lightgrey align=center>6</td>
+<td bgcolor=lightgrey align=center><em><b>Total devices</b></em></td>
+</table>
+</p>
+<p><table border=1 cellpadding=0 cellspacing=0 bgcolor=white valign=top width=100%>
+<tr align=center>
+<td bgcolor=lightgrey align=center><b>Initial</b></td>
+<td bgcolor=lightgrey align=center><b>PushDown</b></td>
+<td bgcolor=lightgrey align=center><b>Dangle</b></td>
+<td bgcolor=lightgrey align=center><b>0 Connect</b></td>
+<td bgcolor=lightgrey align=center><b>Path/Ser</b></td>
+<td bgcolor=lightgrey align=center><b>RecogGate</b></td>
+<td bgcolor=lightgrey align=center><b>Shorted</b></td>
+<td bgcolor=lightgrey align=center><b>Total nets</b></td>
+<tr>
+<td bgcolor=white align=center>8</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>8</td>
+</table>
+</p>
+<br>
+<p><table border=1 cellpadding=0 cellspacing=0 bgcolor=white valign=top width=100%>
+<tr align=center>
+<td align=center colspan=8 bgcolor=navy><font color=white><a name="Layout"><b>Layout Netlist Statistics</b></a></font></td>
+<tr align=center>
+<td bgcolor=lightgrey align=center><b>Initial</b></td>
+<td bgcolor=lightgrey align=center><b>PushDown</b></td>
+<td bgcolor=lightgrey align=center><b>Filter</b></td>
+<td bgcolor=lightgrey align=center><b>Parallel</b></td>
+<td bgcolor=lightgrey align=center><b>Path/Ser</b></td>
+<td bgcolor=lightgrey align=center><b>RecogGate</b></td>
+<td bgcolor=lightgrey align=center><b>Final</b></td>
+<td bgcolor=lightgrey align=center><b>Device</b></td>
+<tr>
+<td bgcolor=white align=center>3</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>3</td>
+<td bgcolor=white align=center><em><b>NMOS[n12]</b></em></td>
+<tr>
+<td bgcolor=white align=center>3</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>3</td>
+<td bgcolor=white align=center><em><b>PMOS[p12]</b></em></td>
+<tr>
+<td bgcolor=lightgrey align=center>6</td>
+<td bgcolor=lightgrey align=center>0</td>
+<td bgcolor=lightgrey align=center>0</td>
+<td bgcolor=lightgrey align=center>0</td>
+<td bgcolor=lightgrey align=center>0</td>
+<td bgcolor=lightgrey align=center>0</td>
+<td bgcolor=lightgrey align=center>6</td>
+<td bgcolor=lightgrey align=center><em><b>Total devices</b></em></td>
+</table>
+</p>
+<p><table border=1 cellpadding=0 cellspacing=0 bgcolor=white valign=top width=100%>
+<tr align=center>
+<td bgcolor=lightgrey align=center><b>Initial</b></td>
+<td bgcolor=lightgrey align=center><b>PushDown</b></td>
+<td bgcolor=lightgrey align=center><b>Dangle</b></td>
+<td bgcolor=lightgrey align=center><b>0 Connect</b></td>
+<td bgcolor=lightgrey align=center><b>Path/Ser</b></td>
+<td bgcolor=lightgrey align=center><b>RecogGate</b></td>
+<td bgcolor=lightgrey align=center><b>Shorted</b></td>
+<td bgcolor=lightgrey align=center><b>Total nets</b></td>
+<tr>
+<td bgcolor=white align=center>8</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>0</td>
+<td bgcolor=white align=center>8</td>
+</table>
+</p>
+<br>
+<p><table border=1 cellpadding=0 cellspacing=0 bgcolor=white valign=top width=100%>
+<tr align=center>
+<td align=center colspan=3 bgcolor=navy><font color=white><b><a name="Post Merge">Post-Merge Netlist Statistics</a></b></font></td>
+<tr align=center>
+<td bgcolor=lightgrey align=center><b>Schematic</b></td>
+<td bgcolor=lightgrey align=center><b>Layout</b></td>
+<td bgcolor=lightgrey align=center><b>Devices</b></td>
+<tr align=center>
+<td bgcolor=white align=center>3</td>
+<td bgcolor=white align=center>3</td>
+<td bgcolor=white align=center>NMOS[n12, n12]</td>
+<tr align=center>
+<td bgcolor=white align=center>3</td>
+<td bgcolor=white align=center>3</td>
+<td bgcolor=white align=center>PMOS[p12, p12]</td>
+<tr>
+<td bgcolor=lightgrey align=center>6</td>
+<td bgcolor=lightgrey align=center>6</td>
+<td bgcolor=lightgrey align=center><em><b>Total devices</b></em></td>
+<tr>
+<td bgcolor=lightgrey align=center>8</td>
+<td bgcolor=lightgrey align=center>8</td>
+<td bgcolor=lightgrey align=center><em><b>Total nets</b></em></td>
+</table>
+</p>
+<br>
+<p><table border=1 cellpadding=0 cellspacing=0 bgcolor=white valign=top width=100%>
+<tr align=center>
+<td align=center colspan=4 bgcolor=navy><font color=white><a name="Port Xref"><b>Port cross-reference table<br>&nbsp;&nbsp;&nbsp;&nbsp;S: Schematic generated port&nbsp;&nbsp;&nbsp;&nbsp;L: Layout generated port</b></a></font></td>
+<tr align=center>
+<td bgcolor=lightgrey align=center><b>Generated port</b></td>
+<td bgcolor=lightgrey align=center><b>Port class</b></td>
+<td bgcolor=lightgrey align=center><b>Schematic port</b></td>
+<td bgcolor=lightgrey align=center><b>Layout port</b></td>
+<tr>
+<td><font color="black"></font></td>
+<td><font color="black">1</font></td>
+<td><font color="black"><a href="xref://SNMIO//vdd!"><font color="#0000FF"><b>vdd!</b></font></a></font></td>
+<td><font color="black"><a href="xref://LNMIO//vdd!"><font color="#0000FF"><b>vdd!</b></font></a></font></td>
+<tr>
+<td><font color="black"></font></td>
+<td><font color="black">2</font></td>
+<td><font color="black"><a href="xref://SNMIO//gnd!"><font color="#0000FF"><b>gnd!</b></font></a></font></td>
+<td><font color="black"><a href="xref://LNMIO//gnd!"><font color="#0000FF"><b>gnd!</b></font></a></font></td>
+<tr>
+<td><font color="black"></font></td>
+<td><font color="black">3</font></td>
+<td><font color="black"><a href="xref://SNMIO//OUT"><font color="#0000FF"><b>OUT</b></font></a></font></td>
+<td><font color="black"><a href="xref://LNMIO//OUT"><font color="#0000FF"><b>OUT</b></font></a></font></td>
+<tr>
+<td><font color="black"></font></td>
+<td><font color="black">4</font></td>
+<td><font color="black"><a href="xref://SNMIO//B"><font color="#0000FF"><b>B</b></font></a></font></td>
+<td><font color="black"><a href="xref://LNMIO//B"><font color="#0000FF"><b>B</b></font></a></font></td>
+<tr>
+<td><font color="black"></font></td>
+<td><font color="black">5</font></td>
+<td><font color="black"><a href="xref://SNMIO//C"><font color="#0000FF"><b>C</b></font></a></font></td>
+<td><font color="black"><a href="xref://LNMIO//C"><font color="#0000FF"><b>C</b></font></a></font></td>
+<tr>
+<td><font color="black"></font></td>
+<td><font color="black">6</font></td>
+<td><font color="black"><a href="xref://SNMIO//A"><font color="#0000FF"><b>A</b></font></a></font></td>
+<td><font color="black"><a href="xref://LNMIO//A"><font color="#0000FF"><b>A</b></font></a></font></td>
+</table>
+</p>
+<br>
+<br>
+<br>
+<a name="Device Settings"></a>
+<table border=1 cellpadding=0 cellspacing=0 bgcolor=white valign=top width=100%>
+<tr align=center>
+<td align=center colspan=9 bgcolor=navy><font color=white>Device Settings Table</font></td>
+<tr align=left>
+<td bgcolor=lightgrey align=center>Device<br />Type</td>
+<td bgcolor=lightgrey align=center>Parallel<br />Merge</td>
+<td bgcolor=lightgrey align=center>Series<br />Merge</td>
+<td bgcolor=lightgrey align=center>Merge<br />Connected<br />Gates</td>
+<td bgcolor=lightgrey align=center>Multiple<br />Paths</td>
+<td bgcolor=lightgrey align=center>Short<br />Equivalent<br />Nodes</td>
+<td bgcolor=lightgrey align=center>Series<br />Parallel<br />Stack</td>
+<td bgcolor=lightgrey align=center>Check<br />Property</td>
+<td bgcolor=lightgrey align=center>Filter</td>
+<tr align=center>
+<td><font color="black">PMOS[p12]</font></td>
+<td align=center><font color="black">+</font></td>
+<td align=center><font color="black">-</font></td>
+<td align=center><font color="black">-</font></td>
+<td align=center><font color="black">-</font></td>
+<td align=center><font color="black">NONE</font></td>
+<td align=center><font color="black">-</font></td>
+<td align=center><font color="black">+</font></td>
+<td align=center><font color="black">+</font></td>
+<tr align=center>
+<td><font color="black">NMOS[n12]</font></td>
+<td align=center><font color="black">+</font></td>
+<td align=center><font color="black">-</font></td>
+<td align=center><font color="black">-</font></td>
+<td align=center><font color="black">-</font></td>
+<td align=center><font color="black">NONE</font></td>
+<td align=center><font color="black">-</font></td>
+<td align=center><font color="black">+</font></td>
+<td align=center><font color="black">+</font></td>
+</table>
+<br /><table border=1 cellpadding=0 cellspacing=0 bgcolor=white valign=top width=100%>
+<tr align=center>
+<td align=center colspan=7 bgcolor=navy><font color=white>Specific Device Settings</font></td>
+<tr align=center>
+<td align=center colspan=7 bgcolor=navy><font color=white>PMOS[p12]</font></td>
+<tr align=left>
+<td bgcolor=lightgrey align=center>Property</td>
+<td bgcolor=lightgrey align=center>Parallel<br />Exclude<br />Tolerance</td>
+<td bgcolor=lightgrey align=center>Parallel<br />Merge<br />Property<br /> Function</td>
+<td bgcolor=lightgrey align=center>Series<br />Exclude<br />Tolerance</td>
+<td bgcolor=lightgrey align=center>Series<br />Merge<br />Property<br /> Function</td>
+<td bgcolor=lightgrey align=center>Check<br />Property<br />Tolerance</td>
+<td bgcolor=lightgrey align=center>Schematic<br />Optional</td>
+<tr align=center>
+<td><font color="black">Length</font></td>
+<td align=center><font color="black">-</font></td>
+<td align=center><font color="black">-</font></td>
+<td align=center><font color="black">-</font></td>
+<td align=center><font color="black">-</font></td>
+<td align=center><font color="black">[-1,1]</font></td>
+<td align=center><font color="black">-</font></td>
+<tr align=center>
+<td><font color="black">Width</font></td>
+<td align=center><font color="black">-</font></td>
+<td align=center><font color="black">-</font></td>
+<td align=center><font color="black">-</font></td>
+<td align=center><font color="black">-</font></td>
+<td align=center><font color="black">[-1,1]</font></td>
+<td align=center><font color="black">-</font></td>
+<tr align=center>
+<td colspan=3><font color="black">Schematic Filter Options</font></td>
+<td colspan=4><font color="black">{ PMOS_1 }</font></td>
+<tr align=center>
+<td colspan=3><font color="black">Layout Filter Options</font></td>
+<td colspan=4><font color="black">{ PMOS_1 }</font></td>
+<tr align=center>
+<td colspan=3><font color="black">Parallel Merge Property Function</font></td>
+<td colspan=4><font color="black">calc_width_length_by_ratio </font></td>
+<tr align=center>
+<td align=center colspan=7 bgcolor=navy><font color=white>NMOS[n12]</font></td>
+<tr align=left>
+<td bgcolor=lightgrey align=center>Property</td>
+<td bgcolor=lightgrey align=center>Parallel<br />Exclude<br />Tolerance</td>
+<td bgcolor=lightgrey align=center>Parallel<br />Merge<br />Property<br /> Function</td>
+<td bgcolor=lightgrey align=center>Series<br />Exclude<br />Tolerance</td>
+<td bgcolor=lightgrey align=center>Series<br />Merge<br />Property<br /> Function</td>
+<td bgcolor=lightgrey align=center>Check<br />Property<br />Tolerance</td>
+<td bgcolor=lightgrey align=center>Schematic<br />Optional</td>
+<tr align=center>
+<td><font color="black">Length</font></td>
+<td align=center><font color="black">-</font></td>
+<td align=center><font color="black">-</font></td>
+<td align=center><font color="black">-</font></td>
+<td align=center><font color="black">-</font></td>
+<td align=center><font color="black">[-1,1]</font></td>
+<td align=center><font color="black">-</font></td>
+<tr align=center>
+<td><font color="black">Width</font></td>
+<td align=center><font color="black">-</font></td>
+<td align=center><font color="black">-</font></td>
+<td align=center><font color="black">-</font></td>
+<td align=center><font color="black">-</font></td>
+<td align=center><font color="black">[-1,1]</font></td>
+<td align=center><font color="black">-</font></td>
+<tr align=center>
+<td colspan=3><font color="black">Schematic Filter Options</font></td>
+<td colspan=4><font color="black">{ NMOS_1 }</font></td>
+<tr align=center>
+<td colspan=3><font color="black">Layout Filter Options</font></td>
+<td colspan=4><font color="black">{ NMOS_1 }</font></td>
+<tr align=center>
+<td colspan=3><font color="black">Parallel Merge Property Function</font></td>
+<td colspan=4><font color="black">calc_width_length_by_ratio </font></td>
+</table>
+<br>
+</font></body>
+</html>

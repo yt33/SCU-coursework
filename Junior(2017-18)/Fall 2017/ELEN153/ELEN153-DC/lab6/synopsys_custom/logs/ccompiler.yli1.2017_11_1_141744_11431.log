@@ -1,0 +1,169 @@
+[14:17:46.87] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version M-2017.03-SP1-1 for linux64 - Jun 29, 2017 
+              /c 
+              /c                     Copyright (c) 2004 - 2017 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 3718339 compiled on Thu Jun 29 08:54:37 2017 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2017/app/customcompiler/M-2017.03-SP1-1/linux64/platform/bin/custom_compiler
+              /c Execution time: Wed Nov  1 14:17:44 2017
+              /c Host: linux60807
+              /c Working directory: /DCNFS/users/student/yli1/ELEN153/lab6
+              /c 
+[14:17:50.51] /r giShowFrameTabs true
+[14:17:50.51] /r giWindowId 1
+[14:17:50.51] /r giWindowGeometry 1040x800
+[14:17:53.88] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[14:17:53.89] /# 
+[14:17:53.89] /i dm::openLibraryManager
+[14:17:53.89] /r giWindowId 2
+[14:17:53.89] /r giWindowGeometry 660x600+50+75
+[14:17:53.93] /o oa:0x232a8b30
+[14:18:02.37] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+784+175
+[14:18:05.67] /i gi::setCurrentIndex {libs} -index {SAED_PDK_90} -in [gi::getWindows 2]
+[14:18:05.68] /# gi::executeAction dmShowNewLibrary -in [gi::getWindows 2]
+[14:18:05.68] /i dm::showNewLibrary -parent 2
+[14:18:05.71] /o oa:0x233c6b70
+[14:18:05.73] /i gi::setActiveDialog [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]]
+[14:18:06.02] /i db::setAttr geometry -of [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]] -value 446x479+1081+301
+[14:18:09.01] /i gi::setField {libName} -value {lab6} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]]
+[14:18:12.55] /i gi::setField {techTypeLib} -value {true} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]]
+[14:18:13.64] /i gi::setField {techLib} -value {SAED_PDK_90} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]]
+[14:18:17.82] /i gi::pressButton {ok} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]]
+[14:18:17.84] /# dm::createLib lab6 -path {./lab6} -dmSystem oaDMFileSys
+[14:18:18.13] /# db::attachTech [oa::LibFind [ oa::ScalarName [oa::CdbaNS] lab6]] -refLib [oa::LibFind [ oa::ScalarName [oa::CdbaNS] SAED\_PDK\_90]]
+[14:18:18.14] /o 	############################################
+[14:18:18.14] /o 	        Synopsys Generic 90nm iPDK          
+[14:18:18.14] /o 	--------------------------------------------
+[14:18:18.14] /o 	Release Date .............. : 11-May-2016    
+[14:18:18.14] /o 	============================================
+[14:18:18.14] /o 	        Recommended Tool Versions           
+[14:18:18.14] /o 	--------------------------------------------
+[14:18:18.14] /o 	Custom Designer ........... : J-2014.12-2    
+[14:18:18.14] /o 	IC Validator .............. : K-2015.12   
+[14:18:18.14] /o 	StarRC..................... : K-2015.12  
+[14:18:18.14] /o 	--------------------------------------------
+[14:18:18.14] /o 	############################################
+[14:18:18.14] /o 
+[14:18:18.15] /o SAED PDK 90: Loaded callbacks
+[14:18:18.16] /o SAED PDK 90: Loaded display resources
+[14:18:19.54] /i gi::setCurrentIndex {libs} -index {lab6} -in [gi::getWindows 2]
+[14:18:19.55] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 2]
+[14:18:19.55] /i gi::setItemSelection {libs} -index {lab6} -in [gi::getWindows 2]
+[14:18:52.91] /i gi::setItemSelection {cellCategories} -index {} -in [gi::getWindows 2]
+[14:18:54.28] /i gi::setCurrentIndex {cellCategories} -index {All} -in [gi::getWindows 2]
+[14:18:54.28] /i gi::executeAction dmShowNewCellCategory -in [gi::getWindows 2]
+[14:18:54.29] /i gi::setActiveDialog [gi::getDialogs {dmCreateCellCategory} -parent [gi::getWindows 2]]
+[14:18:54.59] /i db::setAttr geometry -of [gi::getDialogs {dmCreateCellCategory} -parent [gi::getWindows 2]] -value 340x74+1134+436
+[14:18:55.99] /i gi::pressButton {cancel} -in [gi::getDialogs {dmCreateCellCategory} -parent [gi::getWindows 2]]
+[14:18:58.62] /i gi::setCurrentIndex {libs} -index {SAED_PDK_90} -in [gi::getWindows 2]
+[14:18:58.68] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 2]
+[14:18:58.68] /i gi::setItemSelection {libs} -index {SAED_PDK_90} -in [gi::getWindows 2]
+[14:18:59.57] /i gi::setCurrentIndex {libs} -index {lab6} -in [gi::getWindows 2]
+[14:18:59.57] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 2]
+[14:18:59.57] /i gi::setItemSelection {libs} -index {lab6} -in [gi::getWindows 2]
+[14:19:15.60] /# gi::executeAction dmShowNewCell -in [gi::getWindows 2]
+[14:19:15.60] /i dm::showNewCell -parent 2
+[14:19:15.63] /o oa:0x233cc940
+[14:19:15.65] /i gi::setActiveDialog [gi::getDialogs {dmNewCell} -parent [gi::getWindows 2]]
+[14:19:15.94] /i db::setAttr geometry -of [gi::getDialogs {dmNewCell} -parent [gi::getWindows 2]] -value 448x227+1080+385
+[14:19:22.17] /i gi::setField {cellName} -value {Adder} -in [gi::getDialogs {dmNewCell} -parent [gi::getWindows 2]]
+[14:19:40.34] /i gi::setField {cellName} -value {FourBitAdder} -in [gi::getDialogs {dmNewCell} -parent [gi::getWindows 2]]
+[14:19:40.38] /i gi::pressButton {ok} -in [gi::getDialogs {dmNewCell} -parent [gi::getWindows 2]]
+[14:19:40.39] /# dm::createCell FourBitAdder -lib [ oa::LibFind [oa::ScalarName [oa::CdbaNS] lab6]]
+[14:19:40.41] /# gi::setItemSelection {cells} -index {FourBitAdder} -in [gi::getDialogs {dmNewCell} -parent [gi::getWindows 2]]
+[14:19:41.94] /i gi::executeAction menuPreShow -in [gi::getWindows 2]
+[14:19:41.94] /r giMenuAccess db::getNext [gi::getMenus dmCellViewContextMenu]
+[14:19:42.94] /# gi::executeAction dmShowNewCellView -in [gi::getWindows 2]
+[14:19:42.94] /i dm::showNewCellView -parent 2
+[14:19:42.97] /o oa:0x2333cfc0
+[14:19:42.99] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[14:19:43.28] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]] -value 588x309+1010+357
+[14:19:47.93] /i gi::pressButton {ok} -in [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[14:19:47.94] /# db::getAttr viewType -of [dm::findCellView schematic -cell [dm::findCell FourBitAdder -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] lab6]]]]
+[14:19:47.95] /# dm::createCellView schematic -cell [dm::findCell FourBitAdder -lib [ oa::LibFind [oa::ScalarName [oa::CdbaNS] lab6]]] -viewType schematic
+[14:19:51.06] /# de::open [dm::findCellView schematic -cell [dm::findCell FourBitAdder -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] lab6]]]] -application seSchematic
+[14:19:51.08] /m Information: License 'Schematic' checked out. (LICENSE-003)
+[14:19:51.24] /r giWindowId 3
+[14:19:51.24] /r giWindowGeometry 1632x1035
+[14:19:51.48] /m Information: 
+[14:19:51.48] /o Checking "lab6/FourBitAdder/schematic"
+[14:19:51.48] /o No rule violations found in "lab6/FourBitAdder/schematic"
+[14:19:51.48] /m Information: Checking process is completed: marking the design violations
+[14:19:51.48] /m Information: Marking of designs is completed
+[14:19:57.78] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+955+17
+[14:19:59.62] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+948+62
+[14:20:01.02] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+920+53
+[14:20:01.50] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+898+53
+[14:20:02.78] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x1117+898+53
+[14:20:09.75] /i db::setAttr iconified -of [gi::getFrames 1] -value true
+[14:20:15.36] /i db::setAttr iconified -of [gi::getFrames 1] -value false
+[14:20:16.50] /i db::setAttr iconified -of [gi::getFrames 1] -value true
+[14:20:17.73] /i db::setAttr iconified -of [gi::getFrames 1] -value false
+[14:20:20.29] /i db::setAttr iconified -of [gi::getFrames 1] -value true
+[14:20:40.42] /i db::setAttr iconified -of [gi::getFrames 1] -value false
+[14:21:11.53] /# gi::executeAction seCreateInst -in [gi::getWindows 3]
+[14:21:11.53] /i ise::createInst
+[14:21:11.58] /i gi::setActiveDialog [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]]
+[14:21:11.89] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 360x354+1238+318
+[14:21:17.24] /i gi::setActiveWindow 2
+[14:21:17.24] /i gi::setActiveWindow 2 -raise true
+[14:21:19.03] /i gi::setActiveWindow 3
+[14:21:19.03] /i gi::setActiveWindow 3 -raise true
+[14:21:19.06] /i gi::pressButton {cancel} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]]
+[14:21:19.08] /i gi::setActiveWindow 2
+[14:21:19.08] /i gi::setActiveWindow 2 -raise true
+[14:21:20.16] /i gi::sortItems {cells} -column {Cells} -order {descending} -in [gi::getWindows 2]
+[14:21:20.96] /i gi::setCurrentIndex {cells} -index {FourBitAdder} -in [gi::getWindows 2]
+[14:21:20.97] /i gi::setItemSelection {cells} -index {FourBitAdder} -in [gi::getWindows 2]
+[14:21:21.79] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[14:21:21.80] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[14:21:21.95] /i gi::executeAction dmOpen -in [gi::getWindows 2]
+[14:21:21.96] /r giWindowId 4
+[14:21:21.97] /r giWindowGeometry 1632x1035
+[14:21:22.14] /m Information: 
+[14:21:22.14] /o Checking "lab6/FourBitAdder/schematic"
+[14:21:22.14] /o No rule violations found in "lab6/FourBitAdder/schematic"
+[14:21:22.14] /m Information: Checking process is completed: marking the design violations
+[14:21:22.14] /m Information: Marking of designs is completed
+[14:21:24.41] /# gi::executeAction seCreateInst -in [gi::getWindows 4]
+[14:21:24.41] /i ise::createInst
+[14:21:24.46] /i gi::setActiveDialog [gi::getDialogs {seCreateInst} -parent [gi::getWindows 4]]
+[14:21:24.77] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 360x354+1239+346
+[14:21:30.48] /i gi::setActiveWindow 3
+[14:21:30.48] /i gi::setActiveWindow 3 -raise true
+[14:21:30.52] /i gi::setActiveDialog [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]]
+[14:21:30.81] /i db::setAttr geometry -of [gi::getDialogs {seCreateInst}] -value 360x354+1239+346
+[14:21:31.28] /i gi::pressButton {cancel} -in [gi::getDialogs {seCreateInst} -parent [gi::getWindows 3]]
+[14:21:32.00] /i gi::executeAction giCloseWindow -in [gi::getWindows 3]
+[14:21:32.29] /i gi::setActiveWindow 4
+[14:21:32.29] /i gi::setActiveWindow 4 -raise true
+[14:21:34.26] /i db::setAttr iconified -of [gi::getFrames 1] -value true
+[14:22:29.53] /i db::setAttr iconified -of [gi::getFrames 1] -value false
+[14:22:32.03] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x1117+734+53
+[14:22:37.34] /r giDialog gi::setActiveDialog [gi::getDialogs {giCloseFrame}]
+[14:22:37.64] /r giDialog db::setAttr geometry -of [gi::getDialogs {giCloseFrame}] -value 297x113+1106+386
+[14:22:38.57] /r giDialog gi::pressButton {giCloseTabsButton} -in [gi::getDialogs {giCloseFrame}]
+[14:22:38.60] /i exit
+[14:22:38.63] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[14:22:38.93] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 420x183+750+508
+[14:22:41.17] /r giDialog gi::pressButton {cancel} -in [gi::getDialogs {deExitDialog}]
+[14:22:42.69] /r giDialog gi::setActiveDialog [gi::getDialogs {giCloseFrame}]
+[14:22:42.99] /r giDialog db::setAttr geometry -of [gi::getDialogs {giCloseFrame}] -value 297x113+1106+386
+[14:22:43.80] /r giDialog gi::pressButton {giCloseTabsButton} -in [gi::getDialogs {giCloseFrame}]
+[14:22:43.82] /i exit
+[14:22:43.85] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[14:22:44.15] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 420x183+750+508
+[14:22:46.29] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[14:22:46.36] /i gi::setActiveWindow 2
+[14:22:46.36] /i gi::setActiveWindow 2 -raise true
+[14:22:46.49] /i gi::setActiveWindow 1
+[14:22:46.49] /i gi::setActiveWindow 1 -raise true
+[14:22:46.63] /o Shutdown time: Wed Nov  1 14:22:46 2017
+[14:22:46.63] /o Elapsed session real time: 5 minutes
+[14:22:46.63] /o Session terminated. Log is at /DCNFS/users/student/yli1/ELEN153/lab6/synopsys_custom/logs/ccompiler.yli1.2017_11_1_141744_11431.log

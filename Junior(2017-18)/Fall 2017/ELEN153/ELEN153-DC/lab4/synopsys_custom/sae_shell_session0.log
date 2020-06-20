@@ -1,0 +1,89 @@
+[15:14:17.84] /m Information: License 'SAE' checked out. (LICENSE-003)
+[15:14:19.57] /o sae_shell Version Custom Compiler M-2017.03-SP1-1
+              /c Build  (OPT) compiled on Thu Jun 29 08:54:37 2017 for RHEL64 6.6
+              /c Execution time: Wed Oct 18 15:14:16 2017
+              /c Host: linux60820
+              /c 
+              /c Copyright © 2004-2017 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[15:14:19.64] /o 	############################################
+[15:14:19.64] /o 	        Synopsys Generic 90nm iPDK          
+[15:14:19.64] /o 	--------------------------------------------
+[15:14:19.64] /o 	Release Date .............. : 11-May-2016    
+[15:14:19.64] /o 	============================================
+[15:14:19.64] /o 	        Recommended Tool Versions           
+[15:14:19.64] /o 	--------------------------------------------
+[15:14:19.64] /o 	Custom Designer ........... : J-2014.12-2    
+[15:14:19.64] /o 	IC Validator .............. : K-2015.12   
+[15:14:19.64] /o 	StarRC..................... : K-2015.12  
+[15:14:19.64] /o 	--------------------------------------------
+[15:14:19.64] /o 	############################################
+[15:14:19.64] /o 
+[15:14:19.65] /o SAED PDK 90: Loaded callbacks
+[15:14:19.66] /o SAED PDK 90: Loaded display resources
+[15:14:19.67] /i ::sa::_backgroundSaeShell::signalProcessReady 1508364856
+[15:14:19.67] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 3
+[15:16:51.01] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:16:51.27] /m Information: Expression 'i(/I0/A)' did not evaluate: No results found.
+[15:16:51.27] /m Information: Expression 'i(/I0/B)' did not evaluate: No results found.
+[15:16:51.27] /m Information: Expression 'i(/I0/C)' did not evaluate: No results found.
+[15:16:51.27] /m Information: Expression 'i(/I0/OUT)' did not evaluate: No results found.
+[15:16:51.29] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.2 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:16:51.29] /o false
+[15:17:21.22] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:17:21.50] /m Information: Expression 'i(/I0/A)' did not evaluate: No results found.
+[15:17:21.50] /m Information: Expression 'i(/I0/B)' did not evaluate: No results found.
+[15:17:21.50] /m Information: Expression 'i(/I0/C)' did not evaluate: No results found.
+[15:17:21.50] /m Information: Expression 'i(/I0/OUT)' did not evaluate: No results found.
+[15:17:21.53] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:17:21.53] /o false
+[15:17:53.64] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:17:53.94] /m Information: Expression 'i(/I0/A)' did not evaluate: No results found.
+[15:17:53.94] /m Information: Expression 'i(/I0/B)' did not evaluate: No results found.
+[15:17:53.94] /m Information: Expression 'i(/I0/C)' did not evaluate: No results found.
+[15:17:53.94] /m Information: Expression 'i(/I0/OUT)' did not evaluate: No results found.
+[15:17:53.95] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:17:53.95] /o false
+[15:22:54.69] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:22:54.75] /i ::sa::_backgroundSaeShell::parentRunning
+[15:22:54.75] /o 1508365374
+[15:27:49.73] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:27:49.95] /m Information: Expression 'i(/I0/A)' did not evaluate: No results found.
+[15:27:49.95] /m Information: Expression 'i(/I0/B)' did not evaluate: No results found.
+[15:27:49.95] /m Information: Expression 'i(/I0/C)' did not evaluate: No results found.
+[15:27:49.95] /m Information: Expression 'i(/I0/OUT)' did not evaluate: No results found.
+[15:27:49.97] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.2 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:27:49.97] /o false
+[15:30:11.29] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:30:11.54] /m Information: Expression 'i(/I0/A)' did not evaluate: No results found.
+[15:30:11.54] /m Information: Expression 'i(/I0/B)' did not evaluate: No results found.
+[15:30:11.54] /m Information: Expression 'i(/I0/C)' did not evaluate: No results found.
+[15:30:11.54] /m Information: Expression 'v(/OUT)' did not evaluate: No results found.
+[15:30:11.56] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.2 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:30:11.56] /o false
+[15:31:29.18] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:31:29.42] /m Information: Expression 'i(/I0/A)' did not evaluate: No results found.
+[15:31:29.42] /m Information: Expression 'i(/I0/B)' did not evaluate: No results found.
+[15:31:29.42] /m Information: Expression 'i(/I0/C)' did not evaluate: No results found.
+[15:31:29.42] /m Information: Expression 'v(/OUT)' did not evaluate: No results found.
+[15:31:29.44] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.2 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:31:29.44] /o false
+[15:34:18.03] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:34:18.31] /m Information: Expression 'i(/I0/A)' did not evaluate: No results found.
+[15:34:18.31] /m Information: Expression 'i(/I0/B)' did not evaluate: No results found.
+[15:34:18.31] /m Information: Expression 'i(/I0/C)' did not evaluate: No results found.
+[15:34:18.31] /m Information: Expression 'v(/OUT)' did not evaluate: No results found.
+[15:34:18.33] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.2 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab4/testbench_NAND/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:34:18.33] /o false
+[15:39:19.75] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:39:19.81] /i ::sa::_backgroundSaeShell::parentRunning
+[15:39:19.81] /o 1508366359
+[15:44:20.77] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[15:44:20.86] /i ::sa::_backgroundSaeShell::parentRunning
+[15:44:20.86] /o 1508366660
+[15:46:17.98] /i ::sa::_backgroundSaeShell::exit
+[15:46:17.98] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting
+[15:46:18.31] /m Information: License 'Schematic' checked in. (LICENSE-004)
+[15:46:18.31] /m Information: License 'SAE' checked in. (LICENSE-004)

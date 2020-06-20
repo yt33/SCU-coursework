@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler build#  ,on -->
+<file-format version="1.0" name="synopsysPrefs">
+        <preferences>
+                <pref value="C2mos/C2MOS-register/layout" name="xtDRCLayLCV"/>
+                <pref value="/DCNFS/users/student/yli1/ELEN153/synopsys_custom/pvjob_C2mos.C2MOS-register.icv.drc/C2MOS-register.custom_compiler.gds" name="xtDRCLayStreamFile"/>
+                <pref value="IC Validator" name="xtDRCTool"/>
+        </preferences>
+</file-format>

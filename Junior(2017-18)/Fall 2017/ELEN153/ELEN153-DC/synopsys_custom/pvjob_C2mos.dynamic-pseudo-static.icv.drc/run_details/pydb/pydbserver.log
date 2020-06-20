@@ -1,0 +1,35 @@
+
+                                  PYDB_Server 
+
+           Version M-2017.06-1 for linux64 - Jun 19, 2017 cl#3706802
+
+                    Copyright (c) 2007 - 2017 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+variable width coordinate support enabled.
+Removing old database /DCNFS/users/student/yli1/ELEN153/synopsys_custom/pvjob_C2mos.dynamic-pseudo-static.icv.drc/run_details/pydb/PYDB_dynamic_pseudo_static
+Listening for connections on port 8094
+PYDB_Server Started on host linux60825, Wed 11/29/2017 17:54:16
+Client linux60825(27186):5 connected (1 total client)
+Verified current licenses.
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.10.0
+Client linux60825(27228):12 connected (2 total clients)
+Client linux60825(27226):13 connected (3 total clients)
+Client linux60825(27228):12 disconnected (2 clients remain)
+Client linux60825(27228):12 connected (3 total clients)
+Client linux60825(27228):12 disconnected (2 clients remain)
+Client linux60825(27228):12 connected (3 total clients)
+Client linux60825(27228):12 disconnected (2 clients remain)
+Client linux60825(27226):13 disconnected (1 client remains)
+Generating /DCNFS/users/student/yli1/ELEN153/synopsys_custom/pvjob_C2mos.dynamic-pseudo-static.icv.drc/dynamic-pseudo-static.LAYOUT_ERRORS
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.507
+Shutdown requested by client linux60825(27186):5
+0 clients remain connected
+Overall server Time=0:00:06  User=0.03 Sys=0.04 Mem=0.507 SQLite=6.523 Unpooled=0.047

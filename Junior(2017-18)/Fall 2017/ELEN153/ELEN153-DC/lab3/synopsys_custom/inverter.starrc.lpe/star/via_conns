@@ -1,0 +1,51 @@
+BJT_BASE_cont_NPN
+UP: m1
+DOWN: BJT_BASE_NPN
+BJT_BASE_cont_PNP
+UP: m1
+DOWN: BJT_BASE_PNP
+BJT_COLL_cont_NPN
+UP: m1
+DOWN: BJT_COLL_NPN
+BJT_COLL_cont_PNP
+UP: m1
+DOWN: BJT_COLL_PNP
+BJT_EMIT_cont_PNP
+UP: m1
+DOWN: BJT_EMIT_PNP
+codiff
+UP: m1
+DOWN: BJT_EMIT_NPN nsd nsdr nsdv ntap psd psdr psdv ptap
+copoly
+UP: m1
+DOWN: ngatepl pgatepl ponr
+nwell_cont
+UP: ntap
+DOWN: nwnr
+pwell_cont
+UP: ptap
+DOWN: pwell
+via1
+UP: M2 term1
+DOWN: m1
+via2
+UP: M3 term2
+DOWN: M2 term1
+via3
+UP: M4 term3
+DOWN: M3 term2
+via4
+UP: M5 indterm term4
+DOWN: M4 term3
+via5
+UP: M6
+DOWN: M5 term4
+via6
+UP: M7
+DOWN: M6
+via7
+UP: M8
+DOWN: M7
+via8
+UP: M9
+DOWN: M8

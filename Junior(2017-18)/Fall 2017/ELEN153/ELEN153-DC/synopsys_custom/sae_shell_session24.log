@@ -1,0 +1,50 @@
+[17:07:32.17] /m Information: License 'SAE' checked out. (LICENSE-003)
+[17:07:34.55] /o sae_shell Version Custom Compiler M-2017.03-SP1-1
+              /c Build  (OPT) compiled on Thu Jun 29 08:54:37 2017 for RHEL64 6.6
+              /c Execution time: Wed Nov 29 17:07:30 2017
+              /c Host: linux60825
+              /c 
+              /c Copyright © 2004-2017 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[17:07:34.63] /o 	############################################
+[17:07:34.63] /o 	        Synopsys Generic 90nm iPDK          
+[17:07:34.63] /o 	--------------------------------------------
+[17:07:34.63] /o 	Release Date .............. : 11-May-2016    
+[17:07:34.63] /o 	============================================
+[17:07:34.63] /o 	        Recommended Tool Versions           
+[17:07:34.63] /o 	--------------------------------------------
+[17:07:34.63] /o 	Custom Designer ........... : J-2014.12-2    
+[17:07:34.63] /o 	IC Validator .............. : K-2015.12   
+[17:07:34.63] /o 	StarRC..................... : K-2015.12  
+[17:07:34.63] /o 	--------------------------------------------
+[17:07:34.63] /o 	############################################
+[17:07:34.63] /o 
+[17:07:34.64] /o SAED PDK 90: Loaded callbacks
+[17:07:34.65] /o SAED PDK 90: Loaded display resources
+[17:07:34.65] /i ::sa::_backgroundSaeShell::signalProcessReady 1512004050
+[17:07:34.66] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 4
+[17:12:35.67] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:12:35.69] /i ::sa::_backgroundSaeShell::parentRunning
+[17:12:35.69] /o 1512004355
+[17:17:36.69] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:17:36.69] /i ::sa::_backgroundSaeShell::parentRunning
+[17:17:36.69] /o 1512004656
+[17:22:37.71] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:22:37.75] /i ::sa::_backgroundSaeShell::parentRunning
+[17:22:37.75] /o 1512004957
+[17:27:38.73] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:27:38.75] /i ::sa::_backgroundSaeShell::parentRunning
+[17:27:38.75] /o 1512005258
+[17:32:39.75] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:32:39.85] /i ::sa::_backgroundSaeShell::parentRunning
+[17:32:39.85] /o 1512005559
+[17:37:40.77] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[17:37:40.87] /i ::sa::_backgroundSaeShell::parentRunning
+[17:37:40.87] /o 1512005860
+[17:38:30.81] /i ::sa::_backgroundSaeShell::exit
+[17:38:30.81] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting
+[17:38:31.09] /m Information: License 'Advanced' checked in. (LICENSE-004)
+[17:38:31.09] /m Information: License 'Basic' checked in. (LICENSE-004)
+[17:38:31.10] /m Information: License 'SAE' checked in. (LICENSE-004)

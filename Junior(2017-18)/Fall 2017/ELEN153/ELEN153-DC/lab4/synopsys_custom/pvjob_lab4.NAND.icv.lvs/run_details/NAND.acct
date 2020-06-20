@@ -1,0 +1,8 @@
+NAND
+	Cell Level Device Counts
+		NMOS[n12] = 3
+		PMOS[p12] = 3
+
+********  DEVICE EXTRACTION STATS    TOPBLOCK = NAND  *******
+		NMOS[n12] = 3
+		PMOS[p12] = 3

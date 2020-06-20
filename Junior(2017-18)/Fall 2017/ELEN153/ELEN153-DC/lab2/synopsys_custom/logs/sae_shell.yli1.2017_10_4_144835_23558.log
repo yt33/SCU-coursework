@@ -1,0 +1,45 @@
+[14:48:36.66] /m Information: License 'SAE' checked out. (LICENSE-003)
+[14:48:38.72] /o sae_shell Version Custom Compiler M-2017.03-SP1-1
+              /c Build  (OPT) compiled on Thu Jun 29 08:54:37 2017 for RHEL64 6.6
+              /c Execution time: Wed Oct  4 14:48:35 2017
+              /c Host: linux60802
+              /c 
+              /c Copyright © 2004-2017 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[14:48:38.80] /o 	############################################
+[14:48:38.80] /o 	        Synopsys Generic 90nm iPDK          
+[14:48:38.80] /o 	--------------------------------------------
+[14:48:38.80] /o 	Release Date .............. : 11-May-2016    
+[14:48:38.80] /o 	============================================
+[14:48:38.80] /o 	        Recommended Tool Versions           
+[14:48:38.80] /o 	--------------------------------------------
+[14:48:38.80] /o 	Custom Designer ........... : J-2014.12-2    
+[14:48:38.80] /o 	IC Validator .............. : K-2015.12   
+[14:48:38.80] /o 	StarRC..................... : K-2015.12  
+[14:48:38.80] /o 	--------------------------------------------
+[14:48:38.80] /o 	############################################
+[14:48:38.80] /o 
+[14:48:38.82] /o SAED PDK 90: Loaded callbacks
+[14:48:38.83] /o SAED PDK 90: Loaded display resources
+[14:48:38.84] /i ::sa::_backgroundSaeShell::signalProcessReady 1507153714
+[14:48:38.84] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 4
+[14:53:39.86] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[14:53:39.94] /i ::sa::_backgroundSaeShell::parentRunning
+[14:53:39.94] /o 1507154019
+[14:53:46.38] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession3 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[14:53:46.73] /m Information: Expression 'v(/Vout)' did not evaluate: No results found.
+[14:53:46.78] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession3 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[14:53:46.78] /o false
+[14:58:47.90] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[14:58:47.90] /i ::sa::_backgroundSaeShell::parentRunning
+[14:58:47.90] /o 1507154327
+[15:02:50.55] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession3 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:02:50.81] /m Information: Expression 'v(/Vout)' did not evaluate: No results found.
+[15:02:50.83] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.2 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession3 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal databaseName /DCNFS/users/student/yli1/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[15:02:50.83] /o false
+[15:04:55.69] /i ::sa::_backgroundSaeShell::exit
+[15:04:55.69] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting
+[15:04:56.03] /m Information: License 'Schematic' checked in. (LICENSE-004)
+[15:04:56.03] /m Information: License 'SAE' checked in. (LICENSE-004)

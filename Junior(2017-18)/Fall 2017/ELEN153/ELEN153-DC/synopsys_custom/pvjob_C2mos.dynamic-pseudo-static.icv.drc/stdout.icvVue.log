@@ -1,0 +1,193 @@
+ICV_VUE Info : + INFO: Filter has been loaded successfully.
+        '/opt/synopsys-2017/app/icvalidator/M-2017.06-1/lib-u/LINUX.64/VUE/Layout/libhiCDesignerLE.so'
+ICV_VUE Info : + INFO: Filter version checking passed. (is: v2, expected: v2)
+DEBUG: ConnectToServer: linux60825.dc.engr.scu.edu 54822
+DEBUG: connect back to cdesigner: 'linux60825.dc.engr.scu.edu:54822'
+
+< LAYOUT: start_vue >
+V SET_COLOR white       white
+V SET_COLOR red         red
+V SET_COLOR darkRed     maroon
+V SET_COLOR green       lime
+V SET_COLOR darkGreen   forest
+V SET_COLOR blue        blue
+V SET_COLOR darkBlue    navy
+V SET_COLOR cyan        cyan
+V SET_COLOR darkCyan    cadetBlue
+V SET_COLOR magenta     magenta
+V SET_COLOR darkMagenta purple
+V SET_COLOR yellow      yellow
+V SET_FILL  blank       blank
+V SET_FILL  solid       solid
+V SET_FILL  backSlash   backSlash
+V SET_FILL  slash       slash
+V SET_FILL  dot         dots
+V SET_FILL  diagCross   X
+V SET_FILL  brick       brick
+V SET_FILL  horizontal  hLine
+V SET_FILL  vertical    vLine
+L CDESIGNER::StartFilter LAY
+L set topLayLCV  ""
+L set curLayLCV  ""
+
+< LAYOUT: start_filter >
+L CDESIGNER::SendCommand setWorkingDir "[pwd]"
+
+< LAYOUT: load_hercules >
+L set topLayLCV "C2mos/dynamic-pseudo-static/layout"
+L set curLayLCV "$topLayLCV"
+L CDESIGNER::SendCommand setWorkingDir "/DCNFS/users/student/yli1/ELEN153/synopsys_custom/pvjob_C2mos.dynamic-pseudo-static.icv.drc"
+L CDESIGNER::SendCommand setTopLayLCV "$topLayLCV"
+L CDESIGNER::SendCommand openLCV "$curLayLCV"
+DEBUG: PushBackXprobeMessage{vueSetDbu 0.001
+}
+
+< LAYOUT: new_block >
+V ZOOM_EXTENTS_RESET
+L CDESIGNER::SendCommand clearAllHighlights "$curLayLCV"
+L set curLayLCV "C2mos/dynamic-pseudo-static/layout"
+L CDESIGNER::SendCommand openLCV "$curLayLCV"
+DEBUG: PushBackXprobeMessage{vueSetDbu 0.001
+}
+
+< LAYOUT: before_hilite >
+V ZOOM_EXTENTS_RESET
+
+< LAYOUT: primary_hilite >
+L CDESIGNER::SendCommand setHighlightProperty "yellow" "brick"
+
+< LAYOUT: poly_group_begin >
+
+< LAYOUT: poly_begin >
+L CDESIGNER::SendCommandNB addPolygonBegin $curLayLCV "3"
+
+< LAYOUT: poly_point_set >
+L CDESIGNER::AddPolygonPoints $curLayLCV {11.78 0.855 11.875 0.855 11.875 0.958 }
+
+< LAYOUT: poly_end >
+L CDESIGNER::SendCommandNB addPolygonEnd $curLayLCV
+
+< LAYOUT: poly_begin >
+L CDESIGNER::SendCommandNB addPolygonBegin $curLayLCV "4"
+
+< LAYOUT: poly_point_set >
+L CDESIGNER::AddPolygonPoints $curLayLCV {11.78 0.83 11.78 0.855 11.875 0.855 11.875 0.83}
+
+< LAYOUT: poly_end >
+L CDESIGNER::SendCommandNB addPolygonEnd $curLayLCV
+
+< LAYOUT: poly_group_end >
+
+< LAYOUT: after_hilite >
+L CDESIGNER::SendCommand drawHighlights $curLayLCV
+
+< LAYOUT: zoom_extents >
+L CDESIGNER::SendCommand setViewPort $curLayLCV [list 11.768125 0.814 11.886875 0.974]
+
+< LAYOUT: before_hilite >
+V ZOOM_EXTENTS_RESET
+
+< LAYOUT: primary_hilite >
+L CDESIGNER::SendCommand setHighlightProperty "yellow" "brick"
+
+< LAYOUT: poly_group_begin >
+
+< LAYOUT: poly_begin >
+L CDESIGNER::SendCommandNB addPolygonBegin $curLayLCV "3"
+
+< LAYOUT: poly_point_set >
+L CDESIGNER::AddPolygonPoints $curLayLCV {11.78 0.855 11.875 0.855 11.875 0.958 }
+
+< LAYOUT: poly_end >
+L CDESIGNER::SendCommandNB addPolygonEnd $curLayLCV
+
+< LAYOUT: poly_begin >
+L CDESIGNER::SendCommandNB addPolygonBegin $curLayLCV "4"
+
+< LAYOUT: poly_point_set >
+L CDESIGNER::AddPolygonPoints $curLayLCV {11.78 0.83 11.78 0.855 11.875 0.855 11.875 0.83}
+
+< LAYOUT: poly_end >
+L CDESIGNER::SendCommandNB addPolygonEnd $curLayLCV
+
+< LAYOUT: poly_group_end >
+
+< LAYOUT: after_hilite >
+L CDESIGNER::SendCommand drawHighlights $curLayLCV
+
+< LAYOUT: zoom_extents >
+L CDESIGNER::SendCommand setViewPort $curLayLCV [list 11.768125 0.814 11.886875 0.974]
+
+< LAYOUT: before_hilite >
+V ZOOM_EXTENTS_RESET
+
+< LAYOUT: primary_hilite >
+L CDESIGNER::SendCommand setHighlightProperty "yellow" "brick"
+
+< LAYOUT: poly_group_begin >
+
+< LAYOUT: poly_begin >
+L CDESIGNER::SendCommandNB addPolygonBegin $curLayLCV "3"
+
+< LAYOUT: poly_point_set >
+L CDESIGNER::AddPolygonPoints $curLayLCV {11.78 0.855 11.875 0.855 11.875 0.958 }
+
+< LAYOUT: poly_end >
+L CDESIGNER::SendCommandNB addPolygonEnd $curLayLCV
+
+< LAYOUT: poly_begin >
+L CDESIGNER::SendCommandNB addPolygonBegin $curLayLCV "4"
+
+< LAYOUT: poly_point_set >
+L CDESIGNER::AddPolygonPoints $curLayLCV {11.78 0.83 11.78 0.855 11.875 0.855 11.875 0.83}
+
+< LAYOUT: poly_end >
+L CDESIGNER::SendCommandNB addPolygonEnd $curLayLCV
+
+< LAYOUT: poly_group_end >
+
+< LAYOUT: after_hilite >
+L CDESIGNER::SendCommand drawHighlights $curLayLCV
+
+< LAYOUT: zoom_extents >
+L CDESIGNER::SendCommand setViewPort $curLayLCV [list 11.768125 0.814 11.886875 0.974]
+
+< LAYOUT: before_hilite >
+V ZOOM_EXTENTS_RESET
+
+< LAYOUT: primary_hilite >
+L CDESIGNER::SendCommand setHighlightProperty "yellow" "brick"
+
+< LAYOUT: poly_group_begin >
+
+< LAYOUT: poly_begin >
+L CDESIGNER::SendCommandNB addPolygonBegin $curLayLCV "3"
+
+< LAYOUT: poly_point_set >
+L CDESIGNER::AddPolygonPoints $curLayLCV {11.78 0.855 11.875 0.855 11.875 0.958 }
+
+< LAYOUT: poly_end >
+L CDESIGNER::SendCommandNB addPolygonEnd $curLayLCV
+
+< LAYOUT: poly_begin >
+L CDESIGNER::SendCommandNB addPolygonBegin $curLayLCV "4"
+
+< LAYOUT: poly_point_set >
+L CDESIGNER::AddPolygonPoints $curLayLCV {11.78 0.83 11.78 0.855 11.875 0.855 11.875 0.83}
+
+< LAYOUT: poly_end >
+L CDESIGNER::SendCommandNB addPolygonEnd $curLayLCV
+
+< LAYOUT: poly_group_end >
+
+< LAYOUT: after_hilite >
+L CDESIGNER::SendCommand drawHighlights $curLayLCV
+
+< LAYOUT: zoom_extents >
+L CDESIGNER::SendCommand setViewPort $curLayLCV [list 11.768125 0.814 11.886875 0.974]
+
+< LAYOUT: remove_hilites >
+L CDESIGNER::SendCommand clearAllHighlights $curLayLCV
+
+< LAYOUT: remove_hilites >
+L CDESIGNER::SendCommand clearAllHighlights $curLayLCV

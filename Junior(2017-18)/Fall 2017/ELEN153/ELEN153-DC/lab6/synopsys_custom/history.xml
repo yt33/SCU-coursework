@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Wed Nov  8 14:30:17 2017
+-->
+<synopsysFile version="1.1" name="synopsysRecentFiles">
+        <recentFiles>
+                <file cell="FourBitAdder" mode="write" view="schematic" file="schematic" application="seSchematic" library="lab6"/>
+        </recentFiles>
+</synopsysFile>

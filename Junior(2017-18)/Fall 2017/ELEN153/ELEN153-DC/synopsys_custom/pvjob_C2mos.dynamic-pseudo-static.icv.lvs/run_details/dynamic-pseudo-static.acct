@@ -1,0 +1,8 @@
+dynamic-pseudo-static
+	Cell Level Device Counts
+		NMOS[n12] = 10
+		PMOS[p12] = 10
+
+********  DEVICE EXTRACTION STATS    TOPBLOCK = dynamic-pseudo-static  *******
+		NMOS[n12] = 10
+		PMOS[p12] = 10

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler build#  ,on -->
+<file-format version="1.0" name="synopsysPrefs">
+        <preferences>
+                <pref value="true" name="xtLVSCalibreUseSVRFTranscript"/>
+                <pref value="NAND" name="xtLVSLayCell"/>
+                <pref value="/DCNFS/users/student/yli1/ELEN153/lab4/synopsys_custom/pvjob_lab4.NAND.icv.lvs/NAND.net" name="xtLVSLayInputNetlist"/>
+                <pref value="lab4/NAND/layout" name="xtLVSLayLCV"/>
+                <pref value="/DCNFS/users/student/yli1/ELEN153/lab4/synopsys_custom/pvjob_lab4.NAND.icv.lvs/NAND.custom_compiler.gds" name="xtLVSLayStreamFile"/>
+                <pref value="NAND" name="xtLVSSchCell"/>
+                <pref value="/DCNFS/users/student/yli1/ELEN153/lab4/synopsys_custom/pvjob_lab4.NAND.icv.lvs/NAND.custom_compiler.sp" name="xtLVSSchInputNetlist"/>
+                <pref value="CDL" name="xtLVSSchInputNetlistFormat"/>
+                <pref value="lab4/NAND/schematic" name="xtLVSSchLCV"/>
+                <pref value="/DCNFS/users/student/yli1/ELEN153/lab4/synopsys_custom/pvjob_lab4.NAND.icv.lvs/NAND.custom_compiler.sp" name="xtLVSSchOutputNetlist"/>
+                <pref value="IC Validator" name="xtLVSTool"/>
+        </preferences>
+</file-format>

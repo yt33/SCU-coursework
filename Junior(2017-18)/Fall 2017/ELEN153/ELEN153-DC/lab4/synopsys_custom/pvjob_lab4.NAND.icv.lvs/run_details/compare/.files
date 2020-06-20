@@ -1,0 +1,10 @@
+run_details/compare/Device
+run_details/compare/.db
+run_details/compare/.matched
+run_details/compare/.unmatched
+run_details/compare/.sorta_matched
+run_details/compare/.equate
+run_details/compare/.blackbox
+run_details/compare/.mdb
+run_details/compare/.vue
+run_details/compare/NAND

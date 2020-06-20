@@ -1,0 +1,132 @@
+[15:54:08.23] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version M-2017.03-SP1-1 for linux64 - Jun 29, 2017 
+              /c 
+              /c                     Copyright (c) 2004 - 2017 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 3718339 compiled on Thu Jun 29 08:54:37 2017 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2017/app/customcompiler/M-2017.03-SP1-1/linux64/platform/bin/custom_compiler
+              /c Execution time: Tue Nov 28 15:54:06 2017
+              /c Host: linux60821
+              /c Working directory: /DCNFS/users/student/yli1/ELEN153
+              /c 
+[15:54:11.18] /r giShowFrameTabs true
+[15:54:11.18] /r giWindowId 1
+[15:54:11.18] /r giWindowGeometry 1040x800
+[15:54:12.42] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[15:54:12.42] /# 
+[15:54:12.43] /i dm::openLibraryManager
+[15:54:12.43] /r giWindowId 2
+[15:54:12.43] /r giWindowGeometry 660x600+50+75
+[15:54:12.47] /o oa:0x24a113d0
+[15:54:13.41] /i gi::setCurrentIndex {libs} -index {C2mos} -in [gi::getWindows 2]
+[15:54:13.42] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 2]
+[15:54:13.42] /i gi::setItemSelection {libs} -index {C2mos} -in [gi::getWindows 2]
+[15:54:16.09] /i gi::sortItems {cells} -column {Cells} -order {descending} -in [gi::getWindows 2]
+[15:54:17.70] /i gi::sortItems {cells} -column {Cells} -order {ascending} -in [gi::getWindows 2]
+[15:54:18.37] /i gi::setCurrentIndex {cells} -index {C2MOS} -in [gi::getWindows 2]
+[15:54:18.41] /i gi::setItemSelection {cells} -index {C2MOS} -in [gi::getWindows 2]
+[15:54:19.10] /i gi::setCurrentIndex {cells} -index {C2MOS-register} -in [gi::getWindows 2]
+[15:54:19.12] /i gi::setItemSelection {cells} -index {C2MOS-register} -in [gi::getWindows 2]
+[15:54:19.79] /i gi::setCurrentIndex {cells} -index {dynamic-pseudo-static} -in [gi::getWindows 2]
+[15:54:19.81] /i gi::setItemSelection {cells} -index {dynamic-pseudo-static} -in [gi::getWindows 2]
+[15:54:20.46] /i gi::setCurrentIndex {cells} -index {pseudo-static} -in [gi::getWindows 2]
+[15:54:20.48] /i gi::setItemSelection {cells} -index {pseudo-static} -in [gi::getWindows 2]
+[15:54:21.05] /i gi::setCurrentIndex {cells} -index {synopsys_custom} -in [gi::getWindows 2]
+[15:54:21.05] /i gi::setItemSelection {cells} -index {synopsys_custom} -in [gi::getWindows 2]
+[15:54:21.75] /i gi::setCurrentIndex {cells} -index {testbench} -in [gi::getWindows 2]
+[15:54:21.88] /i gi::setItemSelection {cells} -index {testbench} -in [gi::getWindows 2]
+[15:54:22.28] /i gi::setCurrentIndex {cells} -index {pseudo-static} -in [gi::getWindows 2]
+[15:54:22.29] /i gi::setItemSelection {cells} -index {pseudo-static} -in [gi::getWindows 2]
+[15:54:22.91] /i gi::setCurrentIndex {cells} -index {dynamic-pseudo-static} -in [gi::getWindows 2]
+[15:54:22.92] /i gi::setItemSelection {cells} -index {dynamic-pseudo-static} -in [gi::getWindows 2]
+[15:54:26.51] /i gi::setCurrentIndex {cells} -index {pseudo-static} -in [gi::getWindows 2]
+[15:54:26.52] /i gi::setItemSelection {cells} -index {pseudo-static} -in [gi::getWindows 2]
+[15:54:38.02] /i gi::setItemSelection {cells} -index {} -in [gi::getWindows 2]
+[15:54:38.75] /i gi::setCurrentIndex {cells} -index {C2MOS-register} -in [gi::getWindows 2]
+[15:54:38.76] /i gi::setItemSelection {cells} -index {C2MOS-register} -in [gi::getWindows 2]
+[15:54:39.32] /i gi::setCurrentIndex {cells} -index {dynamic-pseudo-static} -in [gi::getWindows 2]
+[15:54:39.33] /i gi::setItemSelection {cells} -index {dynamic-pseudo-static} -in [gi::getWindows 2]
+[15:54:39.99] /i gi::executeAction menuPreShow -in [gi::getWindows 2]
+[15:54:39.99] /r giMenuAccess db::getNext [gi::getMenus dmCellViewContextMenu]
+[15:54:40.86] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[15:54:40.86] /# gi::executeAction dmShowNewCellView -in [gi::getWindows 2]
+[15:54:40.86] /i dm::showNewCellView -parent 2
+[15:54:40.89] /o oa:0x24acae70
+[15:54:40.92] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[15:54:41.20] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]] -value 588x309+665+357
+[15:54:46.97] /i gi::pressButton {ok} -in [gi::getDialogs {dmNewCellView} -parent [gi::getWindows 2]]
+[15:54:46.99] /# db::getAttr viewType -of [dm::findCellView layout -cell [dm::findCell dynamic\-pseudo\-static -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] C2mos]]]]
+[15:54:46.99] /# dm::createCellView layout -cell [dm::findCell dynamic\-pseudo\-static -lib [ oa::LibFind [oa::ScalarName [oa::CdbaNS] C2mos]]] -viewType maskLayout
+[15:54:47.01] /# de::open [dm::findCellView layout -cell [dm::findCell dynamic\-pseudo\-static -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] C2mos]]]] -application leLayout
+[15:54:47.02] /m Information: License 'Basic' checked out. (LICENSE-003)
+[15:54:47.13] /r giWindowId 3
+[15:54:47.14] /r giWindowGeometry 1632x1035
+[15:54:47.19] /i de::setActiveLPP [de::getLPPs "text drawing" -from [db::getAttr editDesign -of [de::getContexts -window 3]]]
+[15:54:49.84] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+453+171
+[15:55:01.93] /# gi::setActiveTab {tabs} -tabName {OLPLayerTab} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[15:55:02.53] /# gi::setActiveTab {tabs} -tabName {OLPObjectTab} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[15:55:03.95] /# gi::setActiveTab {tabs} -tabName {OLPLPPTab} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]]
+[15:55:04.60] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[15:55:04.60] /i he::deselectAll -context [db::getAttr hierarchy -of [db::getNext [de::getContexts -window 3]]]
+[15:55:06.29] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+558+152
+[15:55:27.56] /i gi::setActiveWindow 2
+[15:55:27.56] /i gi::setActiveWindow 2 -raise true
+[15:55:28.16] /i gi::setActiveWindow 1
+[15:55:28.16] /i gi::setActiveWindow 1 -raise true
+[15:55:28.70] /i gi::setActiveWindow 2
+[15:55:28.70] /i gi::setActiveWindow 2 -raise true
+[15:55:29.91] /i gi::setActiveWindow 1
+[15:55:29.91] /i gi::setActiveWindow 1 -raise true
+[15:55:32.08] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/saConsole} -in [gi::getWindows 1]
+[15:55:32.08] /# 
+[15:55:32.09] /i sa::showConsole -session [sa::createSession]
+[15:55:34.33] /m Information: License 'SAE' checked out. (LICENSE-003)
+[15:55:34.37] /r giWindowId 4
+[15:55:34.37] /r giWindowGeometry 600x500
+[15:55:34.50] /o oa:0x29bb7ce0
+[15:55:34.53] /m Information: Launching Background sae_shell Server Process "cd /DCNFS/users/student/yli1/ELEN153 && sae_shell -log sae_shell_session0 -libDefFile /DCNFS/users/student/yli1/ELEN153/lib.defs"
+[15:55:36.68] /i gi::executeAction giCloseWindow -in [gi::getWindows 4]
+[15:55:36.69] /i gi::setActiveWindow 1
+[15:55:36.69] /i gi::setActiveWindow 1 -raise true
+[15:55:36.71] /m Information: License 'SAE' checked in. (LICENSE-004)
+[15:55:37.18] /i gi::setActiveWindow 2
+[15:55:37.18] /i gi::setActiveWindow 2 -raise true
+[15:55:38.32] /m Information: Received ready-for-commands signal from job 'sae_shell_session0' after 4 seconds.
+[15:55:38.79] /i gi::executeAction menuPreShow -in [gi::getWindows 2]
+[15:55:38.79] /r giMenuAccess db::getNext [gi::getMenus dmEditMenu -from [gi::getWindows 2]]
+[15:55:44.85] /i gi::executeAction menuPreShow -in [gi::getWindows 2]
+[15:55:44.85] /r giMenuAccess db::getNext [gi::getMenus dmEditMenu -from [gi::getWindows 2]]
+[15:55:46.12] /# gi::executeAction dmUpdateICCRefLibs -in [gi::getWindows 2]
+[15:55:46.12] /i dm::addICCRefLibs  [dm::getLibs -filter {[oa::getDMSystemName %this] == "dmMilkyway"}]
+[15:55:46.14] /e Error: Command 'dm::addICCRefLibs' requires at least one of the Advanced features, which are not currently checked out. (COMMAND-007)
+[15:55:51.71] /# gi::executeAction dmShowAddLibrary -in [gi::getWindows 2]
+[15:55:51.71] /i dm::showAddLibrary -parent 2
+[15:55:51.71] /e Error: Command 'dm::showAddLibrary' requires at least one of the Advanced features, which are not currently checked out. (COMMAND-007)
+[15:55:54.95] /# gi::executeAction lxExpandSchematic -in [gi::getWindows 2]
+[15:55:54.95] /i lx::showExpandSchematic -parent 2
+[15:55:55.00] /o oa:0x29afef60
+[15:55:55.03] /i gi::setActiveDialog [gi::getDialogs {lxExpandSchematic} -parent [gi::getWindows 2]]
+[15:55:55.31] /i db::setAttr geometry -of [gi::getDialogs {lxExpandSchematic} -parent [gi::getWindows 2]] -value 614x814+771+166
+[15:56:00.80] /i gi::pressButton {cancel} -in [gi::getDialogs {lxExpandSchematic} -parent [gi::getWindows 2]]
+[15:56:02.02] /i gi::executeAction menuPreShow -in [gi::getWindows 2]
+[15:56:02.02] /r giMenuAccess db::getNext [gi::getMenus dmEditMenu -from [gi::getWindows 2]]
+[15:56:11.80] /r giDialog gi::setActiveDialog [gi::getDialogs {giCloseFrame}]
+[15:56:12.10] /r giDialog db::setAttr geometry -of [gi::getDialogs {giCloseFrame}] -value 297x113+930+388
+[15:56:12.71] /r giDialog gi::pressButton {giCloseTabsButton} -in [gi::getDialogs {giCloseFrame}]
+[15:56:12.73] /i exit
+[15:56:12.78] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[15:56:13.08] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 420x183+750+508
+[15:56:14.35] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[15:56:14.37] /i gi::setActiveWindow 1
+[15:56:14.37] /i gi::setActiveWindow 1 -raise true
+[15:56:14.39] /i gi::setActiveWindow 3
+[15:56:14.39] /i gi::setActiveWindow 3 -raise true
+[15:56:14.82] /o Shutdown time: Tue Nov 28 15:56:14 2017
+[15:56:14.82] /o Elapsed session real time: 2.11 minutes
+[15:56:14.82] /o Session terminated. Log is at /DCNFS/users/student/yli1/ELEN153/synopsys_custom/logs/ccompiler.yli1.2017_11_28_155406_5133.log

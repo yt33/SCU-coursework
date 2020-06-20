@@ -1,0 +1,266 @@
+version 1.2
+
+schematic NAND.sch_out
+compare_directory run_details/compare
+milkyway_database ./XTROUT
+ndb_path run_details/.ndb
+
+layout_power VDD VDD12 VDD22
+layout_ground VSS VSS12 VDD22
+schematic_power VDD VDD12 VDD22
+schematic_ground VSS VSS12 VDD22
+
+device PMOS p12
+pins {psd DRN TERMINAL} {pgate_12 GATE TERMINAL} {psd SRC TERMINAL} {nwnr BULK BULK} 
+x_card FALSE
+
+device PMOS p25
+pins {psd DRN TERMINAL} {pgate_25 GATE TERMINAL} {psd SRC TERMINAL} {nwnr BULK BULK} 
+x_card FALSE
+
+device PMOS p33
+pins {psd DRN TERMINAL} {pgate_33 GATE TERMINAL} {psd SRC TERMINAL} {nwnr BULK BULK} 
+x_card FALSE
+
+device PMOS p12_lvt
+pins {psd DRN TERMINAL} {pgate_12_lvt GATE TERMINAL} {psd SRC TERMINAL} {nwnr BULK BULK} 
+x_card FALSE
+
+device PMOS p12_hvt
+pins {psd DRN TERMINAL} {pgate_12_hvt GATE TERMINAL} {psd SRC TERMINAL} {nwnr BULK BULK} 
+x_card FALSE
+
+device NMOS n12
+pins {nsd DRN TERMINAL} {ngate_12 GATE TERMINAL} {nsd SRC TERMINAL} {pwell BULK BULK} 
+x_card FALSE
+
+device NMOS n25
+pins {nsd DRN TERMINAL} {ngate_25 GATE TERMINAL} {nsd SRC TERMINAL} {pwell BULK BULK} 
+x_card FALSE
+
+device NMOS n33
+pins {nsd DRN TERMINAL} {ngate_33 GATE TERMINAL} {nsd SRC TERMINAL} {pwell BULK BULK} 
+x_card FALSE
+
+device NMOS n12_lvt
+pins {nsd DRN TERMINAL} {ngate_12_lvt GATE TERMINAL} {nsd SRC TERMINAL} {pwell BULK BULK} 
+x_card FALSE
+
+device NMOS n12_hvt
+pins {nsd DRN TERMINAL} {ngate_12_hvt GATE TERMINAL} {nsd SRC TERMINAL} {pwell BULK BULK} 
+x_card FALSE
+
+device CAPACITOR nvar
+pins {ngatepl A TERMINAL} {nsdv B TERMINAL} 
+body ngate_12v.polygonlayer.0004
+x_card FALSE
+schematic_devices {nvar plus minus} 
+
+device CAPACITOR pvar
+pins {pgatepl A TERMINAL} {psdv B TERMINAL} 
+body pgate_12v.polygonlayer.0003
+x_card FALSE
+schematic_devices {pvar plus minus} 
+
+device RESISTOR rpdiff
+pins {psdr A TERMINAL} {psdr B TERMINAL} 
+body pdores
+x_card TRUE
+schematic_devices {rpdiff plus minus} 
+
+device RESISTOR rndiff
+pins {nsdr A TERMINAL} {nsdr B TERMINAL} 
+body ndores 
+x_card TRUE
+schematic_devices {rndiff plus minus} 
+
+device RESISTOR rppoly
+pins {ponr A TERMINAL} {ponr B TERMINAL} 
+body ppores
+x_card FALSE
+schematic_devices {rppoly plus minus} 
+
+device RESISTOR rnpoly
+pins {ponr A TERMINAL} {ponr B TERMINAL} 
+body npores
+x_card FALSE
+schematic_devices {rnpoly A B} 
+
+device RESISTOR rppoly_wos
+pins {ponr A TERMINAL} {ponr B TERMINAL} 
+body ppores_sblk
+x_card FALSE
+schematic_devices {rppoly_wos A B} 
+
+device RESISTOR rnpoly_wos
+pins {ponr A TERMINAL} {ponr B TERMINAL} 
+body npores_sblk
+x_card FALSE
+schematic_devices {rnpoly_wos plus minus} 
+
+device RESISTOR rm1
+pins {m1 A TERMINAL} {m1 B TERMINAL} 
+body m1res
+x_card FALSE
+
+device RESISTOR rm2
+pins {M2 A TERMINAL} {M2 B TERMINAL} 
+body m2res
+x_card FALSE
+
+device RESISTOR rm3
+pins {M3 A TERMINAL} {M3 B TERMINAL} 
+body m3res
+x_card FALSE
+
+device RESISTOR rm4
+pins {M4 A TERMINAL} {M4 B TERMINAL} 
+body m4res
+x_card FALSE
+
+device RESISTOR rm5
+pins {M5 A TERMINAL} {M5 B TERMINAL} 
+body m5res
+x_card FALSE
+
+device RESISTOR rm6
+pins {M6 A TERMINAL} {M6 B TERMINAL} 
+body m6res
+x_card FALSE
+
+device RESISTOR rm7
+pins {M7 A TERMINAL} {M7 B TERMINAL} 
+body m7res
+x_card FALSE
+
+device RESISTOR rm8
+pins {M8 A TERMINAL} {M8 B TERMINAL} 
+body m8res
+x_card FALSE
+
+device RESISTOR rm9
+pins {M9 A TERMINAL} {M9 B TERMINAL} 
+body m9res
+x_card FALSE
+
+device NP nd
+pins {nsd ANODE TERMINAL} {pwell CATHODE TERMINAL} 
+body ndiffdio
+x_card FALSE
+
+device PN pd
+pins {nwnr ANODE TERMINAL} {psd CATHODE TERMINAL} 
+body pdiffdio
+x_card FALSE
+
+device PNP vpnp
+pins {BJT_COLL_PNP COLL TERMINAL} {BJT_BASE_PNP BASE TERMINAL} {BJT_EMIT_PNP EMIT TERMINAL} 
+x_card TRUE
+
+device NPN vnpn
+pins {BJT_COLL_NPN COLL TERMINAL} {BJT_BASE_NPN BASE TERMINAL} {BJT_EMIT_NPN EMIT TERMINAL} 
+x_card TRUE
+
+device INDUCTOR spiind
+pins {indterm A TERMINAL} {indterm B TERMINAL} {pwell BULK BULK} 
+body indbody.polygonlayer.0003
+x_card TRUE
+schematic_devices {spiind plus minus bulk} 
+
+device CAPACITOR ccap
+pins {term1 A TERMINAL} {term1 B TERMINAL} 
+body body_1.polygonlayer.0003
+x_card TRUE
+schematic_devices {ccap plus minus} 
+
+device CAPACITOR ccap
+pins {term2 A TERMINAL} {term2 B TERMINAL} 
+body body_2.polygonlayer.0003
+x_card TRUE
+schematic_devices {ccap plus minus} 
+
+device CAPACITOR ccap
+pins {term3 A TERMINAL} {term3 B TERMINAL} 
+body body_3.polygonlayer.0003
+x_card TRUE
+schematic_devices {ccap plus minus} 
+
+device CAPACITOR ccap
+pins {term4 A TERMINAL} {term4 B TERMINAL} 
+body body_4.polygonlayer.0003
+x_card TRUE
+schematic_devices {ccap plus minus} 
+
+connect ptap pwell by pwell_cont
+connect ntap nwnr by nwell_cont
+connect m1 nsd by codiff
+connect m1 psd by codiff
+connect m1 ntap by codiff
+connect m1 ptap by codiff
+connect m1 nsdr by codiff
+connect m1 psdr by codiff
+connect m1 nsdv by codiff
+connect m1 psdv by codiff
+connect m1 ngatepl by copoly
+connect m1 pgatepl by copoly
+connect ngate_12 by ponr
+connect pgate_12 by ponr
+connect ngate_25 by ponr
+connect pgate_25 by ponr
+connect ngate_33 by ponr
+connect pgate_33 by ponr
+connect ngate_12_lvt by ponr
+connect pgate_12_lvt by ponr
+connect ngate_12_hvt by ponr
+connect pgate_12_hvt by ponr
+connect m1 ponr by copoly
+connect M2 m1 by via1
+connect M3 M2 by via2
+connect M4 M3 by via3
+connect M5 M4 by via4
+connect M6 M5 by via5
+connect M7 M6 by via6
+connect M8 M7 by via7
+connect M9 M8 by via8
+connect BJT_BASE_PNP m1 by BJT_BASE_cont_PNP
+connect BJT_COLL_PNP m1 by BJT_COLL_cont_PNP
+connect BJT_EMIT_PNP m1 by BJT_EMIT_cont_PNP
+connect BJT_COLL_NPN m1 by BJT_COLL_cont_NPN
+connect BJT_EMIT_NPN m1 by codiff
+connect BJT_BASE_NPN m1 by BJT_BASE_cont_NPN
+connect M3 term1 by via2
+connect M2 term1 by M2
+connect m1 term1 by via1
+connect M4 term2 by via3
+connect M3 term2 by M3
+connect M2 term2 by via2
+connect M5 term3 by via4
+connect M4 term3 by M4
+connect M3 term3 by via3
+connect M6 term4 by via5
+connect M5 term4 by M5
+connect M4 term4 by via4
+connect top_metex sec_top_met by top_via
+connect top_metex sec_top_met by top_via
+connect subtie psub by subtie_scon 
+connect indterm M5 by via4
+connect m1pin_marker by m1
+connect m2pin_marker by M2
+connect m3pin_marker by M3
+connect m4pin_marker by M4
+connect m5pin_marker by M5
+connect m6pin_marker by M6
+connect m7pin_marker by M7
+connect m8pin_marker by M8
+connect m9pin_marker by M9
+
+compare
+detect_permutable_ports FALSE
+memory_array_comparison FALSE
+end compare
+
+process_map_file pex_process_map
+
+lpp_map_file pex_lpp_map
+
+pex_tagname_required TRUE

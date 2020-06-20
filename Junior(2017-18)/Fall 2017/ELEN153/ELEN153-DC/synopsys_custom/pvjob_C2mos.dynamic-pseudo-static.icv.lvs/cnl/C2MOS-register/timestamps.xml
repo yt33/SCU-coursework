@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed Nov 29 17:53:52 2017-->
+<file-format version="1.0" name="netlisting-timestamps">
+<module contextID="switched: C2mos C2MOS-register schematic vl: auCdl schematic symbol sl: auCdl" isSubcircuit="1" viewStopList="auCdl" timestamp="1133" viewSearchList="auCdl schematic symbol">
+<parameterizedConnections>
+<connectDefs timestamp="0"/>
+<oaAssignments timestamp="0"/>
+<dbAssignValue timestamp="0"/>
+<dbAssignAssignment timestamp="0"/>
+</parameterizedConnections>
+<parameters timestamp="2"/>
+<lib_parameters timestamp="1"/>
+<LineageParams/>
+<ParentParams/>
+<Terms timestamp="1110"/>
+<PortOrder>CLKCLKbDQ</PortOrder>
+</module>
+</file-format>

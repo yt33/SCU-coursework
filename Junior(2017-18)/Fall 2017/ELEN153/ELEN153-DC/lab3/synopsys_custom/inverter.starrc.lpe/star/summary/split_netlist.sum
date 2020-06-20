@@ -1,0 +1,6 @@
+Parsing option_file: split_netlist.tech (EX-304)
+WARNING: INTERNAL Warning: via top_height (0) < bottom_height (4.072) on db layer (top_via) (EX-204)
+  
+xTractor      Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=145.3 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=145.3 

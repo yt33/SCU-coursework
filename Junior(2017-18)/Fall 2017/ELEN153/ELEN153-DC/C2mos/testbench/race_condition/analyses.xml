@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon Nov 13 12:08:51 2017-->
+<file-format version="1.0" name="stateCategory">
+ <collection name="analyses">
+  <object version="1" type="saAnalysis" name="analyses">
+   <attribute type="giBoolean" value="0" name="advanced"/>
+   <attribute type="giString" value="" name="card"/>
+   <attribute type="giString" value="tran" name="definition"/>
+   <attribute type="giString" value="" name="description"/>
+   <attribute type="giBoolean" value="0" name="doRestore"/>
+   <attribute type="giBoolean" value="0" name="doSave"/>
+   <attribute type="giBoolean" value="1" name="enabled"/>
+   <attribute type="giString" value="Temp Sweep" name="method"/>
+   <attribute type="giString" value="tran" name="name"/>
+   <attribute type="giString" value="1" name="numIntervals"/>
+   <collection name="options"/>
+   <attribute type="giString" value="" name="otherOptions"/>
+   <attribute type="giString" value="" name="restorePoint"/>
+   <attribute type="giString" value="" name="runLevels"/>
+   <attribute type="giString" value="" name="saveList"/>
+   <attribute type="giString" value="2u" name="start"/>
+   <attribute type="giString" value="1p" name="step"/>
+   <attribute type="giString" value="" name="step2"/>
+   <attribute type="giString" value="" name="step3"/>
+   <attribute type="giString" value="" name="step4"/>
+   <attribute type="giString" value="" name="step5"/>
+   <attribute type="giString" value="3u" name="stop"/>
+   <attribute type="giString" value="" name="stop2"/>
+   <attribute type="giString" value="" name="stop3"/>
+   <attribute type="giString" value="" name="stop4"/>
+   <attribute type="giString" value="" name="stop5"/>
+   <attribute type="giString" value="" name="tempStep"/>
+   <attribute type="giString" value="" name="tempValues"/>
+   <attribute type="giBoolean" value="0" name="uic"/>
+   <attribute type="giBoolean" value="0" name="useCard"/>
+  </object>
+ </collection>
+</file-format>

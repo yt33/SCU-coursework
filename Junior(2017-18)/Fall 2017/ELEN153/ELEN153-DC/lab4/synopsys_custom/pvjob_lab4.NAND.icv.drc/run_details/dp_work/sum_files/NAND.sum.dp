@@ -1,0 +1,937 @@
+internal1() at rules.drc.9m_saed90_icv.drc.rs:269: Command replaced with an internal function.
+internal1(dnw, distance < 3.5, extension = RADIAL, relational = { POINT_TOUCH })
+  Comment: "R.DNW.W.1 Minimum width is 3.5"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external1() at rules.drc.9m_saed90_icv.drc.rs:274: Command replaced with an internal function.
+external1(dnw, distance < 5, extension = RADIAL, relational = { POINT_TOUCH })
+  Comment: "R.DNW.S.1 Minumum spacing, Deep_N_Well to Deep_N_Well is 5"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external2() at rules.drc.9m_saed90_icv.drc.rs:279: Command replaced with an internal function.
+external2(dnw, nwoutdnw, distance < 3.5, extension = RADIAL, look_thru = COINCIDENT, relational = { POINT_TOUCH, OVERLAP })
+  Comment: "R.DNW.S.2 Minimum spacing, Deep_N_Well to unrelated N_Well is 3.5"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external2() at rules.drc.9m_saed90_icv.drc.rs:287: Command replaced with an internal function.
+external2(dnw, nact_1, distance < 2, extension = RADIAL, look_thru = COINCIDENT, relational = { POINT_TOUCH, OVERLAP })
+  Comment: "R.DNW.S.3 Minimum spacing, external N+Active to Deep_N_Well is 2"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external2() at rules.drc.9m_saed90_icv.drc.rs:295: Command replaced with an internal function.
+external2(dnw, pact_1, distance < 1, extension = RADIAL, look_thru = COINCIDENT, relational = { OVERLAP, POINT_TOUCH })
+  Comment: "R.DNW.S.4 Minimum spacing, P+Active in N_Well to its Deep_N_Well is 1"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:304: Command replaced with an internal function.
+enclose(nact, pwell_dnw, distance < 7, extension = RADIAL, intersecting = TOUCH, relational = { POINT_TOUCH, INSIDE })
+  Comment: "R.DNW.E.1 Minimum enclosure, N+Active by isolated P-Well is 0.7"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:310: Command replaced with an internal function.
+enclose(nact, pwindnw, distance < 0.7, extension = RADIAL, relational = { POINT_TOUCH, INSIDE })
+  Comment: "R.DNW.E.1 Minimum enclosure, N+Active by isolated P-Well is 0.7"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:316: Command replaced with an internal function.
+enclose(dnw, nwell, distance < 1.5, extension = RADIAL, intersecting = TOUCH, relational = { POINT_TOUCH, INSIDE })
+  Comment: "R.DNW.E.2 Minimum enclosure, N_Well beyond Deep_N_Well edge is 1.5"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+internal1() at rules.drc.9m_saed90_icv.drc.rs:323: Command replaced with an internal function.
+internal1(nwanddnw, distance < 0.5, extension = RADIAL, relational = { POINT_TOUCH })
+  Comment: "R.DNW.O.1 Minimum overlap, N_Well over Deep_N_Well edge is 0.5"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external1() at rules.drc.9m_saed90_icv.drc.rs:347: Command replaced with an internal function.
+external1(od25, distance < 0.18, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.DIFF.S.2 Minimum spacing in DIFF_25 is 0.18"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external1() at rules.drc.9m_saed90_icv.drc.rs:352: Command replaced with an internal function.
+external1(od33, distance < 0.18, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.DIFF.S.2 Minimum spacing in DIFF_33 is 0.18"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+internal1() at rules.drc.9m_saed90_icv.drc.rs:459: Command replaced with an internal function.
+internal1(diff_25, distance < 0.66, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.DIFF_25.W.1 Minimum width is 0.66um"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external1() at rules.drc.9m_saed90_icv.drc.rs:464: Command replaced with an internal function.
+external1(diff_25, distance < 0.66, extension = RADIAL, relational = POINT_TOUCH, look_thru = ALL)
+  Comment: "R.DIFF_25.S.1 Minimum spacing is 0.66um"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:469: Command replaced with an internal function.
+enclose(diff, diff_25, distance < 0.3, extension = RADIAL, relational = INSIDE, intersecting = TOUCH)
+  Comment: "R.DIFF_25.E.1 Minimum  DIFF enclosure 0.3um"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external2() at rules.drc.9m_saed90_icv.drc.rs:476: Command replaced with an internal function.
+external2(diff_25, ext_diff, distance < 0.14, extension = RADIAL, relational = OVERLAP, look_thru = COINCIDENT)
+  Comment: "R.DIFF_25.S.2 Minimum space external Active 0.14um"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+internal1() at rules.drc.9m_saed90_icv.drc.rs:487: Command replaced with an internal function.
+internal1(diff_33, distance < 0.66, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.DIFF_33.W.1 Minimum width is 0.66um"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external1() at rules.drc.9m_saed90_icv.drc.rs:492: Command replaced with an internal function.
+external1(diff_33, distance < 0.66, extension = RADIAL, relational = POINT_TOUCH, look_thru = ALL)
+  Comment: "R.DIFF_33.S.1 Minimum spacing is 0.66"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:497: Command replaced with an internal function.
+enclose(diff, diff_33, distance < 0.14, extension = RADIAL, relational = INSIDE, intersecting = TOUCH)
+  Comment: "R.DIFF_33.E.1 Minimum  DIFF enclosure 0.14um"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external2() at rules.drc.9m_saed90_icv.drc.rs:505: Command replaced with an internal function.
+external2(diff_33, ext_diff_33, distance < 0.14, extension = RADIAL, relational = OVERLAP, look_thru = COINCIDENT)
+  Comment: "R.DIFF_33.S.2 Minimum space external Active 0.14um"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+internal1() at rules.drc.9m_saed90_icv.drc.rs:515: Command replaced with an internal function.
+internal1(pad, distance < 60, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.PAD.W.1 PAD minimum width 60um"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:520: Command replaced with an internal function.
+enclose(pad, mt, distance < 2, extension = RADIAL, relational = INSIDE, intersecting = TOUCH)
+  Comment: "R.PAD.E.1 Minimum enclosure by MT 2um"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external1() at rules.drc.9m_saed90_icv.drc.rs:525: Command replaced with an internal function.
+external1(pad, distance < 10, extension = RADIAL, relational = POINT_TOUCH, look_thru = ALL)
+  Comment: "R.PAD.S.1 Minimum spacing 10um"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external2() at rules.drc.9m_saed90_icv.drc.rs:533: Command replaced with an internal function.
+external2(padmet, mtout, distance < 3, extension = RADIAL, relational = OVERLAP, look_thru = COINCIDENT)
+  Comment: "R.PAD.S.2 PAD metal minimum space to unrelated MT 3um"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+internal1() at rules.drc.9m_saed90_icv.drc.rs:542: Command replaced with an internal function.
+internal1(sblk, distance < 0.44, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.SBLK.W.1 SBLK minimum width 0.44um"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external1() at rules.drc.9m_saed90_icv.drc.rs:547: Command replaced with an internal function.
+external1(sblk, distance < 0.44, extension = RADIAL, relational = POINT_TOUCH, look_thru = ALL)
+  Comment: "R.SBLK.S.1: SBLK minimum spacing 0.44um"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+and() at rules.drc.9m_saed90_icv.drc.rs:552: Command replaced with an internal function.
+and(sblk, co)
+  Comment: "R.SBLK.S.2: No contacts are allowed inside SBLK"
+  Function: and
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external2() at rules.drc.9m_saed90_icv.drc.rs:557: Command replaced with an internal function.
+external2(sblk, co, distance < 0.24, extension = RADIAL, relational = { OVERLAP, POINT_TOUCH }, look_thru = COINCIDENT, intersecting = TOUCH)
+  Comment: "R.SBLK.S.2 Minimum space, SBLK to contact 0.24um"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external2() at rules.drc.9m_saed90_icv.drc.rs:563: Command replaced with an internal function.
+external2(sblk, diff, distance < 0.24, extension = RADIAL, look_thru = COINCIDENT, relational = { INSIDE, POINT_TOUCH }, intersecting = TOUCH)
+  Comment: "R.SBLK.S.3 Minimum space, SBLK to external diff 0.24um"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external2() at rules.drc.9m_saed90_icv.drc.rs:569: Command replaced with an internal function.
+external2(sblk, po_out_sblk, distance < 0.3, extension = RADIAL, relational = { POINT_TOUCH, OVERLAP }, look_thru = COINCIDENT, intersecting = TOUCH)
+  Comment: "R.SBLK.S.4 Minimum space, SBLK to external poly 0.3um"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external1() at rules.drc.9m_saed90_icv.drc.rs:581: Command replaced with an internal function.
+external1(poandsblk, distance < 0.3, extension = RADIAL, relational = POINT_TOUCH, look_thru = ALL)
+  Comment: "R.SBLK.S.5: Minimum spacing of poly resistors in a single SBLK region 0.3um"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external2() at rules.drc.9m_saed90_icv.drc.rs:586: Command replaced with an internal function.
+external2(sblk, po_1, distance < 0.4, extension = RADIAL, look_thru = COINCIDENT, relational = { POINT_TOUCH, OVERLAP }, intersecting = TOUCH)
+  Comment: "R.SBLK.S.6 Minimum space, SBLK to poly (in a single active region) 0.4um"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+internal1() at rules.drc.9m_saed90_icv.drc.rs:591: Command replaced with an internal function.
+internal1(poandsblk, distance < 0.39, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.SBLK.W.2: Minimum poly width in unsiliside resistor 0.39um"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:596: Command replaced with an internal function.
+enclose(poandsblk, sblk, distance < 0.24, extension = RADIAL, intersecting = TOUCH, relational = { INSIDE, POINT_TOUCH })
+  Comment: "R.SBLK.EX.1: Minimum SBLK extension of poly or active 0.24um"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:601: Command replaced with an internal function.
+enclose(diffandsblk, sblk, distance < 0.24, extension = RADIAL, relational = { INSIDE, POINT_TOUCH }, intersecting = TOUCH)
+  Comment: "R.SBLK.EX.1: Minimum SBLK extension of poly or active 0.24um"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:606: Command replaced with an internal function.
+enclose(poandsblk, po, distance < 0.24, extension = RADIAL, relational = { INSIDE, POINT_TOUCH }, intersecting = TOUCH)
+  Comment: "R.SBLK.EX.2: Minimum poly extension of SBLK 0.24um"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+internal1() at rules.drc.9m_saed90_icv.drc.rs:618: Command replaced with an internal function.
+internal1(gate_25, distance < 0.28, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.PO.W.2: Minimum poly width in a thick oxide gate 0.28um"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+internal1() at rules.drc.9m_saed90_icv.drc.rs:623: Command replaced with an internal function.
+internal1(gate_33, distance < 0.38, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.PO.W.2: Minimum poly width in a thick oxide gate 0.38um"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+internal1() at rules.drc.9m_saed90_icv.drc.rs:692: Command replaced with an internal function.
+internal1(m2, distance < 0.16, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.M2.W.1: Minimum width=0.16um"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external1() at rules.drc.9m_saed90_icv.drc.rs:697: Command replaced with an internal function.
+external1(m2, distance < 0.16, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.M2.S.1: Minimum spacing=0.16um"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+area() at rules.drc.9m_saed90_icv.drc.rs:701: Command replaced with an internal function.
+area(m2, value < 0.07)
+  Comment: "R.M2.A.1  M2 minimum area = 0.07um^2"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external2() at rules.drc.9m_saed90_icv.drc.rs:709: Command replaced with an internal function.
+external2(m2, m2wide, distance < 1.5, extension = RADIAL, look_thru = COINCIDENT, intersecting = TOUCH)
+  Comment: "R.M2.S.2: Minimum spacing when either metal line is wider than 5um = 1.5u"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+internal1() at rules.drc.9m_saed90_icv.drc.rs:716: Command replaced with an internal function.
+internal1(m3, distance < 0.16, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.M3.W.1: Minimum width=0.16um"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external1() at rules.drc.9m_saed90_icv.drc.rs:721: Command replaced with an internal function.
+external1(m3, distance < 0.16, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.M3.S.1: Minimum spacing=0.16um"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+area() at rules.drc.9m_saed90_icv.drc.rs:725: Command replaced with an internal function.
+area(m3, value < 0.07)
+  Comment: "R.M3.A.1  m3 minimum area = 0.07um^2"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external2() at rules.drc.9m_saed90_icv.drc.rs:733: Command replaced with an internal function.
+external2(m3, m3wide, distance < 1.5, extension = RADIAL, look_thru = COINCIDENT, intersecting = TOUCH)
+  Comment: "R.M3.S.2: Minimum spacing when either metal line is wider than 5um = 1.5u"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+internal1() at rules.drc.9m_saed90_icv.drc.rs:741: Command replaced with an internal function.
+internal1(m4, distance < 0.16, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.M4.W.1: Minimum width=0.16um"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external1() at rules.drc.9m_saed90_icv.drc.rs:746: Command replaced with an internal function.
+external1(m4, distance < 0.16, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.M4.S.1: Minimum spacing=0.16um"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+area() at rules.drc.9m_saed90_icv.drc.rs:750: Command replaced with an internal function.
+area(m4, value < 0.07)
+  Comment: "R.M4.A.1  m4 minimum area = 0.07um^2"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external2() at rules.drc.9m_saed90_icv.drc.rs:758: Command replaced with an internal function.
+external2(m4, m4wide, distance < 1.5, extension = RADIAL, look_thru = COINCIDENT, intersecting = TOUCH)
+  Comment: "R.M4.S.2: Minimum spacing when either metal line is wider than 5um = 1.5u"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+internal1() at rules.drc.9m_saed90_icv.drc.rs:766: Command replaced with an internal function.
+internal1(m5, distance < 0.16, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.M5.W.1: Minimum width=0.16um"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external1() at rules.drc.9m_saed90_icv.drc.rs:771: Command replaced with an internal function.
+external1(m5, distance < 0.16, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.M5.S.1: Minimum spacing=0.16um"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+area() at rules.drc.9m_saed90_icv.drc.rs:775: Command replaced with an internal function.
+area(m5, value < 0.07)
+  Comment: "R.M5.A.1  M5 minimum area = 0.07um^2"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external2() at rules.drc.9m_saed90_icv.drc.rs:783: Command replaced with an internal function.
+external2(m5, m5wide, distance < 1.5, extension = RADIAL, look_thru = COINCIDENT, intersecting = TOUCH)
+  Comment: "R.M5.S.2: Minimum spacing when either metal line is wider than 5um = 1.5u"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+internal1() at rules.drc.9m_saed90_icv.drc.rs:791: Command replaced with an internal function.
+internal1(m6, distance < 0.16, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.M6.W.1: Minimum width=0.16um"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external1() at rules.drc.9m_saed90_icv.drc.rs:796: Command replaced with an internal function.
+external1(m6, distance < 0.16, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.M6.S.1: Minimum spacing=0.16um"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+area() at rules.drc.9m_saed90_icv.drc.rs:800: Command replaced with an internal function.
+area(m6, value < 0.07)
+  Comment: "R.M6.A.1  M6 minimum area = 0.07um^2"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external2() at rules.drc.9m_saed90_icv.drc.rs:808: Command replaced with an internal function.
+external2(m6, m6wide, distance < 1.5, extension = RADIAL, look_thru = COINCIDENT, intersecting = TOUCH)
+  Comment: "R.M6.S.2: Minimum spacing when either metal line is wider than 5um = 1.5u"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+internal1() at rules.drc.9m_saed90_icv.drc.rs:816: Command replaced with an internal function.
+internal1(m7, distance < 0.16, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.M7.W.1: Minimum width=0.16um"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external1() at rules.drc.9m_saed90_icv.drc.rs:821: Command replaced with an internal function.
+external1(m7, distance < 0.16, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.M7.S.1: Minimum spacing=0.16um"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+area() at rules.drc.9m_saed90_icv.drc.rs:826: Command replaced with an internal function.
+area(m7, value < 0.07)
+  Comment: "R.M7.A.1  M7 minimum area = 0.07um^2"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external2() at rules.drc.9m_saed90_icv.drc.rs:834: Command replaced with an internal function.
+external2(m7, m7wide, distance < 1.5, extension = RADIAL, look_thru = COINCIDENT, intersecting = TOUCH)
+  Comment: "R.M7.S.2: Minimum spacing when either metal line is wider than 5um = 1.5u"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+internal1() at rules.drc.9m_saed90_icv.drc.rs:842: Command replaced with an internal function.
+internal1(m8, distance < 0.16, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.M8.W.1: Minimum width=0.16um"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external1() at rules.drc.9m_saed90_icv.drc.rs:847: Command replaced with an internal function.
+external1(m8, distance < 0.16, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.M8.S.1: Minimum spacing=0.16um"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+area() at rules.drc.9m_saed90_icv.drc.rs:852: Command replaced with an internal function.
+area(m8, value < 0.07)
+  Comment: "R.M8.A.1  M8 minimum area = 0.07um^2"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external2() at rules.drc.9m_saed90_icv.drc.rs:860: Command replaced with an internal function.
+external2(m8, m8wide, distance < 1.5, extension = RADIAL, look_thru = COINCIDENT, intersecting = TOUCH)
+  Comment: "R.M8.S.2: Minimum spacing when either metal line is wider than 5um = 1.5u"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+internal1() at rules.drc.9m_saed90_icv.drc.rs:870: Command replaced with an internal function.
+internal1(mt, distance < 0.45, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.MT.W.1: Minimum width=0.45um"
+  Function: internal1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external1() at rules.drc.9m_saed90_icv.drc.rs:875: Command replaced with an internal function.
+external1(mt, distance < 0.45, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.MT.S.1: Minimum spacing=0.45um"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+area() at rules.drc.9m_saed90_icv.drc.rs:880: Command replaced with an internal function.
+area(mt, value < 0.14)
+  Comment: "R.MT.A.1  MT minimum area = 0.14um^2"
+  Function: area
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external2() at rules.drc.9m_saed90_icv.drc.rs:888: Command replaced with an internal function.
+external2(mt, mtwide, distance < 1.5, extension = RADIAL, look_thru = COINCIDENT, intersecting = TOUCH)
+  Comment: "R.MT.S.2: Minimum spacing when either metal line is wider than 5um, 1.5u"
+  Function: external2
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not_rectangles() at rules.drc.9m_saed90_icv.drc.rs:988: Command replaced with an internal function.
+not_rectangles(via1, { 0.14, 0.14 })
+  Comment: "R.VIA1.W.1: Exact size = 0.14 x 0.14um"
+  Function: not_rectangles
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external1() at rules.drc.9m_saed90_icv.drc.rs:993: Command replaced with an internal function.
+external1(via1, distance < 0.16, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.VIA1.S.1: Minimum via1 spacing 0.16um"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:998: Command replaced with an internal function.
+enclose(via1, m1, distance < 0.005, extension = RADIAL, intersecting = TOUCH, relational = POINT_TOUCH)
+  Comment: "R.VIA1.E.1: Minimum enclosure by M1 and M2 0.005um"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:999: Command replaced with an internal function.
+enclose(via1, m2, distance < 0.005, extension = RADIAL, intersecting = TOUCH, relational = POINT_TOUCH)
+  Comment: "R.VIA1.E.1: Minimum enclosure by M1 and M2 0.005um"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not() at rules.drc.9m_saed90_icv.drc.rs:1004: Command replaced with an internal function.
+not(via1, m1)
+  Comment: "R.VIA1.E.1: VIA1 must be covered by M1 and M2, min. enclosure is 0.005um"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not() at rules.drc.9m_saed90_icv.drc.rs:1005: Command replaced with an internal function.
+not(via1, m2)
+  Comment: "R.VIA1.E.1: VIA1 must be covered by M1 and M2, min. enclosure is 0.005um"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not_covered_by() at rules.drc.9m_saed90_icv.drc.rs:1012: Command replaced with an internal function.
+not_covered_by(via1_m1, m1, distances = { { { 0.05, extension = NONE }, { 0, extension = NONE }, { 0.05, extension = NONE }, { 0, extension = NONE } }, { { 0, extension = NONE }, { 0.05, extension = NONE }, { 0, extension = NONE }, { 0.05, extension = NONE } } }, intersecting = { TOUCH })
+  Comment: "R.VIA1.E.2: Minimum VIA1 enclosure by M1 and M2 at end-of-line 0.05um"
+  Function: not_covered_by
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not_covered_by() at rules.drc.9m_saed90_icv.drc.rs:1019: Command replaced with an internal function.
+not_covered_by(via1_m2, m2, distances = { { { 0.05, extension = NONE }, { 0, extension = NONE }, { 0.05, extension = NONE }, { 0, extension = NONE } }, { { 0, extension = NONE }, { 0.05, extension = NONE }, { 0, extension = NONE }, { 0.05, extension = NONE } } }, intersecting = { TOUCH })
+  Comment: "R.VIA1.E.2: Minimum VIA1 enclosure by M1 and M2 at end-of-line 0.05um"
+  Function: not_covered_by
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not_rectangles() at rules.drc.9m_saed90_icv.drc.rs:1032: Command replaced with an internal function.
+not_rectangles(via2, { 0.14, 0.14 })
+  Comment: "R.VIA1.W.1: Exact size = 0.14 x 0.14um"
+  Function: not_rectangles
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external1() at rules.drc.9m_saed90_icv.drc.rs:1037: Command replaced with an internal function.
+external1(via2, distance < 0.16, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.VIA2.S.1: Minimum via2 spacing 0.16um"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:1042: Command replaced with an internal function.
+enclose(via2, m2, distance < 0.005, extension = RADIAL, intersecting = TOUCH, relational = POINT_TOUCH)
+  Comment: "R.VIA2.E.1: Minimum enclosure by M2 and M3 0.005um"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:1043: Command replaced with an internal function.
+enclose(via2, m3, distance < 0.005, extension = RADIAL, intersecting = TOUCH, relational = POINT_TOUCH)
+  Comment: "R.VIA2.E.1: Minimum enclosure by M2 and M3 0.005um"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not() at rules.drc.9m_saed90_icv.drc.rs:1048: Command replaced with an internal function.
+not(via2, m2)
+  Comment: "R.VIA2.E.1: VIA2 must be covered by M2 and M3, min. enclosure is 0.005um"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not() at rules.drc.9m_saed90_icv.drc.rs:1049: Command replaced with an internal function.
+not(via2, m3)
+  Comment: "R.VIA2.E.1: VIA2 must be covered by M2 and M3, min. enclosure is 0.005um"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not_covered_by() at rules.drc.9m_saed90_icv.drc.rs:1056: Command replaced with an internal function.
+not_covered_by(via2_m2, m2, distances = { { { 0.05, extension = NONE }, { 0, extension = NONE }, { 0.05, extension = NONE }, { 0, extension = NONE } }, { { 0, extension = NONE }, { 0.05, extension = NONE }, { 0, extension = NONE }, { 0.05, extension = NONE } } }, intersecting = { TOUCH })
+  Comment: "R.VIA2.E.2: Minimum VIA2 enclosure by M2 and M3 at end-of-line 0.05um"
+  Function: not_covered_by
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not_covered_by() at rules.drc.9m_saed90_icv.drc.rs:1063: Command replaced with an internal function.
+not_covered_by(via2_m3, m3, distances = { { { 0.05, extension = NONE }, { 0, extension = NONE }, { 0.05, extension = NONE }, { 0, extension = NONE } }, { { 0, extension = NONE }, { 0.05, extension = NONE }, { 0, extension = NONE }, { 0.05, extension = NONE } } }, intersecting = { TOUCH })
+  Comment: "R.VIA2.E.2: Minimum VIA2 enclosure by M2 and M3 at end-of-line 0.05um"
+  Function: not_covered_by
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not_rectangles() at rules.drc.9m_saed90_icv.drc.rs:1075: Command replaced with an internal function.
+not_rectangles(via3, { 0.14, 0.14 })
+  Comment: "R.VIA3.W.1: Exact size = 0.14 x 0.14um"
+  Function: not_rectangles
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external1() at rules.drc.9m_saed90_icv.drc.rs:1080: Command replaced with an internal function.
+external1(via3, distance < 0.16, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.VIA3.S.1: Minimum via3 spacing 0.16um"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:1085: Command replaced with an internal function.
+enclose(via3, m3, distance < 0.005, extension = RADIAL, intersecting = TOUCH, relational = POINT_TOUCH)
+  Comment: "R.VIA3.E.1: Minimum enclosure by M3 and M4 0.005um"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:1086: Command replaced with an internal function.
+enclose(via3, m4, distance < 0.005, extension = RADIAL, intersecting = TOUCH, relational = POINT_TOUCH)
+  Comment: "R.VIA3.E.1: Minimum enclosure by M3 and M4 0.005um"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not() at rules.drc.9m_saed90_icv.drc.rs:1091: Command replaced with an internal function.
+not(via3, m3)
+  Comment: "R.VIA3.E.1: VIA3 must be covered by M3 and M4, min. enclosure is 0.005um"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not() at rules.drc.9m_saed90_icv.drc.rs:1092: Command replaced with an internal function.
+not(via3, m4)
+  Comment: "R.VIA3.E.1: VIA3 must be covered by M3 and M4, min. enclosure is 0.005um"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not_covered_by() at rules.drc.9m_saed90_icv.drc.rs:1099: Command replaced with an internal function.
+not_covered_by(via3_m3, m3, distances = { { { 0.05, extension = NONE }, { 0, extension = NONE }, { 0.05, extension = NONE }, { 0, extension = NONE } }, { { 0, extension = NONE }, { 0.05, extension = NONE }, { 0, extension = NONE }, { 0.05, extension = NONE } } }, intersecting = { TOUCH })
+  Comment: "R.VIA3.E.2: Minimum VIA3 enclosure by M3 at end-of-line 0.05um"
+  Function: not_covered_by
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not_covered_by() at rules.drc.9m_saed90_icv.drc.rs:1106: Command replaced with an internal function.
+not_covered_by(via3_m4, m4, distances = { { { 0.05, extension = NONE }, { 0, extension = NONE }, { 0.05, extension = NONE }, { 0, extension = NONE } }, { { 0, extension = NONE }, { 0.05, extension = NONE }, { 0, extension = NONE }, { 0.05, extension = NONE } } }, intersecting = { TOUCH })
+  Comment: "R.VIA3.E.2: Minimum VIA3 enclosure by M3 at end-of-line 0.05um"
+  Function: not_covered_by
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not_rectangles() at rules.drc.9m_saed90_icv.drc.rs:1118: Command replaced with an internal function.
+not_rectangles(via4, { 0.14, 0.14 })
+  Comment: "R.VIA4.W.1: Exact size = 0.14 x 0.14um"
+  Function: not_rectangles
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+and() at rules.drc.9m_saed90_icv.drc.rs:1123: Command replaced with an internal function.
+bulk and external1(via4, distance < 0.16, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.VIA4.S.1: Minimum via4 spacing 0.16um"
+  Function: and
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:1128: Command replaced with an internal function.
+enclose(via4, m4, distance < 0.005, extension = RADIAL, intersecting = TOUCH, relational = POINT_TOUCH)
+  Comment: "R.VIA4.E.1: Minimum enclosure by M4 and M5 0.005um"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:1129: Command replaced with an internal function.
+enclose(via4, m5, distance < 0.005, extension = RADIAL, intersecting = TOUCH, relational = POINT_TOUCH)
+  Comment: "R.VIA4.E.1: Minimum enclosure by M4 and M5 0.005um"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not() at rules.drc.9m_saed90_icv.drc.rs:1134: Command replaced with an internal function.
+not(via4, m4)
+  Comment: "R.VIA4.E.1: VIA4 must be covered by M4 and M5, min. enclosure is 0.005um"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not() at rules.drc.9m_saed90_icv.drc.rs:1135: Command replaced with an internal function.
+not(via4, m5)
+  Comment: "R.VIA4.E.1: VIA4 must be covered by M4 and M5, min. enclosure is 0.005um"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not_covered_by() at rules.drc.9m_saed90_icv.drc.rs:1142: Command replaced with an internal function.
+not_covered_by(via4_m4, m4, distances = { { { 0.05, extension = NONE }, { 0, extension = NONE }, { 0.05, extension = NONE }, { 0, extension = NONE } }, { { 0, extension = NONE }, { 0.05, extension = NONE }, { 0, extension = NONE }, { 0.05, extension = NONE } } }, intersecting = { TOUCH })
+  Comment: "R.VIA4.E.2: Minimum VIA4 enclosure by M4 and M5 at end-of-line 0.05um"
+  Function: not_covered_by
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not_covered_by() at rules.drc.9m_saed90_icv.drc.rs:1149: Command replaced with an internal function.
+not_covered_by(via4_m5, m5, distances = { { { 0.05, extension = NONE }, { 0, extension = NONE }, { 0.05, extension = NONE }, { 0, extension = NONE } }, { { 0, extension = NONE }, { 0.05, extension = NONE }, { 0, extension = NONE }, { 0.05, extension = NONE } } }, intersecting = { TOUCH })
+  Comment: "R.VIA4.E.2: Minimum VIA4 enclosure by M4 and M5 at end-of-line 0.05um"
+  Function: not_covered_by
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not_rectangles() at rules.drc.9m_saed90_icv.drc.rs:1160: Command replaced with an internal function.
+not_rectangles(via5, { 0.14, 0.14 })
+  Comment: "R.VIA5.W.1: Exact size = 0.14 x 0.14um"
+  Function: not_rectangles
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external1() at rules.drc.9m_saed90_icv.drc.rs:1165: Command replaced with an internal function.
+external1(via5, distance < 0.16, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.VIA5.S.1: Minimum via5 spacing 0.16um"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:1170: Command replaced with an internal function.
+enclose(via5, m5, distance < 0.005, extension = RADIAL, intersecting = TOUCH, relational = POINT_TOUCH)
+  Comment: "R.VIA5.E.1: Minimum enclosure by M5 and M6 0.005um"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:1171: Command replaced with an internal function.
+enclose(via5, m6, distance < 0.005, extension = RADIAL, intersecting = TOUCH, relational = POINT_TOUCH)
+  Comment: "R.VIA5.E.1: Minimum enclosure by M5 and M6 0.005um"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not() at rules.drc.9m_saed90_icv.drc.rs:1176: Command replaced with an internal function.
+not(via5, m5)
+  Comment: "R.VIA5.E.1: VIA5 must be covered by M5 and M6, min. enclosure is 0.005um"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not() at rules.drc.9m_saed90_icv.drc.rs:1177: Command replaced with an internal function.
+not(via5, m6)
+  Comment: "R.VIA5.E.1: VIA5 must be covered by M5 and M6, min. enclosure is 0.005um"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not_covered_by() at rules.drc.9m_saed90_icv.drc.rs:1184: Command replaced with an internal function.
+not_covered_by(via5_m5, m5, distances = { { { 0.05, extension = NONE }, { 0, extension = NONE }, { 0.05, extension = NONE }, { 0, extension = NONE } }, { { 0, extension = NONE }, { 0.05, extension = NONE }, { 0, extension = NONE }, { 0.05, extension = NONE } } }, intersecting = { TOUCH })
+  Comment: "R.VIA5.E.2: Minimum VIA5 enclosure by M5 and M6 at end-of-line 0.05um"
+  Function: not_covered_by
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not_covered_by() at rules.drc.9m_saed90_icv.drc.rs:1191: Command replaced with an internal function.
+not_covered_by(via5_m6, m6, distances = { { { 0.05, extension = NONE }, { 0, extension = NONE }, { 0.05, extension = NONE }, { 0, extension = NONE } }, { { 0, extension = NONE }, { 0.05, extension = NONE }, { 0, extension = NONE }, { 0.05, extension = NONE } } }, intersecting = { TOUCH })
+  Comment: "R.VIA5.E.2: Minimum VIA5 enclosure by M5 and M6 at end-of-line 0.05um"
+  Function: not_covered_by
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not_rectangles() at rules.drc.9m_saed90_icv.drc.rs:1203: Command replaced with an internal function.
+not_rectangles(via6, { 0.14, 0.14 })
+  Comment: "R.VIA6.W.1: Exact size = 0.14 x 0.14um"
+  Function: not_rectangles
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external1() at rules.drc.9m_saed90_icv.drc.rs:1208: Command replaced with an internal function.
+external1(via6, distance < 0.16, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.VIA6.S.1: Minimum via6 spacing 0.16um"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:1213: Command replaced with an internal function.
+enclose(via6, m6, distance < 0.005, extension = RADIAL, intersecting = TOUCH, relational = POINT_TOUCH)
+  Comment: "R.VIA6.E.1: Minimum enclosure by M6 and M7 0.005um"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:1214: Command replaced with an internal function.
+enclose(via6, m7, distance < 0.005, extension = RADIAL, intersecting = TOUCH, relational = POINT_TOUCH)
+  Comment: "R.VIA6.E.1: Minimum enclosure by M6 and M7 0.005um"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not() at rules.drc.9m_saed90_icv.drc.rs:1219: Command replaced with an internal function.
+not(via6, m6)
+  Comment: "R.VIA6.E.1: VIA6 must be covered by M6 and M7, min. enclosure is 0.005um"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not() at rules.drc.9m_saed90_icv.drc.rs:1220: Command replaced with an internal function.
+not(via6, m7)
+  Comment: "R.VIA6.E.1: VIA6 must be covered by M6 and M7, min. enclosure is 0.005um"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not_covered_by() at rules.drc.9m_saed90_icv.drc.rs:1227: Command replaced with an internal function.
+not_covered_by(via6_m6, m6, distances = { { { 0.05, extension = NONE }, { 0, extension = NONE }, { 0.05, extension = NONE }, { 0, extension = NONE } }, { { 0, extension = NONE }, { 0.05, extension = NONE }, { 0, extension = NONE }, { 0.05, extension = NONE } } }, intersecting = { TOUCH })
+  Comment: "R.VIA6.E.2: Minimum VIA6 enclosure by M6 and M7 at end-of-line 0.05um"
+  Function: not_covered_by
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not_covered_by() at rules.drc.9m_saed90_icv.drc.rs:1233: Command replaced with an internal function.
+not_covered_by(via6_m7, m7, distances = { { { 0.05, extension = NONE }, { 0, extension = NONE }, { 0.05, extension = NONE }, { 0, extension = NONE } }, { { 0, extension = NONE }, { 0.05, extension = NONE }, { 0, extension = NONE }, { 0.05, extension = NONE } } }, intersecting = { TOUCH })
+  Comment: "R.VIA6.E.2: Minimum VIA6 enclosure by M6 and M7 at end-of-line 0.05um"
+  Function: not_covered_by
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not_rectangles() at rules.drc.9m_saed90_icv.drc.rs:1245: Command replaced with an internal function.
+not_rectangles(via7, { 0.14, 0.14 })
+  Comment: "R.VIA7.W.1: Exact size = 0.14 x 0.14um"
+  Function: not_rectangles
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external1() at rules.drc.9m_saed90_icv.drc.rs:1250: Command replaced with an internal function.
+external1(via7, distance < 0.16, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.VIA7.S.1: Minimum via7 spacing 0.16um"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:1255: Command replaced with an internal function.
+enclose(via7, m7, distance < 0.005, extension = RADIAL, intersecting = TOUCH, relational = POINT_TOUCH)
+  Comment: "R.VIA7.E.1: Minimum enclosure by M7 and M8 0.005um"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:1256: Command replaced with an internal function.
+enclose(via7, m8, distance < 0.005, extension = RADIAL, intersecting = TOUCH, relational = POINT_TOUCH)
+  Comment: "R.VIA7.E.1: Minimum enclosure by M7 and M8 0.005um"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not() at rules.drc.9m_saed90_icv.drc.rs:1261: Command replaced with an internal function.
+not(via7, m7)
+  Comment: "R.VIA7.E.1: VIA7 must be covered by M7 and M8, min. enclosure is 0.005um"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not() at rules.drc.9m_saed90_icv.drc.rs:1262: Command replaced with an internal function.
+not(via7, m8)
+  Comment: "R.VIA7.E.1: VIA7 must be covered by M7 and M8, min. enclosure is 0.005um"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not_covered_by() at rules.drc.9m_saed90_icv.drc.rs:1269: Command replaced with an internal function.
+not_covered_by(via7_m7, m7, distances = { { { 0.05, extension = NONE }, { 0, extension = NONE }, { 0.05, extension = NONE }, { 0, extension = NONE } }, { { 0, extension = NONE }, { 0.05, extension = NONE }, { 0, extension = NONE }, { 0.05, extension = NONE } } }, intersecting = { TOUCH })
+  Comment: "R.VIA7.E.2: Minimum VIA7 enclosure by M7 and M8 at end-of-line 0.05um"
+  Function: not_covered_by
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not_covered_by() at rules.drc.9m_saed90_icv.drc.rs:1276: Command replaced with an internal function.
+not_covered_by(via7_m8, m8, distances = { { { 0.05, extension = NONE }, { 0, extension = NONE }, { 0.05, extension = NONE }, { 0, extension = NONE } }, { { 0, extension = NONE }, { 0.05, extension = NONE }, { 0, extension = NONE }, { 0.05, extension = NONE } } }, intersecting = { TOUCH })
+  Comment: "R.VIA7.E.2: Minimum VIA7 enclosure by M7 and M8 at end-of-line 0.05um"
+  Function: not_covered_by
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not_rectangles() at rules.drc.9m_saed90_icv.drc.rs:1288: Command replaced with an internal function.
+not_rectangles(via8, { 0.36, 0.36 })
+  Comment: "R.VIA8.W.1: Exact size = 0.36 x 0.36um"
+  Function: not_rectangles
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+external1() at rules.drc.9m_saed90_icv.drc.rs:1293: Command replaced with an internal function.
+external1(via8, distance < 0.34, extension = RADIAL, relational = POINT_TOUCH)
+  Comment: "R.VIA8.S.1: Minimum via8 spacing 0.34um"
+  Function: external1
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:1298: Command replaced with an internal function.
+enclose(via8, m8, distance < 0.05, extension = RADIAL, intersecting = TOUCH, relational = POINT_TOUCH)
+  Comment: "R.VIA8.E.1: Minimum enclosure by M8 and M9 0.05um"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+enclose() at rules.drc.9m_saed90_icv.drc.rs:1299: Command replaced with an internal function.
+enclose(via8, m9, distance < 0.05, extension = RADIAL, intersecting = TOUCH, relational = POINT_TOUCH)
+  Comment: "R.VIA8.E.1: Minimum enclosure by M8 and M9 0.05um"
+  Function: enclose
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not() at rules.drc.9m_saed90_icv.drc.rs:1304: Command replaced with an internal function.
+not(via8, m8)
+  Comment: "R.VIA8.E.1: VIA8 must be covered by M8 and M9, min. enclosure is 0.05um"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not() at rules.drc.9m_saed90_icv.drc.rs:1305: Command replaced with an internal function.
+not(via8, m9)
+  Comment: "R.VIA8.E.1: VIA8 must be covered by M8 and M9, min. enclosure is 0.05um"
+  Function: not
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not_covered_by() at rules.drc.9m_saed90_icv.drc.rs:1312: Command replaced with an internal function.
+not_covered_by(via8_m8, m8, distances = { { { 0.08, extension = NONE }, { 0, extension = NONE }, { 0.08, extension = NONE }, { 0, extension = NONE } }, { { 0, extension = NONE }, { 0.08, extension = NONE }, { 0, extension = NONE }, { 0.08, extension = NONE } } }, intersecting = { TOUCH })
+  Comment: "R.VIA8.E.2: Minimum VIA8 enclosure by M8 and M9 at end-of-line 0.08um"
+  Function: not_covered_by
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+not_covered_by() at rules.drc.9m_saed90_icv.drc.rs:1319: Command replaced with an internal function.
+not_covered_by(via8_m8, m9, distances = { { { 0.08, extension = NONE }, { 0, extension = NONE }, { 0.08, extension = NONE }, { 0, extension = NONE } }, { { 0, extension = NONE }, { 0.08, extension = NONE }, { 0, extension = NONE }, { 0.08, extension = NONE } } }, intersecting = { TOUCH })
+  Comment: "R.VIA8.E.2: Minimum VIA8 enclosure by M8 and M9 at end-of-line 0.08um"
+  Function: not_covered_by
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.00
+
+Completing error storage...
+  Overall error storage time: None
+
+Generating NAND.LAYOUT_ERRORS...
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.507
+

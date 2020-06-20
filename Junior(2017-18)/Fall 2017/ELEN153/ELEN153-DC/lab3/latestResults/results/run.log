@@ -1,0 +1,3 @@
+Using: /opt/synopsys-2017/app/hspice/M-2017.03-SP1-1/hspice/linux64/hspice  -i '/DCNFS/users/student/yli1/simulation/lab3/inverter_tb/schematic/HSPICE/nominal/netlist/input.spi' -o hspice
+
+>info:         ***** hspice job concluded

@@ -1,0 +1,21 @@
+<module name="vsl: SAED_PDK_90 pmos4t hspice">
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="D G S B"/>
+<mapping src="B" dst="b"/>
+<mapping src="&lt;termOrder>" dst="d g s b"/>
+<mapping src="S" dst="s"/>
+<mapping src="G" dst="g"/>
+<mapping src="D" dst="d"/>
+</forward>
+<reverse>
+<mapping src="d g s b" dst="&lt;termOrder>"/>
+<mapping src="b" dst="B"/>
+<mapping src="s" dst="S"/>
+<mapping src="g" dst="G"/>
+<mapping src="D G S B" dst="&lt;unmappedTermOrder>"/>
+<mapping src="d" dst="D"/>
+</reverse>
+</scope>
+<master_instances/>
+</module>

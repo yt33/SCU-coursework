@@ -1,0 +1,18 @@
+ Stack Dump: VERSION M-2017.03-SP1-1 CONFIG 3718339 DATE Wed Nov 29 14:21:00 2017
+ Frame 0. libX11.so.6: _XIOError + 0x4e
+ Frame 1. libX11.so.6: _XEventsQueued + 0x7d
+ Frame 2. libX11.so.6: XEventsQueued + 0x4b
+ Frame 3. QPaintDevice::devType() const + 0x565c
+ Frame 4. libglib-2.0.so.0: g_main_context_check + 0x1e9
+ Frame 5. /lib64/libglib-2.0.so.0 ::0x7f14a72fa730 + 0x3c0
+ Frame 6. libglib-2.0.so.0: g_main_context_iteration + 0x2c
+ Frame 7. QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) + 0x64
+ Frame 8. QPaintDevice::devType() const + 0x5bd6
+ Frame 9. QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) + 0x31
+ Frame 10. QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) + 0x185
+ Frame 11. QCoreApplication::exec() + 0x89
+ Frame 12. 0x16b7b97 SNPSee_002365a670bbd5d0a7c56191a475a3ee632fcc3a9fd6c1d60707b94db351293835df6d970cefab6fb6155797a49e5eb7 + 0xbd7
+ Frame 13. custom_compiler: main + 0xf7
+ Frame 14. libc.so.6: __libc_start_main + 0xf5
+ Frame 15. /DCNFS/applications/synopsys/2017/app/customcompiler/M-2017.03-SP1-1/linux64/platform/bin/custom_compiler ::0x16a7be5 + 0x29
+

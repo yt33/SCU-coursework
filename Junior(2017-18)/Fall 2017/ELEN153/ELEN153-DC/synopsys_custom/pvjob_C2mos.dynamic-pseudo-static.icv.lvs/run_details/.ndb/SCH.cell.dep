@@ -1,0 +1,3 @@
+C2MOS-register { }
+inverter { }
+dynamic-pseudo-static { C2MOS-register inverter }

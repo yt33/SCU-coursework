@@ -1,0 +1,61 @@
+[18:58:12.53] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version M-2017.03-SP1-1 for linux64 - Jun 29, 2017 
+              /c 
+              /c                     Copyright (c) 2004 - 2017 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 3718339 compiled on Thu Jun 29 08:54:37 2017 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2017/app/customcompiler/M-2017.03-SP1-1/linux64/platform/bin/custom_compiler
+              /c Execution time: Tue Nov 28 18:58:10 2017
+              /c Host: linux60817
+              /c Working directory: /DCNFS/users/student/yli1/ELEN153/lab2
+              /c 
+[18:58:15.58] /w Warning: In file /DCNFS/users/student/yli1/ELEN153/lab2/lib.defs: Unable to open library C2mos at path /DCNFS/users/student/yli1/ELEN153/lab2/C2mos : No access permission. (DATA_MANAGEMENT-014)
+[18:58:15.99] /r giShowFrameTabs true
+[18:58:15.99] /r giWindowId 1
+[18:58:15.99] /r giWindowGeometry 1040x800
+[18:58:17.21] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[18:58:17.21] /# 
+[18:58:17.21] /i dm::openLibraryManager
+[18:58:17.21] /r giWindowId 2
+[18:58:17.22] /r giWindowGeometry 660x600+50+75
+[18:58:17.26] /o oa:0x23f04680
+[18:58:18.11] /i gi::setCurrentIndex {libs} -index {lab2} -in [gi::getWindows 2]
+[18:58:18.12] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 2]
+[18:58:18.13] /i gi::setItemSelection {libs} -index {lab2} -in [gi::getWindows 2]
+[18:58:18.95] /i gi::setCurrentIndex {cells} -index {inverter} -in [gi::getWindows 2]
+[18:58:18.96] /i gi::setItemSelection {cells} -index {inverter} -in [gi::getWindows 2]
+[18:58:20.70] /i gi::setCurrentIndex {cells} -index {testbench_inverter} -in [gi::getWindows 2]
+[18:58:20.71] /i gi::setItemSelection {cells} -index {testbench_inverter} -in [gi::getWindows 2]
+[18:58:21.41] /i gi::setCurrentIndex {cells} -index {inverter} -in [gi::getWindows 2]
+[18:58:21.42] /i gi::setItemSelection {cells} -index {inverter} -in [gi::getWindows 2]
+[18:58:21.94] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[18:58:21.95] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[18:58:27.89] /i gi::setCurrentIndex {cells} -index {testbench_inverter} -in [gi::getWindows 2]
+[18:58:27.92] /i gi::setItemSelection {cells} -index {testbench_inverter} -in [gi::getWindows 2]
+[18:58:28.56] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[18:58:28.57] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[18:58:29.69] /i gi::setCurrentIndex {cells} -index {inverter} -in [gi::getWindows 2]
+[18:58:29.71] /i gi::setItemSelection {cells} -index {inverter} -in [gi::getWindows 2]
+[18:58:30.16] /i gi::setCurrentIndex {cells} -index {testbench_inverter} -in [gi::getWindows 2]
+[18:58:30.17] /i gi::setItemSelection {cells} -index {testbench_inverter} -in [gi::getWindows 2]
+[18:58:31.32] /i gi::setCurrentIndex {cells} -index {inverter} -in [gi::getWindows 2]
+[18:58:31.33] /i gi::setItemSelection {cells} -index {inverter} -in [gi::getWindows 2]
+[18:58:31.88] /i gi::setCurrentIndex {views} -index {symbol} -in [gi::getWindows 2]
+[18:58:31.89] /i gi::setItemSelection {views} -index {symbol} -in [gi::getWindows 2]
+[18:58:33.07] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 2]
+[18:58:33.08] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 2]
+[18:58:36.11] /i exit
+[18:58:36.14] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[18:58:36.44] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 420x183+750+508
+[18:58:37.47] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[18:58:37.49] /i gi::setActiveWindow 1
+[18:58:37.49] /i gi::setActiveWindow 1 -raise true
+[18:58:37.68] /o Shutdown time: Tue Nov 28 18:58:37 2017
+[18:58:37.68] /o Elapsed session real time: 0.41 minutes
+[18:58:37.68] /o Session terminated. Log is at /DCNFS/users/student/yli1/ELEN153/lab2/synopsys_custom/logs/ccompiler.yli1.2017_11_28_185810_2366.log

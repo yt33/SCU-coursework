@@ -1,0 +1,52 @@
+<module name="vsl: lab4 testbench_NAND schematic vl: hspice hspiceD schematic spice veriloga">
+<scope name="Instance">
+<forward>
+<mapping src="V14" dst="v14"/>
+<mapping src="C4" dst="c4"/>
+<mapping src="V5" dst="v5"/>
+<mapping src="I11" dst="xi11"/>
+<mapping src="V16" dst="v16"/>
+</forward>
+<reverse>
+<mapping src="v16" dst="V16"/>
+<mapping src="v5" dst="V5"/>
+<mapping src="v14" dst="V14"/>
+<mapping src="c4" dst="C4"/>
+<mapping src="xi11" dst="I11"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward>
+<mapping src="OUT" dst="out"/>
+<mapping src="C" dst="c"/>
+<mapping src="A" dst="a"/>
+</forward>
+<reverse>
+<mapping src="out" dst="OUT"/>
+<mapping src="c" dst="C"/>
+<mapping src="a" dst="A"/>
+</reverse>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst=""/>
+<mapping src="&lt;termOrder>" dst=""/>
+</forward>
+<reverse>
+<mapping src="" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="cap">
+<instance name="C4"/>
+</instance_header>
+<instance_header master="nand">
+<instance name="I11"/>
+</instance_header>
+<instance_header master="vdc">
+<instance name="V14"/>
+<instance name="V16"/>
+<instance name="V5"/>
+</instance_header>
+</master_instances>
+</module>

@@ -1,0 +1,13 @@
+WARNING: The precedence is not set for ignored cap layer: nwnr (SX-1794)
+WARNING: The precedence is not set for ignored cap layer: pwell (SX-1794)
+WARNING: The precedence is not set for layers mapped to substrate in the mapping file when
+         TRANSLATE_RETAIN_BULK_LAYERS:YES or CONLY is specified in your command file. Accuracy can
+         be affected. Check the order of substrate layer and set precedence for them in your mapping
+         file whenever the TRANSLATE_RETAIN_BULK_LAYERS:YES or CONLY command is used. (SX-1790)
+WARNING: Connectivity of VIA layer "top_via" is incorrectly assigned. Check Technology (e.g. LEF) or
+         Mapping file. (SX-3657)
+  
+InitDB        Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=438.3 
+Layers        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=438.3 
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.1    Sys=0.0    Mem=438.3 

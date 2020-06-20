@@ -1,0 +1,18 @@
+Starting parametric simulation 29 Nov 17 17:40:28
+
+Composing simulator input file for design "C2mos/testbench/config" for 10 iterations...
+Simulator input file composed successfully for design "C2mos/testbench/config"
+Starting 10 HSPICE simulations for design: C2mos/testbench/config
+Simulations launched successfully for design: C2mos/testbench/config
+Simulation finished for design: C2mos/testbench/config point: pw=0.599950u
+Simulation finished for design: C2mos/testbench/config point: pw=0.599954u
+Simulation finished for design: C2mos/testbench/config point: pw=0.599959u
+Simulation finished for design: C2mos/testbench/config point: pw=0.599963u
+Simulation finished for design: C2mos/testbench/config point: pw=0.599968u
+Simulation finished for design: C2mos/testbench/config point: pw=0.599972u
+Simulation finished for design: C2mos/testbench/config point: pw=0.599977u
+Simulation finished for design: C2mos/testbench/config point: pw=0.599981u
+Simulation finished for design: C2mos/testbench/config point: pw=0.599986u
+Simulation finished for design: C2mos/testbench/config point: pw=0.599990u
+
+Finished simulation 29 Nov 17 17:40:37

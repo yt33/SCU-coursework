@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Mon Nov 13 12:08:07 2017-->
+<file-format version="1.0" name="stateCategory">
+ <object version="1" type="saDesignVariables" name="designVariables">
+  <attribute type="giString" value="default" name="variableSet"/>
+  <collection name="variableSets">
+   <object version="1" type="saDesignVariableSet" name="variableSets">
+    <collection name="designVariables">
+     <object version="1" type="saDesignVariable" name="designVariables">
+      <attribute type="giString" value="" name="description"/>
+      <attribute type="giString" value="pw" name="name"/>
+      <attribute type="giBoolean" value="1" name="useLocal"/>
+      <attribute type="giString" value="0.4u" name="value"/>
+     </object>
+     <object version="1" type="saDesignVariable" name="designVariables">
+      <attribute type="giString" value="" name="description"/>
+      <attribute type="giString" value="period" name="name"/>
+      <attribute type="giBoolean" value="1" name="useLocal"/>
+      <attribute type="giString" value="0.8u" name="value"/>
+     </object>
+     <object version="1" type="saDesignVariable" name="designVariables">
+      <attribute type="giString" value="" name="description"/>
+      <attribute type="giString" value="td" name="name"/>
+      <attribute type="giBoolean" value="1" name="useLocal"/>
+      <attribute type="giString" value="0" name="value"/>
+     </object>
+    </collection>
+    <attribute type="giString" value="default" name="name"/>
+   </object>
+  </collection>
+ </object>
+</file-format>

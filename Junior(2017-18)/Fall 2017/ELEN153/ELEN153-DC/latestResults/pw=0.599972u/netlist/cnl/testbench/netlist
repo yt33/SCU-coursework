@@ -1,0 +1,13 @@
+********************************************************************************
+* Library          : C2mos
+* Cell             : testbench
+* View             : schematic
+* View Search List : schematic hspice
+* View Stop List   :
+********************************************************************************
+vd d gnd! dc=0 pulse ( 0 1.2 0 1p 1p 'pw' 1.65u )
+vclkb clkb gnd! dc=0 pulse ( 0 1.2 0 1p 1p 200n 400n )
+vclk clk gnd! dc=0 pulse ( 1.2 0 'td' 1p 1p 200n 400n )
+vdd vdd! gnd! dc=1.2
+xi29 clk clkb d q dynamic-pseudo-static
+xi30 clk clkb q net58 dynamic-pseudo-static

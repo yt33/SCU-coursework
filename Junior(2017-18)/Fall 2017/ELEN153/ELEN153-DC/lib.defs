@@ -1,0 +1,10 @@
+INCLUDE $SYNOPSYS_CUSTOM_INSTALL/samples/lib.defs
+
+DEFINE SAED_PDK_90  $SAED90_PDK/SAED_PDK_90
+ASSIGN SAED_PDK_90 libMode shared
+ASSIGN SAED_PDK_90 PDKLib true
+
+DEFINE reference $SAED90_PDK/reference
+DEFINE lab2 ./lab2
+DEFINE C2mos ./C2mos
+DEFINE lab3 ./lab3

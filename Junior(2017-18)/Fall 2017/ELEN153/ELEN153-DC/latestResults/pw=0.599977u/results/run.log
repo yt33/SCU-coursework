@@ -1,0 +1,4 @@
+Using: /opt/synopsys-2017/app/hspice/M-2017.03-SP1-1/hspice/linux64/hspice  -i '/DCNFS/users/student/yli1/simulation/C2mos/testbench/config/HSPICE/parametric/pw=0.599977u/netlist/input.spi' -o hspice
+
+93.45% Tran Time= 1.40176e-06s Estimated Time Left: 0:00:00        
+>info:         ***** hspice job concluded

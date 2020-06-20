@@ -1,0 +1,89 @@
+[19:08:51.21] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version M-2017.03-SP1-1 for linux64 - Jun 29, 2017 
+              /c 
+              /c                     Copyright (c) 2004 - 2017 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 3718339 compiled on Thu Jun 29 08:54:37 2017 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2017/app/customcompiler/M-2017.03-SP1-1/linux64/platform/bin/custom_compiler
+              /c Execution time: Tue Nov 28 19:08:49 2017
+              /c Host: linux60817
+              /c Working directory: /DCNFS/users/student/yli1/ELEN153
+              /c 
+[19:08:54.81] /r giShowFrameTabs true
+[19:08:54.81] /r giWindowId 1
+[19:08:54.81] /r giWindowGeometry 1040x800
+[19:08:56.02] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[19:08:56.03] /# 
+[19:08:56.03] /i dm::openLibraryManager
+[19:08:56.03] /r giWindowId 2
+[19:08:56.03] /r giWindowGeometry 660x600+50+75
+[19:08:56.08] /o oa:0x247517c0
+[19:08:57.07] /i gi::setCurrentIndex {libs} -index {lab2} -in [gi::getWindows 2]
+[19:08:57.08] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 2]
+[19:08:57.08] /i gi::setItemSelection {libs} -index {lab2} -in [gi::getWindows 2]
+[19:08:57.95] /i gi::setCurrentIndex {cells} -index {lab2} -in [gi::getWindows 2]
+[19:08:57.96] /i gi::setItemSelection {cells} -index {lab2} -in [gi::getWindows 2]
+[19:08:58.32] /i gi::setCurrentIndex {cells} -index {latestResults} -in [gi::getWindows 2]
+[19:08:58.33] /i gi::setItemSelection {cells} -index {latestResults} -in [gi::getWindows 2]
+[19:08:58.65] /i gi::setCurrentIndex {cells} -index {screenshot} -in [gi::getWindows 2]
+[19:08:58.66] /i gi::setItemSelection {cells} -index {screenshot} -in [gi::getWindows 2]
+[19:08:59.69] /i gi::setCurrentIndex {libs} -index {C2mos} -in [gi::getWindows 2]
+[19:08:59.70] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 2]
+[19:08:59.70] /i gi::setItemSelection {libs} -index {C2mos} -in [gi::getWindows 2]
+[19:09:00.19] /i gi::setCurrentIndex {libs} -index {SAED_PDK_90} -in [gi::getWindows 2]
+[19:09:00.21] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 2]
+[19:09:00.21] /i gi::setItemSelection {libs} -index {SAED_PDK_90} -in [gi::getWindows 2]
+[19:09:00.72] /i gi::setCurrentIndex {libs} -index {analogLib} -in [gi::getWindows 2]
+[19:09:00.76] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 2]
+[19:09:00.76] /i gi::setItemSelection {libs} -index {analogLib} -in [gi::getWindows 2]
+[19:09:01.19] /i gi::setCurrentIndex {libs} -index {basic} -in [gi::getWindows 2]
+[19:09:01.21] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 2]
+[19:09:01.21] /i gi::setItemSelection {libs} -index {basic} -in [gi::getWindows 2]
+[19:09:01.68] /i gi::setCurrentIndex {libs} -index {lab2} -in [gi::getWindows 2]
+[19:09:01.68] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 2]
+[19:09:01.68] /i gi::setItemSelection {cells} -index {screenshot} -in [gi::getWindows 2]
+[19:09:01.69] /i gi::setItemSelection {libs} -index {lab2} -in [gi::getWindows 2]
+[19:09:03.09] /i gi::setCurrentIndex {libs} -index {analogLib} -in [gi::getWindows 2]
+[19:09:03.11] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 2]
+[19:09:03.12] /i gi::setItemSelection {libs} -index {analogLib} -in [gi::getWindows 2]
+[19:09:04.39] /i gi::setCurrentIndex {libs} -index {lab2} -in [gi::getWindows 2]
+[19:09:04.39] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 2]
+[19:09:04.40] /i gi::setItemSelection {cells} -index {screenshot} -in [gi::getWindows 2]
+[19:09:04.40] /i gi::setItemSelection {libs} -index {lab2} -in [gi::getWindows 2]
+[19:09:04.81] /i gi::setCurrentIndex {libs} -index {lab3} -in [gi::getWindows 2]
+[19:09:04.81] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 2]
+[19:09:04.82] /i gi::setItemSelection {cells} -index {screenshot} -in [gi::getWindows 2]
+[19:09:04.82] /i gi::setItemSelection {libs} -index {lab3} -in [gi::getWindows 2]
+[19:09:05.58] /i gi::setCurrentIndex {cells} -index {latestResults} -in [gi::getWindows 2]
+[19:09:05.59] /i gi::setItemSelection {cells} -index {latestResults} -in [gi::getWindows 2]
+[19:09:05.89] /i gi::setCurrentIndex {cells} -index {screenshot} -in [gi::getWindows 2]
+[19:09:05.90] /i gi::setItemSelection {cells} -index {screenshot} -in [gi::getWindows 2]
+[19:09:06.21] /i gi::setCurrentIndex {cells} -index {synopsys_custom} -in [gi::getWindows 2]
+[19:09:06.22] /i gi::setItemSelection {cells} -index {synopsys_custom} -in [gi::getWindows 2]
+[19:09:07.07] /i gi::setCurrentIndex {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[19:09:07.07] /i gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[19:09:09.06] /i gi::setCurrentIndex {libs} -index {C2mos} -in [gi::getWindows 2]
+[19:09:09.07] /i gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[19:09:09.07] /i gi::setItemSelection {cells} -index {synopsys_custom} -in [gi::getWindows 2]
+[19:09:09.08] /i gi::setItemSelection {libs} -index {C2mos} -in [gi::getWindows 2]
+[19:09:10.13] /i gi::setCurrentIndex {cells} -index {lab2} -in [gi::getWindows 2]
+[19:09:10.14] /i gi::setItemSelection {cells} -index {lab2} -in [gi::getWindows 2]
+[19:09:10.85] /i gi::setCurrentIndex {cells} -index {lab3} -in [gi::getWindows 2]
+[19:09:10.85] /i gi::setItemSelection {cells} -index {lab3} -in [gi::getWindows 2]
+[19:09:11.37] /i gi::setCurrentIndex {cells} -index {pseudo-static} -in [gi::getWindows 2]
+[19:09:11.38] /i gi::setItemSelection {cells} -index {pseudo-static} -in [gi::getWindows 2]
+[19:11:09.68] /i exit
+[19:11:09.70] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[19:11:10.00] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 420x183+750+508
+[19:11:10.88] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[19:11:10.89] /i gi::setActiveWindow 1
+[19:11:10.89] /i gi::setActiveWindow 1 -raise true
+[19:11:11.12] /o Shutdown time: Tue Nov 28 19:11:11 2017
+[19:11:11.12] /o Elapsed session real time: 2.33 minutes
+[19:11:11.12] /o Session terminated. Log is at /DCNFS/users/student/yli1/ELEN153/synopsys_custom/logs/ccompiler.yli1.2017_11_28_190849_4955.log

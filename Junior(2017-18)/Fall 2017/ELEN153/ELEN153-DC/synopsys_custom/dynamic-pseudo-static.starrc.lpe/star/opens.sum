@@ -1,0 +1,9 @@
+There are "OPEN NETS". 
+"Open nets" have the same net name/number however not resistively connected;
+they are formed by more than one "Resistively Connected Groups" (RCGs).
+ You can find the open net names below.
+StarRC will never be able to determine where the source of an open net is. as such,
+StarRC has randomly chosen nodes on the open net between which a shorting ressistor
+will be inserted. The coordinates listed in this file for the shorting resistors will
+vary based on the settings for REDUCTION, REDUCTION_MAX_DELAY_ERROR, MODE, EXTRACTION.
+

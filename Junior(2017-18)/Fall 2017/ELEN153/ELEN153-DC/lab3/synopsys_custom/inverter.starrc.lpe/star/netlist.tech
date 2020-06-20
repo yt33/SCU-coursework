@@ -1,0 +1,68 @@
+-is_transistor_level
+-stage_id 3
+-ordered_names_for_subckt subckt
+-message_suppression_limit  100
+-hn_file xref.hn
+-xref_form 1
+-net_info_file netlist.netinfo
+-pin_file idx.pins
+-idx_nm_file idx.nm
+-inter_pic_level_connections
+-instance_section_index_file idx
+-index_file idx
+-i xout_split
+-netlist_header_file netlist.hdr
+-output_form 8
+-net_name_per_net
+-skip_intranet_caps
+-keep_intranet_caps
+-xout2spf
+-instance_section 2
+-declare_pins
+-declare_instance_ports
+-reduction_greg 1
+-keep_via_nodes 0
+-declare_internal_nodes
+-c_unit 1e-15
+-r_unit 1
+-t_unit 1e-09
+-v_unit 1e-09
+-l_unit 1
+-abs_cap_threshold 3e-15
+-rel_cap_threshold 0.03
+-netlist_tail_comment 1
+-snap_resistor_width
+-snap_width_report_file snap_width_report
+-net_command_file select_nets
+-o /DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/inverter.starrc.lpe/inverter.SPF
+-rename_pin_ports _
+-rename_instance_ports _
+-process_corner 2
+-layer_map_section
+-layer_info layer_info
+-ground_node_name 0
+-passive_device_use_model
+-port_map
+-device_location_orientation YES
+-bus_bit []
+-oa_lib_name lab3
+-oa_lib_def /DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/inverter.starrc.lpe/lib.defs
+-oa_cell_name inverter
+-oa_view_name starrc
+-oa_device_mapping_file /DCNFS/applications/synopsys/2017/app/SAED/SAED_PDK90nm/starrcxt/device_map
+-oa_layer_mapping_file /DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.lvs/pex_lpp_map
+-oa_marker_size 0.1
+-oa_no_stripping
+-oa_primitive_stripping NO
+-oa_subckt_ports
+-full_chip_xin xin
+-oa_not_global_nets !*
+-fine_dbu
+-xout_offset_file xout_offset
+-num_cores 1
+-new_ip_handling
+-use_input_database_dbu_on_suffix
+-db_coor_unit 4 
+-smart_opens
+-smart_opens_node_limit 2147483647
+-smart_opens_rcg_limit 1000

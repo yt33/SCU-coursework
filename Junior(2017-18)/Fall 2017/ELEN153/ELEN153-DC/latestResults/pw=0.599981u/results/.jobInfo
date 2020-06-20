@@ -1,0 +1,31 @@
+arrayName {default_HSPICE}
+arraySize {-1}
+cmdLine { /DCNFS/users/student/yli1/simulation/C2mos/testbench/config/HSPICE/parametric/pw=0.599981u/netlist/runSimulation  > /DCNFS/users/student/yli1/simulation/C2mos/testbench/config/HSPICE/parametric/pw=0.599981u/results/run.log 2>&1}
+creationTime {1512006031}
+data {resultsDir /DCNFS/users/student/yli1/simulation/C2mos/testbench/config/HSPICE/parametric/pw=0.599981u/results masterResultsDir /DCNFS/users/student/yli1/simulation/C2mos/testbench/config/HSPICE/parametric/results session saeSession29 testbench default logInfo {{point: pw=0.599981u}}}
+dataReadyProc {}
+deferred {0}
+exitProc {sa::simulationDone}
+exitStatus {0}
+exitTime {1512006035}
+files {/DCNFS/users/student/yli1/simulation/C2mos/testbench/config/HSPICE/parametric/pw=0.599981u/results/hspice.lis /DCNFS/users/student/yli1/simulation/C2mos/testbench/config/HSPICE/parametric/pw=0.599981u/results/hspice.valog /DCNFS/users/student/yli1/simulation/C2mos/testbench/config/HSPICE/parametric/pw=0.599981u/results/run.log /DCNFS/users/student/yli1/simulation/C2mos/testbench/config/HSPICE/parametric/pw=0.599981u/results/hspice.st0}
+gridOptions {}
+group {oa:0x24648b60}
+host {localhost}
+isLocallyQueued {0}
+isQueued {0}
+isTerminating {0}
+jobClass {oa:0x2bee2830}
+jobType {batch}
+name {HSPICE_86}
+procId {24959}
+queueEngine {}
+queueIdentifier {}
+readOnlyFiles {}
+ready {0}
+readyProc {}
+remoteSubmit {0}
+runDesc {HSPICE simulation:  /DCNFS/users/student/yli1/simulation/C2mos/testbench/config/HSPICE/parametric/pw=0.599981u/netlist/runSimulation  > /DCNFS/users/student/yli1/simulation/C2mos/testbench/config/HSPICE/parametric/pw=0.599981u/results/run.log 2>&1}
+startTime {1512006034}
+status {FINISHED}
+submitHost {}

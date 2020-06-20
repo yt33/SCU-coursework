@@ -1,0 +1,39 @@
+<module name="vsl: C2mos C2MOS-register schematic vl: auCdl schematic symbol">
+<scope name="Instance">
+<forward>
+<mapping src="M2" dst="MM2"/>
+<mapping src="M0" dst="MM0"/>
+<mapping src="M3" dst="MM3"/>
+<mapping src="M1" dst="MM1"/>
+</forward>
+<reverse>
+<mapping src="MM2" dst="M2"/>
+<mapping src="MM3" dst="M3"/>
+<mapping src="MM0" dst="M0"/>
+<mapping src="MM1" dst="M1"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="CLK CLKb D Q"/>
+<mapping src="&lt;termOrder>" dst="CLK CLKb D Q"/>
+</forward>
+<reverse>
+<mapping src="CLK CLKb D Q" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="nmos4t">
+<instance name="M2"/>
+<instance name="M3"/>
+</instance_header>
+<instance_header master="pmos4t">
+<instance name="M0"/>
+<instance name="M1"/>
+</instance_header>
+</master_instances>
+</module>

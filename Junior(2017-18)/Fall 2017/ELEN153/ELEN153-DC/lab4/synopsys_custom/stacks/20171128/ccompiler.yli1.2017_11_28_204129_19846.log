@@ -1,0 +1,132 @@
+[20:41:31.14] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version M-2017.03-SP1-1 for linux64 - Jun 29, 2017 
+              /c 
+              /c                     Copyright (c) 2004 - 2017 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 3718339 compiled on Thu Jun 29 08:54:37 2017 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2017/app/customcompiler/M-2017.03-SP1-1/linux64/platform/bin/custom_compiler
+              /c Execution time: Tue Nov 28 20:41:29 2017
+              /c Host: linux60817
+              /c Working directory: /DCNFS/users/student/yli1/ELEN153/lab4
+              /c 
+[20:41:34.42] /r giShowFrameTabs true
+[20:41:34.42] /r giWindowId 1
+[20:41:34.42] /r giWindowGeometry 1040x800
+[20:41:35.30] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[20:41:35.30] /# 
+[20:41:35.30] /i dm::openLibraryManager
+[20:41:35.30] /r giWindowId 2
+[20:41:35.31] /r giWindowGeometry 660x600+50+75
+[20:41:35.35] /o oa:0x23018540
+[20:41:36.29] /i gi::setCurrentIndex {libs} -index {SAED_PDK_90} -in [gi::getWindows 2]
+[20:41:36.32] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 2]
+[20:41:36.32] /i gi::setItemSelection {libs} -index {SAED_PDK_90} -in [gi::getWindows 2]
+[20:41:36.67] /i gi::setCurrentIndex {libs} -index {lab4} -in [gi::getWindows 2]
+[20:41:36.68] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 2]
+[20:41:36.68] /i gi::setItemSelection {libs} -index {lab4} -in [gi::getWindows 2]
+[20:41:37.87] /i gi::setCurrentIndex {cells} -index {NAND} -in [gi::getWindows 2]
+[20:41:37.92] /i gi::setItemSelection {cells} -index {NAND} -in [gi::getWindows 2]
+[20:41:38.80] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[20:41:38.81] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[20:41:41.95] /i gi::executeAction dmOpen -in [gi::getWindows 2]
+[20:41:41.95] /m Information: License 'Basic' checked out. (LICENSE-003)
+[20:41:42.01] /o 	############################################
+[20:41:42.01] /o 	        Synopsys Generic 90nm iPDK          
+[20:41:42.01] /o 	--------------------------------------------
+[20:41:42.01] /o 	Release Date .............. : 11-May-2016    
+[20:41:42.01] /o 	============================================
+[20:41:42.01] /o 	        Recommended Tool Versions           
+[20:41:42.01] /o 	--------------------------------------------
+[20:41:42.01] /o 	Custom Designer ........... : J-2014.12-2    
+[20:41:42.01] /o 	IC Validator .............. : K-2015.12   
+[20:41:42.01] /o 	StarRC..................... : K-2015.12  
+[20:41:42.01] /o 	--------------------------------------------
+[20:41:42.01] /o 	############################################
+[20:41:42.01] /o 
+[20:41:42.02] /o SAED PDK 90: Loaded callbacks
+[20:41:42.03] /o SAED PDK 90: Loaded display resources
+[20:41:42.10] /r giWindowId 3
+[20:41:42.11] /r giWindowGeometry 1632x1035
+[20:41:42.17] /# de::setActiveLPP [de::getLPPs "NWELL drawing" -from [db::getAttr editDesign -of [de::getContexts -window 3]]]
+[20:41:42.59] /m Information: License 'Advanced' checked out. (LICENSE-003)
+[20:41:43.60] /i db::setAttr dockSize -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 3]] -value 290x638
+[20:41:43.76] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value 290x185
+[20:41:45.23] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 3]
+[20:41:45.23] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.508 1.714}
+[20:41:45.23] /o {-2.069 -1.066} {1.446 2.221}
+[20:41:45.86] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[20:41:45.86] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[20:41:45.86] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.523 1.699} -index 0 -intent none]
+[20:41:45.86] /o oa:0x243e3740
+[20:41:48.29] /i gi::executeAction dePropertyEditorToggleExtended -in [gi::getWindows 3]
+[20:41:48.29] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value true
+[20:41:48.59] /i db::setAttr dockSize -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 3]] -value 290x638
+[20:41:49.35] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[20:41:49.35] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[20:41:49.35] /o oa:0x24d71a40
+[20:41:50.22] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[20:41:50.22] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[20:41:50.23] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.568 1.873} -index 0 -intent none]
+[20:41:50.23] /o oa:0x24a61640
+[20:42:40.74] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 3]
+[20:42:40.74] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.851 1.898}
+[20:42:40.75] /o {-1.46 0.416} {0.298 2.06}
+[20:42:41.02] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 3]
+[20:42:41.02] /i de::zoom -window [gi::getWindows 3] -factor 2.0 -center {-0.851 1.898}
+[20:42:41.02] /o {-1.156 1.157} {-0.277 1.979}
+[20:42:41.32] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 3]
+[20:42:41.32] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.851 1.898}
+[20:42:41.32] /o {-1.46 0.416} {0.298 2.06}
+[20:42:41.38] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 3]
+[20:42:41.38] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.851 1.896}
+[20:42:41.38] /o {-2.069 -1.064} {1.446 2.223}
+[20:42:42.02] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 3]
+[20:42:42.02] /i de::zoom -window [gi::getWindows 3] -factor 0.5 -center {-0.801 1.835}
+[20:42:42.03] /o {-3.338 -3.963} {3.694 2.612}
+[20:42:43.02] /# gi::executeAction deSelectByWindow -in [gi::getWindows 3]
+[20:42:43.02] /i db::setPrefValue deSelectMode -value Replace -scope [db::getScopes [db::getNext [de::getContexts -window 3]]]; ide::selectByRegion -region rectangle -point {-0.82 2.115} 
+[20:42:43.12] /# gi::executeAction deEndDrag -in [gi::getWindows 3]
+[20:42:43.12] /i de::endDrag {-0.981 1.13} -context [db::getNext [de::getContexts -window 3]]
+[20:42:43.95] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[20:42:43.95] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[20:42:43.95] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.583 2.313} -index 0 -intent none]
+[20:42:43.95] /o oa:0x24049d10
+[20:42:44.59] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[20:42:44.59] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[20:42:44.59] /o oa:0x1cd1e070
+[20:42:44.59] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[20:42:44.59] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.583 2.313} -index 1 -intent none]
+[20:42:44.60] /o oa:0x24112e70
+[20:42:46.02] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[20:42:46.02] /i de::cycleActiveFigure [gi::getWindows 3] -direction next
+[20:42:46.03] /o oa:0x23ed2ea0
+[20:42:46.03] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[20:42:46.03] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {-0.603 2.293} -index 1 -intent none]
+[20:42:46.03] /o oa:0x240cf790
+              /o Application terminated: XLib fatal IO error (XIOHandler)
+              /c Stack Dump: VERSION M-2017.03-SP1-1 CONFIG 3718339 DATE Tue Nov 28 20:41:29 2017
+              /c Frame 0. libX11.so.6: _XIOError + 0x4e
+              /c Frame 1. libX11.so.6: _XEventsQueued + 0x7d
+              /c Frame 2. libX11.so.6: XEventsQueued + 0x4b
+              /c Frame 3. QPaintDevice::devType() const + 0x565c
+              /c Frame 4. libglib-2.0.so.0: g_main_context_check + 0x1e9
+              /c Frame 5. /lib64/libglib-2.0.so.0 ::0x7fb23a7ba730 + 0x3c0
+              /c Frame 6. libglib-2.0.so.0: g_main_context_iteration + 0x2c
+              /c Frame 7. QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) + 0x64
+              /c Frame 8. QPaintDevice::devType() const + 0x5bd6
+              /c Frame 9. QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) + 0x31
+              /c Frame 10. QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) + 0x185
+              /c Frame 11. QCoreApplication::exec() + 0x89
+              /c Frame 12. 0x16b7b97 SNPSee_002365a670bbd5d0a7c56191a475a3ee632fcc3a9fd6c1d60707b94db351293835df6d970cefab6fb6155797a49e5eb7 + 0xbd7
+              /c Frame 13. custom_compiler: main + 0xf7
+              /c Frame 14. libc.so.6: __libc_start_main + 0xf5
+              /c Frame 15. /DCNFS/applications/synopsys/2017/app/customcompiler/M-2017.03-SP1-1/linux64/platform/bin/custom_compiler ::0x16a7be5 + 0x29
+              /c 
+              /e Error: The application was unexpectedly terminated.
+              /c See the session log file for recovery details. (SHUT_DOWN-001)

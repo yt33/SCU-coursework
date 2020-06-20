@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Wed Oct 18 16:15:52 2017-->
+<file-format version="1.0" name="netlisting-timestamps">
+<module contextID="switched: lab4 NAND schematic vl: hspice hspiceD schematic spice veriloga sl: hspice hspiceD" isSubcircuit="1" viewStopList="hspice hspiceD" timestamp="3071" viewSearchList="hspice hspiceD schematic spice veriloga">
+<parameterizedConnections>
+<connectDefs timestamp="0"/>
+<oaAssignments timestamp="0"/>
+<dbAssignValue timestamp="0"/>
+<dbAssignAssignment timestamp="0"/>
+</parameterizedConnections>
+<parameters timestamp="4"/>
+<lib_parameters timestamp="1"/>
+<LineageParams/>
+<ParentParams/>
+<Terms timestamp="639"/>
+<PortOrder>ABCOUT</PortOrder>
+</module>
+</file-format>

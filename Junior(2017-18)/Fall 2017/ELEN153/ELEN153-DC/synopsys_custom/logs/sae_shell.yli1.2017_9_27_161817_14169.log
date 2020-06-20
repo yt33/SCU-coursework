@@ -1,0 +1,71 @@
+[16:18:18.50] /m Information: License 'SAE' checked out. (LICENSE-003)
+[16:18:20.39] /o sae_shell Version Custom Compiler M-2017.03-SP1-1
+              /c Build  (OPT) compiled on Thu Jun 29 08:54:37 2017 for RHEL64 6.6
+              /c Execution time: Wed Sep 27 16:18:17 2017
+              /c Host: linux60805
+              /c 
+              /c Copyright © 2004-2017 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[16:18:20.46] /o 	############################################
+[16:18:20.46] /o 	        Synopsys Generic 90nm iPDK          
+[16:18:20.46] /o 	--------------------------------------------
+[16:18:20.46] /o 	Release Date .............. : 11-May-2016    
+[16:18:20.46] /o 	============================================
+[16:18:20.46] /o 	        Recommended Tool Versions           
+[16:18:20.46] /o 	--------------------------------------------
+[16:18:20.46] /o 	Custom Designer ........... : J-2014.12-2    
+[16:18:20.46] /o 	IC Validator .............. : K-2015.12   
+[16:18:20.46] /o 	StarRC..................... : K-2015.12  
+[16:18:20.46] /o 	--------------------------------------------
+[16:18:20.46] /o 	############################################
+[16:18:20.46] /o 
+[16:18:20.48] /o SAED PDK 90: Loaded callbacks
+[16:18:20.49] /o SAED PDK 90: Loaded display resources
+[16:18:20.50] /i ::sa::_backgroundSaeShell::signalProcessReady 1506554296
+[16:18:20.50] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 4
+[16:23:21.51] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[16:23:21.60] /i ::sa::_backgroundSaeShell::parentRunning
+[16:23:21.60] /o 1506554601
+[16:24:25.71] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession13 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[16:24:26.07] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession13 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[16:24:26.07] /o false
+[16:26:14.74] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession13 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[16:26:14.98] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.2 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession13 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[16:26:14.98] /o false
+[16:27:27.29] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession13 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[16:27:27.59] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.2 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession13 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[16:27:27.59] /o false
+[16:29:42.84] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession13 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[16:29:43.10] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.2 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession13 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[16:29:43.10] /o false
+[16:33:03.60] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession13 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[16:33:03.92] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession13 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[16:33:03.92] /o false
+[16:33:47.12] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession13 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[16:33:47.51] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[16:33:47.57] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.4 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession13 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[16:33:47.57] /o false
+[16:38:48.55] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[16:38:48.62] /i ::sa::_backgroundSaeShell::parentRunning
+[16:38:48.62] /o 1506555528
+[16:38:52.53] /m Information: Stopped sharing "Custom WaveView ADV" license. (WAVEFORM-111)
+[16:43:49.57] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[16:43:49.62] /i ::sa::_backgroundSaeShell::parentRunning
+[16:43:49.62] /o 1506555829
+[16:48:50.59] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[16:48:50.62] /i ::sa::_backgroundSaeShell::parentRunning
+[16:48:50.62] /o 1506556130
+[16:53:51.61] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[16:53:51.62] /i ::sa::_backgroundSaeShell::parentRunning
+[16:53:51.62] /o 1506556431
+[16:57:06.48] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession13 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[16:57:06.74] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[16:57:06.78] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession13 testbenchName default resultsDir /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/results testSuiteDir /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric databaseName /DCNFS/users/student/yli1/simulation/lab1/RCnetwork/schematic/HSPICE/parametric/resultsDatabase remoteRun {} testbenchId 1
+[16:57:06.78] /o false
+[16:57:13.60] /i ::wf::viewerExited
+[16:58:03.66] /i ::sa::_backgroundSaeShell::exit
+[16:58:03.66] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting
+[16:58:04.01] /m Information: License 'Schematic' checked in. (LICENSE-004)
+[16:58:04.01] /m Information: License 'SAE' checked in. (LICENSE-004)

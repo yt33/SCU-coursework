@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Tue Nov 28 21:27:51 2017
+-->
+<synopsysFile version="1.1" name="synopsysRecentFiles">
+        <recentFiles>
+                <file cell="dynamic-pseudo-static" mode="read" view="schematic" file="schematic" application="seSchematic" library="C2mos"/>
+                <file cell="C2MOS-register" mode="read" view="schematic" file="schematic" application="seSchematic" library="C2mos"/>
+                <file cell="C2MOS-register" mode="write" view="layout" file="maskLayout" application="leLayout" library="C2mos"/>
+                <file cell="inverter" mode="write" view="layout" file="maskLayout" application="leLayout" library="C2mos"/>
+                <file cell="dynamic-pseudo-static" mode="write" view="layout" file="maskLayout" application="leLayout" library="C2mos"/>
+        </recentFiles>
+</synopsysFile>

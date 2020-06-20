@@ -1,0 +1,47 @@
+{NETLIST dynamic-pseudo-static
+{VERSION 2 0 0}
+
+{CELL dynamic-pseudo-static
+    {PORT Qs Qm CLKb vdd! gnd! CLK D }
+    {INST XI13/MM1=p12 {TYPE MOS} {PROP n="inverter/p12" Length=0.1 Width=1.2 }
+	{PIN Qs=DRN net32=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI8/MM0=n12 {TYPE MOS} {PROP n="inverter/n12" Length=0.1 Width=0.4 }
+	{PIN net21=DRN net39=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI13/MM0=n12 {TYPE MOS} {PROP n="inverter/n12" Length=0.1 Width=0.4 }
+	{PIN Qs=DRN net32=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI8/MM1=p12 {TYPE MOS} {PROP n="inverter/p12" Length=0.1 Width=1.2 }
+	{PIN net21=DRN net39=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI1/MM3=n12 {TYPE MOS} {PROP n="C2MOS-register/n12" Length=0.1 Width=1.6 }
+	{PIN XI1/net13=DRN net21=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI1/MM0=p12 {TYPE MOS} {PROP n="C2MOS-register/p12" Length=0.1 Width=4.8 }
+	{PIN XI1/net5=DRN net21=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/MM3=n12 {TYPE MOS} {PROP n="C2MOS-register/n12" Length=0.1 Width=1.6 }
+	{PIN XI0/net13=DRN D=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/MM0=p12 {TYPE MOS} {PROP n="C2MOS-register/p12" Length=0.1 Width=4.8 }
+	{PIN XI0/net5=DRN D=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI1/MM1=p12 {TYPE MOS} {PROP n="C2MOS-register/p12" Length=0.1 Width=4.8 }
+	{PIN net33=DRN CLKb=GATE XI1/net5=SRC vdd!=BULK }}
+    {INST XI10/MM0=n12 {TYPE MOS} {PROP n="inverter/n12" Length=0.1 Width=0.4 }
+	{PIN Qm=DRN net39=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI10/MM1=p12 {TYPE MOS} {PROP n="inverter/p12" Length=0.1 Width=1.2 }
+	{PIN Qm=DRN net39=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI12/MM0=n12 {TYPE MOS} {PROP n="inverter/n12" Length=0.1 Width=0.4 }
+	{PIN net33=DRN net32=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI12/MM1=p12 {TYPE MOS} {PROP n="inverter/p12" Length=0.1 Width=1.2 }
+	{PIN net33=DRN net32=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI11/MM0=n12 {TYPE MOS} {PROP n="inverter/n12" Length=0.1 Width=0.4 }
+	{PIN net32=DRN net33=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI11/MM1=p12 {TYPE MOS} {PROP n="inverter/p12" Length=0.1 Width=1.2 }
+	{PIN net32=DRN net33=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/MM1=p12 {TYPE MOS} {PROP n="C2MOS-register/p12" Length=0.1 Width=4.8 }
+	{PIN Qm=DRN CLK=GATE XI0/net5=SRC vdd!=BULK }}
+    {INST XI9/MM0=n12 {TYPE MOS} {PROP n="inverter/n12" Length=0.1 Width=0.4 }
+	{PIN net39=DRN Qm=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI9/MM1=p12 {TYPE MOS} {PROP n="inverter/p12" Length=0.1 Width=1.2 }
+	{PIN net39=DRN Qm=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI1/MM2=n12 {TYPE MOS} {PROP n="C2MOS-register/n12" Length=0.1 Width=1.6 }
+	{PIN net33=DRN CLK=GATE XI1/net13=SRC gnd!=BULK }}
+    {INST XI0/MM2=n12 {TYPE MOS} {PROP n="C2MOS-register/n12" Length=0.1 Width=1.6 }
+	{PIN Qm=DRN CLKb=GATE XI0/net13=SRC gnd!=BULK }}
+}
+}

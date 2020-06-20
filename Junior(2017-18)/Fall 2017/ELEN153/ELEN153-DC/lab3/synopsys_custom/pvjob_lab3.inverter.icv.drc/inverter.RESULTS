@@ -1,0 +1,111 @@
+                               RESULTS: CLEAN
+
+                      ####  #      #####   ###   #   #
+                     #      #      #      #   #  ##  #
+                     #      #      ####   #####  # # #
+                     #      #      #      #   #  #  ##
+                      ####  #####  #####  #   #  #   #
+
+===========================================================================
+
+
+---------------------------------------------------------------------------
+ICV Execution
+---------------------------------------------------------------------------
+
+
+                                 IC Validator 
+
+           Version M-2017.06-1 for linux64 - Jun 19, 2017 cl#3706802
+
+                    Copyright (c) 1996 - 2017 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+Called as: icv -f openaccess -i lab3 -c inverter -oa_view layout -oa_lib_defs /DCNFS/users/student/yli1/ELEN153/lab3/lib.defs -oa_layer_map /DCNFS/applications/synopsys/2017/app/SAED/SAED_PDK90nm/techfiles/saed_pdk90_layer.map -rc /DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.drc/inverter.drc.custom_compiler.rc -oa_dm5 -vue /DCNFS/users/student/yli1/ELEN153/lab3/synopsys_custom/pvjob_lab3.inverter.icv.drc/rules.drc.9m_saed90_icv.drc.rs
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+User name:        yli1
+Layout format:    OPENACCESS
+Input file name:  lab3
+Top cell name:    inverter
+Time started:     2017/10/11 03:52:22PM
+Time ended:       2017/10/11 03:52:33PM
+
+
+---------------------------------------------------------------------------
+Results Summary
+---------------------------------------------------------------------------
+
+Rule and DRC Error Summary
+
+155 total rules were run.
+0 rules NOT EXECUTED.
+0 rules have violations.
+There are 0 total violations.
+Refer to inverter.LAYOUT_ERRORS
+
+
+---------------------------------------------------------------------------
+Assign Layer Statistics
+---------------------------------------------------------------------------
+
+Utilized Assign Layers = 29
+ Empty Utilized Assign Layers = 22
+ Non-Empty Utilized Assign Layers = 7
+Pruned Assign Layers = 42
+
+
+---------------------------------------------------------------------------
+Run Configuration
+---------------------------------------------------------------------------
+
+run_options()
+ verbose_results_file = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+hierarchy_options()
+ delete = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+error_options()
+ error_limit_per_check = 10000000
+ match_errors = { }
+ match_errors_processing_mode = CELL_LEVEL
+ match_errors_tolerance = 0.0000
+ violation_options = { }
+ report_empty_violations = false
+ clean_classifications = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Distributed Processing
+ Distributed Cores = 2
+ Turbo = Off
+
+ linux60814 (2/8)
+   Model: Intel(R) Xeon(R) CPU E5-1620 v4 @ 3.50GHz
+   CPU:   8 cpu 1543 MHz
+   Cores: 4 HT
+   RAM:   32 Gb
+   Swap:  2 Gb
+
+
+---------------------------------------------------------------------------
+Performance Statistics
+---------------------------------------------------------------------------
+
+IC Validator Run Time = 0:00:11
+Peak Single Command Memory = 29.900
+Peak Disk Usage = 0.020
+
+Distributed Host Memory Usage
+ linux60814 (2/8)  ....  Average=8.94 Mb, Peak=54 Mb / 32 Gb
+
+Overall Distributed Utilization: not available
+IC Validator is done.

@@ -1,0 +1,15 @@
+{NETLIST C2MOS-register
+{VERSION 2 0 0}
+
+{CELL C2MOS-register
+    {PORT CLKb vdd! gnd! CLK Q D }
+    {INST M3=p12 {TYPE MOS} {COORD x=-0.050 y=0.585 }{PROP n="p12" Length=0.1 Width=4.8 }
+	{PIN N9=DRN CLK=GATE Q=SRC vdd!=BULK }}
+    {INST M2=n12 {TYPE MOS} {COORD x=-0.750 y=-3.500 }{PROP n="n12" Length=0.1 Width=1.6 }
+	{PIN N8=DRN D=GATE gnd!=SRC gnd!=BULK }}
+    {INST M4=p12 {TYPE MOS} {COORD x=-0.750 y=0.585 }{PROP n="p12" Length=0.1 Width=4.8 }
+	{PIN N9=DRN D=GATE vdd!=SRC vdd!=BULK }}
+    {INST M1=n12 {TYPE MOS} {COORD x=-0.050 y=-3.500 }{PROP n="n12" Length=0.1 Width=1.6 }
+	{PIN N8=DRN CLKb=GATE Q=SRC gnd!=BULK }}
+}
+}

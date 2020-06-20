@@ -1,0 +1,10 @@
+-oa2dspf
+-oa_lib_name C2mos
+-oa_cell_name dynamic-pseudo-static
+-oa_view_name starrc
+-o ../starrc.dspf
+-oa_output_file ../starrc.oa.out
+-netlist_header_file netlist.hdr
+-oa_lib_def /DCNFS/users/student/yli1/ELEN153/synopsys_custom/dynamic-pseudo-static.starrc.lpe/lib.defs
+-layer_info layer_info
+-ground_node_name 0
