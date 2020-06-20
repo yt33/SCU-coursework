@@ -10,7 +10,7 @@ Description:
 - Implement simple container data types and data structures, and realize the implementation differences between structures as values versus objects
 - Implement advanced data structures
 
-lab assignments:
+lab assignments: (C++)
 
 lab1: Getting familiar with C++
 
