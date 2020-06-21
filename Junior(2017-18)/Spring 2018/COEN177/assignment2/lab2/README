@@ -1,0 +1,12 @@
+Modifications of:
+
+main.c - lines 276 to 288
+	- Purpose is to change the copyright message, shown during reboot
+	- Added printf statements to modify the message
+
+proc.c - lines 1315 to 1329 (function pick_proc)
+	- The Minix scheduler uses the function pick_proc and iterates over all the scheduled queues to check for ready processes. It iterates over the queues in sequential order, implementing a priority order
+	- The pick_proc function is modified so that the scheduler reassigns q to a random number, causing a random, lower-level priority job to be selected instead of the next queue in line.
+	- The scheduler reassigned q to a random never every 50 processes as long as the q was greater than 3.
+	- This code was tested by comparing the runtime of reboot. Before modifications, the reboot took about 5.6 seconds and after modifications, the reboot took about 18 seconds. The reboot took longer because of the randomness implemented within the scheduler.
+

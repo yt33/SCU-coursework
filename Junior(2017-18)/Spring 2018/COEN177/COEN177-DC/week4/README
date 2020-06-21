@@ -1,0 +1,10 @@
+in main.c:
+line 275: I change the original line to "CHANGING COPYRIGHT MESSAGE 5/4/2018 BY YUTONG LI\n"
+
+in proc.c:
+lines 1298-1347: (function pick_proc)
+The original scheduler pick_proc is simple. It executes the queue with the highest priority first, and goes down in order, so queue with processes are executed in the order of priority.
+
+The modified scheduler is different. In the for loop, I add an if statement which randomly pick a queue with lower priority and execute it after finishing the current queue. In this way, the queue is not executed in the order of priority, but the randomness involved. As a result, it changed the original order. Everytime a queue is executed, there is a possibility of 0.5 (50/100) that a queue with lower priority will cut into the line. In this ay, the booting process of minix should be way slower than before, so I timed the boot time. If the new boot time is longer than an unmodified minix, then the new scheduler works.
+
+In the test, it takes about 50 sec for the system to boot after the modification.
