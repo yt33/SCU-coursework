@@ -7,14 +7,10 @@ Introduction to computer operating systems. Operating system concepts, computer 
 lab assignments (C)
 
 assignment1: 
-
-(1) write a simple shell program. The Shell should terminate if the user enters "exit" at the command line, and should attempt to launch a program in response to any other input string
-
-(2) write a program that creates exactly 8 child processes
-
-(3) write a program that will result in a total of 12 child processes to run when launched
-
-(4) write a program that will result in a total of 17 child processes to run when launched
+- (1) write a simple shell program. The Shell should terminate if the user enters "exit" at the command line, and should attempt to launch a program in response to any other input string
+- (2) write a program that creates exactly 8 child processes
+- (3) write a program that will result in a total of 12 child processes to run when launched
+- (4) write a program that will result in a total of 17 child processes to run when launched
 
 assignment2: Minix scheduling
 
