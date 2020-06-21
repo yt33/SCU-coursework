@@ -13,10 +13,8 @@ assignment1:
 - (4) write a program that will result in a total of 17 child processes to run when launched
 
 assignment2: Minix scheduling
-
-(1) find the source file in the minix source code that prints the copy right message upon boot
-
-(2) Using the Minix 3 operating system, running under vmware, you are to modify the queue selection algorithm to skew the priority scheduling
+- (1) find the source file in the minix source code that prints the copy right message upon boot
+- (2) Using the Minix 3 operating system, running under vmware, you are to modify the queue selection algorithm to skew the priority scheduling
 
 assignment3: investigate the performance of a computer's file system
 
