@@ -6,7 +6,7 @@ Description:
 - Use a formal specification language to define ADTs
 - Use structural induction as the basis foro inductive definition of recursively defined functions and data structures
 - Develop programs that implement ADTs while meeting a specification
-- Develop programs using pair-wire programming
+- Develop programs using pair-wise programming
 - Implement simple container data types and data structures, and realize the implementation differences between structures as values versus objects
 - Implement advanced data structures
 
