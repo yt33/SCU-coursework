@@ -1,0 +1,16 @@
+module insmem(addr, clk, I_out);
+
+input [7:0] addr;
+input clk;
+output reg [31:0] I_out;
+
+wire [31:0] insmem [255:0];
+assign insmem[75] = 32'd3000;
+
+always @(addr, clk)
+begin
+    I_out = insmem[addr];
+
+end
+
+endmodule

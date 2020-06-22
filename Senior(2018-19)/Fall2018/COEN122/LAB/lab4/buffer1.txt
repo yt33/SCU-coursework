@@ -1,0 +1,19 @@
+// for IF/ID buffer, we have 3 inputs, and 2 outputs
+module buffer1(inst, pc, clk, inst_out, pc_out);
+input [31:0] inst;
+input [7:0] pc;
+input clk;
+output reg [31:0] inst_out;
+output reg [7:0] pc_out;
+
+// we want to feed/load new value into the buffer at the positive clock edge
+always @ (posedge clk)
+begin
+
+    inst_out = inst;
+    pc_out = pc;
+
+end
+
+
+endmodule

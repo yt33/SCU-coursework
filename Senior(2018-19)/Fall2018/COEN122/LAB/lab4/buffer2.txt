@@ -1,0 +1,88 @@
+// for ID/EX buffer, we have 15 inputs and 14 outputs
+
+// we have a "mysterious" input that will turn into 4 1-bit input at EX/WB buffer,
+// so we need to include those 4 inputs and 4 outputs in the ID/EX buffer
+module buffer2(
+clk, 
+regwrt_in,
+memtoreg_in,
+aluop_in, 
+pctoreg_in, 
+memread_in,
+memwrt_in,
+rs_in,
+rt_in,
+rd_in,
+sign_in,
+brch_n,
+brch_z,
+jump,
+jumpmem,
+
+regwrt_out,
+memtoreg_out,
+aluop_out,
+pctoreg_out,
+memread_out,
+memwrt_out,
+rs_out,
+rt_out,
+rd_out,
+sign_out,
+brch_n_out,
+brch_z_out,
+jump_out,
+jumpmem_out
+);
+
+input clk;
+input regwrt_in;
+output reg regwrt_out;
+input memtoreg_in;
+output reg memtoreg_out;
+input [3:0] aluop_in;
+output reg [3:0] aluop_out; 
+input pctoreg_in;
+output reg pctoreg_out;
+input memread_in;
+output reg memread_out;
+input memwrt_in; 
+output reg memwrt_out;
+input [31:0] rs_in;
+output reg [31:0] rs_out;
+input [31:0] rt_in;
+output reg [31:0] rt_out;
+input [31:0] rd_in;
+output reg [31:0] rd_out; 
+input [31:0] sign_in;
+output reg [31:0] sign_out;
+input brch_n;
+output reg brch_n_out;
+input brch_z;
+output reg brch_z_out;
+input jump;
+output reg jump_out;
+input jumpmem;
+output reg jumpmem_out;
+
+always @(posedge clk)
+begin
+
+    regwrt_out = regwrt_in;
+    memtoreg_out = memtoreg_in;
+    aluop_out = aluop_in; 
+    pctoreg_out = pctoreg_in;
+    memread_out = memread_in;
+    memwrt_out = memwrt_in;
+    rs_out = rs_in;
+    rt_out = rt_in;
+    rd_out = rd_in;
+    sign_out = sign_in;
+    brch_n_out = brch_n;
+    brch_z_out = brch_z;
+    jump_out = jump;
+    jumpmem_out = jumpmem;
+
+end
+
+endmodule

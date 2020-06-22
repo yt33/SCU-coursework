@@ -1,0 +1,22 @@
+module datamem(data_data_in, addr_in, clk, r, w, data_out);
+
+input [31:0] data_data_in;
+input [31:0] addr_in;
+input clk;
+input r;
+input w;
+output reg [31:0] data_out;
+
+reg [31:0] datamem [16384:0];
+
+always @(data_data_in, addr_in, clk, r,w)
+begin
+    if(r == 1)
+        data_out = datamem[addr_in[13:0]];
+        
+    if(w == 1)
+        datamem[addr_in[13:0]] = data_data_in;
+    
+end
+
+endmodule

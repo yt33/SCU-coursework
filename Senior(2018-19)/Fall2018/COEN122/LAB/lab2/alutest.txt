@@ -1,0 +1,33 @@
+module alutest();
+reg [31:0] A;
+reg [31:0] B;
+reg [3:0] op;
+wire [31:0] C;
+wire Z, NEG;
+
+alu test(A, B, op, C, Z, NEG);
+initial begin 
+
+A = 32'd8;
+B = 32'd7;
+
+op = 4'b0000;
+#50;
+op = 4'b0001;
+#50;
+op = 4'b0010;
+#50;
+op = 4'b0011;
+#50;
+op = 4'b0100;
+#50;
+
+B = 32'd8;
+op = 4'b0011;
+#50;
+
+$finish;
+
+end
+
+endmodule

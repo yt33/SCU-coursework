@@ -1,0 +1,62 @@
+module testbench();
+
+reg [7:0] addr;
+wire [31:0] I_out;
+
+reg [5:0] rs;
+reg [5:0] rt;
+reg [31:0] reg_data_in;
+reg [5:0] rd;
+reg wrt;
+wire [31:0] rs_out;
+wire [31:0] rt_out;
+
+
+reg [31:0] data_data_in;
+reg [31:0] addr_in;
+reg r;
+reg w;
+wire [31:0] data_out;
+
+reg clk;
+initial begin
+    clk = 0;
+    forever #5 clk = ~clk;
+end
+
+insmem test_inst(addr, clk, I_out);
+initial begin
+    addr = 8'd75;
+    
+end
+
+registers test_regs(rs, rt, reg_data_in, rd, clk, wrt, rs_out, rt_out);
+initial  begin
+    rs = 6'd2;
+    rt = 6'd20;
+    
+    reg_data_in = 32'd66;
+    rd = 6'd20; 
+    wrt = 1;
+    #50;
+
+    reg_data_in = 32'd77;
+    rd = 6'd2;
+
+end
+
+datamem test_data(data_data_in, addr_in, clk, r, w, data_out);
+initial begin
+    data_data_in = 32'd32;
+    addr_in = 32'd10;
+    
+    w = 1;      // data[addr_in] = data_in
+    #50;
+    w = 0;
+    r = 1;      // output data[addr_in]
+    #50;
+   
+$finish;
+end    
+
+endmodule

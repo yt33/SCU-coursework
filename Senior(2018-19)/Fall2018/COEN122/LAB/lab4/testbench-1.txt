@@ -1,0 +1,35 @@
+// surprisingly, we only need 2 inputs and 3 outputs in the testbench
+// because we can feed the output from test1 as the input for test2,
+// and feed the output from test2 as the input for test3
+module testbench();
+
+reg [31:0] start;
+wire [31:0] out1;
+wire [31:0] out2;
+wire [31:0] out3;
+
+reg clk;
+// so that the clock will be inverted every 5 ns 
+initial begin
+    clk = 0;
+    forever #5 clk = ~clk;
+end
+
+buffer1 test1(start, start, clk, out1, out1);
+buffer2 test2(clk, out1, out1, out1, out1, out1, out1, out1, out1, out1, out1, out1, out1, out1, out1, 
+                   out2, out2, out2, out2, out2, out2, out2, out2, out2, out2, out2, out2, out2, out2);
+buffer3 test3(clk, out2, out2, out2, out2, out2, out2, out2, out2, out2, out2, out2, out2, out2,
+                   out3, out3, out3, out3, out3, out3, out3, out3, out3, out3, out3, out3, out3);
+
+initial begin
+    start = 32'd11;
+    #10;
+    start = 32'd22;
+    #10;
+    start = 32'd33;
+    #10;
+    
+end
+
+
+endmodule

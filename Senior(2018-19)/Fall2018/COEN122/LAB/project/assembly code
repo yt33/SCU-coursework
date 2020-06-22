@@ -1,0 +1,25 @@
+
+
+
+SVPC	R8,32			// R8 <-- address of loop exit
+SVPC	R9,2			// include LD R0,R1
+SVPC	R7,2			// R7 <-- address of next instruction for looping
+LD		R0,R1			// R0 = M[R1]
+INC		R1,R1			// increment RS (address) to check next element
+NOP						// read after write on R1
+NOP						
+SUB		R4,R2,R1		// R4 <-- count (last - first)
+BRZ		R8				// branch to loop exit (R7) if count = 0 --> last element already checked in prev. iteration
+LD		R5,R1			// R5 = M[R1]
+NOP						// read after write on R5
+NOP						
+SUB		R4,R5,R0		// R4 <-- R5 - R0; R4 will be negative if temp max is greater
+BRN		R7				// if temp max is greater than new element, check next element
+NOP						// stall 3 cycles for BRN
+NOP						
+NOP						
+J		R9				// check next element
+NOP						// stall 4 cycles for J
+NOP						
+NOP						
+NOP			

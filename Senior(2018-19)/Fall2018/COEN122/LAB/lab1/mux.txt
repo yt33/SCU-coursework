@@ -1,0 +1,18 @@
+module mux(d0, d1, d2, d3, s, out);
+input d0, d1, d2, d3;
+input [1:0] s;
+output reg out;
+
+always @(d0, d1, d2, d3, s)
+begin
+    if(s == 2'b00)
+        out = d0;
+    else if(s == 2'd01)
+        out = d1;
+    else if(s == 2'd10)
+        out = d2;
+    else
+        out = d3;
+end
+
+endmodule

@@ -1,0 +1,26 @@
+module registers(rs, rt, reg_data_in, rd, clk, wrt, rs_out, rt_out);
+
+input [5:0] rs;
+input [5:0] rt;
+input [31:0] reg_data_in;
+input [5:0] rd;
+input clk;
+input wrt;
+output reg [31:0] rs_out;
+output reg [31:0] rt_out;
+
+reg [31:0] registers [63:0];
+
+always @(rs, rt, reg_data_in, rd, clk, wrt)
+begin
+    if(wrt == 1)
+        registers[rd] = reg_data_in;
+    
+    rs_out = registers[rs];
+    rt_out = registers[rt];
+        
+
+end
+
+
+endmodule
