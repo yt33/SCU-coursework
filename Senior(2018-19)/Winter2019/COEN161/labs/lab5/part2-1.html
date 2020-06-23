@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 4 - Part 2</title>
+	<style>
+		#resultDiv {
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<h1>Calculator</h1>
+	<label>Input #1 <input id="input1" type="text"></label>
+	<label>Input #2 <input id="input2" type="text"></label>
+	<input type="button" value="add">
+	<input type="button" value="subtract">
+	<input type="button" value="multiply">
+	<input type="button" value="divide"> 
+	<div id="resultDiv">Operator: <span id="operator"></span><br>Result: <span id="result"></span><br><input type="button" value="clear"></div>
+	<script>
+		function add(x, y) { return x + y; }
+		
+		function subtract(x, y) { return x - y; }
+		
+		function multiply(x, y) { return x * y; }
+		
+		function divide(x, y) { return Math.floor(x / y); }
+		
+		function calculation(x, y, type) {
+			var operations = {
+				add: add(x, y),
+				subtract: subtract(x, y),
+				multiply: multiply(x, y),
+				divide: divide(x, y),
+			};
+			
+			return operations[type];
+		}
+		
+		var buttons = document.querySelectorAll("input[type=button]");
+		buttons.forEach(function(button) {
+			button.addEventListener("click", function(event) {
+			
+				var operationType = event.target.value;
+								
+				var input1 = document.getElementById("input1");
+				var input2 = document.getElementById("input2");
+				
+				var num1 = parseInt(input1.value, 10);
+				var num2 = parseInt(input2.value, 10);
+				
+				// when input is not number, ignore it
+				if (!num1) num1 = 0;
+				if (!num2) num2 = 0;
+								
+				if (operationType === "clear") {
+					// Clear the values
+					input1.value = "";
+					input2.value = "";
+					result.innerHTML = "";
+					operator.innerHTML = "";
+					
+					// remove the resultDiv block
+					resultDiv.style.display = "none";
+				} else {
+					var output = calculation(num1, num2, operationType);
+					
+					// set the operation type and result
+					operator.innerHTML = operationType;
+					result.innerHTML = output;
+					
+					// show the resultDiv block
+					resultDiv.style.display = "block";
+				}
+			});
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+.ori-background {
+	background-color: rgb(225, 225, 0) !important;
+}
+
+.red {
+	background-color: rgba(225, 0, 0, 0.5) !important;
+}
+
+.cerise {
+	background-color: rgba(225, 0, 225, 0.3) !important;
+}
+
+.orange {
+	background-color: rgba(225, 165, 0, 0.5) !important;
+}
+
+.navy-text {
+	color: rgb(0, 0, 128) !important;
+}
+
+.teal-text {
+	color: rgb(0, 128, 128) !important;
+}
+
+.green-text {
+	color: rgb(0, 128, 0) !important;
+}
+
+.row {
+	flex-basis: 100%;
+	margin: 10px 0px;
+	display: flex;
+	flex-direction: row;
+}
+
+.col {
+	flex-basis: 25%;
+	padding: 20px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.column-left {
+	flex-basis:  25%;
+	padding: 20px;
+}
+
+.column-right {
+	flex-basis: 75%;
+	padding: 20px;
+}
+	
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+} 
+
+footer {
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	//position: absolute;
+	color: grey;
+}
+
+nav {
+	display: flex;
+	width: 100%;
+}
+
+nav li {
+	display: inline-block;
+	height: 40px;
+}
+
+ul {
+	margin-block-start: 0 !important;
+	margin-block-end: 0 !important;
+	padding-inline-start: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(225, 225, 0);
+	width: 100%;
+}
+
+/* additional setting of the navbar just for MY PAGE */
+a.home:link, a.home:visited {
+	display: block;
+	width: 120px;
+	font-weight: bold;
+	color: #3A4660;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	height: 100%;
+}
+
+a.home:hover, a.home:active {background-color: rgb(225, 225, 0);}
+
+/* default setting of the navbar */
+a.one:link, a.one:visited {
+	display: block;
+	width: 120px;
+	font-weight: bold;
+	color: #3A4660;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	height: 100%;
+}
+
+a.one:hover, a.one:active {background-color: rgba(225, 0, 0, 0.3);}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {float: left;}
+
+/* mobile */
+@media screen and (max-width: 424px) {
+	nav ul {
+		width: 100%;
+		text-align: center;
+	}
+	nav li {
+		text-align: center;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-top: 2px solid #3A4660;
+		border-bottom: 2px solid #3A4660;
+	}
+	li a{
+		width: 100%;
+		padding: 0px;
+	}	
+	.row {
+		flex-direction: column;
+	}
+	.column-left, .column-right, .col {
+		flex-basis: 100%;
+	}
+}
+
+/* tablet */
+@media screen and (min-width: 425px) and (max-width: 768px) {
+	.row {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.column-left { flex-basis: 33%; }
+	.column-right { flex-basis: 66%; }
+	.col {flex-basis: 50%; }
+}
+
+

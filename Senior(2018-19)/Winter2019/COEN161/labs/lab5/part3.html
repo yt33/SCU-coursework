@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 4 - Part 3</title>
+</head>
+<body>
+	<!-- Sample HTML -->
+	<label>My Input: <input type="text" id="myInput"></label><button type="button" id="finder">Submit</button>
+	<img src="http://students.engr.scu.edu/~adiaztos/resources/choconut.jpg" alt="A Goat">
+	<p id="somePara"><span class="allSpans"></span></p>
+
+	<script>
+		// your function goes here
+
+		/*	
+			The function should return all the elements that have a given attribute
+			The function should take the name of an attribute as a parameter and returns all the elements in the 				document that have that attribute.
+		*/
+		function getElementsByAttribute(target) {
+			return document.querySelectorAll("[".concat(target, "]"));
+		}
+		
+		// test your function with some sample attributes
+		var button = document.getElementById("finder");
+		button.addEventListener("click", function() {
+			var target = document.getElementById("myInput").value;
+			var elements = getElementsByAttribute(target);
+			console.log(elements);
+		});
+	</script>
+</body>
+</html>
