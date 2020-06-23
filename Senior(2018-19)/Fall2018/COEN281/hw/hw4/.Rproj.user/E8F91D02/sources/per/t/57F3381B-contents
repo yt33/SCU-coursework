@@ -1,0 +1,278 @@
+---
+output:
+  word_document: default
+  html_document: default
+---
+1.
+```{r}
+library(gdata)
+library(pre)
+set.seed(123)
+data <- read.xls("Diamond_data/Diamond_Data.xls", sheet="Raw Data", perl="/usr/bin/perl")
+
+```
+(a)
+```{r}
+hist(data$Price, col = "green", xlab = "Diamond Prices", ylab = "Frequency", main = "Distribution of diamond prices", labels = TRUE)
+
+hist(as.numeric(data$Cut), col = "orange", xlab = "Types of cut", ylab = "Frequency", main = "Distribution of diamond cuts", labels = TRUE)
+
+```
+(b)
+```{r}
+train_in = sample(1:nrow(data), 5000, replace = FALSE)
+train_data = data[train_in,]
+test_data = data[-train_in,]
+
+regression_model = pre(Price ~., data = train_data, family = "gaussian", nfolds = 10)
+
+summary(regression_model)
+
+library(Metrics)
+
+pred_train = predict(regression_model, newdata = train_data)
+rmse(train_data$Price, pred_train)
+```
+(c)
+```{r}
+print(regression_model$rules[1:10, ])
+coef(regression_model)[1:10,]
+
+# Yes, Carat Weight is almost linear. It's coefficient is 8604.378
+# rule2063: if the Clarith is 'FL' or 'IF' and Color is D, the price will add to 8604.378
+
+```
+(d)
+```{r}
+importance(regression_model)
+
+# Carat Weight, Clarity and Color
+```
+(e)
+```{r}
+pred_test = predict(regression_model, newdata = test_data)
+mae(test_data$Price, pred_test)
+
+```
+(f)
+```{r}
+library(rpart)
+train_data[,3] <- as.factor(train_data[,3])
+train_data[,4] <- as.factor(train_data[,4])
+train_data[,5] <- as.factor(train_data[,5])
+train_data[,6] <- as.factor(train_data[,6])
+train_data[,7] <- as.factor(train_data[,7])
+train_data[,8] <- as.factor(train_data[,8])
+
+test_data[,3] <- as.factor(test_data[,3])
+test_data[,4] <- as.factor(test_data[,4])
+test_data[,5] <- as.factor(test_data[,5])
+test_data[,6] <- as.factor(test_data[,6])
+test_data[,7] <- as.factor(test_data[,7])
+test_data[,8] <- as.factor(test_data[,8])
+
+diamond_tree <- rpart(Price~., method = "anova", data = train_data, cp=0.0001)
+
+cp_value <- diamond_tree$cptable
+
+diamond_pruned <- prune(diamond_tree, cp = 0.0001)
+
+pred_test <- predict(diamond_pruned, test_data, type = "vector")
+# mean absolute error
+mae(test_data$Price, pred_test)
+```
+
+2.
+(a)
+```{r}
+char_data = read.table("az-5000.txt" , TRUE)
+new_char_data <- char_data[,-1]
+
+fit <- vector()
+
+for (i in 2:26)
+{  
+  kmeans_out <- kmeans(new_char_data, centers = i, iter.max = 26)
+  fit[i] <- (1/i)*sum(kmeans(new_char_data, centers = i)$withinss)
+}
+```
+(b)
+```{r}
+par(mfrow = c(2,1))
+plot(1:26, fit, type = "b", xlab = "Number of Clusters", ylab = "Goodness of fit")
+
+fit2 <- vector()
+for (i in 15:26)
+{
+  fit2[i] <- (1/i)*sum(kmeans(new_char_data, centers = i)$withinss)
+}
+
+plot(1:26, fit2, type = "b", xlab = "Number of Clusters", ylab = "Goodness of fit")
+
+## There is a "step" at 23 cluster. The number of "natural" cluster is 23.
+```
+
+3.
+(a)
+```{r}
+d <- dist(kmeans_out$centers, method = "euclidean")
+fit <- hclust(d, method = "average")
+plot(fit)
+
+```
+(b)
+```{r}
+letter_mat <- char_data[,1]
+num_cluster <- kmeans_out$cluster
+initial_mat <- matrix(0,26,26)
+rownames(initial_mat) <- LETTERS
+
+for(k in 1:5000)
+{
+  initial_mat[letter_mat[k], num_cluster[k]] <-  initial_mat[letter_mat[k], num_cluster[k]] + 1
+}
+
+common_letter <- c()
+for(i in 1:26)
+{
+  common_letter[i] <- which.max(initial_mat[,i])
+}
+
+plot(fit, labels = LETTERS[common_letter])
+```
+(c) 
+1. Some letters appear more than once (i.e. M, P)
+2. At height = 1.0, there are 9 clusters. Below height = 1.0 and above height = 0.8, there are 19 clusters. The number almost doubled.
+(d)
+```{r}
+common_cluster <- data.frame(c(0) *26)
+for(i in 1:26)
+{
+  common_cluster[i] <- which.max(initial_mat[i,])
+}
+colnames(common_cluster) = LETTERS
+common_cluster[c('D', 'G', 'K', 'N', 'Y', 'Z')]
+```
+
+
+4.
+(a)
+```{r}
+library(arules)
+
+movies_data <- read.transactions("Movies_data/ratingsAsBasket.txt", format = "basket", sep = NULL)
+summary(movies_data)
+
+# number of buskets = 10000
+# most frequent item: M.4712 is rated high
+# Minimum/Maximum/Average number of movies rated by one rater: 20/2289/153.6
+```
+(b)
+```{r}
+rules <- apriori(movies_data, parameter = list(supp = 0.1, conf = 0.7, target = "rules"))
+
+top_ten <- head(rules, 10)
+inspect(top_ten)
+# User who rates "Tomorrow Never Dies" high also rates "The Matrix" high. One possible reason is that they are scientific fiction.
+```
+(c)
+```{r}
+subset_rules <- subset(rules, subset = lift > 3)
+inspect(subset_rules)
+
+summary(subset_rules)
+# Life is the importance of a rule
+# User who rates "Die Hard", "Lethal Weapon", and "Paper" high also rates "Papillon" high.
+
+```
+
+5.
+(a)
+```{r}
+data = scan("Movies_data/ratings.txt", what = list(integer(), integer(), integer()), sep = "|")
+library('Matrix')
+sparse_mat = sparseMatrix(i = data[[1]], j = data[[2]], x = data[[3]])
+dim(sparse_mat)
+
+columns = c(seq(1, dim(sparse_mat)[2]))
+rows = c(seq(1, dim(sparse_mat)[1]))
+dimnames(sparse_mat) = list(rows, columns)
+
+```
+(b)
+```{r}
+library(recommenderlab)
+
+rating_data = new("realRatingMatrix", data = sparse_mat)
+ubcf = Recommender(rating_data, "UBCF")
+prediction = predict(ubcf, rating_data[10000], n = 5)
+as(prediction, "list")
+
+```
+(c)
+```{r}
+prediction_2 = predict(ubcf, rating_data[500,], n = 1)
+as(prediction_2, "list")
+```
+
+6.
+(a)
+```{r}
+library(tm)
+
+news_corpus = Corpus(DirSource(c("Newsgroup_data/rec.autos", "Newsgroup_data/rec.motorcycles")), readerControl = list(reader = readPlain))
+length(news_corpus)
+
+which(names(news_corpus) == "103806")
+```
+(b)
+```{r}
+news_corpus = tm_map(news_corpus, removePunctuation)
+news_corpus[980]$content
+
+news_corpus = tm_map(news_corpus, removeNumbers)
+news_corpus[980]$content
+
+news_corpus = tm_map(news_corpus, tolower)
+news_corpus[980]$content
+
+news_corpus = tm_map(news_corpus, removeWords, stopwords("english"))
+news_corpus[980]$content
+
+```
+(c)
+```{r}
+dtm = DocumentTermMatrix(news_corpus, control = list(weighting = weightTfIdf, minWordLength = 1, minDocFreq = 1))
+dim(dtm)
+
+terms <- c('bmw', 'clutch', 'mother')
+inspect(dtm[980,intersect(colnames(dtm), terms)])
+```
+
+
+7.
+(a)
+```{r}
+require("MASS")
+
+raw_data <- read.table("az-5000.txt", header = TRUE)
+smp_size <- floor(0.8*nrow(raw_data))
+train_ind <- sample(seq_len(nrow(raw_data)), size = smp_size)
+priors <- c(rep(1/26, 26))
+data_lda <- lda(char ~., raw_data, subset = train_ind, prior = priors)
+confusion_table <- table(raw_data[-train_ind,]$char, predict(data_lda, raw_data[-train_ind,])$class)
+
+diag(confusion_table) <- 0
+
+labelpos <- 0:25
+
+labelpos_std <- labelpos/25
+
+image(confusion_table, col = topo.colors(4), axes = FALSE)
+
+axis(1, labelpos_std, labels = LETTERS[1:26])
+axis(2, labelpos_std, labels = LETTERS[1:26])
+
+```
+(b) The color coresponding to the worst confusion is the yellow. The corresponding character pairs are (U,V),(A,D),(D,X).
+

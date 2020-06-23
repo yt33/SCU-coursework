@@ -1,0 +1,158 @@
+#1 (Exercise 8 in Chapter 2)
+a)
+```{r}
+college <- read.csv("data/college.csv")
+```
+
+b)
+```{r}
+rownames(college) = college[,1]
+fix(college)
+```
+
+```{r}
+college = college[,-1]
+fix(college)
+```
+
+c)
+i)
+```{r}
+summary(college)
+```
+ii)
+```{r}
+pairs(college[,1:10])
+```
+iii)
+```{r}
+boxplot(college$Outstate ~ college$Private, col = c("pink", "yellow"), main = "Outstate vs. Private", xlab = "Private", ylab = "Outstate")
+```
+iv)
+```{r}
+Elite = rep("No", nrow(college))
+Elite[college$Top10perc > 50] = "Yes"
+Elite = as.factor(Elite)
+college = data.frame(college, Elite)
+
+summary(college$Elite)
+
+boxplot(college$Outstate ~ college$Elite, col = c("green", "blue"), main = "Outstate vs. Elite", xlab = "Outstate", ylab = "Elite")
+```
+v)
+```{r}
+par(mfrow = c(2,2))
+hist(college$Accept, breaks = 5, freq = TRUE, col = "red", main = "Histogram", xlab = "Accept", ylab = "value")
+hist(college$Accept, breaks = 10, freq = TRUE, col = "purple", main = "Histogram", xlab = "Accept", ylab = "value")
+hist(college$Apps, breaks = 5, freq = TRUE, col = "red", main = "Histogram", xlab = "Apps", ylab = "value")
+hist(college$Apps, breaks = 10, freq = TRUE, col = "purple", main = "Histogram", xlab = "Apps", ylab = "value")
+```
+vi)
+```{r}
+plot(college$Accept, college$Enroll, main = "Accept vs. Enroll", xlab = "Accept", ylab = "Enroll")
+plot(college$Accept, college$F.Undergrad, main = "Accept vs. F.Undergrad", xlab = "Accept", ylab = "F.Undergrad")
+plot(college$Enroll, college$F.Undergrad, main = "Enroll vs. F.Undergrad", xlab = "Enroll", ylab = "F.Undergrad")
+plot(college$Terminal, college$PhD, main = "Terminal vs. PhD", xlab = "Terminal", ylab = "PhD")
+```
+
+#2
+A.
+```{r}
+housetype <- read.delim("data/housetype_data.txt", sep=",")
+dim(housetype)
+housetype[1:5, 1:5]
+```
+B.
+```{r}
+attributeHist <- function(col_name) {
+  if(!(col_name %in% colnames(housetype))) {
+    print("No such attribute exists")
+    return()
+  }
+  
+  na_count <- sum(is.na(housetype[[col_name]]))
+  print(sprintf("%d missing values", na_count))
+  hist(housetype[[col_name]], main = "", xlab = col_name)
+}
+
+attributeHist("age")
+attributeHist("hello")
+attributeHist("eth")
+```
+
+#3
+(a)
+Better. A flexible method will fit the data closer and with the large sample size, would perform better than an inflexible approach. The data are enough to train the model because the predictor is small and input x data will be spanned in the low dimension.
+(b)
+Worse. A flexible method would overfit the small number of observations. Because the observations are small, the input data are not enough for the model to make any high dimensional separation.
+(c)
+Better. With more degrees of freedom, a flexible method would fit better than an inflexible one. The flexible could easily discover the non-linear relationship between predictors and response because it is obvious.
+(d)
+Worse. A flexible method would fit to the noise in the error terms and increase variance. The flexible will fit all data include the large amount of error and it is not able to distinguish the outliners.
+
+#4
+```{r}
+dnorm(0.6, mean = 0, sd = 1)
+dnorm(0.1, mean = 1, sd = 1)
+dnorm(0.9, mean = 1, sd = 1)
+dnorm(1.1, mean = 0.5, sd = 1)
+```
+
+
+#5
+c. Draw, by hand or otherwise,decision boundary, means, and data points.
+D1 = {(3, 4), (4, 6), (2, 6), (3, 8)} 
+D2 = {(3, 0), (1, -2), (5, -2), (3, -4)} 
+
+contour(x=1:100, y=1:100, z=matrix(prob.grid, nrow=100), levels=0.5,
+        col="grey", drawlabels=FALSE, lwd=2)
+```{r}
+
+x1 <- c(3, 4, 2, 3)
+y1 <- c(4, 6, 6, 8)
+x2 <- c(3, 1, 5, 3)
+y2 <- c(0, -2, -2, -4)
+
+plot(x1, y1, col = "red", ylim=c(-5,10), xlim=c(0,5))
+points(x2, y2, col = "blue")
+
+meanx1 <- mean(x1)
+meany1 <- mean(y1)
+points(meanx1, meany1, pch = 16, col = "red")
+
+meanx2 <- mean(x2)
+meany2 <- mean(y2)
+points(meanx2, meany2, pch = 16, col = "blue")
+
+```
+
+```{r}
+x <- c(3, 4, 2, 3, 3, 1, 5, 3)
+y <- c(4, 6, 6, 8, 0, -2, -2, -4)
+cl <- c("D1","D1","D1","D1","D2","D2","D2","D2")
+
+df <- data.frame(y, x, cl)
+partimat(cl~ ., data=df, method="qda")
+```
+
+
+#6
+(a)
+Obs 1 has Euclidean Distance sqrt[(0 - 0)^2 + (3 - 0)^2 + (0 - 0)^2] = 3.
+Obs 2 has Euclidean Distance sqrt[(2 - 0)^2 + (0 - 0)^2 + (0 - 0)^2] = 2.
+Obs 3 has Euclidean Distance sqrt[(0 - 0)^2 + (1 - 0)^2 + (3 - 0)^2] = sqrt[0 + 1 + 9] = sqrt[10] = ~3.16.
+Obs 4 has Euclidean Distance sqrt[(0 - 0)^2 + (1 - 0)^2 + (2 - 0)^2] = sqrt[1 + 4] = sqrt[5] = ~2.24.
+Obs 5 has Euclidean Distance sqrt[(-1 - 0)^2 + (0 - 0)^2 + (1 - 0)^2] = sqrt[1 + 1] = sqrt[2] = ~1.41.
+Obs 6 has Euclidean Distance sqrt[(1 - 0)^2 + (1 - 0)^2 + (1 - 0)^2] = sqrt[1 + 1 + 1] = sqrt[3] = ~1.73.
+(b)
+The nearest neighbor to test point (0, 0, 0) is Obs 5 (-1, 0, 1) with euclidean distance ~1.41. Since Obs 5 was Green, we predict (K = 1) that the test point will also be Green.
+(c)
+The nearest three neighbors to test point (0, 0, 0) are Obs 5, Obs 6 (with distance ~1.73), and Obs 2 (with distance 2). Since Obs 5 was Green, Obs 6 was Red, and Obs 2 was Red, we predict (K = 3) the test point will be the majority -- Red.
+(d)
+A highly nonlinear Bayes boundary would suggest that there is less advantage to generalizing further due to high variance, so the best value for K would be small.
+
+
+
+
+
+

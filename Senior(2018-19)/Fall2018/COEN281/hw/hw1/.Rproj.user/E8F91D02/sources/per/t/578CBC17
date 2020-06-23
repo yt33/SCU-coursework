@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1540938117146.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1532725235",
+    "id" : "578CBC17",
+    "lastKnownWriteTime" : 1539902899,
+    "last_content_update" : 1540945873963,
+    "path" : "~/Desktop/hw/hw1/HW1.Rmd",
+    "project_path" : "HW1.Rmd",
+    "properties" : {
+        "cursorPosition" : "60,47",
+        "scrollLine" : "54"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

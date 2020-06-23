@@ -1,0 +1,4 @@
+"0","library(gdata)"
+"0","library(pre)"
+"0","set.seed(123)"
+"0","data <- read.xls(""Diamond_data/Diamond_Data.xls"", sheet=""Raw Data"", perl=""/usr/bin/perl"")"

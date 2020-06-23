@@ -1,0 +1,1 @@
+"0","print(regression_model$rules[1:10, ])"

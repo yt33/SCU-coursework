@@ -1,0 +1,21 @@
+"0","grid_cost <- seq(10, 100, length = 10)"
+"0","grid_gamma <-seq(0.000001, 0.001, length = 10)"
+"0","tuning_x <- model.matrix(type~., tuning_data)[, -1]"
+"0","tuning_y <- tuning_data$type"
+"0","tune.out <- tune.svm(tuning_x, tuning_y, data = tuning_data, kernel=""radial"", gamma = grid_gamma, cost = grid_cost)"
+"0","summary(tune.out)"
+"1","
+Parameter tuning of "
+"1","‘svm’"
+"1",":
+
+"
+"1","- sampling method:"
+"1"," "
+"1","10-fold cross validation"
+"1"," "
+"1","
+
+"
+"1","- best parameters:
+"

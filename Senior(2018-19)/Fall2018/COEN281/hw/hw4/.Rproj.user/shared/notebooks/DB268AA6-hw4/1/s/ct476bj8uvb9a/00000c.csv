@@ -1,0 +1,6 @@
+"0","fit2 <- vector()"
+"0","for (i in 15:26)"
+"0","{"
+"0","  fit2[i] <- (1/i)*sum(kmeans(new_char_data, centers=i)$withinss)"
+"0","}"
+"0","plot(1:26, fit2, type = ""b"", xlab = ""Number of Clusters"", ylab = ""Goodness of fit"")"

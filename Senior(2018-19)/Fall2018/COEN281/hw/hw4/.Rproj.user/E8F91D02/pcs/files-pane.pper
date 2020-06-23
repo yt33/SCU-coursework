@@ -1,0 +1,9 @@
+{
+    "path" : "~/Desktop/hw/hw4/Movies_data",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

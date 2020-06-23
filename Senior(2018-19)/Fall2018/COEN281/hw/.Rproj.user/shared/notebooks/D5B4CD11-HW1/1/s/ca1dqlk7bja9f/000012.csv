@@ -1,0 +1,1 @@
+"0","boxplot(college$Outstate ~ college$Private, col = c(""pink"", ""yellow""), main = ""Outstate vs. Private"", xlab = ""Private"", ylab = ""Outstate"")"

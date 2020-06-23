@@ -1,0 +1,10 @@
+"0","prediction_2 = predict(ubcf, rating_data[500,], n = 1)"
+"0","as(prediction_2, ""list"")"
+"1","$`500`
+"
+"1","[1]"
+"1"," ""4716"""
+"1","
+"
+"1","
+"

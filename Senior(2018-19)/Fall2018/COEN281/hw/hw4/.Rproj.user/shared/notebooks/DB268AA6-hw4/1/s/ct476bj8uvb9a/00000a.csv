@@ -1,0 +1,2 @@
+"0","par(mfrow = c(2,1))"
+"0","plot(1:26, fit, type = ""b"", xlab = ""Number of Clusters"", ylab = ""Goodness of fit"")"

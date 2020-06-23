@@ -1,0 +1,8 @@
+"0","char_data = read.table(""az-5000.txt"" , TRUE)"
+"0","new_char_data <- char_data[,-1]"
+"0","fit <- vector()"
+"0","for (i in 2:26)"
+"0","{  "
+"0","  kmeans_out <- kmeans(new_char_data, centers = i, iter.max = 26)"
+"0","  fit[i] <- (1/i)*sum(kmeans(new_char_data, centers = i)$withinss)"
+"0","}"

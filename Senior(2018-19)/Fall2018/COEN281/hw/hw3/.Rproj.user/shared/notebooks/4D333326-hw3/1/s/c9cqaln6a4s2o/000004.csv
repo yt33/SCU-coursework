@@ -1,0 +1,5 @@
+"0","xy <- read.table(""az-5000.txt"", header = TRUE)"
+"0","set.seed(1)"
+"0","train_ind <- sample(nrow(xy), 4000)"
+"0","train_data <- xy[train_ind,]"
+"0","test_data <- xy[-train_ind,]"

@@ -1,0 +1,2 @@
+"0","par(mfrow = c(2,2))"
+"0","hist(college$Accept, breaks = 5, freq = TRUE, col = ""red"", main = ""Histogram"", xlab = ""Accept"", ylab = ""value"")"

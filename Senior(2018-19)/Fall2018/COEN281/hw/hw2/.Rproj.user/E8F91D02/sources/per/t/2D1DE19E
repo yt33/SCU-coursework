@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1540938492002.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "944891248",
+    "id" : "2D1DE19E",
+    "lastKnownWriteTime" : 1541178473,
+    "last_content_update" : 1541178473597,
+    "path" : "~/Desktop/hw/hw2/hw2.Rmd",
+    "project_path" : "hw2.Rmd",
+    "properties" : {
+        "cursorPosition" : "19,31",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

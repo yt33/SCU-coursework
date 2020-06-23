@@ -1,0 +1,3 @@
+"0","meanx1 <- mean(x1)"
+"0","meany1 <- mean(y1)"
+"0","points(meanx1, meany1, pch = 16, col = ""red"")"

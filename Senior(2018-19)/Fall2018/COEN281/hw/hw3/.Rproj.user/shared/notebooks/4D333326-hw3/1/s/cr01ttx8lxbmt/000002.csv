@@ -1,0 +1,2 @@
+"0","pruned_tree = prune(mytree, cp = 0.0014077426) "
+"0","prp(pruned_tree)"

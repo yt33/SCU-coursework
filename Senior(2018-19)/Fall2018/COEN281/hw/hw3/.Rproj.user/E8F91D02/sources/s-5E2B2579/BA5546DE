@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1543115837683.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1304176935",
+    "id" : "BA5546DE",
+    "lastKnownWriteTime" : 1543128725,
+    "last_content_update" : 1543222405947,
+    "path" : "~/Desktop/hw/hw3/hw3.Rmd",
+    "project_path" : "hw3.Rmd",
+    "properties" : {
+        "chunk_output_type" : "inline",
+        "cursorPosition" : "40,3",
+        "scrollLine" : "36",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

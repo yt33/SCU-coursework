@@ -1,0 +1,6 @@
+"0","rules <- apriori(movies_data, parameter = list(supp = 0.1, conf = 0.7, target = ""rules""))"
+"1","Apriori
+"
+"1","
+Parameter specification:
+"

@@ -1,0 +1,1 @@
+"0","plot(pruned_tree, compress = TRUE, uniform = TRUE, margin = 0.2)"

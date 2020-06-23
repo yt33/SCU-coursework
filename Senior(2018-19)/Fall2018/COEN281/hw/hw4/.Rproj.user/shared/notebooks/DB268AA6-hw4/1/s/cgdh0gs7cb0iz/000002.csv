@@ -1,0 +1,34 @@
+"0","dtm = DocumentTermMatrix(news_corpus, control = list(weighting = weightTfIdf, minWordLength = 1, minDocFreq = 1))"
+"0","dim(dtm)"
+"1","[1]"
+"1","  1986"
+"1"," 22213"
+"1","
+"
+"0","terms <- c('bmw', 'clutch', 'mother')"
+"0","inspect(dtm[980,intersect(colnames(dtm), terms)])"
+"1","<<DocumentTermMatrix (documents: 1, terms: 3)>>
+"
+"1","Non-/sparse entries: 2/1
+"
+"1","Sparsity           : 33%
+"
+"1","Maximal term length: 6
+"
+"1","Weighting          : term frequency - inverse document frequency (normalized) (tf-idf)
+"
+"1","Sample             :
+"
+"1","        Terms
+"
+"1","Docs    "
+"1","        bmw"
+"1","    clutch"
+"1"," mother"
+"1","
+  103806"
+"1"," 0.05710895"
+"1"," 0.4289088"
+"1","      0"
+"1","
+"

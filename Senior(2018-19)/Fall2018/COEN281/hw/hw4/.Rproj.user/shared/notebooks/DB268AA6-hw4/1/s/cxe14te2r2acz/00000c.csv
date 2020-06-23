@@ -1,0 +1,7 @@
+"0","common_cluster <- data.frame(c(0) *26)"
+"0","for(i in 1:26)"
+"0","{"
+"0","  common_cluster[i] <- which.max(initial_mat[i,])"
+"0","}"
+"0","colnames(common_cluster) = LETTERS"
+"0","common_cluster[c('D', 'G', 'K', 'N', 'Y', 'Z')]"

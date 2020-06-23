@@ -1,0 +1,4 @@
+"0","library(rpart)"
+"0","library(rpart.plot)"
+"0","mytree = rpart(ht~., data = trainingdata, method = ""class"", cp = 0.0001)"
+"0","prp(mytree)"

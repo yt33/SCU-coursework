@@ -1,0 +1,3 @@
+"0","d <- dist(kmeans_out$centers, method = ""euclidean"")"
+"0","fit <- hclust(d, method = ""average"")"
+"0","plot(fit)"

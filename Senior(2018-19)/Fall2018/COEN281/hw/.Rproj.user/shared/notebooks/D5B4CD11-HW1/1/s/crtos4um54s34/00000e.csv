@@ -1,0 +1,1 @@
+"0","hist(college$Apps, breaks = 5, freq = TRUE, col = ""red"", main = ""Histogram"", xlab = ""Apps"", ylab = ""value"")"

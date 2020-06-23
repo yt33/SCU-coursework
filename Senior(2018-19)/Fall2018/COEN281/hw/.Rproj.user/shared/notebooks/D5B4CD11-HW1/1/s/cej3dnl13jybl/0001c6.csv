@@ -1,0 +1,1 @@
+"0","plot(college$Terminal, college$PhD, main = ""Terminal vs. PhD"", xlab = ""Terminal"", ylab = ""PhD"")"

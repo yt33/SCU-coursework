@@ -1,0 +1,40 @@
+"0","library(recommenderlab)"
+"2","Loading required package: proxy
+"
+"2","
+Attaching package: ‘proxy’
+
+"
+"2","The following object is masked from ‘package:Matrix’:
+
+    as.matrix
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    as.dist, dist
+
+"
+"2","The following object is masked from ‘package:base’:
+
+    as.matrix
+
+"
+"2","Loading required package: registry
+"
+"0","rating_data = new(""realRatingMatrix"", data = sparseMat)"
+"0","ubcf = Recommender(rating_data, ""UBCF"")"
+"0","prediction = predict(ubcf, rating_data[10000], n = 5)"
+"0","as(prediction, ""list"")"
+"1","$`10000`
+"
+"1","[1]"
+"1"," ""5407"""
+"1"," ""4712"""
+"1"," ""4716"""
+"1"," ""1401"""
+"1"," ""538"" "
+"1","
+"
+"1","
+"
