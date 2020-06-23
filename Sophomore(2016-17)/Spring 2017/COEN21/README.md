@@ -15,7 +15,7 @@ lab1: Introduction to logic gates
 lab2: Design capture and simualtion
 - Familiarize with the Altera Quartus II design program
 - Design a schematic, and simulate the circuit in the Altera Quartus II design program
-- Download the designed circuit onto the ALtera FPGA and test your circuit on the FPGA
+- Download the designed circuit onto the Altera FPGA and test your circuit on the FPGA
 
 lab3: Two level circuit design
 - Design, test, and implement a circuit based on a functional specification
