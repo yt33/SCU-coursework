@@ -7,7 +7,7 @@ Boolean functions and their minimization. Designing combinational circuits, adde
 lab assignments:
 
 lab1: Introduction to logic gates
-- Learn how to work with the breadboard and connected sensors, output componenets, and integrated circuits (chips) with logic gates
+- Learn how to work with the breadboard and connected sensors, output components, and integrated circuits (chips) with logic gates
 - Translate a problem statement into a logic circuit
 - Design, test, and implement a logic circuit based on a functional specification
 - Explore simple logic circuits implemented with standard logic chips
