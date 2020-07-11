@@ -1,0 +1,15 @@
+Name: Yutong Li
+Date: April 3, 2019. Wednesday
+Title: Lab1
+Description: This file contains the answers to the questions of Lab 1 and some observation.
+
+C Program with two processes
+Step 4a: I notice different command lines cause the difference in running time of the program
+	fastest ./s1 500
+			./s1 3000
+	slowest	./s1 5000
+
+Step 5: The output of using 2 threads is the same as the output of using 2 processes.
+We are just implementing it in a different way.
+In order to do it with 2 threads, we only keep one of the child process and the parent process
+
