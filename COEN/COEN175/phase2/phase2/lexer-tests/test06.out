@@ -1,0 +1,33 @@
+keyword:int
+identifier:printf
+operator:(
+operator:)
+operator:;
+keyword:int
+identifier:main
+operator:(
+keyword:void
+operator:)
+operator:{
+identifier:printf
+operator:(
+string:"hello world\nhow are you today? this string is reallylong"
+operator:)
+operator:;
+operator:}
+keyword:void
+identifier:foo
+operator:(
+keyword:int
+identifier:An_Identifier_To_End_All_Identifiers
+operator:)
+operator:{
+keyword:auto
+keyword:signed
+keyword:char
+operator:*
+identifier:p
+operator:=
+string:"Let's see if 'quotes' work in strings."
+operator:;
+operator:}

@@ -1,0 +1,9 @@
+line 7: invalid operands to binary =
+line 8: lvalue required in expression
+line 18: invalid operands to binary []
+line 21: called object is not a function
+line 25: invalid operand to unary *
+line 29: invalid operand in cast expression
+line 30: invalid operands to binary <
+line 32: lvalue required in expression
+line 35: invalid arguments to called function

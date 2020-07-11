@@ -1,0 +1,17 @@
+keyword:int
+identifier:fOO
+operator:(
+keyword:int
+identifier:x
+operator:,
+keyword:unsigned
+keyword:long
+identifier:y
+operator:)
+operator:{
+keyword:return
+identifier:x
+operator:+
+identifier:y
+operator:;
+operator:}

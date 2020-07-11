@@ -1,0 +1,7 @@
+int foo(int x, int *y)
+{
+    int a[10], i, *p;
+    double d, *s;
+
+    foo(d, a); 
+}
