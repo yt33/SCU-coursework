@@ -1,4 +1,5 @@
 Senior: Winter 2019
+
 COEN 175: Intro to Formal Language Theory & Compiler Construction
 
 Used C++ to build a compiler for a subset of C language, which will generate code for an Intel processor running the Linux operating system. Your compiler will only be given legal programs as input. Your compiler should write valid 32-bit Intel assembly code to the standard output.
